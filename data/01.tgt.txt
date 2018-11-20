@@ -1,0 +1,124 @@
+Task S.1: 		Decide on location (82)
+IF c-spine injury (329) or bleeding in belly (213), THEN GOTO BRANCH A
+IF patient is hypotensive and no suspicion of intraabdominal bleeding (253) THEN GOTO BRANCH C
+IF trauma to the area (i.e. fractures, burns) (30, 97) or skin infection on the site (32) THEN select opposite or alternate side (34)
+IF using/planning a Swan Ganz catheter THEN select left side (93)	
+		
+Task S.2:	Decide on catheter type: cordis, triple-lumen or double-lumen catheter (109)
+IF Swan Ganz is required (284), or patient is unstable (286) or patient requires large volumes of blood/saline (282),THEN use cordis 
+IF patient is stable and requires medications that can only be given through a large bore vein, THEN use triple or double lumen (287)
+GOTO BRANCH B
+
+BRANCH A: Subclavian Location:
+
+Task A.3:	Prepare patient (120) and self (133)
+Step A.3.1: 	Obtain consent (118) 
+Step A.3.2: 	Identify and locate equipment (308)
+Step A.3.3: 	Get equipment ready. Select the largest-bore needle in set(381) and place on syringe (382), prepare wire (389), get scalpel (393) and pre-flushed catheter (395) and place on patient or table (383, 384)
+Step A.3.4: 	Lay patient flat in supine position (121, 327)
+Step A.3.5: 	Make sure wires are out of the way (312)
+Step A.3.6: 	Remove patient’s gown in area of procedure (315)
+Step A.3.7: 	Prep area widely around selected location with chlorhexidine (316, 325)
+Step A.3.8: 	Drape bed with large sheet (123, 317)
+Step A.3.9: 	Put on gown and gloves (133, 317)
+
+Task A.4:	Insert needle (154)
+Step A.4.1: 	Locate insertion point. Place index finger in the sternal notch and thumb out laterally on the clavicle.  Drop index finger and where the knuckle goes under clavicle is the location to insert needle into vein (136) 
+Step A.4.2: 	This is way I do it, but not the way I initially teach it to novice individuals
+Step A.4.3: 	Optional: Inject some Lidocaine at the skin where going to insert the needle and maybe on the track where you are going to insert the needle (527)
+Step A.4.4: 	Insert needle at 45 degrees (476) or 1-2cm lateral (140, 461) and flatten it out so it is perpendicular to the floor (476).  
+Step A.4.5: 	Aspirate as needle moves toward the sternal notch (160, 480)
+Step A.4.6: 	Take off syringe when venous blood appears (161) indicating the needle has entered the vein (485)
+Step A.4.7: 	Hold needle in place (162) with your non-dominant hand (536)
+
+Task A.5:	Pass wire (162)
+IF resistance, THEN remove the wire by bringing it back into the housing (546).	Put syringe back on and confirm that there is still blood flow (547) and try passing wire again.
+Step A.5.1: 	Remove needle (162, 596) and leave wire in place (597)
+Step A.5.2: 	Make a nick in the skin that is wide enough for the catheter (598)
+Step A.5.3: 	Pass dilator (162, 602)
+Step A.5.4: 	Remove dilator (163) while holding the wire in place (603)
+
+Task A.6:	Place and secure catheter
+Step A.6.1: 	Put catheter through the wire (170, 604)
+Step A.6.2: 	Remove wire (170, 605)
+Step A.6.3: 	Check and irrigate all ports (178, 179)
+Step A.6.4: 	Lock the catheter (628) and attach with Luer-lock (629)
+Step A.6.5: 	Suture in place (179)
+
+Task A.7:	Verify placement with x-ray (175)
+
+BRANCH B: Procedure for the Internal Jugular Location
+
+Task B.3:	Prepare patient (120) and self (133)
+Step B.3.1: Obtain consent (118) 
+Step B.3.2: Identify and locate equipment (308)
+Step B.3.3: Get equipment ready. Select the largest-bore needle in set (381) and place on syringe (382), prepare wire (389), get scalpel (393) and pre-flushed catheter (395) and place on patient or table (383, 384).
+Step B.3.4: Lay patient flat in supine position (121, 327) and turn patient’s neck away from the side you are operating on (328)
+Step B.3.5: Make sure wires are out of the way (312)
+Step B.3.6: Remove patient’s gown (315)
+Step B.3.7: Prep area widely around selected location with chlorhexidine (316, 325)
+Step B.3.8: Drape bed with large sheet (123, 317)
+Step B.3.9: Put on gown and gloves (133, 317)
+
+Task B.4:	Insert needle (154)
+Step B.4.1: 	Locate insertion point. Identify the sternal heads (409), sternocleidomastoid head (410), and where they divert (410).  Identify the apex of that triangle (411).  This is where to start looking with ultrasound (412).
+Step B.4.2: 	Optional: Inject some Lidocaine at the skin where going to insert the needle and maybe on the track where you are going to go (527)
+Step B.4.3: 	Insert needle at 45 degree angle aiming towards the ipsilateral needle, using ultrasound to guide direction(154)
+Step B.4.4: 	Aspirate until you get venous blood (161, 462) which indicates you have entered the vein (485)
+Step B.4.5: 	Take off syringe (161) 
+Step B.4.6: 	Hold needle in place (162) with your non-dominant hand (536)
+
+Task B.5:	Pass wire (162)
+IF resistance, THEN remove the wire by bringing it back into the housing (546).  Put syringe back on and confirm that there is still blood flow (547) and try passing wire again.
+Step B.5.1: 	Remove needle (162, 596) and leave wire in place (597)
+Step B.5.2: 	Make a nick in the skin that is wide enough for the catheter (598)
+Step B.5.3: 	Pass dilator (162, 602)
+Step B.5.4: 	Remove dilator (163) while holding the wire in place (603)
+
+Task B.6:	Place and secure catheter
+Step B.6.1: 	Put catheter through the wire (170, 604)
+Step B.6.2: 	 Remove wire (170, 605)
+Step B.6.3: 	Check and irrigate all ports (178, 179)
+Step B.6.4: 	Lock the catheter (628) and attach with Luer-lock (629)
+Step B.6.5: 	Suture in place (179)
+
+Task B.7:	Verify placement with x-ray (175)
+
+BRANCH C: Procedure for Femoral Location
+
+Task C.3:	Prepare patient (120) and self (133)
+Step C.3.1: 	Obtain consent (118) 
+Step C.3.2: 	Identify and locate equipment (308)
+Step C.3.3: 	Get equipment ready. Select the largest-bore needle in set(381) and place on syringe (382), prepare wire (389), get scalpel (393) and pre-flushed catheter (395) and place on patient or table (383, 384).
+Step C.3.4: 	Lay patient flat in supine position (121, 327). 
+IF no fracture to the pelvic area, THEN extend legs or rotate out to open up that space (441)
+Step C.3.5: 	Make sure wires are out of the way (312)
+Step C.3.6: 	Remove patient’s gown (315)
+Step C.3.7: 	Prep area widely around selected location with chlorhexidine (316, 325)
+Step C.3.8: 	Drape bed with large sheet (123, 317)
+Step C.3.9: 	Put on gown and gloves (133, 317)
+
+Task C.4:	Insert needle (154)
+Step C.4.1: 	Locate insertion point. First, identify the location of the artery which is half the distance from the anterior superior iliac spine to ther pubic tubercle (414).  Then go one finger breadth medial to that to identify the location of  the femoral vein (417) 
+Step C.4.2: 	Optional: Inject some Lidocaine at the skin where going to insert the needle and maybe on the track where you are going to go (527)
+Step C.4.3: 	Insert needle at 45 degree angle, making certain to be inferior to the inguinal ligament(154) 
+Step C.4.4: 	Aspirate until you get venous blood (161, 462) which indicates you have entered the vein (485)
+Step C.4.5: 	Take syringe off 
+Step C.4.6: 	Hold needle in place (162) with your non-dominant hand (536)
+	
+Task C.5:	Pass wire (162)
+IF resistance, THEN remove the wire by bringing it back into the housing (546).  Put syringe back on and confirm that there is still blood flow (547) and try passing wire again.
+Step C.5.1: 	Remove needle (162, 596) and leave wire in place (597)
+Step C.5.2: 	Make a nick in the skin that is wide enough for the catheter (598)
+Step C.5.3: 	Pass dilator (162, 602)
+Step C.5.4: 	Remove dilator (163) while holding the wire in place (603)
+
+Task C.6:	Place and secure catheter
+Step C.6.1: 	Put catheter through the wire (170, 604)
+Step C.6.2: 	Remove wire (170, 605)
+Step C.6.3: 	Check and irrigate all ports (178, 179)
+Step C.6.4: 	Lock the catheter (628) and attach with Luer-lock (629)
+Step C.6.5: 	Suture in place (179)
+
+Task C.7:	Verify placement by observing dark blood that is not pulsatile (710, 714)
+ 

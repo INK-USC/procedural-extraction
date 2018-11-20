@@ -1,0 +1,767 @@
+Maura:	Here we are with Dr. Kenji Inaba doing Central Line Placement Cognitive 
+Task Analysis.
+Joon Kim: 	Good morning.  I just wanted to explain to you a little bit about what we're 
+doing today, also for your benefit, but probably more for mine.  So, today 
+we're doing a Cognitive Task Analysis for Central Line Catheter 
+Placement and so what we'll do is we'll get from you, the expert, on how 
+you perform a central line placement and then we will use this for future 
+training purposes.  So Dr. Inaba, what would you say is the objective and 
+the reason or reasons for performing a central catheter placement.  
+Dr. Inaba:	So the objective is to get a catheter into the central venous system as 
+opposed to the peripheral circulation and the major, the two big reasons 
+for doing that is'for the central lines that we're talking about because 
+they have these long-lasting other (periphery access?) catheters'but for 
+the ones that we're going to talk about today it's one, you can't get 
+peripheral access.  That would be a major reason why we would use it 
+and the other is to administer drugs or do monitoring, it needs to go 
+directly into the central venous system.  So those would be the two big 
+objectives. 
+Joon Kim:	And are there any risks for performing a central'
+Dr. Inaba:	Yeah, absolutely, there's a lot of short-term and long-term complications 
+and (it goes?) with the site you choose for putting them in, but in general, 
+the short-term things or complications or risks that I would explain to a 
+patient would be for upper lines, for IJ or for subclavian, the risk of a 
+pneumothorax, the risk of bleeding, the risk of inadvertently cannulating 
+the arterial side rather than the venous side, and so all the vascular 
+complications that can happen from that.  Physical damage to the area 
+itself, the transection of the vein, hematoma in the soft tissues in that 
+area.  And then we always use local for these so there's a risk of an 
+allergic reaction to the (contrast?) so these are the short-term risks.  Long 
+term, central venous catheterization, you can have long-term vessel 
+problems so all the sort of complications with the vessel.  Big things would 
+be infection and sepsis as a result of that and all of these other super low-
+risk, there is a very small risk that someone could die from these, 
+especially if it gets infected you can go back into sepsis and death.
+Joon Kim:	So what would be some of the indications for deciding when you decide 
+you want to perform'?
+Dr. Inaba:	So the two big indications would be if you can't get peripheral IV access 
+and you need access for the administration of fluids or drugs or whatever.  
+Number two, the administration of things that need to go directly into the 
+central circulation and so that would be things like vasopressor 
+medications for example, or TPN for medium-term use, not super short-
+term, because for super short-term you can do peripheral; for longer term 
+you want something (in-dwelling?) so for an administering things like 
+(inaudible)...  or for monitoring centrally, like a Swan Gans catheter has to 
+be introduced centrally. 
+Joon Kim:	And so on the flip-side of that, are there any contraindications for deciding 
+not to perform?
+Dr. Inaba:	Contraindications, well, if you can avoid it, you always want to avoid it.  So 
+if you can do a peripheral, that would be a contraindication, if you need 
+access, but other than that, no.  We can talk about site selection, because 
+there's three big sites that we use, so I don't know if that's going to come 
+up, but'
+Maura:	I think we'll do that after do the task, let's get the task first.
+Joon Kim:	Now, let's see, I had it worded a specific way.  Imagine you're writing a 
+small, little pamphlet, very limited space, you have to break down this 
+whole procedure into a few major chunks, what would those chunks be?
+Dr. Inaba:	To do the procedure, you need to prep, so you need to get all your stuff 
+ready.  So the preparation would be the first one and that would be 
+preparation of stuff and preparation of the patient and some preparation 
+of yourself.  Then, the next thing would be localizing the vessel, that 
+would be the next big thing.  Then the next big segment would be 
+insertion of the catheter, all the stuff, the wire, the needle, all that sort of 
+stuff and the line, obviously, and then once that's done, securing 
+everything and the last big section would be to confirm that it's adequately 
+placed prior to using it.  
+Joon Kim:	So please correct me if I'm wrong here, I have five steps and number one, 
+prepare material and patient; number two, localize the vessel; number 
+three, insertion of the catheter; number four is to secure the line and 
+number five is to confirm placement.  
+Dr. Inaba:	Yep.
+Joon Kim:	Okay, great, thank you.  All right, we know that it's not that simple and 
+these major steps also have many details, finer details, so starting with 
+preparing the material and patient, you mentioned you have to first make 
+a decision as to where.  So can you share with us a little bit about that 
+decision that you make?
+
+Dr. Inaba: 	Three big sites that we would use for central lines are femoral access site, 
+subclavian vein and the internal jugular.  I think a big driving force behind 
+what people are going to use is what they're comfortable with and what 
+they have experience with.  So I think that's an important consideration, 
+so if you put a hundred femoral lines in, although the benefits of the 
+subclavian may outweigh it, if you feel more comfortable with that, 
+especially in an emergency situation, that's going to play a big role.  If 
+you're comfortable with everything though, the downsides to the femoral 
+line are that it's an easily-infected area, so there's a much higher chance 
+of catheter-related bloodstream infections and complications.  And for 
+floating a Swan Gans catheter, it's much more difficult to do and for 
+patient comfort, if they were to get up, it's not comfortable.  For the ICU 
+patients hanging out, I think it's fine, but for everyone else it's very 
+uncomfortable, an uncomfortable, dirty place and it's hard to do 
+procedures through that line.  The other thing is if it's a hypotensive 
+patient, you have to rely on'there's no bony landmarks, you have to rely 
+on a pulse, the femoral artery, to landmark, so it can be hard, if they're 
+really shockey, these are typically patients that you need it, it can be hard.  
+Then the final reason why you might not want to do it is for (heart 
+trauma?) patients, if there's an injury to any of the vasculature like an (IBC 
+in route?) for example, your line's going to do you no good, because it's 
+just going to dump fluid into the (retrocranial?) space and make it worse.  
+It's not accessing your heart.  So those would be the negatives.  The 
+positives of the femoral line, though, a lot of people feel very comfortable 
+doing a femoral line, so that's a bonus and it's very superficial, so if you 
+make a mistake or whatever, you can easily put pressure on it and it's not 
+a big deal, at all.  So that would be some bonuses of femoral.  In general, 
+though, we prefer'especially if you're comfortable with it'highlines or 
+the subclavian or the IJ.  Now in choosing between those two, the IJ, first 
+of all, I think is good because it is superficial so it also can be controlled 
+with pressure, if you get it into the carotid, for example, by mistake or if it 
+starts bleeding.  It's got a slightly higher risk of infection than the 
+subclavian line, especially in our (RC?) patients, because of saliva and 
+stuff dripping down onto the catheter.  It's a very comfortable line.  For our 
+trauma patients, it's a negative, because almost all of our patients have 
+the collar, C-spine collar on, so you can't use it because there's a collar 
+blocking it.  Ultrasound guidance can be used to insert these lines in the 
+neck, it's very easily visualized with ultrasound, so that can help guide it.  
+But again, it does require the presence of a pulse in order to landmark, so 
+it's much harder in a patient that's hypotensive but not as bad as the 
+femoral line, because the pressure is usually better.  Subclavean is the 
+final choice and it's a choice that on the trauma service, we almost always 
+use.  It is the cleanest of all sites, it relies just on bony landmarks, so even 
+in the most hypotensive patient, you can always have a pretty good go at 
+getting your needle in and it's a very comfortable line for medium to 
+longer-term use because it's not in your way, it's not bugging you when 
+you sleep, that sort of stuff, so it's often used for that.  Although the 
+infection rate is the lowest of all three of the sites and pneumothorax rate, 
+although that's a very rare complication, is the highest of all three of the 
+lines.  So for trauma patients, if you already have a pneumo on that side, 
+it's fine you can put one in on that side and you're not going to get those 
+complications.  So subclavian line is almost always the line that we would 
+choose, because for our trauma patients you get rid of the risk of 
+someone that has (an IVC injury?); it's clean, it's low risk of complications, 
+low risk of infection.  It's comfortable for the patient and it's good with 
+hypotensive patients.
+Q:	So Dr. Inaba let me try and take a stab at this.  So it sounds like there's a 
+decision that needs to be made as far as what site you're going to select.  
+Dr. Inaba: 	Yep. 
+Q:	The five big steps that you gave us, is that a task of its own or is it an 
+action that follows them during one of these?
+Dr. Inaba: 	It would probably be in prepping the patient, I guess, or it could be on its 
+own, I guess, part of the whole sort of set-up, trying to decide where to go.  
+And the other thing that would kind of help you decide where to go is if 
+there's a bunch of stuff happening and let's say it's in an arrest on the 
+floor or downstairs in the recess area and there's someone trying to 
+intubate the patient and they're fully working up-top and so there's no 
+room for you to work up there, then in that case, even if you suspect a 
+venous injury down below, if there's just no space, because someone's 
+putting a chest tube in on one side and someone's trying to'then a 
+femoral line would be better.  
+Q:	Does site selection precede preparing the patient?
+Dr. Inaba: 	Yep, because you need to know'it's probably one of the first things that 
+you do, because before you even'because for prepping the patient, you 
+need to know where you're going to go, so I would say it definitely does.  
+Q:	What are some other things that you may do in prepping the patient or 
+prepping the equipment?
+Dr. Inaba: 	The rest of the prep stuff?  So, for the patient, since we're on that I guess 
+prepping the patient, if you can get consent, the first thing is to get 
+consent, explain the risks and benefits and kind of go over all that sort of 
+stuff.  You want to make sure that if there's no contraindication to it, 
+putting a roll or something underneath the shoulder, especially for 
+subclavian lines, will open that area up for you, so that's useful.  For the 
+IJ, you're going to make sure that they're able to twist their neck over, so 
+you just want to open up that area as much as possible for you.  And 
+obviously, for femoral line it's just to get rid of clothing in that area, so 
+nothing's obstructing your ability to put a line in.  And the rest of the 
+patient prep is going to be once the kit's opened and stuff, but it's 
+important that we completely prep the area, and do this as a super-sterile 
+procedure because we know that that decreases our complication rate 
+with catheter-related bloodstream infections, so they should be fully 
+prepped as if this was a surgical procedure.  So that's skin cleansing and 
+full prepping and draping of that area.  Same thing goes for prepping 
+yourself, so both to protect yourself, which is important, but also in this 
+case, unlike what we were talking about last week with a cric, which is an 
+emergency procedure, in this case it's not.  I mean, it can be urgent, this 
+could be emergent, too, but in any case, there's such a high infection rate, 
+it's the main problem with catheters, you really want to make sure that you 
+gown and protect both yourself as well as the patient from stuff that's on 
+your hands.  Then for stuff, an assistant is very helpful, especially a non-
+scrubbed assistant to hand you stuff and kind of get things ready for you.  
+You need to have the central line kit, everything comes in a kit now, but 
+outside of the kit, usually it's nice to have an extra syringe or two, like ten 
+cc syringe or two; having a little bit of extra local around and having a little 
+bit of extra prep around is good, so some of the things that aren't in the kit 
+and having a nice set of towels so that you can really prep the area is 
+much better than one single drape that's inside the kit.  External lighting 
+can be very useful, for sure; having another kit that's unopened in the 
+room.  When problems happen while you're putting the thing in and if the 
+wire gets kinked, if you have to stop everything, take everything off, go 
+find another kit, it's a total hassle and it just keeps that patient in the 
+uncomfortable position for longer, the local can wear off, you may infect 
+things, so always have another kit in the room.  You can just leave it 
+closed, if you don't use it you don't have to open it up, so having that 
+ready is good.  And then finally having whatever you're going to attach 
+that to, so the line IV bag or whatever is good and having a little bit of 
+extra saline around to flush the line is a good idea.  And the suture that 
+comes in the kit, there's one suture and that may not be sufficient, so 
+having an extra suture around is probably a good idea.  
+Joon Kim:	So you've chosen your location, so you've assessed the situation, upper 
+area is not available, you're going to go to femoral.  
+Dr. Inaba:	Yep. 
+Joon Kim:	You mentioned the kits, are the kits the same no matter where you go?
+Dr. Inaba:	Yeah, you know, it's going to be hospital-dependent, but in general, 
+there's good data to support whichever company you decide to'your 
+hospital purchases them from for longer-term use, so basically lines that 
+aren't just put in for an operation.  Like when anesthesia puts a line in, it 
+can be short-term but anything where you think it's going to stay for more 
+than twenty-four hours, it should be an antibiotic-coated catheter.  So 
+virtually all of them being stocked now are antibiotic-coated so there's 
+good evidence for that.  Within the lines themselves, there are a couple of 
+big sort of types of lines and the types of lines are the single, double, 
+triple, quad, lumen-type catheters, so there's skinny catheters and then 
+there's the thick ones, which are almost always called a percutaneous 
+introducer or some people refer to it as a Cordis, which is the first 
+company that used to make these a long time ago, but it's a misnomer, 
+it's a percutaneous introducer and then there's the other ones.  There's 
+lines called (MAC lines or Y lines?) or a bunch of lines like that, there's 
+dialysis catheters, there's a bunch of miscellaneous.  But for the purposes 
+of this, the big two that one would teach is the single, double, triple, 
+quads, the skinny ones and then the percutaneous introducers.  And to 
+choose between those, the skinny catheters are the catheters that you 
+would use in an elective sort of situation and you need it because there's 
+no peripheral access, for example, and it's a thin line, it's very slow to run 
+stuff through, it's a pretty stable line but you can't run big lines through 
+there and so it's the sort of thing, they're in the ICU, there's no peripheral 
+access and you need four different channels to infuse TPN this and that 
+and that sort of stuff, so that's what that would be used for.  The 
+percutaneous introducer which is shaped like an L is a single lumen, it's 
+big, in fact it's bigger than the biggest of the multi-lumen  catheters but it 
+only has a single port, so you can ram a bunch of fluid through very quick.  
+So we would use that as a resuscitation line, so in the emergency room 
+we never put in those multi-lumen catheters, we just use this 
+percutaneous introducer and also, up in the ICU if you want to do any 
+instrumentation through it, so PA catheter, that needs to go through a 
+percutaneous introducer, you can't do it through the multi-lumen  
+catheters.  So the big drawback of the percutaneous introducer is that you 
+only have one channel, but on the flip-side, you can put a lot of fluid 
+through there and you can put a PA catheter through there.  And if you 
+need more lumens you can put a quad, triple, double or single through the 
+back part of the percutaneous introducer so it kind of meets inside, so you 
+actually can put more lines in.  So that's the difference between the two, 
+those are the two big sorts of sets of lines that we would choose to use.  
+Joon Kim:	So it sounds a lot like the situation would dictate which one to use, rather  
+than the actual site.  
+Dr. Inaba: 	Right, the site wouldn't dictate it, it wouldn't be  user preference, it would 
+purely be the practically what you need the line for.  
+Maura:	Any other parts of task one, preparing yourself, your person and your 
+stuff?  
+Dr. Inaba: 	No.  
+Maura:	What are some of the routine problems that occur with this task one?
+Dr. Inaba: 	With the first part?  The routine problems'
+Maura:	Or where learners kind of fall down or make a mistake.  
+Dr. Inaba: 	Not having the stuff ready.  I think, you know, the big battle of all of 
+surgical everything is being prepared and in order to be prepared, you 
+need to have done it a bunch of times so that you know what you're going 
+to end up running into as problems.  So having an extra kit in the room is 
+huge.  You're always walking by and someone's looking, they're all 
+scrubbed and clean and they can't go and find another box, but they 
+clearly need it.  So they're trying to persist with this broken wire, which is 
+totally dangerous, so any preparation is a key sort of thing, but other than 
+that, the prep part is not where most complications occur.  
+Joon Kim:	All the material is placed there by somebody else?
+Dr. Inaba: 	Inside the kit.  
+Joon Kim:	No, like all the materials'
+Dr. Inaba: 	I think it's super important that the user, whoever is going to perform the 
+procedure be responsible for getting all that stuff.  Not the nurse, not the 
+med student, yeah, I think the person that's going to be doing it, I think it's 
+very important.  
+Joon Kim:	If the wire breaks, then you switch to a new wire?
+Dr. Inaba: 	Yep, or it usually gets kinked, it's super hard to break the wire, but people 
+have done it, unfortunately.  So, yeah, you can switch that, that's why it's 
+nice to have another kit in the room and an assistant that can open that kit 
+for you.  It's not uncommon for that to happen.  
+Maura:	So task two, localizing the vessel, so let's drill-down, what are some of the 
+steps and decisions of that?
+Dr. Inaba: 	Okay, so for localizing the vessel, it depends on the site, of course.  So 
+should we just pick one?
+Maura:	I'd pick one and then we'll go back to the other two and you can describe 
+how those two are different.  
+Dr. Inaba: 	Okay, so for the subclavian, it's all bony landmarks and basically, you 
+need to identify the anatomy of the clavicle.  You want to prep that whole 
+area as wide as possible, so you have a lot of space, so you can see the 
+stuff above, to the sides and below it.  Basically, you just have to picture in 
+your mind that the subclavian vein is running beneath the clavicle and 
+you're going to start off where the clavicle takes a little jog upwards, so 
+that two-thirds of the way from the sternum outwards and everyone's 
+clavicle takes a little bit of a turn there, most people's do.  There, you just 
+want to drop down a centimeter or two, because that's where the needle 
+is going to go in.  For localizing the vessel, I think most of us, if it's an 
+emergency situation, we can skip the local stuff, but if it's an elective 
+situation, you want to make it as comfortable as possible for the patient.  
+So I would take a ten cc syringe with local with lidocaine in it, which 
+there's only a small amount in the kit, so you might want to draw a little bit 
+more up.  So you start off with the lidocaine in a very thin needle that's 
+already in the kit and you use that needle to try to localize the vessel.  So 
+you would start out with the skin, localize the skin and anesthetize the skin 
+and then pop through and then just slightly go forward, draw back to make 
+sure that you're not getting blood and then push some local in and let that 
+infuse for a second and just kind of do that drawing back, infuse, drawing 
+back, infuse.  It's pretty quick.  You're aiming for a spot just underneath 
+the clavicle where the vein is sitting and you're trying to get that local 
+needle directly into that and you should see a nice drawback of venous 
+blood or darker sort of blood coming into your needle.  And once you've 
+done that, you know that you have a (tract?) you know about where it's 
+sitting and you know it's in the right spot, there's no anomaly there and 
+there should be a nice path of local anesthetic on the way to their vein.  
+Then you can just pull that out and some people talk about leaving it in, 
+but I don't do that, I just pull the needle right back out and then you can go 
+to the big needle, which depending on which kit you use, it will come in 
+different colors, but that's the actual one that you're going to start the 
+whole process of insertion.  So localization will probably end there, so 
+trying to get access.  You may not get to that area, you may do all the 
+infusing and the local and not actually get your needle into the vessel and 
+localize it, but that's okay, because then you can pull the local needle out 
+and go to your big needle, which is the one that you're actually going to 
+do the whole procedure through and you can use that to localize your 
+vessel.  
+Maura:	So you said some people leave the needle in, but you pull it out?
+Dr. Inaba: 	Yeah, just kind of like as a guide or whatever, you can kind of theoretically 
+follow the side, but I never found that to help.  So, I know some of the 
+people that interview me say that, but'
+Maura:	Okay, so you can do it either way.  
+Dr. Inaba: 	Yeah. 
+Maura:	So what about the femoral site versus the IJ site?
+Dr. Inaba: 	Yeah, the nice thing about the subclavian is the bony landmarks, but with 
+the femoral site and with the IJ site, your goal is to feel the pulse.  So 
+again, same principles, prep widely so you can see everything, you want 
+to see as much as possible.  With the femoral, it's very important that you 
+stay below the (Ingman ligament?) and one little pitfall is when guys go 
+too high, then your ability to compress the area is lost and the ability for 
+the vein, if you tear it, to bleed is much higher if you go above the Ingman 
+ligament.  So it's important to stay below in the leg area of the groin.  Like 
+I said, a (meter?) or two, below the Ingman ligament, but definitely on the 
+lower side and that way if something goes wrong, it's totally easy to just 
+compress it.  And your goal is to stay below the Ingman ligament, feel for 
+the pulse, go medial to that and work your way away from the artery, from 
+the pulse.  So you usually have one finger on the pulse and you're a 
+centimeter or so below and just start below and again, with the local 
+needle, because it's just easier to do, it's more comfortable for the patient, 
+find the vessel that way and then you can move to your big needle.  With 
+the neck, same thing, except you're going to go lateral, obviously, from 
+the carotid pulse and you want to move from lateral inwards towards your 
+carotid, which is going to be sitting under your finger.  Now, the new 
+standard will probably be to use ultrasound to help you localize. I don't 
+use ultrasound, but a lot of our new fellows will be and I bet you some 
+people will describe using ultrasound.  And again, halfway down the neck 
+area, so it's in a comfortable spot and you have to kind of judge, 
+everyone's neck's a little bit different, but in a comfortable spot, because 
+that's where your line is going to be hanging out.  You don't want it too 
+high, because it's going to be very uncomfortable and obviously you don't 
+want it too low to the neck.  So about halfway up would be a good starting 
+spot and for both the femoral and for the IJ, the key is to use your left 
+hand if you're a right hand sort of guide and to go with the pulse.  One 
+other thing I didn't mention was that, although for the IJ and for the 
+femoral, it doesn't matter as much probably, for almost all right-handed 
+people, doing lines on the patient's right side is ergonomically almost 
+always easiest.  For a left-handed person, opposite, just because of the 
+way your arms slight, so almost always it's ergonomically easiest.  The 
+time that you wouldn't do that is for high lines, especially for subclavians,  
+but also for IJ's, if they already had a traumatic pneumo or they have a 
+chest tube on the left side, you know that you can't make things worse, so 
+you should always go on that side, that's what we would counsel.  If it's a 
+gunshot wound to the left side or something where there may be trauma 
+to the arterial side or the venous side of that side, go to the other side.  So 
+those would be the two big exceptions, but otherwise, just ergonomically 
+it's easier on a patient's right.  
+Maura:	So that was task two and you described three sites, so briefly for each 
+site, can you describe what would be a routine problem or where would 
+learners run into trouble?
+Dr. Inaba:	So I would say for the subclavian, a routine problem or a pitfall or 
+something that can go wrong'for the subclavian specifically, one thing 
+that is important to teach is, it used to be taught or it still is sometimes, 
+probably, that once you are going through, you hit the clavicle, you know 
+the vessel is underneath, if you hit the clavicle people used to say, or 
+people still do, that you go through, you hit the clavicle, just pull back a 
+little bit and push all the soft tissues down and then you're going to find 
+the vessel right underneath, which is fine, when you use that nice, strong, 
+steel needle.  So you push forward up, you hit the clavicle, you just pop 
+back a little bit, go down and hit the vein.  The needle is strong enough 
+that it will be able to push all that soft tissue down and let you find and get 
+into the vein and then you do the rest of your stuff.  But when you actually 
+put the soft catheter in, that catheter is going to come through and it's 
+going to take a wicked S-turn as it comes down through that'because 
+soft tissue is going to push the catheter right back up, especially the multi 
+lumen  catheters.  So it's just going to go in, it's going to come through 
+and then go and it's going to be it, so the chest X-rays that you see with 
+that wicked S happening, that's not good because those are the catheters 
+that don't drawback well, because they're kinked and they're very soft 
+catheters and flow rate is bad through those and the ability to draw back 
+are bad.  So rather than doing that, we always recommend that you pull 
+the needle all the way back up and then change your angle a little bit and 
+then come back in, so that you have a nice straight line trajectory.  So on 
+your X-ray, you see that nice smooth entry into the vessel and that way 
+you don't get the kinking and all the line problems which is a real hassle 
+for nursing afterwards.  For the femoral and for the IJ, I think the big pitfall 
+is getting into the carotid or into the femoral artery by mistake, so I think 
+the important thing is as soon as you enter with the actual needle, and 
+we'll go to that in the next step, the syringe is actually going to come off 
+and you're going to watch the blood drip out of there.  It is essential at that 
+point, to identify are you in the arterial side or in the venous side and it is 
+very clear.  Venous bleed, if you're in the vein, it should be nice, slow 
+dripping of dark venous blood and not pulsatile arterial, bright red blood.  
+If you see that pulsatile, arterial red blood, it's not a big deal, in any of the 
+three sites, you just pull that needle out, hold some pressure there for a 
+couple minutes and then you can just try again, on that same side, without 
+re-prepping, without getting anything at all.  The problem is if you don't 
+recognize that and then you put the dilator in and then you put this big line 
+in, then that's a problem, because then you have a big hole in the artery 
+and that can be dealt with just by leaving that there and then under 
+interventional radiology if they're a sick, (inaudible)...  patient we can take 
+it out while visualizing and we actually have percutaneous stoppers that 
+we can put in.  So it's not a big deal in the big picture, but for every patient 
+it is a big deal, because it's another procedure and more contrast.  So that 
+would be a pitfall that needs to be recognized at the time.  Now, 
+anesthesiologists have the luxury of sticking'and sometimes in the ICU, 
+we do as well, stick in our A-line transducer to it, so if you're kind of 
+unsure, you can just plug that in and you can tell if it's an arterial pressure 
+wave and arterial pressures then you know you're in the artery and you 
+just pull it out and you're done.  But almost always we don't have that 
+luxury, so I'll just tell people that's something where you need to take a 
+look to make sure that you're in fact in venous bleeding.  If you're unsure, 
+the safest thing is to pull it out and do it again.  If you get that again and 
+you're unsure, set up a pressure transducer because you just want to 
+avoid for the poor patient to have to go through all the things if you get a 
+complication.  So that would be a big negative from those. 
+Maura:	Any questions for Dr. Inaba for task two?
+Q:	Yeah, thank you.  So you're in the vein and do you take the needle out?
+Dr. Inaba: 	Yep. 
+Q:	And you're looking at the blood coming out and it's the way you described 
+it is dripping is venous and pulsating squirting blood is arterial.  But you 
+also indicated that you could possibly make a mistake, so what are some 
+indications that you don't recognize it that you made a mistake. 
+Dr. Inaba: 	Oh, that you've'?
+Q:	Hit an artery. 
+Dr. Inaba: 	Hit an artery, the biggest thing that you are going to look for if you hit the 
+artery is it's going to be bright red blood and it's going to be pulsatile.  It's 
+going to be squirt, squirt, it's going to be very noticeable.  It doesn't 
+happen often, and that's a judgment thing, skill thing, experience thing, I 
+think, and that's one of the things that you learn, I guess, but that's 
+specifically what you're looking for.  And venous bleeding is it's dark and it 
+just drips out, it flows out.  So that's the big difference, I think.  
+Maura:	Task three, I think, is going to be the biggest one.  
+Dr. Inaba: 	Yep, it's the actual catheter.  So for that, it's all the same regardless of the 
+three sites, once you get in with your big needle, we always recommend 
+that as soon as you get in, go in just like a millimeter or so further, 
+because if just the tip of the bevel needle gets in and you have a little bit 
+of blood coming through, that's totally fine for the blood working its way 
+through, but then everything else, the wiring, the dilation, all the 
+subsequent steps aren't going to work very well and you can tear the 
+vessel.  So once you get in, go in just another millimeter or so to make 
+sure that your needle is fully within the vessel and as soon as you're in 
+you'll see'because you're going to go in with the needle under suction 
+like we were talking about, because you go in under suction, give a little 
+local, whatever, the needle is always under suction and so you should get 
+a nice drawback of easy pull, dark venous blood.  Then you take that 
+syringe off and you should see nice venous dark blood just dripping out 
+and at this point, there should be enough venous pressure that you can't 
+suck air in, so you can just relax at this point and let that blood drip out.  
+And there's going to be a little pool of blood, but that's okay.  At this point, 
+the critical maneuver is for most right-handed people it's your left hand, 
+you're going to just hold on to the hub of that needle, because now this is 
+where the needle can just pop out or go through or whatever and you 
+want it to stay as still as possible.  Everything's already set up, your kit is 
+open and everything's ready to go.  Your next step is take the wire, the 
+guide wire and feed that through the needle and until you get that wire 
+nicely into the thing, a lot can go wrong, in that you can lose that spot.  If 
+you do, it's not a big deal, if the wire doesn't go through, it means that you 
+slipped out of the vessel.  You just have to put the wire aside, get your 
+syringe back on and try to find it again, so it's not a big deal, but if you 
+hold it nice and still, that's when you can just feed the wire in and you're 
+good to go.  Because once that wire is in, you're set, because the channel 
+from skin through the inside of the vessel is made.  The wires are going to 
+be long, you do not need to put the whole wire in, in fact, if you put the 
+whole wire in, it's going to snake it's way into the RV, into the atria and 
+you have a chance of arrhythmias.  People are always paranoid about the 
+wire not being in far enough, but really, especially for the IJ and the 
+femoral, it just needs to go in the length of your needle and a little bit past 
+that, which is not very long at all.  So there should be a good amount of 
+wiring hanging, you just have to feed enough in so that your needle is 
+covered and a little bit more, because then it's fully inside the vessel.  And 
+the reason why they make it so long is so that at one point where it has to 
+be long is when the catheter is being fed onto the wire and the tip of the 
+catheter is at the skin, so it has to be at least as long as that whole cath 
+and that's why it's made so long.  Once your wire is in and the needle is 
+in, you're safe.  We recommend that you make a little cut on top of the 
+needle at that point in the skin, because that's what's going to hang you 
+up from putting all the next steps in the dilator and the line.  And we 
+recommend cutting out a needle, because theoretically you could cut the 
+wire so I know it's a very small risk, but you can just cut on a needle and 
+that way it's a nice rigid thing.  The incision is just a couple millimeters but 
+it has to be wide enough and you want to make sure there's no skin 
+bridge between the needle and the cut, so that the cut is right on top of 
+the wire, otherwise you're doing no good to the patient.  So it has to be 
+cut right onto the needle and then you can pull the needle out and 
+depending on what you put in, if you're putting a percutaneous introducer 
+in, the introducer and the dilator are together, pre-loaded as one.  If you're 
+putting the multi lumen catheter in, you do the dilator first, pull that out and 
+then put the catheter in.  The dilator is just about this long, it's a rigid 
+plastic thing that dilates the tract and the skin up a little bit.  With the 
+precutaneous introducer, you put the dilator into the precutaneous 
+introducer before you do this, so it all goes in as one, otherwise the 
+precutaneous introducer won't smoothly slide through, because it's got a 
+pretty big opening.  
+Maura:	So what you just described is the same for all three sites, the only 
+difference is the landmarks.
+Dr. Inaba: 	Yep, exactly.  You cut the skin and then you dilate and then pull the dilator 
+out and put the multi lumen in or you put the whole percutaneous 
+introducer in, all together.  
+Q:	So for the Cordis, it's just one you put together outside the body, that was 
+one'
+Dr. Inaba: 	Exactly and then you pull the wire, the dilator out, for the multi lumen . 
+Q:	Okay, now I'm confused because it kind of seems like for the Cordis, you 
+put the dilator in there and then you (inaudible)... [OVERTALKING] then 
+you take the wire up and how do you take the dilator'?
+Dr. Inaba: 	Because the dilator goes in it from behind.  
+Q:	It goes in from behind, okay. 
+Dr. Inaba: 	Yeah, so it's shaped like an L, this is where the fluid comes out, this is 
+where you infuse and in the back there's a one-way valve here, a rubber 
+valve and you put the dilator through that valve this way and then that all 
+goes in and so now the wire is sticking out of here and you can pull the 
+dilator and the wire out from behind.  With the multi lumen catheter, if it's 
+a single, it's easy, but with a multi lumen it's always the central channel or 
+the brown channel, there's different colored caps.  The brown channel 
+would be the channel that's the main central channel and so before you 
+put the wire in, you have to take the cap off of that, otherwise the wire's 
+not going to come through.  So you've got to undo that and you know, 
+there's a little bit of controversy over whether or not we should be 
+prepping these catheters with fluid to prevent a theoretic air embolus and 
+we know that the venous pressure in virtually everybody is going to be 
+above zero, so whenever you put a line in, you put this nice saline in to 
+prime the line and then the blood just pushes the saline out, because 
+there's nothing that's being sucked in, so some people do, some people 
+don't.  Almost all of our lines are very urgent or emergent, so we don't 
+bother doing that, but some people, as you do this, may say that and I 
+think it's fine if you have time.  I think it's fine, but the brown line should be 
+uncapped so that the wire can come out.  And the other thing to 
+remember, I think, as a teaching point is to never let go of the wire.  So 
+once the dilator goes in for the multi lumen catheters, so you're holding on 
+to the wire here, you push the dilator over top, grab the wire on this end 
+because almost always, people jam the wire in too far, pull the wire out a 
+little bit while the dilator's in, so that you can capture the wire on this side 
+and then push the dilator in, never let go of the wire.  Like here, at L.A. 
+County over the last six months, we've embulized four wires.  It's 
+something that should never happen, it's a zero tolerance, it just should 
+never happen and it's happened four times here, in one hospital in six 
+months.  So that's why we always want to reemphasize that you never, 
+ever let go of the wire, because it can get embulized.  You can get it out, 
+but it's a major deal.  
+Maura:	So say you're putting the guide wire in and you can't get it in because 
+you've lost your spot, so you pull the guide wire and you start again, can 
+you put that same guide wire back in?
+Dr. Inaba: 	Totally.  It won't be nicely in your little round (inaudible)... 
+[OVERTALKING]  thing, but it's totally fine.  
+Maura:	You don't have to go get a new wire.  
+Dr. Inaba: 	It's totally fine.  One thing, if you are going to put it back in, for teaching 
+purposes there's a soft end, like if you actually pull the wire out and hold it 
+up like this, there's an end that's rigid, it's sticking out one way and the 
+other end will just kind of flop over a little bit and that soft end should be 
+the soft end that goes into the vessel, so it won't poke in and pop through, 
+so for teaching purposes.  And in an emergency situation we actually 
+want the rigid wire, so we'll just flip it around and put the hard end in, but 
+you should never do that, it's against the'  So for the teaching thing, you 
+always pick the soft end, which it always comes pre-loaded with the soft 
+end up.  Theoretically, that's what should be done.  
+Maura:	And then you said you put your needle in and you put your wire a little bit 
+past the needle.  So when you say a little bit past'
+Dr. Inaba: 	Eh, ten centimeters, five centimeters, five to ten centimeters.  
+Maura:	Other questions about task three?
+Q:	The brown port seems particularly more structured than the other parts, 
+but you want to open the brown port, is there a specific reason why you're 
+using the brown port?
+Dr. Inaba: 	Just because it's a central one.  If it's a single lumen catheter, you just 
+undo that, whatever port it is, but if it's a triple lumen there's going to be 
+the blue part and then there's a little joint and there's three little things 
+hanging out and one of the caps is white, one is brown, one is red, 
+maybe, I can't remember or yellow, blue, maybe it's blue.  Whatever color 
+is it, the brown one is the central main line, so that's the one that goes all 
+the way through and is where your wire is going to come out and the other 
+ports have little offshoots, so that they can infuse and draw blood out 
+through those, but it's not the direct channel.  So the wire is going to want 
+to come out the major port. 
+Maura:	So what about routine problems during that task?
+Dr. Inaba: 	The wire issue is a major issue, if the wire gets caught, it happens all the 
+time.  So if the wire can't go in, first of all, it means that your needle's 
+come out, do not force it because you're just trying to ram the wire 
+through soft tissues and it will always go wrong.  Take it out and get a 
+nice, clean pull of blood and then re-feed the wire.  When you're trying to 
+pull the wire out, if it gets stuck'and that happens, too, like it's gotten 
+caught on the sharp bevel of the needle, that's a pain'if you persist, 
+you're going to shred the wire and you're going to embulize a bit of the 
+wire, so just pull the whole thing out.  That's common, not an uncommon 
+problem where people get into trouble, so instead of shredding the wire, 
+pull the whole thing out and don't persist on that side, because chances 
+are you've already caused a bit of an opening in that vein.  Go to the other 
+side, if they really need a line.  What else?  That cut, sometimes you 
+leave a little skin bridge between your needle hole and your cut, so that 
+you're trying to'the thing that always hangs up any insertion of anything 
+is the skin, because it's so strong.  So you're just pushing and pushing 
+and you can't get through, it means that you left a little bridge of skin, so 
+all you have to do is really cut down on it to make sure that you cut that 
+skin bridge.  That's about it.  Losing the wire would be'I guess it 
+happens, I've never seen it.  I saw one X-ray when I was a med student 
+once of a wire that was coiled up in someone's heart and you know, I 
+never, ever heard of it happening until I came here, so'four times.  
+Maura:	Hence the reason we're doing the CTA and developing the whole 
+curriculum for somebody.  
+Dr. Inaba: 	Yeah, I guess it happens, so, yeah.  
+Joon Kim:	You mentioned earlier that most everyone has positive blood flow, is there 
+any chance of someone to have negative blood flow and'?
+Dr. Inaba: 	Yeah, probably, but there's always going to be a push outward, but 
+theoretically when they breathe in, I suppose you could'but practically, 
+yeah, if you always tell people to prime the lines beforehand, I think it's 
+the safest thing.  I mean, there's not a lot of air in there, but I think there's 
+theoretically which could cause an air embolus, but'
+Q:	Would priming lines be part of the preparation or'?
+Dr. Inaba: 	Yeah.  I don't do it, but for teaching purposes, you could say that. 
+Q:	It can be done.  
+Dr. Inaba: 	Yeah, it can be done.  
+Maura:	Okay, so task four is securing the lines.  
+Dr. Inaba: 	Yeah, and once you pull the wire and all that sort of stuff, at that point, I 
+guess'I don't know what part this would fit in, you guys can sort of 
+guess, but the blood will immediately come up to the catheter, as soon as 
+you take the wire and stuff out, the venous pressure will push it back up, 
+you can just touch the syringe, whether it's Cordis or the brown cap line, 
+just pull on it to make sure you get nice, clean good flow of blood back 
+and then we have that saline that we were talking about just sitting there 
+and we can reinject saline back in, so the line doesn't have blood clotting 
+in it.  Just put saline in it and you can just cap it off.  And then for the other 
+two lines or three lines or whatever, you can just pull back to get blood to 
+come up and you should see nice flow and then reinfuse saline, cap it off, 
+then it's a full saline-contained thing.  So for securing the line, while 
+everything is still clean and sterile, I think it's important to suture the line in 
+place.  These kits all come with these clips, but they don't work well and 
+so we recommend sewing it in in two places, at least.  Each of the 
+needles has a little sort of thing on it that you can actually sew to the skin, 
+so we should definitely do that.  Then after that is done, then you need to 
+put an occlusive dressing on top of it and there is some evidence now that 
+we should be using an antibiotic-coated disc right on the insertion site and 
+that decreases your cath-related bloodstream infection rate.  So you can 
+put an antibiotic-coated little mini dressing and then a (tecaderm?) or a 
+plastic occlusive dressing on top of that.  So that's securing the line, it's 
+very important, so probably put an antibiotic-coated dressing on there and 
+then an occlusive dressing on there. 
+Maura:	Any routine problems with that?
+Dr. Inaba: 	Nope, pretty straight forward.  
+Maura:	So last task, confirm adequate placement.  
+Dr. Inaba: 	Yep, chest X-ray, for femoral line, really nothing, just your confirmation is 
+going to be pulling blood out so you get a drawback and you can infuse 
+saline back in.  For high lines, though, we should always get a chest X-ray 
+which is going to confirm that it's sitting in the SBC outside of the right 
+atrium.  So you'll see it sitting in the proper spot, you should get that and 
+at the same time it's going to tell you if you've got a pneumo or some 
+other complications.  It's not common, but I think it's good practice.  So 
+yeah, just to confirm that it's sitting in the right spot, that it's not going up 
+into the neck, like a subclavian can go upwards instead of downwards, for 
+example.  So that sort of thing and complications and it's important to do 
+that, unless it's an emergency, before you use the line, just because it's 
+just a safety principle, so always do that.  And then the final thing as part 
+of that is to do a count of all the stuff, especially the wire, to make sure 
+you still have that wire.  So that's a new thing that we do now, we never 
+used to do that, but I never thought it was possible to leave a wire, but 
+apparently you can.  
+Maura:	Did a new checklist come out, does the hospital have a new checklist?  
+Dr. Inaba: 	Probably.  
+Maura:	I know (Nick Name?) was working on something, so I can probably grab it 
+and it would be helpful for this.  What else do you guys want to ask Dr. 
+Inaba?
+Q:	Would you confirm with X-rays for all three sites or just with the IJs?
+Dr. Inaba: 	Nope, just IJ's.  
+Q:	Then for the femoral how would you confirm?
+Dr. Inaba: 	Just aspiration, exactly, but again, we really try to avoid femoral lines, 
+really try to avoid them.  They just get infected all the time. 
+Joon Kim:	Who does this procedure?  
+Dr. Inaba: 	Who does the procedure.  That is a good question.  It depends on where 
+you work.  Our new rule is that you need to be credentialed in that 
+procedure, so all our residents go through the central line course at the 
+skills center and throughout their training they get observed by someone 
+that's credentialed and so generally, here, any of our fellows, any of the 
+attending surgeons would be'it's just like any procedure that we do.  All 
+our residents are watched and that would be the official answer.  If it's an 
+emergency, almost always in an emergency, there's an attending there, 
+but it's done mostly by residents, watched by an attending.  
+Maura:	I know the answer to this question, but I'm going to ask it anyway, 
+because we're supposed to.  Are there any new terminology or what you 
+just described to us, the residents would know what you're talking about.  
+Dr. Inaba: 	Yep, absolutely. 
+Maura:	Is there anything that they wouldn't know or understand? 
+Dr. Inaba: 	No.  I hope not.  
+Maura:	We talked about conditions, already, we talked about equipment and 
+materials, performance objectives.  So, how do you know you've 
+successfully placed a line?  You kind of covered this in bits and pieces.
+Dr. Inaba: 	I guess you would know that you're in the right spot or you did a good job 
+in this procedure?
+Maura:	You're done.  You're walking away and you're confident that that's 
+exactly'
+Dr. Inaba: 	Okay, so you would know that you got good aspiration, you were able to 
+infuse and lock all the ports with saline and got a chest X-ray that showed 
+you're in the right spot and the patient is alive, happy, yeah, aspirations, 
+infusion, chest X-ray confirmation.  Those would be the big things. 
+Q:	Are there any sensory cues you rely on?  I'm sure there's some sort of 
+tactile or any smells or anything like that?
+Dr. Inaba: 	No smells, but definitely as you're going in, that pull of blood, because 
+when you're going in with the syringe on suction and you hit the vein and 
+it suddenly, that's a very tactile feel.  Feeding the wire smoothly, the 
+smooth flow of the wire is a tactile thing that is important.  When the wire 
+doesn't come up and gets stuck, that's important.  When the line goes in, 
+it should also go in nice and smoothly, it shouldn't be hard to push in.  
+Maura:	Do you guys  have anything else to ask?
+Joon Kim:	Are there any prior tasks that needs to be completed before performing a 
+central line?
+Dr. Inaba: 	Like what?
+Joon Kim:	Is there any prerequisite, like stuff that needs to be done before? 
+Dr. Inaba: 	No, just administratively, we ask them to go through a teaching session 
+on it, but practically, no.  One other thing that they can do to learn all the 
+steps is (wiring a line?) and that's when you have a person who already 
+has a line in, but you're worried that it's infected and you want to send a 
+bit of it off for a culture or there's some other complication with the line, so 
+that instead of doing all the insertion stuff, all they do is they prep it, they 
+put a wire in, take the old line out and put a new one in, so you get used 
+to all the steps in the field and that sort of stuff.  So that's helpful, if 
+they've wired some lines, in fact, with our med students, we try to get 
+them into wire lines first, so that they get all the bits and pieces figured out 
+before they do the actual puncture, because that takes the most'the 
+hardest part to try to find.
+Joon Kim:	Probably because there's a lot of fear'
+Dr. Inaba: 	Yeah, that you're going to do some damage.  
+Maura:	What about removal?  How do you know when you're ready to take the 
+line out?  
+Dr. Inaba: 	The rule is that as soon as it can come out, you should get it out.  So the 
+moment you don't need it and in fact, you have a daily assessment of 
+invasive devices in our ICU and so every day we ask the question, can 
+that line come out?  Yes or no, are we using it?  And if the answer is we're 
+not using it, it comes out immediately.  So, yep, I think the answer would 
+be as soon as you can get it out, you should get it out.  
+Joon Kim:	And who makes that call? 
+Dr. Inaba: 	Our residents, fellows, attendings.  
+Joon Kim:	So if they don't need large-volume resuscitation, then you can take it out. 
+Dr. Inaba: 	Or if they need large-volume resuscitation and you can get a peripheral IV 
+on them, we always try every day, because it's always better to have a 
+peripheral IV, always, always better.  
+Maura:	Then just the steps of removing the line, just walk us through them.  
+Dr. Inaba: 	To remove a line, it's very straightforward, actually, all you do is pull the 
+tape off and then snip the stitch and you don't need to leave the stitch in 
+place and there's no stitching of anything, so you need to make sure if 
+there's any little round stitch in the skin, you can get rid of that and then 
+it's simple really, you pull it out, and it's important you don't splash 
+yourself, because when it comes out there's going to be blood on the end.  
+It could be infected, so you want to make sure that you don't get splashed 
+and that gets disposed of.  Some places routinely culture the lines, we 
+don't do that.  If it's coming out because you're worried that it's infected a 
+little bit of it can be sent off, otherwise the dressing goes on there and 
+that's it.  You can put some pressure on it for a couple minutes, but it's 
+totally not necessary. 
+Q:	So if it's infected or if there's no use for the line, they're going to remove 
+the line. 	  
+Dr. Inaba: 	Yep.  If it's not working, yeah.  
+Maura:	Great, any last questions?  
+Joon Kim:	During the whole procedure, you have a resident that's doing it, is there 
+any point where they come across a complication that they might not 
+know what to do or they should know what to do.  
+Dr. Inaba: 	I mean, if it's their first time and the wire gets'it depends, if they had 
+teaching from you guys, but they may not, they might be persisting, trying 
+to yank out a wire through the needle and preserve it.  They may hit 
+arterial bleeding and don't know what to do, I suppose there's spots, 
+definitely spots.  Especially if an intern's putting one in, probably more 
+important that someone's watching.  
+Maura:	Thank you Dr. Inaba.  
+[END OF INTERVIEW]
+
+

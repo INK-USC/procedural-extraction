@@ -1,0 +1,122 @@
+Task S.1: 	Prepare Self and Equipment (39, 40, 41)
+Step S.1.1: Put on protective gear (39, 40)
+Step S.1.2: Ensure kit has everything you need and that the equipment will work together properly (40, 41)		
+
+Task S.2: 	Identify which site you are going to use (34) 
+IF concerned about pulmonary function (risk to patient is severe if pneumothorax occurs) (217), IF there is need to thread a transvenous pacemaker (223) or IF coagulopathic patient and concerned about subclavian bleeding (279), THEN GOTO BRANCH A
+IF have reasonable and easy approach to the subclavian (237), THEN GOTO BRANCH B
+IF you need emergency vascular access (177), IF it is short term (177) or IF coagulopathic patient and concerned about subclavian bleeding (279), THEN GOTO BRANCH C
+
+BRANCH A: Procedure for the Internal Jugular Location
+Task A.3: 	Prepare and position patient for Internal Jugular
+Step A.3.1: Drape the patient (head to toe)
+Step A.3.2: Position patient prone (393) 
+Step A.3.3: Give local anesthetic if patient can feel pain (441)
+
+Task A.4: 	Perform puncture
+Step A.4.1: Feel for the carotid pulse (638) between the two bellies of the sternocleidomastoid muscle (640).  Pull carotid out of the way and check with ultrasound to see if you have a compressible vessel along side of the artery (643)
+Step A.4.2: Make a selection between plastic angiocath or metal needle (471) Assemble syringe (464) and check that needle will accommodate guidewire by passing the wire through the needle (468)
+
+Step A.4.3: 	Use ultrasound to confirm the position of the vein before the puncture (416)
+
+Step A.4.4: Perform puncture by tightening the skin (519), flattening out the needle (519) aiming for the vessel (505) and advancing the needle (519) with a bit of negative pressure on syringe (522)
+
+Step A.4.5: IF get free flow of blood, THEN GOTO Task A.5
+
+
+Task A.5: 	Pass guidewire (42)
+
+Step A.5.1: Disconnect syringe while keeping thumb over end of needle to avoid air embolisms (563).
+Step A.5.2: Take guidewire and pass guidewire through (566). 
+Step A.5.3: Take out needle (569) and put a clamp on the end of the guidewire (571) 	
+
+Task A.6: 	Place and secure catheter (43)
+Step A.6.1: Make a quarter inch incision using the dull side of 15-blade scalpel along side of guidewire (573)
+Step A.6.2: Insert the catheter 
+IF unsure, or getting pulsatile flow (669), THEN hook the transducer to the barrel of the needle and look at waveform (671) OR send blood for blood gas (673) OR hook up IV bag to needle and lower below level of bed (676)
+Step A.6.3: Hook up various lines (45)
+Step A.6.4: Secure catheter (44)
+Step A.6.5: 	Place dressing (44)
+
+Task A.7:      Confirmation of catheter location
+
+BRANCH B: Procedure for the Subclavian Location
+
+Task B.3: 	Prepare and position patient for SUBCLAVIAN
+Step B.3.1: Drape the patient (head to toe)
+Step B.3.2: For subclavian, position patient in slight reverse Trendelenberg (394) 
+IF know it is going to be a tough difficult stick (405), THEN extend the arm to allow better access (403). May put a restraint on the extended arm (405)
+Step B.3.3: Give local anesthetic if patient can feel pain (441)
+
+Task B.4: 	Perform puncture
+Step B.4.1: Confirm subclavian anatomical landmarks (413), by feeling for the sternal notch and curvature of the clavicle (417).  Initial puncture is two finger breadths below the junction of the middle and the thistle third of the clavicle (515) 
+Step B.4.2: Make a selection between plastic angiocath or metal needle (471). Assemble syringe (464) and check that needle will accommodate guidewire by passing the wire through the needle (468)
+
+Step B.4.3: 	Reconfirm anatomical landmarks (414) 
+
+Step B.4.4: 	Perform puncture by tightening the skin (519), flattening out the needle (519) aiming for the vessel (505) and advancing the needle until you feel the clavicle (519), then slightly increase needle angle and advance it underneath the clavicle (520) with a bit of negative pressure on syringe (522)
+
+Step B.4.5: IF get free flow of blood, THEN GOTO Task B.5
+
+Task B.5: 	Pass guidewire (42)
+
+Step B.5.1.1: Disconnect syringe while keeping thumb over end of needle to avoid air embolisms (563).
+Step B.5.1.2: Take guidewire and pass guidewire through (566). 
+Step B.5.1.3: Take out needle (569) and put a clamp on the end of the guidewire (571) 	
+
+Step B.5.2: IF inserting a triple lumen, THEN take the following steps:
+Step B.5.2.1: Take dilator from kit fror f       from kit (578) and unclamp guidewire (579)
+Step B.5.2.2: Hold guidewire at the skin (579) and pass the introducer needle with the dialator over the guidewire (580).
+Step B.5.2.3: As guidewire sticks out of the end of the dialator, put clamp back on (581).
+Step B.5.2.4: Hold guidewire steady in one position (582) and advance the dialator (583). Run it back and forth a few times to establish track to pass catheter (583). 
+Step B.5.2.5: Pull back on dilator (586) and keep finger on tip of where guidewire enters skin (586). 
+Step B.5.2.6: Take off clamp (587), take off guidewire (587) and take off the introducer needle (588) . 
+Step B.5.2.7: Put triple lumen over guidewire (588) and feed it out, making sure that there is guidewire coming out of end of catheter (589)
+Step B.5.2.8: Put the clamp back on the guidewire (590)
+
+Step B.5.3: IF you encounter resistance while inserting the guidewire, THEN remove the guidewire, put the syringe back on the needle (530), reposition the tip of the needle until you get good blood flow (531) and THEN GOTO Step B.5.1 (532)
+IF you lacerate the artery (613), THEN apply pressure with a four by four (617) to stop blood loss and watch the clock for five minutes (618) while maintaining pressure.
+IF there is evidence of ongoing blood loss (623), THEN call for a surgical consultation (624)
+IF the guidewire induces arrhythmia (550), THEN remove the guidewire (554)
+
+Task B.6:        Place and secure catheter (43)
+Step B.6.1: Make a quarter inch incision using the dull side of 15-blade scalpel, along side of guidewire (573)
+Step B.6.2: Insert the catheter 
+IF catheter induces arrhythmia (555), THEN remove catheter (556) 
+Step B.6.3: Hook up various lines (45)
+Step B.6.4: Secure catheter (44)
+Step B.6.5: Place dressing (44) 
+
+Task B.7:      Confirmation of catheter location
+Step B.7.1: 	Order and check x-ray for position of the tip of the catheter to ensure not too low or in wrong direction (753) 
+
+BRANCH C: Procedure for the Femoral Location
+
+Task C.3: 	Prepare and position patient for FEMORAL
+Step C.3.1: Drape the patient
+Step C.3.2: Position patient prone (393) 
+Step C.3.3: Give local anesthetic if patient can feel pain (441)
+
+Task C.4: 	Perform puncture DR. Belzberg SAYS YELLOW PARAS BELOW ARE “WRONG PASTE”
+Step C.4.1: Feel for the carotid pulse (638) between the two bellies of the sternocleidomastoid muscle (640).  Pull carotid out of the way and check with ultrasound to see if you have a compressible vessel along side of the artery (643)
+Step C.4.2: Make a selection between plastic angiocath or metal needle (471) Assemble syringe (464) and check that needle will accommodate guidewire by passing the wire through the needle (468)
+
+Step C.4.3: 	Use ultrasound to confirm the position of the vein before the puncture (416)
+Step C.4.4: Perform puncture by tightening the skin (519), flattening out the needle (519) aiming for the vessel (505) and advancing the needle (519) with a bit of negative pressure on syringe (522)
+
+Step C.4.5: IF get free flow of blood, THEN GOTO Task C.5.
+
+Task C.5: 	Pass guidewire (42)
+Step C.5.1: Disconnect syringe while keeping thumb over end of needle to avoid air embolisms (563).
+Step C.5.2: Take guidewire and pass guidewire through (566). 
+Step C.5.3: Take out needle (569) and put a clamp on the end of the guidewire (571) 	
+
+Task C.6: 	Place and secure catheter (43)
+Step C.6.1: Make a quarter inch incision using the dull side of 15-blade scalpel along side of guidewire (573)
+Step C.6.2: Insert the catheter 
+IF unsure getting pulsatile flow (669), THEN hook the transducer to the barrel of the needle and look at waveform (671) OR send blood for blood gas (673) OR hook up IV bag to needle and lower below level of bed (676)
+Step C.6.3: Hook up various lines (45)
+Step C.6.4: Secure catheter (44)
+Step C.6.5: 	Place dressing (44)
+
+Task C.7:      Confirmation of catheter location

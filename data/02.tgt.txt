@@ -1,0 +1,109 @@
+Task S.1: Choose where you want to place the catheter (131)
+
+Step S.1.1: Choose the site in which you want to insert the catheter (131)
+IF it is a trauma situation (208), the airway is not secure (208), you have limited access to the IJ or subclavians (209), and there are significant clavicle fractures (232) THEN GOTO BRANCH C (210).
+IF the situation is elective (212) or non-emergent (212) THEN GOTO BRANCH A (213).
+Step S.1.2: Choose the side on which you want to insert the catheter
+IF the patient has a deep venous thrombosis on a particular side (249) THEN choose the opposite side (250)
+GOTO BRANCH B
+
+BRANCH A: Procedure for Subclavian
+Task A.2: Prepare the equipment, the patient, and yourself (153)
+
+IF it is a life or death situation, THEN use whatever central line kit is available (167)
+IF you have more time, THEN select a central line kit that is more complete (168)
+Step A.2.2: Place the patient in a Trendelenberg position (197)
+Step A.2.3: Lower the bed guardrails (270) and position the bed at a height that is appropriate for you (271)
+Step A.2.4: Don sterile protective gear (e.g., gown) (284)
+Step A.2.5: Prep both the subclavian area and the neck with clorhexadrine (275, 278)
+Step A.2.6: Open the central line kit (283), test the equipment by flushing it with saline (287), ensure wire moves back and forth on the roll (288), and ensure knife comes in and out of protective sheath (293)
+Step A.2.7: Identify the landmarks (295) – around the delta-pectoral group, about one or two finger breadths below the clavicle (297) – and numb the location with Lidocaine (298)
+Task A.3: Place the catheter (154)
+
+Step A.3.1: Insert the needle through the skin of the numbed area (299) and hit the clavicle (316)
+Step A.3.2: Press the needle down so that it is sitting below the level of the clavicle (317)
+Step A.3.3: Advance the needle while aspirating on the syringe (321) until you see blood (325)
+IF the blood is dark (335) and the patient is not hypotensive (336) THEN assume you are in the vein (335) GOTO Step A.3.4
+IF the blood is bright red (339) THEN take the needle out (340), compress the area (342) GOTO Step A.3.1
+Step A.3.4: Unscrew the syringe
+Step A.3.5: Insert the wire through the needle (350) leaving approximately seven inches out (353) while looking and listening to the monitor (355)
+IF the patient is developing arrhrythmias (361) THEN pull the needle back a bit (362)
+Step A.3.6: Remove the needle (354)
+Step A.3.7: Use the blunt end of the knife (396) to make a stab incision over the wire (363, 397)
+Step A.3.8: Place the dilator over the wire (365)
+Step A.3.9: Take out the dilator (368)
+Step A.3.10: Prepare the catheter
+IF you are using a triple lumen catheter (369) THEN open the brown port (373)
+Step A.3.11: Thread the catheter over the wire
+IF you are using a triple lumen catheter (369) THEN make sure the wire comes out the brown port (378)
+Step A.3.12: Hold onto the wire and advance the catheter into the patient (380)
+Step A.3.13: Remove the wire (382)
+Step A.3.14: Using a syringe with saline, draw back and then flush the catheter to make sure it flows properly (383)
+Task A.4: Secure the catheter (155)
+
+Step A.4.1: Suture the catheter onto the patient’s skin (387) and apply a sterile dressing (387)
+Step A.4.2: Remove the drapes (388)
+Step A.4.3: Place patient in a comfortable position (388)
+Step A.4.4: Get a chest X-ray (389)
+
+
+BRANCH B: Procedure for IJ
+Task B.2: Prepare the equipment, the patient, and yourself (153)
+
+IF it is a life or death situation, THEN use whatever central line kit is available (167)
+IF you have more time, THEN select a central line kit that is more complete (168)
+Step B.2.2: Place the patient in a Trendelenberg position (197) and turn the patient’s head away from the area (433)
+Step B.2.3: Sterilize the ultrasound machine with sterile drape (437)
+Task B.3: Place the catheter (154)
+
+Step B.3.1: Place ultrasound probe near the head of the clavicle and march your way to the neck (439). Position the probe so that the vein is in the center of the screen (450).
+Step B.3.2: Insert the wire into the vein, using the ultrasound to guide you (451).
+Step B.3.3: Insert the wire through the needle (350) leaving approximately seven inches out (353) while looking and listening to the monitor (355)
+IF the patient is developing arrhrythmias (361) THEN pull the needle back a bit (362)
+Step B.3.4: Remove the needle (354)
+Step B.3.5: Use the blunt end of the knife (396) to make a stab incision over the wire (363, 397)
+Step B.3.6: Place the dilator over the wire (365)
+Step B.3.7: Take out the dilator (368)
+Step B.3.8: Prepare the catheter
+IF you are using a triple lumen catheter (369) THEN open the brown port (373)
+Step B.3.9: Thread the catheter over the wire
+IF you are using a triple lumen catheter (369) THEN make sure the wire comes out the brown port (378)
+Step B.3.10: Hold onto the wire and advance the catheter into the patient (380)
+Step B.3.11: Remove the wire (382)
+Step B.3.12: Using a syringe with saline, draw back and then flush the catheter to make sure it flows properly (383)
+Task B.4: Secure the catheter (155)
+
+Step B.4.1: Suture the catheter onto the patient’s skin (387) and apply a sterile dressing (387)
+Step B.4.2: Remove the drapes (388)
+Step B.4.3: Place patient in a comfortable position (388)
+Step B.4.4: Get a chest X-ray (389)
+
+
+BRANCH C: Procedure for Femorals
+Task C.2: Prepare the equipment, the patient, and yourself (153)
+
+IF it is a life or death situation, THEN use whatever central line kit is available (167)
+IF you have more time, THEN select a central line kit that is more complete (168)
+Step C.2.2: Place the patient in a flat position (228).
+Task C.3: Place the catheter (154)
+
+Step C.3.1: Palpate the groin (466) and insert the needle approximately one finger’s breadth (469) medial to where you feel pulsation (467).
+Step C.3.2: Insert the wire into the vein, using the ultrasound to guide you (451).
+Step C.3.3: Insert the wire through the needle (350) leaving approximately seven inches out (353)
+Step C.3.4: Remove the needle (354)
+Step C.3.5: Use the blunt end of the knife (396) to make a stab incision over the wire (363, 397)
+Step C.3.6: Place the dilator over the wire (365)
+Step C.3.7: Take out the dilator (368)
+Step C.3.8: Prepare the catheter
+IF you are using a triple lumen catheter (369) THEN open the brown port (373)
+Step C.3.9: Thread the catheter over the wire
+IF you are using a triple lumen catheter (369) THEN make sure the wire comes out the brown port (378)
+Step C.3.10: Hold onto the wire and advance the catheter into the patient (380)
+Step C.3.11: Remove the wire (382)
+Step C.3.12: Using a syringe with saline, draw back and then flush the catheter to make sure it flows properly (383)
+Task C.4: Secure the catheter (155)
+
+Step C.4.1: Suture the catheter onto the patient’s skin (387) and apply a sterile dressing (387)
+Step C.4.2: Remove the drapes (388)
+Step C.4.3: Place patient in a comfortable position (388)
+

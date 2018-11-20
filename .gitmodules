@@ -1,0 +1,6 @@
+[submodule "models/pytorch-pretrained-BERT"]
+	path = models/pytorch-pretrained-BERT
+	url = https://github.com/huggingface/pytorch-pretrained-BERT
+[submodule "models/LM-LSTM-CRF"]
+	path = models/LM-LSTM-CRF
+	url = https://github.com/LiyuanLucasLiu/LM-LSTM-CRF.git

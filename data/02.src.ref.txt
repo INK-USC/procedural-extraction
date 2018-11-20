@@ -1,0 +1,618 @@
+KY: 	Today is July 29th.  And we're here with Dr. Andrew Tang, and we are now 
+going to do the cognitive task analysis on the central line placement or 
+central venous catheter placement.  Let me start off by asking you, first of 
+all, thanking you for your patience, Dr. Tang, and asking you about how 
+many of the CVC or central line placements you have done?
+Tang:	I haven't kept track, but it's in the hundreds.
+KY:	Much more frequent procedure than the (crackotheodomy?).  So 
+hundreds over a span of about seven years since you've been a surgeon?
+Tang:	Seven years.
+KY:	Okay.  And when was the last time you've performed one?
+Tang:	Yesterday.
+KY:	Okay.  All righty.  So the objective here then is of the central line 
+placement is what?
+Tang:	The objectives of a central line placement is to deliver medications, fluid, 
+blood, nutrition.  For the most part, that is the reason.  
+Q:	For me, I have trouble deciphering between objective and reason, 
+because sometimes they're very similar.  So if I were to ask for your 
+assistance in sort of discriminating between the two, what would be the 
+objective of doing a CVC versus the reason?
+Tang:	Okay.  I see what you're saying.  I understand.  The objective is to 
+establish venous access to a central vein.  The central vein meaning a 
+vein very close to the heart.
+Q:	Thank you.  And the reason would be because you want to have this 
+access to deliver the medicine, the fluids, the blood, nutrition?
+Tang:	That's correct.
+Q:	Thank you.  You're coming into the room, you see the patient there, what 
+are some indications that would signal to you that you need to perform a 
+CVC?
+Tang:	For the most part, the central line is not an emergency procedure.  How 
+about this?  I'll divide it into an emergency indication and a non-emergent 
+indication.  In the emergent indication, for example, in trauma, if the 
+patient is hypotensive and you're suspecting bleeding, for example, and 
+you do intend to give large volume resuscitation, those will be an 
+indication in an emergency.  In a non-emergent setting it would be one, 
+for example, to give parenteral nutrition for a patient who cannot eat on 
+their own and you can't feed the patient interally, meaning you can't feed 
+their intestines.  You have to provide nourishment through an IV.  There 
+are different formulations of nourishment and the formulation that we use 
+more often, which has more calories can only be given through a central 
+vein, a large vein, because it is sclerosing to the peripheral veins.  
+Peripheral veins meaning the veins in your arms and your legs.  Other 
+indications... we're talking about indications, right?
+Q:	Correct.
+Tang:	Other indication is that through one type of central line is called a cordis 
+catheter.  It's a large OR catheter.  The cordis can... we can give fluid 
+through a cordis a lot faster than we can gave it through a peripheral IV, 
+because the diameter is a lot larger and it's a shorter catheter.  So that 
+can be used for resuscitation as well in a patient, perhaps not in dire 
+straits, but someone who's very sick.  And also from a cordis line we can 
+float another instrument.  It's called a Swan Ganz catheter, and it can only 
+be inserted through a cordis.  So a Swan Ganz catheter can be used to 
+measure the patient's hemodynamics.  So that would be one indication.  If 
+we intend to float a Swan catheter, then we have to have the cordis 
+catheter and it has to be a central line.  Other indications (sic) is if the 
+patient is in the intensive care unit and we are unsure of the patient's fluid 
+status, whether they've got too much fluid on board, too little fluid on 
+board, and we're trying to get it just right, central line can measure the 
+patient's central venous pressure, which can also give us information 
+about a patient's overall fluid status, that can guide us in our 
+aggressiveness of resuscitation.  Other indications, the central line has... 
+some central lines have three ports, so we can give multiple agents 
+through one line versus having peripheral lines.  Each line can only be run 
+with one agent.
+Q:	So that right there you explained was for indications for an emergent 
+situation?
+Tang:	No, I moved on to the non-emergent.
+Q:	Oh, I mean... okay.  You also said that you can use a CVC to monitor if 
+their... I'm trying to remember.  It almost made it sound like you used it as 
+a way to measure something.
+Tang:	Absolutely.  Right.
+Q:	Okay.  So that's in addition to the objective of being able to provide 
+medicine and fluids.  So it's another...
+Tang:	Exactly.  Those are additional indications, I guess.  Additional indications.
+Q:	Okay.  Are there any contraindications for when you would not want to 
+perform the CVC?
+Tang:	Sure.  If the patient has active bacteremia sepsis.  That's a relative 
+contraindication.  If the intended site of insertion has an infection over it, 
+then obviously you don't want to insert a catheter through an infected 
+field.  If the patient's coagulapathic, meaning they're not clotting well, then 
+perhaps the coagulopathy should be corrected first prior to inserting the 
+catheter.  I think those are main contraindications.
+Q:	I couldn't help but notice you said 'relative.'  So are there any absolute?
+Tang:	The ones I mentioned afterwards are absolute.
+Q:	Okay.  All right.  And how would you know or how long does it typically 
+take to successfully perform a CVC?
+Tang:	Ideally, about five to ten minutes.
+Q:	Five to ten minutes.  Okay.  And how would you know that it was 
+successfully performed?
+Tang:	A couple ways.  One is, after the catheter is in place, you can draw blood 
+back from the catheter, and you can flush fluid into the catheter, and both 
+ways it's going easily, meaning you can suction out easily and you can 
+flush easily.  Another way is by x-ray to make absolutely sure that it is 
+sitting in the right place.
+Q:	Okay.  So x-ray, obviously, would be one of the equipment's that we 
+need.  What are some other equipments that we would need in order to 
+successfully perform this procedure?
+Tang:	Okay.  The equipments would be usually we have a central line kit, and 
+the kit should contain a hat, gloves, a mask, sterile gowns.  Ideally, there 
+should be eye protection as well, but that's not in the kit itself.  So that's all 
+for personal protection.  And there should be a gown or a drape for the 
+patient, which covers them from head to toe.  There should be Betadine 
+scrubs, but nowadays we use chlorhexidine, so there should be 
+chlorhexidine around to clean the area that you intend to insert through.  
+There should be a large gauge needle with a syringe.  There should be a 
+wire.  There should be a knife, a dilator, the catheter itself.  There should 
+be the hubcaps that you place at the end of the catheter.  There should 
+be a sterile dressing that you apply to the skin, and there should be some 
+stitches around, so you can secure the catheter to the skin.
+Q:	And most of that is found inside the kit?
+Tang:	Most of the stuff.
+Q:	Okay.  Most of the stuff.  Now, are there different types of kits?
+Tang:	There are different types of central line kits.  We have a couple different 
+types of kits here, and they vary in their degree of completeness.
+Q:	Oh, of how much of the items is inside?
+Tang:	That I just mentioned.
+Q:	Okay.  
+Tang:	That's right.
+Q:	So as the surgeon, do you make the decision of which kit you're going to 
+choose to use or is it already in there when you get there?
+Tang:	Well, ideally, we want to use the kit that contains nearly everything that I 
+mentioned, but in circumstances where it's not available or in a trauma 
+situation where we don't want to wait, then I'll use whatever's around.
+Q:	Okay.  Thank you.  CVC or any medical procedure, for that matter, is a 
+very sort of complex procedure, and at this point, I would appreciate your 
+help in breaking that complex piece of procedure into some major chunks, 
+into a list of tasks, if you will.
+Tang:	So just like last time, right?
+Q:	Yes.
+Tang:	Okay.  So as far as procedure goes, number one is to make sure you 
+have all the equipment.  Number two is to position the patient.  Number 
+three is to identify where you want to insert the catheter, because there 
+are six potential sites.  Number four is to clean the area thoroughly.  
+Number five is to drape yourself.  Number six is to drape the patient.  
+Number seven is to numb the skin.  Number eight is to establish venous 
+access, meaning use the needle and gain entrance into the vein.  Next, 
+pass the wire.  Next, take out the needle, but leave the wire in.  Next, 
+make a stabbing incision at the skin level where the wire is.  Next, pass 
+the dilator over the wire, and then remove it.  Next, insert the catheter.  
+Next, take out the wire.  Next, flush the catheter and draw back on the 
+catheter.  Rather, you should draw back first, and then flush second.  
+Next, suture to the skin.  Next, apply a sterile dressing.  Next, put the caps 
+on the ports.  And, lastly, to remove the dressing or remove the drape.
+Q:	Okay.  So I have 20 different larger steps, and Craig here will take these 
+one at a time and break it down further into more detailed steps.
+Tang:	Sure.
+Q:	Okay.  I have 19.  Is there a way that we can chop some of these down 
+to... if I look through these steps,  equipment, position patient, there's 
+items that are patient-oriented and there's items that are self-oriented, 
+and it looks like there's things about prepping the patient, prepping 
+yourself, identifying location, and then...
+Tang:	How about I break it down this way, I'll try to make fewer larger steps.
+Q:	That'd be great.
+Tang:	One, is make sure all the equipment's there.  Two, is position the patient.  
+Three, is sterilize the patient and sterilize yourself.  Four, place the 
+catheter.  Five, secure the catheter.
+Q:	Okay.  So five big general steps.  Thank you very much.  And so what I'm 
+going to do, Dr. Tang, is that I'm going to go through each of these five 
+steps and maybe talk more... drill down more about smaller actions, and 
+maybe decision steps that you come across for each of the steps.
+Tang:	Sure.
+Q:	Okay.  So you're being called, 'Dr. Tang, we need you for an emergency 
+CVC.'  You're going into the room.  So your mindset, you already know 
+you're going to do this, and then you walk into the room.  Your first step is 
+the equipment.  Is that... I think it was asked earlier, is that a decision step 
+that you get to make at that point?  Do you say, 'Please, go get me this 
+equipment or this kit?'  Or is it just whatever's there?
+Tang:	It depends on the nature of the emergency.  If it's live or die, I'll take 
+whatever's available.  If I have some time, if it's even a couple minutes, 
+then I will get the preferred kit.
+Q:	Okay.  And the preferred kit... okay, you'd get the preferred kit, and the 
+preferred kit would that be...
+Tang:	The preferred kit is a little more complete in the equipment that I would 
+need.  It would have a gown and a glove, and it would have a mask in the 
+kit itself.  It has a larger drape for the patient, for the most part.
+Q:	Now, you talked about the different catheters.  At that point, you go to the 
+see the patient based on, maybe kind of like, if/then statements.  If you 
+would use a cordis catheter... a kit with a cordis catheter versus a kit with 
+a triple lumen catheter, I think you mentioned, what would be the decision 
+steps that you would make to use one or the other, or would you always 
+use a cordis first?
+Tang:	I think it's safe to always put in a cordis.  The only disadvantage to having 
+a cordis is, it doesn't have three ports, it only has one port.  But the 
+advantage is that a triple-lumen catheter can be inserted through a cordis.  
+So if I had make an absolute choice between the two, I would put in the 
+cordis.
+Q:	Okay.  Is there any indications or any reason you would put in the triple- 
+lumen versus a cordis as the first catheter?
+Tang:	No, not necessarily.
+Q:	So positioning the patient, what position would the patient be in?
+Tang:	I would have to make a decision as to which site I'm going to insert the 
+catheter.  So it's going to be...
+Q:	So there's a... I'm sorry.  There's a decision before positioning the patient 
+of what site you're going to locate?
+Tang:	Right.  I mean, your potential sites are the internal jugular veins, which are 
+in the neck, your subclavian veins, which are underneath clavicles, or 
+your femoral veins, which are in your groin.  So if I would like to place a 
+line in the IJ or subclavian location, I would prefer the patient to be in a 
+Trendelenberg position.  'Trendelenberg' meaning head down.
+Q:	So the head down.
+Tang:	Head down.  So more blood pools towards those veins.  The veins get 
+distended, it's easier to access them.
+Q:	Can I stop you there for one second?  
+Tang:	Yeah.
+Q:	Okay.  You go in and you walk into the room, and then you're going to 
+decide.  How do you decide which site to do first or what's your preferable 
+side?
+Tang:	It really depends on the situation that you're in.  The femoral is fairly easy, 
+and let's say in a trauma situation and the airway is not secure, there's a 
+team securing the airway, there's a lot of activities up top, then the groin's 
+usually left free.  So a groin line or femoral line would be a reasonable 
+line, because you don't want to fight with other people in an upper body.  
+But in a situation that's elective, non-emergent, my preferred choice would 
+be the subclavian, because that's what I'm most comfortable with, and it's 
+also been shown that it carries the least of amount of infectious risk for 
+the patient, and it's most comfortable for the patient.
+Q:	Okay.
+KY:	So if there's access up top, then go with the subclavian.  If there's limited 
+to the head or chest area, then go with the femoral then.
+Tang:	That's correct.  The femoral is the last choice unless it's an emergent 
+situation.  In an elective situation the femoral line is the last choice, 
+because it's uncomfortable for the patient, but more importantly, it has the 
+highest infectious risk.
+Q:	The femoral area?
+Tang:	Yes.  It's a relatively dirty area on the body.
+Q:	Is the position the same for all three...
+Tang:	No.  For example, if I'm doing a subclavian or jugular line, the patient 
+should be in a head down position.  If I'm doing a femoral line, they can 
+be in a flat position.
+KY:	We talked about the subclavian... in an emergent situation, the 
+subclavian, if there's access to the chest, would still be preferable over 
+femoral in an emergency situation.  Am I correct?  Did I hear you correct?
+Tang:	That is correct.  Unless there's very significant clavicle fractures and 
+things of that sort.  Barring any of that, I would still prefer a subclavian 
+line.
+KY:	Okay.  What would be the criteria for deciding internal jugular, an IJ over... 
+and that would come next after subclavian I assume, since that's your 
+preferred, but that comes before a femoral, though.
+Tang:	Correct.  The reason it's less desirable compared to a subclavian is 
+because, one, is slightly... it carries a slightly higher infectious risk than 
+the subclavian line and, two, it's uncomfortable for the patient, because 
+it's a line hanging around their neck.  Every time they move, they turn 
+their head, there are three ports dangling around, and that's the reason 
+why I prefer the jugular as my second choice.  And, lastly, the femoral line 
+is my last choice for the reasons I mentioned before.
+Q:	You mentioned there were six sites, so I'm assuming it's two, two and 
+two?
+Tang:	Yeah, everything's double.
+Q:	Is there a reason why you would choose a left side versus a right side or...
+Tang:	Well, yeah, there are reasons.  For example, if a patient has a known 
+deep venous thrombosis on a particular side, then you may want to go to 
+the other side, because that vein is clotted.  Barring stuff like that, then it's 
+a personal preference whether you do the right or left.
+Q:	Okay.  Thanks.  In prepping the patient and prepping yourself, what would 
+the actions... you kind of discussed what the actions would be for the 
+patient.  Could you go... you've decided a landmark.  You've decided... 
+let's just say you have access.  It's non-emergency.  You're going to 
+through the subclavicle (sic), and so how would you go about... do you 
+prep yourself first?  Do you prep your patient first?  What are the actions, 
+and are there any decisions that you would make during that time? 
+Tang:	I mean, the decision that should be made... well, first of all, I have to make 
+the decision which site I'm going in, because that will determine how the 
+patient is positioned.  Nowadays, the standard of care for inserting it into a 
+jugular line is under ultrasound guidance.  So if I do decide to do an 
+internal jugular line, I have to make sure an ultrasound is there.  So which 
+line would you prefer me to talk about?
+Q:	Your most preferred site first?
+Tang:	Okay.  So, for example, I'm doing a subclavian line.  Let's say that I'll do 
+the right side, and you're asking me to take you through the steps, right?
+Q:	Right.
+Tang:	Okay.  So what I would do first is let down the guardrails on the bed, 
+position the bed in a (sic) appropriate height for me, and then put the 
+patient in a head down position.
+Q:	Is the position awake at this time?
+Tang:	Yeah.  This is a procedure that can be done with the patient wide awake.  
+Then I would use chlorhexidine and that clean that area widely, a lot wider 
+than I would necessarily need, because I want to maintain the field to be 
+sterile.  For example, usually the way I would prep it would be... I would 
+prep the neck as well just in case I can't get the subclavian and I decide to 
+go to the neck, then I would have to re-drape again.  So clean and 
+drape... prep the neck.  I would prep all the way to the other side, past the 
+midline, and then I would prep to the nipple, and I would prep all the way 
+to the deltoids.  So I would use chlorhexidine to do the prep.  Then I would 
+make sure my equipment is all open, that the central line kit is open, so 
+that I can access things within the kit, sterilely.  Next, I would have myself 
+gowned and draped, sterilely.  And then I would put a sterile drape on the 
+patient, exposing the area that I intend to use.  In this case, I would have 
+the subclavian area exposed.  Then I would test my equipment in the kit 
+to make sure that all the ports are flushing nicely with saline, and make 
+sure the wire moves back and forth in the roll.  It comes in a ... I don't 
+think you've ever seen before, but it comes in a coil that you can uncoil.  I 
+don't know if that makes sense.
+Q:	Yeah, it does.
+Tang:	You kind of have to see it.  Make sure that that moves easily.  Make sure 
+the knife comes in and out of the protective sheath.  Next, I would 
+indentify my landmarks.  For the subclavian it should be about two-thirds 
+of the way lateral from the clavicular edge.  So usually around the delta- 
+pectoral group, about one or two finger breadths below the clavicle.  I 
+would get my Lidocaine and numb up that place.  Next, I would use my 
+large gauge needle, which comes in the kit.  I would insert the needle 
+through the skin, through the numbed area.
+Q:	Can I stop you here?
+Tang:	Sure.
+Q:	Because it looks like we're going into the area of placing the catheter, and 
+before you get to there I have one question.  You mentioned that you 
+raise the table, and then you put it in Trendelenberg.  Is there an angle or 
+does it depend on the weight and the physical size of the individual of how 
+much of an angle it is?  Is there a seatbelt?
+Tang:	No.  I mean, the patient's not hanging upside down.  So it's a slight 
+degree of Trendelenberg.  So the position, and the patient's not sliding off 
+the bed.  
+Q:	Okay.  So you're prepped, the patient's prepped.  You're going to do the 
+subclavicle (sic).  You've done the anatomical landmarks, and you've 
+taken your needle and...
+Tang:	Okay.   Then the subclavian then runs underneath the clavicle, and so the 
+direction of the needle travel should be towards the sternal notch.  So 
+that's my target.  And then the way I do it is, I insert the needle, I hit the 
+clavicle on purpose, and then I do press the needle down, so that the 
+needle's now sitting below the level of the clavicle.  So I hit the clavicle.  I 
+press everything down without changing the direction of the needle, 
+because I don't want to hit the lung, which is right underneath.  So if you 
+press everything this way, and then advance my needle again, and I'm 
+aspirating the whole time as I'm back on the needle.
+Q:	Pulling back on the needle?
+Tang:	That's correct.  And I'm going to know that I'm in the subclavian vein when 
+I see blood coming back.  It should be dark blood, not bright red blood.  
+Bright red blood indicates that that's the subclavian artery, which is not 
+the target.
+Q:	So is dark red blood... okay.  And if it comes back light blood, then you're 
+in the artery.  Is there any way that you might get light blood in the vein?
+Tang:	Usually, it's the other way around.  You can have darker blood in the 
+artery, if the patient is inoxygenated for a while in an emergent situation, 
+for example, then the arterial blood can look darker.
+Q:	Okay.  So at this point do you know if you're in the vein or not depending 
+on the color of your blood or you're making that assumption?
+Tang:	If it's dark, then you can assume that it's in the vein.  And if the patient is 
+not hypotensive.  If you have a good blood pressure, you can unscrew the 
+syringe.  If it squirts at you, it's probably arterial.  If it simply drips, then it's 
+venous.
+Q:	What can you do if it's bright red?  What's your next step?
+Tang:	Take the needle out.
+Q:	And start over?
+Tang:	Compress it.  Hold some pressure for a little while.
+[DR. TANG'S PAGER INTERRUPTS INTERVIEW]
+Tang:	Can I answer this page?
+[STOP INTERVIEW]
+[RESTART INTERVIEW]
+Tang:	Okay.  So I hit the vein and it's dark blood, and when I take off the syringe 
+from the needle, the blood is dripping and it's not squirting at me, so I 
+know it's venous.  Next, I apply what's called a Seldinger Technique.  So I 
+use the wire that comes in the kit, and insert it through the needle.  So 
+now if you can imagine the needle has a wire going through it, right?  And 
+the needle's fairly... I mean, the wire's fairly long, so I insert a large 
+portion of the wire inside leaving about this much out, so maybe about 
+seven inches out.  Next, I remove the needle.  So now the only thing 
+that's in the patient is the wire, right?  And this whole time I'm looking at 
+the monitor, I'm listening to the monitor, because the distal end of the wire 
+as it goes in there's a couple of directions it can go.  It can go into the 
+heart, the direction of the heart or it can go into the neck.  It can backtrack 
+into the internal jugular vein, which is not a big deal.  If it does goes into 
+the heart, the patient will sometimes have arrhythmias, and so the alarms 
+can tell you.  The alarms will go off if the patient is developing 
+arrhythmias.  Then I just have to pull the needle back a little bit, so that it's 
+out of the heart itself.  Next, with the wire in place I use the knife and 
+make a skin nick over the wire, so that when I use my dilator, the dilator 
+can go in easily over the wire.  So the dilator goes over the wire, son now 
+if you will, I have my vein, I have a wire sitting inside, and the dilator is 
+going into the vein over the wire.  So the wire is guiding the direction of 
+the dilator.  Next, after I made the dilation, I take out the dilator.  I get my 
+central line.  In this case, it's a triple-lumen, right?  Let's just say that it's a 
+triple-lumen kit.  A triple-lumen kit has three ports, therefore the three... so 
+there's three holes along the length of the catheter also, each hole 
+corresponds to a port.  There's a blue and a white and a brown.  The 
+brown port is the one that the wire threads through.  So I have to make 
+sure the brown port is open, because there is a little locking mechanism 
+that locks out the catheter itself, so that you can infuse fluid and 
+(inaudible)... back out.  Okay?  So I have to make sure that brown port is 
+open.  Now, with the skin having been dilator, the wire is still sitting inside 
+the vein.  I thread the catheter over the wire, and watch it come out the 
+catheter, and it should exit from the brown port.  Once it comes out of the 
+brown port, I make sure I hold onto the wire, and advance the rest of the 
+catheter into the patient.  And depending on the location, you know, 
+there's different lengths that I would insert the catheter.  And, lastly, I take 
+out the wire.  So now the only thing that's in the patient is the catheter.  
+Then I get a syringe with some saline in it and I'll draw back on the 
+catheter.  Make sure that the blood is flowing back easily, and then I'll 
+flush to make sure that the fluid goes back into the patient easily.  And 
+then, lastly, I suture the catheter into the... onto the patient's skin, and 
+then apply a sterile dressing, and then I remove the drapes, put the 
+patient in a comfortable position and get a chest x-ray.
+Q:	If we can go back to when you made your incision with the knife, is there 
+a certain way you need to do that or how do you make that opening?  Is 
+there a specific...
+Tang:	The way I do it, it's... the knife is an eleven-blade, which means it's a 
+sharp tip.  Ten-blade is a round tip.  The one that comes in the kit is a 
+sharp tip.  One side has the blade itself, the other side is blunt.  So what I 
+do is I, essentially, use the blunt end, and I put it right next to the wire 
+itself, and then I'll make a stab incision.  So, essentially, I'm enlarging the 
+skin, the skin around the area of the wire.
+Q:	All right.  So you've attached the catheter, you sutured it in, and then you 
+order the chest x-ray to verify the proper placement?
+Tang:	A couple of reasons for the chest x-ray.  One is to make sure that it's 
+properly placed, it's not into deep into the heart, it's not going to the neck, 
+because that's another direction it can go, and also at the same time one 
+of the complications with placing a subclavian catheter is you can hit the 
+lung, and so you want to make sure that the patient doesn't have 
+apneumothorax.  That's from a poached lung.
+Q:	And would you only know that due to the chest x-ray?
+Tang:	Not necessarily.  There are other ways of knowing, but for the most part, 
+it's not clinically apparent right away, because let's say that you do make 
+a hole in the lung from a needle stick, you didn't hit the vein, you hit the 
+lung itself.  What will happen is that the patient will start escaping air from 
+the lung itself into the chest cavity.  If it's a big leak, big hole, they'll have a 
+hard time breathing.  Their oxygen saturation may be low, but that usually 
+does not happen right away.
+Q:	Is a hemothorax (sic) the only risk factor if you're doing subclavian?
+Tang:	Apneumothorax?
+Q:	Thank you.  Apneumothorax.
+Tang:	Apneumo?
+Q:	Apneumo.  Thank you.
+Tang:	Apneumo.  Yeah.  Hemothorax is blood in the chest.  Hemo is air... 
+pneumo is air.  No, when you're doing a subclavian or an IJ, that carries a 
+risk of apneumothorax as well.
+Q:	So we've just completed a central venous catheter in the subclavicle (sic) 
+area, and if we can, if we can go to the next preferred site, which if you 
+have access to, I think it was, the internal jugular, and if we can go 
+through the steps on that.  You...
+Tang:	Sure, sure.  I'll talk about the pertinent differences.
+Q:	That would be great.
+Tang:	And the difference between the IJ and the subclavian, it's on the very 
+beginning of the procedure.  Once the needle is in, everything else is the 
+same.  Okay?  So the difference being, the patient would be, same thing, 
+in a Trendelenberg position.  Now, if I'm doing, let's say, the right side, I 
+would have the patient turn his head to the left, so that I can have full 
+exposure of the right side.  Now the standard of care for doing a (sic) 
+internal jugular line is with ultrasound.  Before we didn't use ultra sound, 
+now we use an ultrasound.  So I make sure that the ultrasound is 
+available, and that it's also sterilized with a sterile drape.  The probe itself 
+is not sterile, but we have a sterile drape that goes around it.  So I make 
+sure that that's all set up.  I would put the ultrasound probe, basically, 
+near the head of the clavicle and march my way to the neck, and quickly 
+enough I should be able identify two structures.  They both look like black 
+coins on the ultrasound, I guess.  They're both circular.  One should be 
+larger than the other.  The larger one is usually the vein.  And a difference 
+to... that can clue us into whether it's an artery or a vein would be to 
+compress with the ultrasound.  The vein is softer and when you put 
+pressure to it should collapse versus the artery with, you know, a 
+reasonable amount of pressure it shouldn't collapse.  And if you look real 
+closely you can actually watch the artery pulsate.  So that's how you tell 
+which one is which.  Now, next, once you have the vein isolated, I would 
+put the probe... I would position the probe in such a way that the vein itself 
+is directly in the center of the ultrasound screen.  Next, I would use the 
+needle under ultrasound guidance, place it into the vein.  I can actually 
+watch the needle go in, and once I have access into the vein everything 
+else is the same.
+Q:	And then for the femoral artery, if you don't have access to the subclavicle 
+(sic), you cannot do the internal jugular, then next is the femoral artery.  Is 
+it the femoral vein or femoral artery?
+Tang:	Femoral vein.
+Q:	Femoral vein, excuse me.  Are the procedures the same?
+Tang:	Very similar.  The only difference being the landmarks.  The landmarks for 
+the groin being the anterior superior iliac spine, which is lateral and your 
+pubic tubercle, which is medial.  The connecting... the imaginary line that 
+you draw between these two structures is your inguinal ligament, and so 
+the line that you place should be below the inguinal ligament, it should be 
+below this imaginary line that you draw.  And for a patient who is now 
+obese, you can usually feel the femoral arterial pulse by placing your 
+hand over the groin, and the vein is just medial to the artery.  So your 
+needle insertion site would be a little bit medial to where you feel the 
+pulsation, maybe by a finger breadth.  That's the only difference.
+Q:	For the subclavicle (sic) you ordered a chest x-ray.  For the Internal 
+jugular you had a...
+Tang:	I would get a chest x-ray also.
+Q:	You would get a chest x-ray for the femoral... okay.
+Tang:	No, for the IJ I would.  For femoral I would not get an x-ray of any sort.
+Q:	Okay.  So then verifying placement is done by?
+Tang:	You know, if... the reason we get x-rays, for example, for the IJ and 
+subclavian is because there's a risk of apneumothorax, which, like I said 
+before, it is usually not clinically apparent, but it will show up on a chest x-
+ray.  For the femoral, you're in a groin, you're far away, and there's no risk 
+of apneumothorax, and there should be, essentially, no risk to... very 
+minimal risk rather, to damaging surrounding structures that can't be 
+picked up by an x-ray of any sort.  So it's not useful.
+KJ:	Do you use ultrasound to check it, the location or just go by the color of 
+blood?
+Tang:	No, some people do place femoral lines with an ultrasound, I don't, but if 
+you were to use it, it's very similar to what I described for the internal 
+jugular vein.  Again, you will find the two coin structures.  The artery is 
+non-compressible, the vein is.  And it would be very similar to the IJ.
+KJ:	Would you use ultrasound to confirm the location?
+Tang:	No.  Once it's in and I'm usually very certain that it's in the vein.
+Q:	Depending on the different site, is there a decision you make to use a 
+cordis or a triple-lumen based on the subclavicle (sic), IJ or femoral area?
+Tang:	No, because you can use the triple-lumen or the cordis for all six sites.
+Q:	Is there a preference?  There's no preference for either?
+Tang:	Are you talking about location or the type of catheter?
+Q:	The type of catheter, sorry.
+Tang:	You know, the cordis, like I said, it's used for large volume, quick 
+resuscitation, because it's a larger bore, and you can always place a 
+triple-lumen catheter through a cordis.  So it's more versatile.  You can 
+always float... and you can float a Swan catheter, so it's more versatile.
+Q:	So you make that decision for you pick the location.  You already have in 
+your mind you're using a cordis or a triple, and then you choose a 
+location.
+Tang:	Exactly.
+Q:	Okay.  Thank you.
+KY:	Because you probably have to decide which kit you have, I guess.
+Tang:	Right.
+Q:	Who's performing this procedure?  What's the skill level of the person?  Is 
+it your resident, is it a person in training?
+Tang:	I think the junior residents should be able to perform it, but our hospital 
+policy is that... you know, even for senior residents he has to be 
+supervised, but definitely for junior residents he has to be supervised.
+KY:	Junior residents being a second-year resident.
+Tang:	First-year, I don't see any reason why they shouldn't do it, so first-year 
+would be fine, second, third, and it also depends on the skill level of the 
+particular resident you're working with and the confidence that you have in 
+them.
+KY:	So the first time that they're expected to learn this procedure is...
+Tang:	As a first-year.
+KY:	First-year resident, which is their second-year of post-med school.  Well, 
+we always have this issue of it's the first-year of your residency called an 
+'internship,' and then you've got first-year residency, which is the second- 
+year.
+Tang:	Right.
+KY:	So straighten me out here.
+Tang:	You're right, it is confusing.  The first year out of medical school, you're an 
+intern.  You can also refer to them as first-year residents.
+KY:	But a second-year resident is a second-year resident.
+Tang:	Correct.
+KY:	The second you're out of school.
+Tang:	That's correct.
+KY:	Even though the first year you might've been an intern, okay.  
+Tang:	So it has different meanings.
+KY:	Yeah, okay.  So the person who would be first exposed to this in their 
+training would be a second-year resident?
+Tang:	Would be a first-year resident.
+KY:	A first-year resident.  Okay.
+Tang:	They may not get to do a whole lot of it, but they definitely should be 
+familiar with the steps.
+KY:	So now your question about the prior knowledge.
+Q:	Sure.
+KY:	It's not an easy question to formulate.  So is there anything that you've 
+described that they would need to know, that they don't already know, in 
+order to perform the procedure?  And what I mean is that, they've done all 
+the... they know what gowning and draping, they've done all that.  They 
+should know what that is, otherwise they should go back to med school, 
+know all the anatomical spots, they should all know.  They know what the 
+kits are, the difference between the triple-lumen and cordis, they should 
+know all that.  So is there anything that's brand new to them, 
+conceptually, equipment-wise or that's not their location?
+Tang:	No.  As far as the equipment, the anatomy, the procedure itself, none of 
+this should be a new concept to whoever's doing it for the first time.  
+However, going through the motions may be different, but as far as the 
+concept of it, it should be information that they have already.
+Q:	What about the process of deciding which side to gain access to, the 
+process of, if I have access to this or if I don't have access to this, then 
+I'm going to go there?  Is that knowledge that the first- or second-year 
+residents would know?
+Tang:	It's something that I expect them to know, but I wouldn't be surprised if 
+they don't know.  Does that answer your question?
+Q:	Yeah, it does.  Feel free to have a follow-up question.
+KY:	No, no.
+Q:	Okay.  Are there any major principles as part of the task, principles that 
+are involved with the task that first-year residents or second-year 
+residents would not know about prior to performing the task?
+Tang:	No.  I think the problem that comes in is piecing all the information 
+together and carrying out the procedure in a smooth fashion, but that 
+comes with practice.
+KY:	Why don't you go to any problems and complications that concur.
+Q:	Skip this one?
+KY:	Yes, because I think we've pretty much, essentially, mode of information 
+we pretty much covered all the way through.  You've got the color of the 
+blood, and you've got...
+Q:	The sound.
+KY:	...sound.
+Q:	Sound, okay.  During this procedure if there some maybe four or five or 
+six problems that can go wrong, that the trainee should be able to solve, 
+could you possibly go through what those are?
+KY:	How they'd be able to solve them.
+Q:	How they would be able to solve them.
+Tang:	Sure.  One is, you can't get access to the vein on your first two-three 
+attempts.  The solution for that would be to go to a different site or use an 
+ultrasound to look for the vein.  The second problem would be, for 
+example, you hit the artery rather than the vein, and we talked about that 
+before.  The treatment would be to take out the needle and hold 
+compression for a little while.  It works well for the jugular and the femoral, 
+but not very well for subclavian, because it's in a non-compressible area.  
+Nonetheless, for the most part, the bleeding does not progress.  Other 
+complications, you can get apneumothorax, like we talked about before.  
+Usually, it's not clinically apparent, initially.  The chest x-ray would tell you 
+how big the apneumothorax is, if it's very big or if the patient is 
+symptomatic, they're short of breath, they're uncomfortable, then the 
+treatment would be... a couple different treatments.  One would be to 
+place a chest tube, another treatment would be... we have these smaller 
+catheters that can be placed anteriorly on the chest wall, that goes into 
+the cavity, the lung thoracic cavity.  It's not as uncomfortable as a chest 
+tube.  So those can be done also.  If it's a small apneumothorax we can 
+elect to watch it by serial exams and serial chest x-rays, and watch it 
+resolve, and put the patient on 100% oxygen.  Let's see, other problems, 
+we talked about when we were placing the catheter with a wire, you can 
+get arrhythmias.  The solution for that is to pull out the catheter a little bit, 
+so that it's out of the right ventricle or the right atrium.  That's the main 
+problems I can think of.
+KY:	You all good?
+Q:	Thank you.
+Tang:	Good questions.
+Q:	Thank you very much.
+Tang:	You're welcome.
+Q:	Thank you.
+Q:	Yeah, thank you very much.
+KY:	Thank you for your patience...
+Tang:	No problem.
+KY:	...and allowing everybody to learn to do this.
+Tang:	All right.  All right, guys.  It was good meeting you guys.  All right.  Take 
+care now.   All right.  Thank you so much. 
+Q:	Thank you for kindness.
+Tang:	No problem.  Thank you, guys.  Good luck.
+[END FILE]

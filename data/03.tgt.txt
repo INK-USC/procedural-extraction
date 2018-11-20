@@ -1,0 +1,262 @@
+Task S.1: Select the anatomic site for the catheter (149, 150): Femoral vein, Subclavian vein, Internal Jugular (76, 77)
+IF a surgeon is comfortable with a particular site, THEN that will play a role in site selection in an emergency situation
+IF there is trauma to the vasculature structure that impedes fluids to reach the heart from the femoral vein, THEN choose a different site to place the CVC.
+IF you are comfortable with high lines, THEN GOTO BRANCH A. 
+IF the patient has a C-spine collar, THEN GOTO BRANCH B.
+IF the patient already has a pneumothorax on one side, THEN choose that side to place the catheter (125, 126)
+IF the patient is being intubated and there is no room up top, THEN GOTO BRANCH C
+
+BRANCH A: Procedure for the Internal Jugular  location
+Task A.2: Prepare for the placement of the CVC at the Internal Jugular site (58, 60).
+Step A.2.1: Get consent (154).
+Step A.2.2: Explain risks and benefits of the procedure (155).
+Step A.2.3: Make sure they are able to twist their neck over-not absolute but can help (159).
+Step A.2.4: Prep the area as if this was a surgical procedure (167).
+Step A.2.4.1: Skin Cleansing, full prepping, and draping of the area.
+Prep the whole area as wide as possible so you have lots of space so you can see the stuff above, to the sides, and below (277, 278, 279)
+Step A.2.5: Prepare the surgeon (169)
+Step A.2.5.1: Wear a gown and protect yourself universal barrier precautions as listed above (174)
+Step A.2.6: Prepare the equipment (175)
+IF you are going to perform the procedure, THEN you should be responsible for getting all the stuff (262)
+Task A.3: Localize the vessel (60)
+Step A.3.1: Identify the anatomic landmarks
+Step A.3.1.1: Feel the pulse (321) halfway down the neck area (341, 342)
+Step A.3.1.2: Have one finger on the pulse (332) and move lateral outward, away from the carotid (337, 338).
+IF you are right handed, THEN performing the lines on the patient’s right side is ergonomically easier (350, 351, 352). 
+IF you are left handed, THEN performing the lines on the patient’s left side is ergonomically easier (352, 353).
+IF they have already had a traumatic pneumo or a chest tube on the left side, THEN use that side for the CVC placement (355, 356, 357)
+IF there is a gunshot wound to the arterial or venous vessel(s) on one side, THEN go to the other side (358, 359).
+Step A.3.1.3: Use ultrasound to help you localize (339).
+Step A.3.1.4: The needle will enter at this point (284, 285).
+IF it is an emergency situation, THEN you can skip giving a local anesthetic.
+If it is an elective situation, THEN you administer a local anesthetic.
+Step A.3.1.5: Take a 10cc syringe and the very thin needle with lidocaine and you may want to draw up more than what comes in the kit (288, 289, 290).
+Step A.3.1.6: Use this needle to localize the vessel (291).
+Step A.3.1.7: Localize the skin and anesthetize the skin (292).
+Step A.3.1.8: Pop through and move slightly forward, draw back to make sure you’re not getting blood (293, 294).
+Step A.3.1.9: Push some local in and let that infuse for a second, then draw back. Repeat infuse-drawback sequence until you see a nice drawback of dark venous blood coming into your needle (294, 295, 296, 297, 298, 299).
+Step A.3.1.10: Pull thin needle right back out (304).
+Step A.3.1.11: Switch to the big needle (305).
+Step A.3.1.12: Use the big needle under suction and follow the path of the thin needle until you get a nice drawback and go in a millimeter or so further (450, 452, 443).
+IF you are not completely in the vein, THEN the subsequent [CVC placement] steps will not work very well and you can tear the vessel (444, 445, 446, 447, 448).
+Step A.3.1.13: Take the syringe off (393).
+IF your needle is in the vein, THEN the blood will be a nice slow dripping of dark venous blood (396, 397).
+IF your needle is in the artery, THEN you see that pulsatile, arterial red blood (398).
+If you are unsure of which line your needle is in, THEN you can plug in an A-line transducer to verify if it is arterial pressure wave (414, 415, 416).
+IF you are unsure of which line your needle is in, THEN the safest thing is to pull out and do it again with the use of a pressure transducer (419, 420, 421)
+IF you have entered the artery, THEN pull the needle out, apply pressure for a couple minutes and then try again on the same side without re-prepping (399, 400, 401).
+Step A.3.1.14: Hold the hub of the needle once in the vein(459).
+IF you are right handed, THEN you will hold the hub with your left hand.
+IF you are left handed, THEN you will hold the hub with your right hand.
+Step A.3.1.15: Keep needle as still as possible (461).
+Step A.3.1.16: Take the guide wire and feed it through the needle into the vein (462, 463, 464).
+IF the wire doesn’t go through, THEN the needle has slipped out of the vessel. Put the wire aside, get your syringe back on, and try to find it (vein) again (465, 466, 467).
+Step A.3.1.17: You do not need to put the whole wire in (471).
+The wire needs to go the length of the needle and a little past, about 5-10 centimeters (565)
+The wire should feed smoothly (672)
+If you put the whole wire in, it will snake it’s way into the RV and you have a chance of arrhythmias.
+IF it is an emergency situation, THEN use the rigid side of the guide wire-disagree, would always start with flexible side, no advantage to the rigid side of wire-this can cause perforation (558, 559)
+IF the wire cannot go in or gets stuck, THEN do not force it. Take it out, get a nice clean pull of blood and then re-feed the wire (582, 583, 584, 585).
+IF you persist with a stuck wire, THEN you may shred the wire and embolize a bit of the wire. Just pull the whole thing out (587, 588, 589).
+
+Task A.4: Insertion of the Catheter (62)
+Step A.4.1: Make a little cut on top of the needle at that point of the skin (483, 484)
+The incision is just a couple millimeters but it has to be wide enough (488, 489).
+The cut is right on top of the wire (490, 491).
+Step A.4.1.1: Make sure there is no skin bridge between the needle and the cut (489, 490)
+Step A.4.2: Pull the needle out.
+IF you are putting in a percutaneous introducer, THEN you do not need to use a dilator because the introducer and dilator are preloaded as one (493, 494)
+IF you are using a multi-lumen catheter, THEN use the dilator first, pull that out and put the catheter in.
+The dilator is a rigid plastic tube that dilates the tract and the skin to facilitate insertion of the less rigid catheter.
+Step A.4.3: Never let go of the wire (535).
+Wire could get embolized if you let go of the wire (545).
+Step A.4.4: As you hold the wire [near the skin], you push the dilator over top, grab the wire on this end [top], push the dilator in (538, 539, 540).
+If you cannot push the dilator through, THEN you have left a skin bridge, so cut down on it to make sure that you cut the skin bridge (596, 597, 598, 599).
+Step A.4.5: Pull the wire out a little while the dilator is in so you can capture it on the other side (539).
+People jam the wire in too far (538).
+IF you have time, THEN prep the catheters by priming the lines with saline (526, 528, 529).
+The blood just pushes the saline out (529).
+Step A.4.6: Take the cap off of the brown channel 
+The guide wire comes out of this major port (578, 579).
+Step A.4.7: Take the wire out (621).
+Blood will immediately come up to the catheter (620)
+Step A.4.8: Touch? Do you mean aspirate the syringe to make sure you get a nice clean flow of blood (622, 623).
+Step A.4.9: Re-inject saline back in so the line does not have blood clotting (625)
+Step A.4.10: Cap it off (626). Repeat for all lines (627, 628).
+
+Task A.5: Secure the Catheter (63)
+Step A.5.1: Suture the line in place. Sew it in two places at least. (630, 632).
+Step A.5.2: Place an antibiotic-coated disc right on the insertion site (636).
+Step A.5.3: Place a plastic occlusive dressing on top of that (639).
+Task A.6: Confirm adequate placement of CVC catheter (64)
+Step A.6.1: Get a chest x-ray to confirm that it’s sitting in the SVC outside of the right atrium (647, 648).
+Make sure it is not going upwards instead of downwards (653).
+IF it is not an emergency situation, THEN order a chest x-ray to verify placement before you use the line (645, 655)
+Step A.6.2: Count all the stuff (657).
+Make sure you still have that wire (658).
+BRANCH B: Procedure for the Subclavian location
+
+Task B.2: Prepare for the placement of the CVC at the subclavian site (58, 59, 60).
+Step B.2.1: Get consent (154)
+Step B.2.2: Explain risks and benefits of the procedure (155)
+Step B.2.3: Place a roll of towels underneath the shoulder to open up the area. (157)
+Step B.2.4: Prep the area as if this was a surgical procedure (167)
+Step B.2.4.1: Skin Cleansing, full prepping, and draping of the area.
+Prep the whole area as wide as possible so you have lots of space so you can see the stuff above, to the sides, and below (277, 278, 279)
+Step B.2.5: Prepare the surgeon (169)
+Step B.2.5.1: Wear a gown and protect yourself with universal barrier precautions (174)
+Step B.2.6: Prepare the equipment (175)
+IF you are going to perform the procedure, THEN you should be responsible for getting all the stuff (262)
+Task B.3: Localize the vessel (60)
+Step B.3.1: Identify the anatomic landmarks
+Step B.3.1.1: Picture in your mind that the subclavian vein is running beneath the clavicle (279, 280).
+Step B.3.1.2: Start where the clavicle takes a little jog upwards, which is 2/3 of the way from the sternum outwards. At that point drop down a centimeter or two (281, 282, 283, 284).
+Step B.3.1.3: The needle will enter at this point (284, 285).
+IF it is an emergency situation, THEN you can skip giving a local anesthetic.
+If it is an elective situation, THEN you administer a local anesthetic.
+Step B.3.1.4: Take a 10cc syringe and the very thin needle with lidocaine and you may want to draw up more than what comes in the kit (288, 289, 290).
+Step B.3.1.5: Use this needle to localize the vessel (291).
+Step B.3.1.6: Localize the skin and anesthetize the skin (292).
+Step B.3.1.7: Pop through and move slightly forward, draw back to make sure you’re not getting blood (293, 294).
+Step B.3.1.8: Push needle forward until you hit the vein.  If you hit the clavicle, pull back 1-2 cm, angle needle down, and move forward to the vein (373, 374).
+Subclavian vein sits underneath the clavicle (372)
+Step B.3.1.9: Push some local in and let that infuse for a second, then draw back. Repeat infuse-drawback sequence until you see a nice drawback of dark venous blood coming into your needle (294, 295, 296, 297, 298, 299).
+Step B.3.1.10: Pull thin needle right back out (304).
+Step B.3.1.11: Switch to the big needle (305).
+Step B.3.1.12: Use the big needle under suction and follow the path of the thin needle until you get a nice drawback and go in a millimeter or so further (450, 452, 443).
+IF you are not completely in the vein, THEN the subsequent [CVC placement] steps will not work very well and you can tear the vessel (444, 445, 446, 447, 448).
+Step B.3.1.13: Take the syringe off (393).
+IF your needle is in the vein, THEN the blood will be a nice slow dripping of dark venous blood (396, 397).
+IF your needle is in the artery, THEN you see that pulsatile, arterial red blood (398).
+If you are unsure of which line your needle is in, THEN you can plug in an A-line transducer to verify if it is arterial pressure wave (414, 415, 416).
+IF you are unsure of which line your needle is in, THEN the safest thing is to pull out and do it again with the use of a pressure transducer (419, 420, 421)
+IF you have entered the artery, THEN pull the needle out, apply pressure for a couple minutes and then try again on the same side without re-prepping (399, 400, 401).
+Step B.3.1.14: Hold the hub of the needle (459).
+IF you are right handed, THEN you will hold the hub with your left hand.
+IF you are left handed, THEN you will hold the hub with your right hand.
+Step B.3.1.15: Keep needle as still as possible (461).
+Step B.3.1.16: Take the guide wire and feed it through the needle into the vein (462, 463, 464).
+IF the wire doesn’t go through, THEN the needle has slipped out of the vessel. Put the wire aside, get your syringe back on, and try to find it (vein) again (465, 466, 467).
+Step B.3.1.17: You do not need to put the whole wire in (471).
+The wire needs to go the length of the needle and a little past, about 5-10 centimeters (565)
+The wire should feed smoothly (672)
+IF it is an emergency situation, THEN use the rigid side of the guide wire. (558, 559)
+IF the wire cannot go in or gets stuck, THEN do not force it. Take it out, get a nice clean pull of blood and then re-feed the wire (582, 583, 584, 585).
+IF you persist with a stuck wire, THEN you may shred the wire and embolize a bit of the wire. Just pull the whole thing out (587, 588, 589).
+
+Task B.4: Insertion of the Catheter (62)
+Step B.4.1: Make a little cut on top of the needle at that point of the skin (483, 484)
+The incision is just a couple millimeters but it has to be wide enough (488, 489).
+The cut is right on top of the wire (490, 491).
+Step B.4.1.2: Make sure there is no skin bridge between the needle and the cut (489, 490)
+Step B.4.2: Pull the needle out.
+IF you are putting in a percutaneous introducer, THEN you do not need to use a dilator because the introducer and dilator are preloaded as one (493, 494)
+IF you are using a multi-lumen catheter, THEN use the dilator first, pull that out and put the catheter in.
+The dilator is a rigid plastic tube that dilates the tract and facilitates insertion of the less rigid catheter.
+Step B.4.3: Never let go of the wire (535).
+Wire could get embolized if you let go of the wire (545).
+Step B.4.4: As you hold the wire [near the skin], you push the dilator over top, grab the wire on this end [top], push the dilator in (538, 539, 540).
+If you cannot push the dilator through, THEN you have left a skin bridge, so cut down on it to make sure that you cut the skin bridge (596, 597, 598, 599).
+Step B.4.5: Pull the wire out a little while the dilator is in so you can capture it on the other side (539).
+People jam the wire in too far (538).
+IF you have time, THEN prep the catheters by priming the lines with saline (526, 528, 529).
+The blood just pushes the saline out (529).
+Step B.4.6: Take the cap off of the brown channel 
+The guide wire comes out of this major port (578, 579).  
+Step B.4.7: Take the wire out (621).
+Blood will immediately come up to the catheter (620)
+Step B.4.8: Touch? do we mean aspirate the syringe to make sure you get a nice clean flow of blood (622, 623).
+Step B.4.9: Re-inject saline back in so the line does not have blood clotting (625)
+Step B.4.10: Cap it off (626). Repeat for all lines (627, 628).
+
+Task B.5: Secure the Catheter (63)
+Step B.5.1: Suture the line in place. Sew it in two places at least. (630, 632).
+Step B.5.2: Place an antibiotic-coated disc right on the insertion site (636).
+Step B.5.3: Place a plastic occlusive dressing on top of that (639).
+Task B.6: Confirm adequate placement of CVC catheter (64)
+Step B.6.1: Get a chest x-ray to confirm that it’s sitting in the SVC outside of the right atrium (647, 648).
+Make sure it is not going upwards instead of downwards (653).
+IF it is not an emergency situation, THEN order a chest x-ray to verify placement before you use the line (645, 655)
+Step B.6.2: Count all the stuff (657).
+Make sure you still have that wire (658).
+
+BRANCH C: Procedure for the Femoral location
+Task C.2: Prepare for the placement of the CVC at the Femoral site (58, 59, 60).
+Step C.2.1: Get consent (154)
+Step C.2.2: Explain risks and benefits of the procedure (155)
+Step C.2.3: Get rid of the clothing in that area (161)
+Step C.2.4: Prep the area as if this was a surgical procedure (167)
+Step C.2.4.1: Skin Cleansing, full prepping, and draping of the area.
+Prep the whole area as wide as possible so you have lots of space so you can see the stuff above, to the sides, and below (277, 278, 279)
+Step C.2.5: Prepare the surgeon (169)
+Step C.2.5.1: Wear a gown and protect yourself (174)
+Step C.2.6: Prepare the equipment (175)
+IF you are going to perform the procedure, THEN you should be responsible for getting all the stuff (262)
+Task C.3: Localize the vessel (60)
+Step C.3.1: Identify the anatomic landmarks
+Step C.3.1.1: Stay below the inguinal ligament (324).
+Step C.3.1.2: Feel for the pulse, go medial to that (about 1 centimeter) and work your way away from the artery, from the pulse (331, 332, 333).
+Step C.3.1.3: The needle will enter at this point (284, 285).
+IF it is an emergency situation, THEN you can skip giving a local anesthetic.
+If it is an elective situation, THEN you administer a local anesthetic.
+Step C.3.1.4: Take a 10cc syringe and the very thin needle with lidocaine and you may want to draw up more than what comes in the kit (288, 289, 290).
+Step C.3.1.5: Use this needle to localize the vessel (291).
+Step C.3.1.6: Localize the skin and anesthetize the skin (292).
+Step C.3.1.7: Pop through and move slightly forward, draw back to make sure you’re not getting blood (293, 294).
+Step C.3.1.8: Push some local in and let that infuse for a second, then draw back. Repeat infuse-drawback sequence until you see a nice drawback of dark venous blood coming into your needle (294, 295, 296, 297, 298, 299).
+Step C.3.1.9: Pull thin needle right back out (304).
+Step C.3.1.10: Switch to the big needle (305).
+Step C.3.1.11: Use the big needle under suction and follow the path of the thin needle until you get a nice drawback and go in a millimeter or so further (450, 452, 443).
+IF you are not completely in the vein, THEN the subsequent [CVC placement] steps will not work very well and you can tear the vessel (444, 445, 446, 447, 448).
+Step C.3.1.12: Take the syringe off (393).
+IF your needle is in the vein, THEN the blood will be a nice slow dripping of dark venous blood (396, 397).
+IF your needle is in the artery, THEN you see that pulsatile, arterial red blood (398).
+If you are unsure of which line your needle is in, THEN you can plug in an A-line transducer to verify if it is arterial pressure wave (414, 415, 416).
+IF you are unsure of which line your needle is in, THEN the safest thing is to pull out and do it again with the use of a pressure transducer (419, 420, 421)
+IF you have entered the artery, THEN pull the needle out, apply pressure for a couple minutes and then try again on the same side without re-prepping (399, 400, 401).
+Step C.3.1.13: Hold the hub of the needle (459).
+IF you are right handed, THEN you will hold the hub with your left hand.
+IF you are left handed, THEN you will hold the hub with your right hand.
+Step C.3.1.14: Keep needle as still as possible (461).
+Step C.3.1.15: Take the guide wire and feed it through the needle into the vein (462, 463, 464).
+IF the wire doesn’t go through, THEN the needle has slipped out of the vessel. Put the wire aside, get your syringe back on, and try to find it (vein) again (465, 466, 467).
+Step C.3.1.16: You do not need to put the whole wire in (471).
+The wire needs to go the length of the needle and a little past, about 5-10 centimeters (565)
+The wire should feed smoothly (672)
+IF it is an emergency situation, THEN use the rigid side of the guide wire. (558, 559)
+IF the wire cannot go in or gets stuck, THEN do not force it. Take it out, get a nice clean pull of blood and then re-feed the wire (582, 583, 584, 585).
+IF you persist with a stuck wire, THEN you may shred the wire and embulize a bit of the wire. Just pull the whole thing out (587, 588, 589).
+
+Task C.4: Insertion of the Catheter (62)
+Step C.4.1: Make a little cut on top of the needle at that point of the skin (483, 484)
+The incision is just a couple millimeters but it has to be wide enough (488, 489).
+The cut is right on top of the wire (490, 491).
+Step C.4.1.1: Make sure there is no skin bridge between the needle and the cut (489, 490)
+Step C.4.2: Pull the needle out.
+IF you are putting in a percutaneous introducer, THEN you do not need to use a dilator because the introducer and dilator are preloaded as one (493, 494)
+IF you are using a multi-lumen catheter, THEN use the dilator first, pull that out and put the catheter in.
+The dilator is a rigid plastic thing that dilates the tract and the skin up a little bit.
+Step C.4.3: Never let go of the wire (535).
+Wire could get embulized if you let go of the wire (545).
+Step C.4.4: As you hold the wire [near the skin], you push the dilator over top, grab the wire on this end [top], push the dilator in (538, 539, 540).
+If you cannot push the dilator through, THEN you have left a skin bridge, so cut down on it to make sure that you cut the skin bridge (596, 597, 598, 599).
+Step C.4.5: Pull the wire out a little while the dilator is in so you can capture it on the other side (539).
+People jam the wire in too far (538).
+IF you have time, THEN prep the catheters by priming the lines with saline (526, 528, 529).
+The blood just pushes the saline out (529).
+Step C.4.6: Take the cap off of the brown channel 
+The guide wire comes out of this major port (578, 579).
+Step C.4.7: Take the wire out (621).
+Blood will immediately come up to the catheter (620)
+Step C.4.8: Touch the syringe to make sure you get a nice clean flow of blood (622, 623).
+Step C.4.9: Re-inject saline back in so the line does not have blood clotting (625)
+Step C.4.10: Cap it off (626). Repeat for all lines (627, 628).
+
+Task C.5: Secure the Catheter (63)
+Step C.5.1: Suture the line in place. Sew it in two places at least. (630, 632).
+Step C.5.2: Place an antibiotic-coated disc right on the insertion site (636).
+Step C.5.3: Place a plastic occlusive dressing on top of that (639).
+Task C.6: Confirm adequate placement of CVC catheter (64)
+Step C.6.1: Pull blood out so you get a drawback and you can infuse saline back in (645, 646). 
+Step C.6.2: Count all the stuff (657).
+Make sure you still have that wire (658).

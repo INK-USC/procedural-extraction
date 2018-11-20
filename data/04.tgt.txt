@@ -1,0 +1,192 @@
+Task S.1:  Select type of catheter to use (156)
+
+Step S.1.1:  	Choose the appropriate type of catheter (156)
+IF for a general resuscitation, THEN you can use a single-lumen or a double-lumen catheter (163)
+IF administering multiple medications over time (158) or IF you have a sick patient that needs TPM (TPN; total parental nutrition) therapy (160) or need to give antibiotic therapy (160) or need to give fluid therapy (160), THEN use triple-lumen catheter 
+IF you need to place a Swan-Ganz catheter, You would use a Swan Ganz catheter to closely monitor the fluid and hemodymanic parameters of a patient. You would also use a single lumen if you needed to place a temporary pacemaker in the heartTHEN use a single-lumen with large port (157)
+Task S.2:  Prepare patient, yourself, and all material (251)
+
+Step S.2.1:  Prepare the patient (205)
+IF the patient is awake, THEN explain to the patient what you are going to do (499) and administer local anesthesia to help them with comfort (503) and acute pain (504)
+Step S.2.2:  Sterilely prep the area (475)
+Step S.2.3:  Open central line kit and have all instruments ready to go (478)
+IF kit does not contain sterile gloves and prep, THEN acquire before proceeding (171)
+Task S.3:  Decide location of catheter placement (334)
+IF patient has long neck (336) OR it is a non-emergency situation (351) OR patient has damage to the right side of body (436) OR there is no scar tissue indicating previous line placement (448) OR you can distinguish several landmarks (353) Landmarks are anatomic structures that help guide you to the correct location and keep you away from areas of dangers. THEN GOTO BRANCH A AND place the patient on his or her back (396) in a head down position (397) and turn their head away from the side you are working (398)
+IF patient’s internal jugular is unavailable (363) OR it is an emergency situation (363) OR patient is obese (337) OR patient’s neck is small (338) OR patient has damage to the left side of body (436) OR there is no scar tissue indicating previous line placement (448)THEN GOTO BRANCH B AND place patient in head down position (397) AND have assistant to help hold down their arm (399)
+IF both internal jugular and subclavian are unavailable (371) OR the situation is life or death (436) OR Learners would know at the minimum that the situation is critical and it is extremely important to obtain IV access patient needs immediate IV access and there are contraindications to the head and chest (368) THEN GOTO BRANCH C AND place patient supine or head down (409) 
+
+BRANCH A: Procedure for the internal jugular location
+Task A.4:  Locate vessel and insert finder needle (220)
+
+Step A.4.1:  IF ultrasound is used (1227), THEN GOTO Task A.5
+
+IF ultrasound is not used, THEN proceed by using landmarks and touch (543)
+Step A.4.2:  Locate the carotid artery by touch (527)
+Step A.4.3:  Feel the prominent part of the thyroid (528)
+Step A.4.4:  Slide your hand off to the side into the little groove (529)
+Step A.4.5:  Gently press down until you can feel the carotid pulse (530)
+Step A.4.6:  If you cannot feel the carotid pulse (544), go by your gut instinct  choose a location that should be lateral to the course of the carotid artery(545)
+Step A.4.7:  Take a small needle trauma needle (550)
+Step A.4.8:  Pierce the skin (532)
+Step A.4.9:  Insert the needle at a 45 to 80 degree angel (552) angling the point away from the carotid (559)
+Step A.4.10:  Pull back on the plunger of the syringe (561)
+IF you do not get a flow or flash of blood or IF you get air back (618), THEN redirect (654)
+Step A.4.11:  Disconnect the syringe from the needle (606)
+Step A.4.12:  Leave the needle in place (606)
+Task A.5:  Place introducer needle into the vein (224)
+
+Step A.5.1:  Insert the introducer needle following the same tract as the finder needle (662) 
+Step A.5.2:  IF you get a flash of blood or blood flow (667), THEN GOTO Task A.5.3
+
+IF you don’t get a flash of blood or blood flow or IF you get a spurting out of blood into the introducer needle (670),THEN remove and redirect.
+Step A.5.3:  Remove the syringe (670)
+Task A.6:  Thread wire through the needle (276)
+
+Step A.6.1:  Measure the wire over the patient’s chest (735)You can delete this step. Measuring the wire at the time will complicate  the procedure and is not necesssary
+Step A.6.2:  Stabilize the introducer needle (789)
+Step A.6.3:  Insert ½ to 2/3 of the wire (844) through the introducer needle (675)
+IF the wire is going in smoothly but causes irregular heart beat, THEN remove withdraw  the wire several centimeters to cease the irregular heart beat (816)
+IF the wire is not going in smoothly, THEN remove the wire and needles as one unit (755) [never remove the wire back through the needle] and return to Task A.5 (761)
+Task A.7:  Remove all needles leaving the wire (233)
+
+Step A.7.1:  Take hold of the wire in one hand (882)
+Step A.7.2:  Take hold of the introducer needle in your other hand (883)
+Step A.7.3:  Slide the introducer needle the wire without pulling the wire back (885)
+Task A.8:  Make incision to insert the catheter (281)
+
+Step A.8.1:  Lay the dull edge of a scalpel on the wire (904)
+Step A.8.2:  Stab the length of the scalpel blade (904)  
+Step A.8.3:  Pull the scalpel out (905)
+Step A.8.4:  Rotate the scalpel blade 180 degrees (905)
+Step A.8.5:  Stab the length of the scalpel blade (905)
+Task A.9:  Place the dilator and catheter (285)
+
+Step A.9.1:  Thread the wire through the dilator and catheter until it comes out the end   (955)
+Step A.9.2:  Slide dilator and catheter all the way down to the hub (241) by controlling the wire with one hand and advancing the dilator and catheter with free hand (966)
+Step A.9.3:  Close dilator ports and entry points on the catheter (985)
+Step A.9.4:  Remove wire and dilator in one motion (979)
+delete the above. 
+Step A.9.5:  Place a syringe on a catheter port (995)
+Step A.9.6:  Aspirate back and see (996)
+If the blood is bright red or is determined to be arterial blood, then leave in place and call a vascular surgeon THEN leave it (999) and call vascular surgery (1006)  
+Task A.10:  Sew the catheter into place (296)
+
+Step A.10.1:  Suture the catheter to the skin (1039)
+Task A.11:  Dress wound (1045)
+
+Step A.11.1:  Put some sterile ointment and dressing over the wound (1044)
+Task A.12:  Confirm placement of catheter via chest x-ray (1066)
+
+Step A.12.1:  Take a chest x-ray (1066)
+Step A.12.2:
+IF you see blood or air (1086), THEN notify the patient that they may need a chest tube (1087) or further observation (1089)
+IF you see that the catheter is in the wrong place (1090), THEN start over (1091) 
+
+BRANCH B: Procedure for the subclavian location
+Task B.4:  Place introducer needle into the vein (224)
+Step B.4.1:  Insert the introducer needle (1122) in the middle third of the clavicle (1128)
+Step B.4.2:   Aim for the sternal notch (1128)
+Step B.4.4:  Walk your needle under the clavicle (1134)
+Step B.4.5:  Angle the needle (1135)upwards not downwards once you have passed under the clavicle
+Step B.4.6:  Advance the needle forwards (1136)
+Step B.4.7:  
+IF you observe a flash of blood going in (1141),THEN GOTO Step B.4.8
+
+IF you don’t get a flash of blood or blood then withdrawn needle, reposition needle and reinsert needle
+OR you have placed your needle into the subclavian artery, withdraw needle and hold pressure for several minutes.
+ THEN repeat the procedure using the other side
+Step B.4.8:  Remove the syringe (670)
+Task B.5:  Thread wire through the needle (276)
+
+Step B.5.1:  can delete
+Step B.5.2:  Stabilize the introducer needle (789)
+Step B.5.3:  Insert 1/2 to 2/3 of the wire (844) through the introducer needle (675)
+
+IF the wire is going in smoothly but causes irregular heart beat, THEN remove the wire several centimeters to cease the irregular heart beat (816)
+
+IF the wire is not going in smoothly, THEN remove the wire and needles as one unit (755) and return to Task B.4 (761)
+Task B.6:  Remove all needles leaving the wire (233)
+
+Step B.6.1:  Take hold of the wire in one hand (882)
+Step B.6.2:  Take hold of the introducer needle in your other hand (883)
+Step B.6.3:  Slide the introducer needle off the wire without pulling the wire back (885)
+Task B.7:  Make incision to insert the catheter (281)
+
+Step B.7.1:  Lay the dull edge of a scalpel on the wire (904)
+Step B.7.2:  Stab the length of the scalpel blade (904)  
+Step B.7.3:  Pull the scalpel out (905)
+Step B.7.4:  Rotate the scalpel blade 180 degrees (905)
+Step B.7.5:  Stab the length of the scalpel blade (905)
+Task B.8:  Place the dilator and catheter (285)
+
+Step B.8.1:  Thread the wire through the dilator and catheter until it comes out the end   (955)
+Step B.8.2:  Slide dilator and catheter all the way down to the hub (241) by controlling the wire with one hand and advancing the dilator and catheter with free hand (966)
+Step B.8.3:  Close dilator ports and entry points on the catheter (985)
+Step B.8.4:  Remove wire and dilator in one motion (979)
+IF you feel resistance or it’s not coming out (1021), THEN decide whether to leave it and call in somebody with more experience (1022) 
+
+IF you feel resistance or it’s not coming out (1021), THEN remove it and hold pressure for five minutes (1024) as long as you’re pretty sure it’s not in the artery, then return to step one
+
+Step B.8.5:  Place a syringe on a catheter port (995)
+Step B.8.6:  Aspirate back and see (996)
+
+IF you don’t get dark blood flow, THEN leave it (999) and call vascular surgery (1006)  
+Task B.9:  Sew the catheter into place (296)
+
+Step B.9.1:  Suture the catheter to the skin (1039)
+Task B.10:  Dress wound (1045)
+
+Step B.10.1:  Put some sterile ointment and dressing over the wound (1044)
+Task B.11:  Confirm placement of catheter via chest x-ray (1066)
+
+Step A.11.1:  Take a chest x-ray (1066)
+Step A.11.2:
+IF you see blood or air (1086), THEN notify the patient that they may need a chest tube (1087) or further observation (1089)
+IF you see that the catheter is in the wrong place (1090), THEN start over (1091)
+
+BRANCH C: Procedure for the femoral location
+Task C.4:  Place introducer needle into the vein (224)
+
+Step C.4.1:  Palpate for the femoral artery (1157)
+Step C.4.2:  Slide your hand medial to the femoral vein (1158)
+Step C.4.3:  Insert the introducer needle at a 45 to 75 degree angle (1166)
+IF you get a spurting of blood,THEN
+Hold pressure for several minutes. The femoral artery is compressible
+Step C.4.5:  Remove the syringe (670)
+Task C.5:  Thread wire through the needle (276)
+
+Step C.5.2:  Stabilize the introducer needle (789)
+Step C.5.3:  Insert ½ to 2/3 of the wire (844) through the introducer needle (675)
+Step C.5.4:  
+Task C.6:  Remove all needles leaving the wire (233)
+
+Step C.6.1:  Take hold of the wire in one hand (882)
+Step C.6.2:  Take hold of the introducer needle in your other hand (883)
+Step C.6.3:  Slide the introducer needle off the wire without pulling the wire back (885)
+Task C.7:  Make incision to insert the catheter (281)
+
+Step C.7.1:  Lay the dull edge of a scalpel on the wire (904)
+Step C.7.2:  Stab the length of the scalpel blade (904)  
+Step C.7.3:  Pull the scalpel out (905)
+Step C.7.4:  Rotate the scalpel blade 180 degrees (905)
+Step C.7.5:  Stab the length of the scalpel blade (905)
+Task C.8:  Place the dilator and catheter (285)
+
+Step C.8.1:  Thread the wire through the dilator and catheter until it comes out the end   (955)
+Step C.8.2:  Slide dilator and catheter all the way down to the hub (241) by controlling the wire with one hand and advancing the dilator and catheter with free hand (966)
+Step C.8.3:  Close dilator ports and entry points on the catheter (985)
+Step C.8.4:  Remove wire and dilator in one motion (979)
+IF you feel resistance or it’s not coming out (1021), THEN decide whether to leave it and call in somebody with more experience (1022) 
+IF you feel resistance or it’s not coming out (1021), THEN remove it and hold pressure for five minutes (1024) as long as you’re pretty sure it’s not in the artery, then return to step one
+Step C.8.5:  Place a syringe on a catheter port (995)
+Step C.8.6:  Aspirate back and see (996)
+
+IF you don’t get dark blood flow, THEN leave it (999) and call vascular surgery (1006)  
+Task C.9:  Sew the catheter into place (296)
+
+Step C.9.1:  Suture the catheter to the skin (1039)
+Task C.10:  Dress wound (1045)
+
+Step C.10.1:  Put some sterile ointment and dressing over the wound (1044)
+Task C.11:  Confirm placement of catheter via by pressure (1219)

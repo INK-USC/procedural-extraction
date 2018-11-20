@@ -1,0 +1,250 @@
+Task S.1: Prepare the surgeon (90)
+
+Step S.1.1: Wear a cap, gown, and gloves and mask (91, 92)
+Step S.1.2: Take sterile precautions by prepping the site with chlorhexidine (92)
+Task S.2: Decide the anatomic site for the catheter (92, 93): Subclavian vein, Internal Jugular, and Femoral vein (93, 94)
+IF it’s impossible to cannulate the subclavian vein, THEN GOTO BRANCH A. (128, 129)
+IF you can’t find the subclavian vein, THEN GOTO BRANCH A. (140, 141, 142, 143)
+If you can’t pass the wire, THEN GOTO BRANCH A. (140, 141, 142, 143)
+IF it’s impossible to cannulate the internal jugular vein, THEN GOTO BRANCH C. (128, 129)
+IF you can’t find the internal jugular vein, THEN GOTO BRANCH C. (140, 141, 142, 143)
+
+BRANCH A: Procedure for the Internal Jugular Location
+Task A.3: Prepare the patient (92, 93)
+
+Step A.3.1: Decide whether or not to administer local anesthetic.
+
+IF the patient is conscious, THEN administer local anesthetic.
+Step A.3.1.1: The area of skin over the site needs to be anesthetized with local anesthetic, which is typically one percent lidocaine (194, 195).
+Step A.3.1.2: It’s introduced or injected through a smaller needle, and that’s done by raising a skin wheel just under the skin and then more widely infiltrating the skin and subcutaneous tissue over the central line site (194, 195, 196, 197, 198, 199, 200).
+Step A.3.2.1: Decide how to position the patient.
+IF placing Central Venous Catheter in the internal jugular vein, THEN position the patient in a prone position (169).
+IF placing Central Venous Catheter in the internal jugular, THEN position the patient in a slight Trendelenburg, head down position with their arm at their side (169, 170) and the head turned away from the side of the cannulation (174).
+Step A.3.3.1: Identify the anatomic landmarks
+Step A.3.3.2: Landmarks are best identified with the head turned away from the selected side (501, 502).
+Step A.3.3.3: The sternocleidomastoid muscle is identified (502).
+Two heads of the sternocleidomastoid muscle are the clavicle head and the manubrial head (503).
+One head of the muscle attaches to the manubrium, one head attaches to the clavicle and there’s a gap between these two heads (503, 504, 505).
+Distal from the clavicle or superior from the clavicle, the two heads join again, making a crotch where the internal jugular vein can be cannulated (505, 506, 507).
+Step A.3.4: The ultrasound probe is paced at the site and the internal jugular vein can be distinguished from a carotid artery (514, 515).
+The artery typically appears completely round (516, 517).
+The artery, when compressed with the ultrasound probe, the artery will remain patent (517, 518).
+The internal jugular vein is more lateral and larger and oblong in shape (518, 519).
+The internal jugular vein will change in size with the patient’s respiration (519, 520).
+The internal jugular vein is easily compressible (520).
+Task A.4: Insert the needle into the vein (528).
+
+Step A.4.1: The internal jugular vein can be cannulated under direct ultrasound vision (522, 523) or the ultrasound can be used to identify the internal jugular vein only (523, 524).
+Step A.4.2: The finder needle, a twenty-gauge needle, can be affixed to a syringe and used to cannulate the internal jugular vein (528, 529).
+Step A.4.3: The site of entrance is at the crotch of the sternocleidomastoid muscle heads (530, 531).
+Step A.4.4: The angle of insertion is fairly steep, almost a ninety degree angle into the patient’s neck at this site (531, 532), towards the ipsilateral nipple (538).
+Step A.4.5: Provide continuous aspiration on the syringe (532, 533). 
+Step A.4.6: The larger introducer needle, which ahs already been affixed to a syringe, is introduced into the skin at the very same site and angle as the finder needle (549, 550, 551, 552552).
+Step A.4.7: Slide the introducer needle right along the finder needle, metal to metal, into the same site (552, 553).
+Step A.4.8: There should be a return venous blood into the second syringe (544, 555)
+Venous blood tends to be darker than arterial blood (292).
+
+The patient that’s on high concentration oxygen may have fairly red venous blood (293, 294).
+Pulsating and bright red (blood) may indicate that’s an arterial cannulation (295, 296).
+Steady flow of blood from the needle is more likely a venous cannulation (297).
+Step A.4.9: Once the vein is cannulated, then it’s very important to maintain the position of the needle, firmly hold hub of the needle to keep it in position (345, 346).
+Step A.4.10: Remove syringe from the needle (347, 348).
+Continued venous bleeding from the needle is a good sign that it is still in position, that it’s still in the vein (348, 349).
+Step A.4.11.6: Place thumb over hub of the needle to avoid any air being introduced into the vein. 
+Placing thumb over hub of needle helps avoid air embolus for patients with low venous pressure or nearly negative venous pressure (350, 351).
+Task A.5: Introduce guide wire through the needle (352, 355).
+
+Step A.5.1: Take the guide wire from the tray (352, 353).
+Step A.5.2: Introduce the guide wire through the needle (353).
+The guide wire should pass very easily, should require no force at all to advance it into the vein (354, 355).
+The guide wire typically goes in about twenty centimeters (361).
+You don’t want to introduce the entire wire (370).
+You want to avoid losing the wire inside the patient (370, 371).
+Step A.5.3: Remove the needle leaving only the guide wire in place (359).
+Step A.5.4.1: Make an incision with a scalpel to enlarge the skin to allow passage of the dilator over the wire into the internal jugular (380, 381).
+Incision should be made just wide enough to allow passage of the catheter, an additional three millimeters (391, 392).
+In the internal jugular position, the dilator does not need to be as vigorously introduced as in the subclavian site (559, 560) because there’s minimal connective tissue over the internal jugular vein (560, 561).
+If the dilator is vigorously introduced, it could result in tearing of the vein (561).
+Step A.5.4: Direct the dilator over the wire (381) and then remove dilator (386).
+Task A.6: Direct the central venous catheter over the wire into the vein (70, 395, 396).
+
+Step A.6.1: Remove cap on the brown port of the central venous catheter (387, 388) to allow passage of the wire through the catheter (395).
+Step A.6.2: The catheter should slide easily over the wire (396, 397) until, in most adults; the catheter hub is at the skin (398, 399).
+
+The catheter and wire should not move together (397).
+The wire should be controlled at the brown port the entire time the catheter is advanced over the wire (399, 400).
+Task A.7: Remove the wire (401).
+
+Step A.7.1: Once the catheter is in place, remove the wire.
+Task A.8: Verify placement of CVC
+
+Step A.8.1: A syringe is placed on the brown port and aspirated to verify that the catheter is in position in a vein (401, 402, 403).
+Step A.8.2: A syringe is attached to all three ports (407, 408).
+Step A.8.3: The air from each port is aspirated (408).
+Step A.8.4: Each port is flushed with a small amount of sterile saline, one to two cc’s per port (409, 410). 
+Step A.8.5: The caps are replaced.
+Step A.8.1: A chest x-ray is ordered to verify proper placement of the catheter (414).
+Task A.9: Affix catheter to the skin (410).
+
+Step A.9.1: Affix the central venous catheter to the skin using two interrupted sutures through the skin to the tabs on the hub of the catheter (410, 411, 412).
+Task A.10: Monitor patient for signs of infection (699, 670).
+
+Step A.10.1: Patients are monitored for signs of infection.
+Step A.10.2: The skin site of the central venous catheter should be inspected.
+If the skin looks infected around the central line, then the line can be removed (684, 685, 686, 687).
+If it’s proven they have a positive blood culture and a line infection is suspected, then the line can be removed (685, 686, 687).
+If patients develop a fever, then investigative measures are taken to determine source of infection (700, 701, 702).
+If patients have an increase in white count, then investigative measures are taken to determine source of infection (700, 701, 702).
+BRANCH B: Procedure for the Subclavian location
+Task B.3: Prepare the patient (92, 93)
+
+Step B.3.1: Decide whether or not to administer local anesthetic.
+
+IF the patient is conscious, THEN administer local anesthetic.
+Step B.3.1.1: The area of skin over the site needs to be anesthetized with local anesthetic, which is typically one percent lidocaine (194, 195).
+Step B.3.1.2: It’s introduced or injected through a smaller needle, and that’s done by raising a skin wheel just under the skin and then more widely infiltrating the skin and subcutaneous tissue over the central line site (194, 195, 196, 197, 198, 199, 200).
+Step B.3.2.1: Decide how to position the patient.
+IF placing Central Venous Catheter in the subclavian vein, THEN position the patient in a prone position (169).
+IF placing Central Venous Catheter in the subclavian, THEN position the patient in a slight Trendelenburg, head down position with their arm at their side (169, 170).
+Step B.3.3: Identify the anatomic landmarks
+
+Step B.3.3.1: Identify the sternal notch and the clavicle
+Task B.4: Insert needle into the subclavian vein (68).
+
+Step B.4.1: Palpate the sternal notch; place the tip of left index finger in the sternal notch (243, 244).
+Step B.4.2: Palpate the clavicle. Identify the point at the distal two thirds of the clavicle, and place thumb just inferior to the clavicle at that position of the thumb on left hand (245, 246, 247).
+
+The downward pressure depends on the thickness of the patient’s subcutaneous tissue (282, 283).
+Sometimes the clavicle is pretty deep and it does require a lot of pressure to get underneath the clavicle (283, 284).
+If the patient is obese it requires pretty firm palpation (288, 289).
+Step B.4.3: With right hand take empty syringe with the introducer needle. Select spot on the skin that is two centimeters inferior and approximately one centimeter lateral to that position on the clavicle.
+Step B.4.4: Introduce the needle into the skin with the needle in a plane parallel to the floor to avoid inadvertent puncture of the apex of the lung (248, 249, 250, 251, 252).
+Step B.4.5: The needle is advanced until it strikes the inferior surface of the clavicle (253). 
+The advancement of the needle should be fairly gentle.
+Step B.4.6: Using a downward pressure on the skin with left thumb, guide the introducer needle under the clavicle by (serially marching?) it down the flat portion of the clavicle until I can feel it pass underneath (254, 255, 256).
+Step B.4.7: The syringe is aspirated (257).
+Step B.4.8: The needle is advanced towards left index finger in the sternal notch (257, 258).
+Step B.4.9: Return of venous blood in the syringe should signify cannulation of the subclavian vein. (259, 260).
+Venous blood tends to be darker than arterial blood (292).
+
+The patient that’s on high concentration oxygen may have fairly red venous blood (293, 294).
+Pulsating and bright red (blood) may indicate that’s an arterial cannulation (295, 296).
+Steady flow of blood from the needle is more likely a venous cannulation (297).
+Step B.4.10: Once the vein is cannulated, then it’s very important to maintain the position of the needle, firmly hold hub of the needle to keep it in position (345, 346).
+Step B.4.11: Remove syringe from the needle (347, 348).
+Continued venous bleeding from the needle is a good sign that it is still in position, that it’s still in the vein (348, 349).
+Step B.4.12: Place thumb over hub of the needle to avoid any air being introduced into the vein. 
+Placing thumb over hub of needle helps avoid air embolus for patients with low venous pressure or nearly negative venous pressure (350, 351).
+Task B.5: Introduce guide wire through the needle (352, 353, 354, 355).
+
+Step B.5.1: Take the guide wire from the tray (352, 353).
+Step B.5.2: Introduce the guide wire through the needle (353).
+The guide wire should pass very easily, should require no force at all to advance it into the vein (354, 355).
+The guide wire typically goes in about twenty centimeters (361).
+You don’t want to introduce the entire wire (370).
+You want to avoid losing the wire inside the patient (370, 371)..
+Step B.5.3: If the patient is on a cardiac monitor, the guide wire may cause some ectopy that can be seen on the screen, which is an indicator that the wire’s in the right place (355, 356, 357).
+Step B.5.4: Remove the needle leaving only the guide wire in place (359).
+Step B.5.5: Make an incision with a scalpel to enlarge the skin to allow passage of the dilator over the wire into the subclavian vein (380, 381).
+In the subclavian position, this is an important step because the connective tissue around the clavicle is substantial, and there’s some periosteum around the clavicle that needs to be dilated to allow passage of the central venous catheter (382, 383, 384).
+Incision should be made just wide enough to allow passage of the catheter, an additional three millimeters (391, 392).
+Step B.5.6: Direct the dilator over the wire (381) and then remove the dilator(386).
+Task B.6: Direct the central venous catheter over the wire into the vein (70, 395, 396).
+
+Step B.6.1: Remove cap on the brown port of the central venous catheter (387, 388) to allow passage of the wire through the catheter (395).
+Step B.6.2: The catheter should slide easily over the wire (396, 397) until, in most adults; the catheter hub is at the skin (398, 399).
+
+The catheter and wire should not move together (397).
+The wire should be controlled at the brown port the entire time the catheter is advanced over the wire (399, 400).
+Task B.7: Remove the wire (401).
+
+Step B.7.1: Once the catheter is in place, remove the wire.
+Task B.8: Verify placement of CVC
+
+Step B.8.1: A syringe is placed on the brown port and aspirated to verify that the catheter is in position in a vein (401, 402, 403).
+Step B.8.2: A syringe is attached to all three ports (407, 408).
+Step B.8.3: The air from each port is aspirated (408).
+Step B.8.4: Each port is flushed with a small amount of sterile saline, one to two cc’s per port (409, 410). 
+Step B.8.5: The caps are replaced.
+Step B.8.6: A chest x-ray is ordered to verify proper placement of the catheter (414).
+The chest x-ray ideally shows a central venous catheter with the tip just at the superior venacaval right atrial junction (417, 418).
+It should NOT show a pneumothorax on the side of the central line (418, 419).
+It should NOT show any widening of the mediastinum (419, 420).
+It should NOT show hematoma indicating arterial injury (420).
+It should NOT show extravasation of blood into the right chest (421).
+Task B.9: Affix catheter to the skin (410).
+
+Step B.9.1: Affix the central venous catheter to the skin using two interrupted sutures through the skin to the tabs on the hub of the catheter (410, 411, 412).
+Task B.10: Monitor patient for signs of infection (699, 670).
+
+Step B.10.1: Patients are monitored for signs of infection.
+Step B.10.2: The skin site of the central venous catheter should be inspected.
+If the skin looks infected around the central line, then the line can be removed (684, 685, 686, 687).
+If it’s proven they have a positive blood culture and a line infection is suspected, then the line can be removed (685, 686, 687).
+If patients develop a fever, then investigative measures are taken to determine source of infection (700, 701, 702).
+If patients have an increase in white count, then investigative measures are taken to determine source of infection (700, 701, 702).
+BRANCH C: Procedure for the Femoral Vein location
+Task C.3: Prepare the patient (92, 93)
+
+Step C.3.1: Decide whether or not to administer local anesthetic.
+
+IF the patient is conscious, THEN administer local anesthetic.
+Step C.3.1.1: The area of skin over the site needs to be anesthetized with local anesthetic, which is typically one percent lidocaine (194, 195).
+Step C.3.1.2: It’s introduced or injected through a smaller needle, and that’s done by raising a skin wheel just under the skin and then more widely infiltrating the skin and subcutaneous tissue over the central line site (194, 195, 196, 197, 198, 199, 200).
+Step C.3.2.1: Decide how to position the patient.
+IF placing Central Venous Catheter in the femoral vein, THEN position the patient in a prone position (169).
+IF placing Central Venous Catheter in the femoral vein, THEN position the patient in a slightly frog-leg position, externally rotated, slightly flexed (568, 569).
+ 
+Step C.3.3: Identification of the anatomic landmarks
+
+Step C.3.3.1: Landmarks for the femoral vein are identified using the pneumonic N-A-V-E-L (570, 571, 572, 573, 574).
+Step C.3.3.2: By palpating the femoral artery just inferior to the inguinal ligament, the location of the vein can be envisioned just medial to this palpable pulsation (574, 575).
+Task C.4: Insert needle into a large vein (581).
+
+Step C.4.1: The introducer needle is introduced at approximately a forty-five degree angle, pointed in the cephalad direction 582, 583).
+Step C.4.2: Continuous aspiration on the syringe until there’s a return of venous blood (583, 584). 
+Step C.43:  The needle is advanced (584, 585).
+Step C.4.4: Remove syringe from the needle (347, 348).
+Continued venous bleeding from the needle is a good sign that it is still in position, that it’s still in the vein (348, 349).
+Step C.4.5: Place thumb over hub of the needle to avoid any air being introduced into the vein. 
+Placing thumb over hub of needle helps avoid air embolus for patients with low venous pressure or nearly negative venous pressure (350, 351).
+Task C.5: Introduce guide wire through the needle (352, 353, 354, 355).
+
+Step C.5.1: Take the guide wire from the tray (352, 353).
+Step C.5.2: Introduce the guide wire through the needle (353).
+The guide wire should pass very easily, should require no force at all to advance it into the vein (354, 355).
+The guide wire typically goes in about twenty centimeters (361).
+You don’t want to introduce the entire wire (370).
+You want to avoid losing the wire inside the patient (370, 371).
+Step C.5.4: Remove the needle leaving only the guide wire in place (359).
+Step C.5.5: Make an incision with a scalpel to enlarge the skin to allow passage of the dilator over the wire into the femoral vein (380, 381).
+Incision should be made just wide enough to allow passage of the catheter, an additional three millimeters (391, 392).
+Step C.5.6: Direct the dilator over the wire (381) and then remove dilator (386).
+Task C.6: Direct the central venous catheter over the wire into the vein (70, 395, 396, 586).
+
+Step C.6.1: Remove cap on the brown port of the central venous catheter (387, 388) to allow passage of the wire through the catheter (395).
+Step C.6.2: The catheter should slide easily over the wire (396, 397) until, in most adults; the catheter hub is at the skin (398, 399).
+
+The catheter and wire should not move together (397).
+The wire should be controlled at the brown port the entire time the catheter is advanced over the wire (399, 400).
+Task C.7: Remove the wire (401).
+
+Step C.7.1: Once the catheter is in place, remove the wire.
+Task C.8: Verify placement of CVC
+
+Step C.8.1: A syringe is placed on the brown port and aspirated to verify that the catheter is in position in a femoral vein (401, 402, 403).
+Step C.8.2: A syringe is attached to all three ports (407, 408).
+Step C.8.3: The air from each port is aspirated (408).
+Step C.8.4: Each port is flushed with a small amount of sterile saline, one to two cc’s per port (409, 410). 
+Step C.8.5: The caps are replaced.
+Task C.9: Affix catheter to the skin (410).
+
+Step C.9.1: Affix the central venous catheter to the skin using two interrupted sutures through the skin to the tabs on the hub of the catheter (410, 411, 412).
+Task C.10: Monitor patient for signs of infection (699, 670).
+
+Step C.10.1: Patients are monitored for signs of infection.
+Step C.10.2: The skin site of the central venous catheter should be inspected.
+If the skin looks infected around the central line, then the line can be removed (684, 685, 686, 687).
+If it’s proven they have a positive blood culture and a line infection is suspected, then the line can be removed (685, 686, 687).
+If patients develop a fever, then investigative measures are taken to determine source of infection (700, 701, 702).
+If patients have an increase in white count, then investigative measures are taken to determine source of infection (700, 701, 702).

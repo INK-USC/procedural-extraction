@@ -1,0 +1,824 @@
+Q: 	We're here with Dr. Howard Belzberg.  The date is June 2nd, 2009.  So 
+we're going to do a Cognitive Task Analysis and I explained to you kind of 
+what our kind of process is.  So can you just tell us what the terminal 
+objective of central venous catheter placement is?  What's your ultimate 
+goal when you do that procedure?
+Belzberg:	Well, it's interesting.  It's an interesting question, because there's several 
+goals, and they can be divided largely into two major areas.  One is 
+venous access to provide fluids and drugs, and the other is access to the 
+central circulation to allow for hemodynamic monitoring.
+Q:	Can you briefly describe to me the components of the procedures?  So 
+say we were like in an elevator and I said, 'Hey, I need to put a central 
+line in.  Can you kind of give me the big pieces of the task that you're 
+going to perform?'
+Belzberg:	Well, as always, and it sounds kind of mundane, but first and foremost, 
+and more and more we have to decide, does this patient really need a 
+central line?  It's oftentimes we put in central lines because we can and 
+because, you know, it's challenging or it's a procedure that people... it's a 
+skill that people pride themselves upon.  And so, first and foremost, is 
+deciding whether the patient needs it, and that goes back to what I said a 
+few minutes ago about what they do.  If you're just putting a central line to 
+give fluid and you've got decent peripheral access, regular IVs, then 
+putting in a central line is just looking for trouble.  You can resuscitate 
+somebody with two large bore peripheral IVs as well as or better than with 
+the central line.  Now, if you need it for hemodynamic monitoring or for 
+administering drugs to the heart, usually in the setting of a cardiac arrest, 
+then you need a central line, but absent that, you know, you should really 
+take into consideration whether you need to expose the patient to the 
+risks associated with putting in a central line.  So that's the routine thing 
+that nobody wants to talk about, but it's probably the most important 
+element to the whole process.  So once you've identified a patient and 
+decided that you're going to put in a central line... I'm sorry, you want... 
+no.
+Q:	Just like the major tasks associated with the procedure.
+Belzberg:	Okay.  So the first major task is identifying which site you're going to use.  
+And do you want me to expand on that now or later?
+Q:	No.  Just give me the tasks now.
+Belzberg:	Okay.  Identify the site that you're going to do.  I mean, even before that 
+obtain consent if it's appropriate.  The next thing is notify your coworkers, 
+especially your nurses what you're up to.  Gather your equipment.  Prep 
+the patient.  Drape the patient.  Put on protective gear.  Open your kit and 
+ensure that the kit has everything that you need and that it all works the 
+way you think it's going to work.  Then go ahead and perform the 
+puncture.  Confirm the location of the catheter, and then place the final 
+catheter and secure the catheter in place.  Place a dressing, appropriate 
+dressing over the catheter.  Actually, before you put the dressing on, hook 
+up the various lines, so that nothing is left unhooked up, which could be a 
+problem.  Then secure the catheter.  Put a dressing on.  Order a chest x-
+ray.  Write a note, and check your chest x-ray.
+Q:	And that's it?
+Belzberg:	Yeah.
+Q:	Okay.  So basically I'm going to read back to you the steps that you 
+described.  So the first step is really making a decision about indications 
+or whether the patient even needs to have a catheter put in place.  The 
+second step is identifying which sites you're going to use.
+Belzberg:	I would invert that.  I'd get consent first.
+Q:	Obtain consent.  Before step one or before step two?
+Belzberg:	Before step two.
+Q:	Before step two, okay.  So that's two, this is three.  And then, so three is 
+identifying which site you would use.  Four is really kind of everything you 
+described here to find your coworkers, gathering equipment, prepping the 
+patient, draping the patient, that's kind of all like preparing yourself and 
+your patient to perform... getting ready to actually perform the procedure.  
+Would you say that's true?
+Belzberg:	I would, but as we were talking about before, I think those separate little 
+elements that I gave you are very important, and that's some of the stuff 
+that you were saying that's automatic learning.  I think for a more 
+experienced person it's automatic.  They expect the nurse to know what's 
+going on.  They expect to have the equipment available.
+Q:	Right.  Well, we're going to drill each step down.  We're going to drill each 
+one down.  So I'm going to get to all of that.
+Belzberg:	So I predrilled a couple of them for you.
+Q:	Yeah, you started on that.  That's fine.  And then you're going to actually 
+perform the puncture.  That's step five.  And then you're going to step six, 
+confirm location of the catheter.  Step seven, place the final catheter.  
+Step eight is hook up your lines.  Step nine is place dressing, secure 
+catheter.
+Belzberg:	Opposite.
+Q:	Secure catheter, place dressing.  So I'll switch those around.  And then 
+the tenth step is really confirmation.  Confirm that your catheter is where 
+it's supposed to be.
+Belzberg:	Yeah.  And do your paperwork.
+Q:	And do your paperwork, okay.
+Belzberg:	Never forget the paperwork.
+Q:	You're the first person to mention that.  So now what I'm going to do is I'm 
+going to go and drill down each step.  This is the part that's going to take 
+a little bit.  So how much time of yours do I have?
+Belzberg:	As much as you need.
+Q:	I have a meeting at 4:00.  We should be okay.  So step one, deciding 
+whether this patient needs a central line.  So tell me when a central line is 
+indicated.
+Belzberg:	A central line is indicated, a) when there's inadequate peripheral access.  
+Meaning, peripheral veins in the arms or in other parts of the body.  So 
+that's an adequate peripheral access.  And that's peripheral access for 
+two things.  One is for fluid administration... actually, three things.  Fluid 
+administration and drug administration, and the other thing is 
+hemodynamic monitoring.
+Q:	Any other indications?
+Belzberg:	Certain specialized lines are put in for specialized access.  For example, 
+we use much of the same approach for hemodialysis catheters, for 
+example, but that's really a separate category.  Occasionally, we would 
+use a central line for CRRT, continuous renal replacement therapy, or for 
+placement of a pacemaker, something like that.  But those are really all 
+kind of, I think, outside of the scope of this discussion.  There are other 
+reasons that you would use this skill, but it would be in a different context.
+Q:	So in general it's really for access.
+Belzberg:	For access and for monitoring.
+Q:	And monitoring.  And who generally places central lines?
+Belzberg:	In general, it is one of the more junior members of the team.  It's typically 
+a... it depends, you know, what generation you are.  In days gone by it 
+was a medical student.  These days it's a mid-level resident, and I 
+suspect not too far away from that it'll be an attending.
+Q:	Any other indications that you think we need to discuss in this context with 
+general surgery or resident education?
+Belzberg:	No.
+Q:	What about contraindications?  Are there times when you would not put a 
+central line in?
+Belzberg:	Yes.
+Q:	What are those?
+Belzberg:	Some of the specific contraindications, and there are no absolute 
+contraindications as far as I'm concerned, but there are relative 
+contraindications.  And the relative contraindications are both site specific.  
+There are some site specific contraindications, which basically what I 
+mean by that is there's certain circumstances where you wouldn't use a 
+neckline or a subclavian, and then there are general contraindications.  
+Let's start with the general first.  The general is primarily high risk of 
+bleeding.  Patients that are coagulopathic, for whatever reason, are at risk 
+of increased complication rate.  And now I'll go to the site specific ones.  
+The site specific ones are you would not choose to put in a subclavian line 
+on the side where the patient only has one good lung.  You would not 
+want to put a line in the groin in a patient who may have abdominal 
+bleeding, secondary to trauma.  You would not want to necessarily put in 
+a line in the neck in someone who is in cervical immobilization.  
+Q:	Anything else?
+Belzberg:	Again, I'm going down the list, you know, they're softer and softer 
+contraindications.  You would have a contradiction depending on the ease 
+of access.  So somebody whose got a very, very squat neck and, you 
+know, is very fat, then that would direct you in another direction, but it's 
+not really a contraindication.  It goes back to what we said about site 
+selection.
+Q:	So we can talk about that when we get to that step?
+Belzberg:	Yeah.
+Q:	And we can maybe go over more contraindications if you think of any 
+when we're there.
+Belzberg:	Yeah.
+Q:	So now we're going to obtain an informed consent.
+Belzberg:	Right.
+Q:	Do you always do that?
+Belzberg:	If it's an emergency you do not need to do it.  If there's no method for 
+getting consent, then you don't put a patient at risk.  There is some 
+controversy about when you're replacing a line, whether you need to get 
+consent to replace a line.  Either over a guidewire or as part of a new 
+stick.  I think most people, most reason people would say for a guidewire 
+exchange you do not need consent.  For replacing a catheter because 
+you have to move the site because of an infection or something like that, 
+you may or may not need consent because it's really continuation of a 
+therapy.  And this is a (sic) area of a great deal of controversy.  It's like 
+you don't get consent in the OR for each step of the operation, you know, 
+you get consent to do an appendectomy.  You don't get consent to open 
+the fascia.  You don't get consent to use blue thread instead of green 
+thread.  It's kind of a package deal if you're doing an appendectomy.  So if 
+you need central venous access, it's a package deal.  So there's a little bit 
+of controversy, but in these days if you can get consent... the better you 
+can get consent, the better off you are.
+Q:	So now we're on step three, identifying which site you will use.  So just 
+explain briefly the three sites.
+Belzberg:	The three sites are the internal jugular, the next site is the subclavian, and 
+the third site is the femoral.
+Q:	And when would you use each site or what's your preferred place?
+Belzberg:	Much of the decision... I'm going to divide this into two groups.  There are, 
+what we call, high lines, which is subclavian and internal jugular, and then 
+groin lines.  And groin lines are used predominately for emergency 
+vascular access.  They are not good for hemodynamic monitoring, and 
+they have an increased risk of deep vein thrombosis and possibly or 
+probably increased risk of sepsis.  So they are really emergency and 
+short-term lines.  They're also not useful in patients that may have 
+abdominal bleeding.  So that's the story on the groin lines.
+Q:	So if you need emergency vascular access quickly and it's a short-term, 
+then you would use a femoral line.
+Belzberg:	Yeah.
+Q:	And if they have no abdominal bleeding.
+Belzberg:	Right.
+Q:	Now, if they have abdominal bleeding, but you still needed that quick 
+access, would you use a different site or would you use the femoral?
+Belzberg:	The old teaching used to be, and it's not an unreasonable thing, when you 
+have a vigorous resuscitation going on, you should have one line one 
+each side of the diaphragm.  So it would be determined by the context 
+where you might want to have... if you had two good peripheral IVs in the 
+arm and you could get fluid through it, but you still wanted, for whatever 
+reason, a third access point, then even in the face of bleeding, what I 
+would do is I would probably select what I was giving through that line.  
+Meaning, that if I worried about... let's say I have an arm line and a groin 
+line, and I was worried about abdominal bleeding and I was going to 
+transfuse blood, I'd transfuse the blood through the arm line rather than 
+through the groin line.  So in a crunch you get what you can get, but if you 
+can't get an upper line and you need a line, you do what you can.  It may 
+not be ideal, but you have to do what you have to do.
+Q:	So if it was truly an emergency and you couldn't get an upper line in the 
+face of (overtalking)...
+Belzberg:	Yeah, I would still do it, but I would be anxious to get an alternative as 
+soon as I could.
+Q:	What about the IJ?  When would you put in the internal jugular?
+Belzberg:	The IJ is popularized by an anesthesiologist.  And the reason that it's 
+popularized by the anesthesiologist, it's on the anesthesia side of the 
+blood brain barrier, so that they can get access to the neck while the 
+surgeons are working or prepping the chest, the abdomen or any other 
+organ area except the neck and the head.  So the anesthesiologists are 
+very comfortable and enthusiastic about that line.  The advantages of it 
+are a) it's accessible to the head of the bed, b) it is at least statistically 
+less likely to induce apneumothorax.  That is, it's not absolute, but largely 
+you don't worry as much about apneumothorax with a (sic) internal jugular 
+approach, and... I'm sorry, you wanted the advantages of it?
+Q:	Well, when would you select an IJ over (overtalking)...?
+Belzberg:	For example, you were working on... if somebody was going to get an 
+operation or some treatment on the chest.  If their body habitus lended  
+itself more towards an IJ, if they were very obese and if they've got big, 
+you know, fat or what have you, and both in the groin and the upper 
+chest, you might do that.  If you have concerns about pulmonary function, 
+meaning that you may have apneumothorax or you may have impaired 
+respirations, for whatever reason, you might opt for a (sic) internal jugular.  
+And one very obscure reason is if you're concerned about putting in a 
+transvenous pacemaker, the optimal site is the right internal jugular, 
+because that's a straight shot to the apex of the heart, and there are no 
+valves in the way.  So if you need to thread a transvenous pacemaker, 
+that's the easiest approach.
+Q:	So if the patient needs a central line and possibly a pacemaker, you 
+would do that?
+Belzberg:	Yeah.
+Q:	Any other indications or times you would choose an IJ over any other 
+site?
+Belzberg:	Not really.  And do you want some downsides to it now?
+Q:	Yeah.  When would you not choose an IJ?
+Belzberg:	When I would not choose an IJ is a) when I did not have skill or availability 
+of ultrasound to guide my procedure, because it is certainly state of the 
+art, and it's becoming standard of care to use ultrasonic guidance for 
+internal jugular line placement.  I wouldn't use it again if there are, 
+obviously, for mechanical reasons, if somebody's going to be operating on 
+the skull or on the face or something like that, it's an inconvenient place to 
+have a line.  And if I had easy and reasonable approach to the subclavian, 
+I would not use a (sic) internal jugular because of the increased risk of 
+infection, difficulty in maintaining stability and cleanliness of the insertion 
+site.
+Q:	So it's difficult to keep it clean or...
+Belzberg:	Yeah, especially somebody in the ICU, they typically are intubated.  
+They've got trach tape around, they always have secretions.  I call it 
+'slobber' coming out of their mouth, and it's, you know, think about it.  
+Their neck is always yucky.  And also they're going to be moving around 
+and their neck, you know, you're going to move the tip of the catheter 
+because they're doing this or doing that.  I don't know if that comes across 
+on the tape.  
+Q:	Yeah.  No... okay, so let's talk about subclavian then.  When would you 
+pick subclavian?
+Belzberg:	Subclavian is, according to the CDC now, the site of choice for central 
+venous catheterization.  
+[END PART 1]
+[BEGIN PART 2]
+Q:	We're returning with Dr. Howard Belzberg, talking about central line 
+placement.  So we were talking about subclavian, when you would choose 
+subclavian, and we left with the CDC, it's now the site of choice.
+Belzberg:	The CDC, it's now the site of choice.  If I'm going to do it for any long-
+term, more than a couple of three days, it's very preferable because it's 
+stable and it's easy to keep clean.  I also like it for it's a very good place to 
+put in a catheter that will accurately monitor pressure in the superior vena 
+cava and also oxygen tension in the superior vena cava.  Some of these 
+catheters have fiber optic bundles in them that allows us to measure 
+oxygen saturation on a continuous basis.
+Q:	Can that happen in the IJ also?
+Belzberg:	The IJ or the subclavian you can use it.  Femoral, not so much.  The other 
+advantages are familiarity.  I find, personally, that the anatomy is more 
+reliable, more consistent for the subclavian than it is for the internal 
+jugular.
+Q:	Any time you would not use the subclavian?
+Belzberg:	I would not use it if the patient had very marginal lung function, and I 
+would certainly choose the opposite side.  I would choose the side with 
+the worst lung function to put in the catheter if I had to go to a lung.
+Q:	Anything else?
+Belzberg:	The only other down thing, again, if the patient, as I said before, if there's 
+coagulopathy, that's a relative contraindication depending on the severity.  
+One of the concerns about the subclavian is, is that it's hard to compress 
+it.  You really can't put pressure on it, whereas the femoral and the 
+internal jugular, it's easier to compress it.  If I was worried about bleeding, 
+then I would probably opt for another site, but I'd have to be pretty worried 
+about it.
+Q:	And we've talked about the femoral already.  So basically just so I repeat 
+back to you that I have it right.  That would be your least preference, least 
+preferred site, but really in the case of... if it was an extreme case where 
+you needed emergency vascular access...
+Belzberg:	Then it becomes a more viable... a better choice.
+Q:	Now, if you put a femoral line in to stabilize a patient, and then now the 
+patient's up in the ICU, how long would you leave that line in for or how 
+quickly would you change that line?
+Belzberg:	In general, all lines that are put in as emergency lines should be removed 
+within 24 hours.  Largely, in the femoral because there's specific 
+problems, but in general if it's an emergency line, the chances that you 
+used the proper sterile technique, etc., etc., are much diminished.  So any 
+line that's put in as an emergency line... and the way, practically, we deal 
+with this is that if it's not documented in the chart that strict precautions 
+were maintained, then that's considered an emergency line and 
+considered a dirty line, and it should be changed within 24 hours.
+Q:	And would you change the site or you would just change... like if it was a 
+subclavian, would you change over the catheter?
+Belzberg:	Changing over a wire, using exchanged wire, is an acceptable technique, 
+in general.  As long as the patient doesn't have evidence of bloodstream 
+infection and doesn't have any local evidence, you know, puss, redness, 
+anything like that, or you know for a fact there was gross contamination at 
+the time of the line placement.  I mean, if you put the line in yourself and 
+you did it barehanded or something like that, you know, then I would 
+probably opt to change the site.  But, in general, it's been shown that 
+changing over a guidewire is probably safer than a new stick.
+Q:	We're still on identifying the site.  I have one more question.  So you have 
+two IJs, two subclavians and two femorals.  Is there a reason or a choice 
+of preferred left/right?  When would you choose the right and when would 
+you choose the left?  
+Belzberg:	There are some very subtle things.  As I said, if I'm thinking about a 
+pacemaker, I would prefer the right internal jugular, so it's a straight shot.  
+All things being equal, I prefer the right subclavian because the thoracic 
+duct empties into the left subclavian, and every couple of hundred lines 
+that somebody puts in, they either lacerate or cannulate the thoracic duct, 
+which is a pain in the neck.  And so, again, all things being equal, no 
+reason one way or another, probably a right subclavian is favored, but it's 
+a close call.  It's one of these 51/49.
+Q:	Close call between the right and the left subclavian?
+Belzberg:	Right.
+Q:	The subclavian is your first choice.
+Belzberg:	Subclavian is my first choice.
+Q:	So you would do a right, then a left, then go to IJs, and then femorals, and 
+right being your first IJ you would choose unless (overtalking)....
+Belzberg:	If I'm thinking about a pacemaker.  If I'm not thinking about a pacemaker 
+then it's fielder's choice.
+Q:	Very good.  So now we're on step four, and that's really preparing for the 
+procedure, and you've given me some information about this already 
+about you would gather your equipment, you would prep the patient, let 
+your coworkers know, drape, put on protective gear.  So walk me through.  
+Now, you're walking into the room and they say, 'Dr. Belzberg, can you 
+go put a line in Bed 4.'  Walk me through what's going through your head 
+and what you're going to do.
+Belzberg:	Well, the first thing that's going through my head is can I get somebody 
+else to do it.
+Q:	There's nobody else around.  You sent them all to Mexico for the 
+weekend.
+Belzberg:	Well, as I said, the first thing is I'm going to make sure that the patient 
+needs it.  I'm going to get consent if I can.  If the patient is coherent I'll tell 
+the patient what I'm planning to do, and I may get consent directly from 
+the patient if that's appropriate.  Then I will examine the patient, look at 
+the various sites to help me make my decision as to which side it is.  At 
+this time I've already told my nurse colleagues that this is what I'm up to 
+and that they need to make themselves available and get set up.  One 
+thing that we haven't talked about... can I go...
+Q:	Sure.  Yeah, go ahead.
+Belzberg:	Is that there needs to be... depending on what you're going to use the line 
+for and how you're going to use it, there needs to be some mechanics set 
+up.  You may need a transducer setup, you may need a series of three-
+way stopcocks.  You will definitely need some IV infusion bags.  You may 
+need a pressure bag if you're doing an aggressive transfusion.  And I take 
+that out of the specific of placing the central line, because most of those 
+tasks are done independently and by somebody else.  Very few doctors 
+know how to set up a pressure transducer, so I'm sure you remember 
+from your days.
+Q:	But you need to know that it needs to be there.
+Belzberg:	That it needs to be done.  Yeah.  And you need to check with your nurse 
+to make sure that she's, you know, done it, because sometimes you have 
+a less experienced nurse, and may not remember or recognize what they 
+need to do.  So that's why I make an issue about telling your nursing 
+colleagues what you're up to, and I try and give them as much lead time 
+as I can, because that way if they're taking care of another patient or 
+they've got somebody else doing a procedure in the next room, that they 
+can organize stuff.  I usually ask permission, 'When can I put in a central 
+line?'  And then I come back and do it.  Whose going to want to do when 
+they're giving a report or when they're taking somebody out to a CT scan 
+or God knows what.  So I usually ask when is a good time and schedule it 
+that way.  I don't know if it's really pertinent, but it's important, is that it 
+builds good teamwork that everybody is taken into consideration and their 
+demands are respected.  It's not like, 'Okay, I'm here.  I'm the doctor.  
+Drop everything because I'm here.'  Sometimes you have to be that way, 
+but if you don't have to be that, you shouldn't be that way.
+Q:	So you've got your equipment all set up.
+Belzberg:	You got your equipment all set up, and you've checked to make sure you 
+have all the equipment that you need, because you don't want to send 
+people running at the last minute for a stitch or for an extra drape or some 
+cleansing material or something.  And so you make sure you've got your 
+equipment.  Then you do your prep, your skin prep.  
+Q:	And how do you do that?
+Belzberg:	Nowadays we use chlorhexidine, and they come in these little sponge-tip 
+dispensers.  And this is why you have to know your equipment, in some 
+kits there are chlorhexidine applicators built in to the kit, and in some 
+cases you have to get them separately from a supply, somewhere else.  
+That's why I make a point you need to know what's in your kit.  And so 
+you put on your chlorhexidine, and then at that point my practice is, I will 
+then put on my gown, hat, mask and not in that order.  I usually put on the 
+hat first, then the mask, then the gown, then the gloves.  Then at that 
+point now I will drape the patient.  I will get full body draping of the patient, 
+head to toe.   
+Q:	And what position is the patient in?
+Belzberg:	Again, part of that depends on where you're going.  If you're going internal 
+jugular, the patient can be lying prone.  If you're going subclavian, you 
+want them in slight reverse Trendelenberg or, you know, with feet up.  
+Because if you get an air embolism you'd rather it go to the heart than to 
+go to the brain, and you also want to fill the vessels.  
+Q:	If IJ, then prone.  If subclavian, then slight Trendelenberg.
+Belzberg:	Right.
+Q:	If femoral?
+Belzberg:	Prone.  Now, one little trick that has to do indirect... if you're doing a 
+subclavian and you're having difficulty accessing the vessel, one thing 
+that sometimes helps is to have somebody reach under the drapes and 
+pull down on the arm, extend the arm, because that can, then, open up 
+the shoulder a little bit and allow you better excess.  So it's not a bad idea.  
+If I know it's going to be a tough stick or something I may put a restraint 
+on the arm and let the string hang down, so somebody can just grab that 
+and pull on that, and not have to do gymnastics to get under the drapes 
+and what have you.
+Q:	So we're in the room and you've now prepped the site, you're draped, 
+you've draped the patient, you've positioned the patient.
+Belzberg:	Oh, I forgot, eye protection.
+Q:	Eye protection.  Anything else before you're actually going to...
+Belzberg:	Well, I feel the anatomy.  Now that I'm draped and the patient is draped, 
+etc., etc., now I've got my gloves on, now I want to reconfirm my 
+anatomical landmarks.  If I'm doing an IJ, at this point I'll be using the 
+ultrasound to confirm the position of the jugular vein.  If I'm doing 
+subclavian I'll use my fingers to feel the sternal notch as well as the 
+curvature of the clavicle.
+Q:	Any tricks about the femoral?
+Belzberg:	The femoral, the trick is that you when you're putting in a femoral you 
+really have to feel the pulse.  And you remember that it's nerve, artery, 
+vein, Y, maybe is how I remember it.  So the nerve is the most lateral, 
+then the artery, the vein is a little bit more central, and then the Y of the 
+legs.  So you want to be a little bit medial to the femoral pulse.  Usually, 
+you know, a fingertip or so medial to the femoral pulse.  And you definitely 
+want to be able to feel a pulse.  Just poking is rarely successful, 
+sometimes, but rarely.
+Q:	So now you're sterile.  You've felt your anatomy.  You have your 
+ultrasound machine ready if you're doing an IJ, and what are you going to 
+do next?
+Belzberg:	Next, I'm going to assemble my equipment and basically what I'm going to 
+do is I'm going to take my syringe... well, again, depending on the status 
+of the patient, I may or may not opt to give local anesthetic.  If I give local 
+anesthetic, I'll use the Lidocaine that comes in the kit and use the smallest 
+needle and syringe.  I may even use that needle as a finder needle.  If I'm 
+doing an IJ approach, I'm may use the anesthetic needle as a finder 
+needle to advance and until I'm in where I think I am, and I can, then, 
+track that needle with my larger catheter.
+Q:	So let's just talk about this for a minute.  So you said depending on the 
+patient, you may give Lidocaine.  What patients are those?
+Belzberg:	Patients that can feel pain.
+Q:	They're not otherwise sedated.
+Belzberg:	Not otherwise heavily sedated.  If somebody's paralyzed and on a big 
+time fentanyl drip, etc., etc., I feel less compulsion.  It's not unreasonable 
+to take the position that everybody should get some local anesthetic.  
+Again, a little bit of that is judgment, because you're not poking the patient 
+twice.  If you're confident then you're good, you can get it all over with 
+with one poke, and you don't gain anything by poking them with an 
+anesthetic.  The other thing is the local anesthetic, a) it can slow you 
+down a little bit because it takes a few minutes to take its maximal effect, 
+and b) it can sometimes, although it's reaching, can obscure your 
+landmarks, you know, if you put in too big of a (inaudible)... or a welt.  I 
+suspect there are some other people if you're talking about it, that jump 
+up and down when I say, 'Let's skip the local anesthetic.'
+Q:	So just so I'm clear, so if I could ask you to put this into like a statement.  
+If the patient can feel pain, then you would...
+Belzberg:	Then I would give a local anesthetic.
+Q:	When would you not give it?
+Belzberg:	In a patient who was paralyzed and heavily sedated, or is comatose for 
+some other reason.
+Q:	It would not be necessary.
+Belzberg:	It's just not necessary.
+Q:	So now you gave them local anesthetic.
+Belzberg:	Right.  And so now I assemble my syringe and at this point it's very 
+important that I've got my syringe, and I think I told you last time, there's a 
+little trick where I line up the bevel of the needle with the numbers on the 
+side of the syringe, so that I know which direction the bevel is going as I'm 
+passing my guidewire.  So what I always do at this point is I always check 
+that the needle that I'm using will accommodate the guidewire that I intend 
+to use, and I actually physically do that.  I pass the guidewire through, so 
+I'm sure that I don't have too small a needle.  And then I make selection 
+as to whether I'm going to use a plastic over-the-needle-catheter, usually 
+called an angio-cath or a metal needle as my tool for announcing my 
+guidewire.
+Q:	So bringing us to when would you use which one?  When would you use 
+the plastic needle?
+Belzberg:	I, in general, prefer to use the plastic.  The reason I prefer to use the 
+plastic is I don't like the idea of fussing around with a sharp stiff needle in 
+the vein as I'm changing the syringe and putting on a new thing, and so I 
+prefer using the angio-cath for that reason, because then I can get the 
+needle out and I don't have anything sharp.  The downside of that is it's 
+one more manipulation and depending on the kit that you're using, some 
+of the kits have a gadget where you can pass the guidewire through the 
+barrel of the syringe, and you don't need to disconnect the needle from 
+the syringe.  But that only works with the needles.  It doesn't work with the 
+angio-cath.
+Q:	So if you were using that type of kit would you do the needle then?
+Belzberg:	It would tilt me more in favor of that, but it wouldn't... it's not a (sic) 
+absolute.  I would still kind of ponder which one I would want to use.  But it 
+would tilt me in favor of that a little bit.  Certainly, if I didn't have that kit, 
+then that would tilt me in favor of the angio-cath.
+Q:	So now you've checked your guidewire, you've selected...
+Belzberg:	Your site.  And now I make my approach, and depending on the anatomy 
+and wherever I make my approach, and a couple of fine points if you 
+really want to get very, very fine is, some people, including myself, will 
+draw up a little bit of local anesthetic into their syringe before they poke, 
+and then inject a little bit of that fluid after you've gone through the skin, 
+because occasionally you can get a core of skin in the needle, which 
+would then impede the return flow.  I mean, that's kind of very subtle and 
+sophisticated, but it's something that you can do.  And also sometimes 
+that's kind of the balance between giving or not giving a local anesthetic.  
+If you put a little bit of local anesthetic in your big needle, as you're going 
+in you may give a little bit, although it's probably treating you more than 
+treating the patient.  So then make your skin puncture, and depending on 
+which site you've selected, you aim for the vessel.  If you're using the 
+subclavian you'd pick an aim point.  I use the angle of the jaw.  Other 
+people use the opposite shoulder, the opposite ear, the phase of the 
+moon, whatever.
+Q:	How do you select that site?  Just from experience of doing it?
+Belzberg:	What do you mean?
+Q:	How did you pick the angle of the jaw versus the chin?
+Belzberg:	Just from personal experience, because as you're selecting your angle, 
+you have to kind of in your mind's eye pick some angle, and everybody 
+has been lucky or taught different ways.  There's no hard and fast one.  If 
+you're doing a subclavian, you make your initial puncture about two finger 
+breadths below the junction of the middle and the thistle third of the 
+clavicle.  And if you feel the clavicle, you'll feel that there's a curve, almost 
+a notch right there.  And so you go about two finger breadths below that, 
+make your skin, then flatten out your needle, advance the needle until you 
+feel the clavicle, then slightly increase the angle of the needle and 
+advance it underneath the clavicle.  As soon as you change that angle, 
+you want to make sure you've got a little bit of negative pressure on the 
+syringe, put a little suction on it, because you want to get a flush of blood.  
+Once you get free flow of blood, you pass the guidewire through whatever 
+apparatus you've done.  And this may be the most crucial part of the 
+whole thing, is the guidewire should go in with no resistance.  The 
+guidewire should fall in, basically.  If you have to force the guidewire, 
+you're probably not in the right place.
+Q:	So then what do you do if you have to force it?
+Belzberg:	If you have to force it, you should take out the guidewire, put the syringe 
+back on the needle and reposition the tip of your needle until you get, 
+once again, get good return, good blood flow, and then you, again, try and 
+pass the guidewire.
+[END PART 2]
+[BEGIN PART 3]
+Q:	Returning with Dr. Howard Belzberg on June 2nd, 2009.  So we're talking 
+about the guidewire.  So if you meet resistance, you pull it out and you 
+start again.
+Belzberg:	And you reposition.  And once you've got guidewire well-secured... or 
+once the guidewire has been advanced sufficiently, meaning that it should 
+be at least two to three inches beyond... the tip of the guidewire should be 
+at least two to three inches beyond the tip of the needle.  And there are 
+markings on the guidewire that will tell you that.  That's another reason to 
+check to pass the guidewire while you're getting set up, so you can look at 
+it and see how much guidewire you need to put in to be two to three 
+inches beyond the tip of the needle.
+Q:	So that's a general kind of rule of thumb, two to three inches?
+Belzberg:	Yeah.  You don't want it much longer than that, and while you're passing it 
+you want to be watching for arrhythmias, because sometimes you can 
+become over-enthusiastic and put the guidewire all the way down into the 
+right atrium or in the right ventricle, and then you can irritate the heart and 
+cause arrhythmias. 
+Q:	And if this happens, what do you do?
+Belzberg:	Pull it back.  It's important to that catheter-induced arrhythmias are not 
+responsive to anti-arrhythmic drugs.  The treatment for catheter-induced 
+arrhythmia is get rid of the catheter.
+Q:	Remove the irritant.
+Belzberg:	Yeah.  
+Q:	Any other routine problems that can happen with this task?  Anything?
+Belzberg:	Yeah, the one other thing is as you prepare to introduce the guidewire, if 
+you're not using up through the barrel syringe, you actually have to 
+disconnect the syringe from the needle and/or the angio-cath.  At that 
+point, you're at risk of allowing air to enter the circulation and causing an 
+air embolism.  So as you disconnect the syringe, you have to keep your 
+thumb over the end of the needle, so that you occlude that while you're 
+grabbing your guidewire, and then passing the guidewire through.
+Q:	Anything else about the guidewire?
+Belzberg:	So once you've got the guidewire in place, you want to take out your 
+needle, and as soon as you take out your needle, you should put a clamp 
+on the end of the guidewire, so that it doesn't slip in.  Now you've got your 
+guidewire in place and a clamp on the end of it.  You take your 15-blade 
+scalpel and run the dull side of the blade alongside the guidewire and 
+make a generous incision, like a quarter of an inch, at least.  So now 
+you've done that with your 15-blade.  You get rid of the 15-blade.  And 
+now you assemble your catheter, your introducer.  Now, wait a second.  
+Let me ask you, there's a slight divergence here if you're just putting in 
+like a triple lumen or you want to put in an introducer.  If you're putting in a 
+triple lumen, okay, for a triple lumen you then have a dilator in the kit, and 
+you take that dilator, you unclamp the guidewire, you hold on to the 
+guidewire at the skin, and you pass the introducer... the dilator over the 
+guidewire.  As soon as the guidewire sticks out, the end of the dilator, put 
+your clamp back on.  Now you hold your guidewire in one position, steady 
+and advance the dilator, and run it back and forth a few times, because 
+that will establish your track to pass your catheter.  So once you've done 
+that a few times and you feel comfortable, then it's pretty smooth, then, 
+again, you pull back on your dilator, keep your finger on the tip of where 
+the guidewire enters the skin, take off your clamp, take off the guidewire, 
+take off the introducer, and put your device, your triple lumen, whatever 
+device you're going to use, over the guidewire, and feed out, make sure 
+that there's guidewire sticking out of the end of your catheter, and put the 
+clamp back on it.  Before you let go of this, you put the clamp back on 
+here.  So you've always got control of the guidewire.  Now I've got my 
+clamp here.  Now, again, holding my guidewire in one position, I advance 
+the catheter that I'm using until I am comfortably in, and that depends a 
+little bit on the body habitus, but you want to be in far enough so that you 
+are in the descending vena cava, but above the pericardial reflection, 
+which usually translates, so you'd like the tip about two fingers breadths 
+below the sternal clavicular junction.
+Q:	Now, before we move on to the next step, you just gave me all the details 
+of performing the puncture and getting the catheter in.  What are some 
+routine problems or where do students or residents have the most trouble 
+with that step from your experience?
+Belzberg:	There are two big areas.  The biggest one probably is finding the vessel, 
+is actually going under, getting your anatomy, getting comfortable enough 
+with the anatomy and the specifics of the patient to the find the vessel.  
+That is almost always the big challenge of this whole procedure, that's the 
+one thing that's really skill and not mechanical, is really finding the vessel.  
+So that's the biggest thing.  The other big thing is... two other big things, is  
+one is not... I'm sorry, three.  One is not lacerating the artery.  We frown 
+on that.
+Q:	That's a big artery to lacerate.
+Belzberg:	Yeah.  Either one, either the carotid or the subclavian.  So you don't want 
+to lacerate the artery.  You don't want to drop the lung.  You don't want to 
+cause apneumothorax, and you don't want to cause an air embolism.
+Q:	Now, if you lacerate the artery...
+Belzberg:	Direct pressure for literally, and this you have to be very strict about, 
+direct pressure with a four by four, around the bottom of the (inaudible)..., 
+watching the clock for five minutes, not one of these, 'Okay, I think it 
+stopped.'  You actually stand there and watch the clock with your finger 
+pressing down on the site for five minutes.  That's the standard, simple 
+solution.  And then you have to follow the patient closely.  You want to feel 
+for a pulse to make sure you still have a pulse, which you almost always 
+do, and watch them to make sure they don't have ongoing bleeding.  If 
+there is any evidence of ongoing blood loss, you need a surgical 
+consultation to decide whether you need angiographic or open repair.
+Q:	And apneumothorax, you put a chest tube in.
+Belzberg:	Apneumothorax you put in a chest tube.
+Q:	Now, the air embolism, is that when they... you take the guidewire out and 
+you put your thumb over?
+Belzberg:	Right.
+Q:	So do they fail to put their thumb over?
+Belzberg:	Yeah.
+Q:	Is that how they get that air embolism?
+Belzberg:	Yeah.
+Q:	So you kind of went through the subclavian.  How is the IJ approach or 
+femoral approach different?  You don't have to describe the whole thing 
+again, but just...
+Belzberg:	The IJ basically you want to feel for the carotid pulse.  And there's several 
+different approaches, but you feel for the two bellies of the 
+sternocleidomastoid muscle, and between those two bellies you'll feel the 
+carotid pulse.  You want to pull the carotid out of the way, and then look 
+with your ultrasound to see you have a compressible vessel alongside of 
+it, and that's how you identify where it is.  And this is where many people 
+will put in a finder needle to make sure that they're in the right place.  And 
+that's the way you do the internal jugular.  And the femoral, as I said, is 
+you feel for a femoral pulse.  You want to probably go, if you can, go 
+below the inguinal ligament and feel for a femoral pulse, and then go just 
+medial to the femoral pulse to find the femoral vein.
+Q:	And all the mechanics are the same with the dilator and the wire?
+Belzberg:	Yeah.
+Q:	So you had mentioned there's different devices to choose from, a triple 
+lumen, a double lumen, and a cordis.  When would you use a triple 
+lumen?  When would you use a double lumen?  When would you use a 
+cordis?
+Belzberg:	We rarely use double lumens anymore, but if you're being very... if you 
+know you have a very limited need for the catheter, and the less lumens, 
+the less risk of infection.  Although, it's almost never used anymore.  
+We've gotten away from that.  A triple lumen you would use if you're 
+predominately doing this for drug and modest fluid administration and 
+hemodynamic monitoring.  You would use a cordis, which is the proper 
+name for a Swan introducer.  And you would use that if you want to give 
+large volume resuscitation and/or if you plan to place a pulmonary artery 
+catheter.  
+Q:	That was the hardest step, I think, the most detailed.  Now you have to 
+confirm the location of the catheter.  So tell me about that.
+Belzberg:	There are a couple of things that you can do.  The first thing is when you 
+are taking your thumb off the tip, the needle, you want to make sure 
+you're not getting pulsatile flow, because that means you're not in a good 
+place.  If you're unsure whether you're getting pulsatile flow or not, there 
+are two things you can do... or three things you can do.  One is you can 
+hook the transducer that your nurse has hooked up, hook it up to the 
+barrel of the needle and look at the waveform, and if it's an arterial 
+waveform, you know you're not in the right place.  You can also send the 
+blood for a blood gas, and if the oxygen saturation is greater than 90% or 
+85%, chances are you're in the artery.  The other simple thing you can do 
+is, you can actually hook up your IV bag to your needle and lower the bag 
+below the level of the bed, and then raise the bag, and blood should stop 
+flowing once you get about 10 centimeters above the level of the heart.  If 
+you're a meter above the level of the heart and blood is still coming up, 
+that means that the pressure is higher than 100 centimeters of water, and 
+that's arterial pressure.  So you want the blood to stop flowing when you 
+get somewhere between 5 and 20 centimeters above the level of the 
+heart.
+Q:	So if you suspect you're in the artery and you suspect it by seeing a 
+pulsatile flow, would you suspect it, and then you would hook up the 
+transducer (overtalking)...
+Belzberg:	If you're convinced at any point in time that you're in the artery, you don't 
+have to do anything more, you pull out and you come back to fight 
+another day.  So if I put the needle in and I'm getting [MAKES SOUND 
+EFFECTS], I don't need to confirm that.  The time you need to confirm it is 
+somebody who may be already borderline hypotensive.  You may not be 
+fully in the vessel, you may be in the wall or something like that, and 
+you're getting something that looks a little bit like the blood is too red.  It 
+may be or it may not be that you're in the artery.  So then you use these 
+alternate tools.  And the reason I put it in that order is because of the 
+simplicity.  The easiest thing is to see, you know, that.  The next easiest 
+thing is hooking it up to the transducer, because the nurse should have 
+the transducer ready anyway to measure the CPP.  The third easiest thing 
+is to use the bag business.  And then the last easiest thing is to get the 
+blood gas, because then you have to wait until somebody takes the blood 
+gas, runs it and brings you back an answer, etc., etc.  By that time you've 
+usually figured it out.
+Q:	So now what do we do?
+Belzberg:	So now you've dilated, you've got your guidewires still in place, you pass 
+your device, whatever that is... I'm sorry, I want to back up.  If you're 
+putting in a cordis what you do is you put your introducer through the 
+cordis, so you do it as a single step.  So you use the introducer.  The 
+introducer will stick out five or six centimeters beyond the end of the 
+cordis.  So you just use it and advance it that way, and then once you've 
+felt like you've dilated, then you advance the whole thing and pull out the 
+dilator and the guidewire at the same time.
+Q:	I remember that.  I do remember something about the ICU.
+Belzberg:	So that's the difference... why I said there was a difference, because if 
+you're just putting in the triple lumen and you can't... you have to do it in 
+two steps.  If you're putting in a cordis, you can put it in in one step.
+Q:	So now we're still on confirm location of catheter.  Anything else you're 
+going to do for that step?
+Belzberg:	You should, especially if you're doing it in the chest, you should go to the 
+hospital museum and find a stethoscope someplace and listen and see if 
+you've got breath sounds on both sides, because, again, you're worried 
+about apneumothorax, and then you want to hook up your catheter to 
+your transducer and see a proper venous waveform.
+Q:	That's the hookup lines?
+Belzberg:	Yeah.
+Q:	So we've performed the puncture, we've put everything through.  So 
+confirm location of catheter being when you're deciding if it's venous or 
+arterial, then you place the final catheter?
+Belzberg:	Right.
+Q:	Or it happens sort of all during that time, so to speak.
+Belzberg:	You may have concerns about arterial placement at either point, either 
+when you put in your initial needle or after you've done the guidewire 
+thing and you put in your final catheter.  So you may pick that up at either 
+point.  Preferably...
+Q:	So it's a suspicion you just always...
+Belzberg:	You always get that suspicion.
+Q:	So now you've hooked up your lines.
+Belzberg:	And you want to check and see that you've got a nice venous waveform 
+on your bedside monitor, and then you secure your line with whatever you 
+like.  I, personally, prefer stitching them in, but other people are happy 
+taping them in.  And then you order a chest x-ray... or then you take off 
+your drapes and put on a dry, sterile or a (sic) occlusive dressing, 
+depending on whatever flavor your unit nurse wants to use.  And then you 
+order a chest x-ray, write your note and check the chest x-ray.
+Q:	What are you looking for on the chest x-ray?
+Belzberg:	Two things.  One is how far in the catheter is because, as I said, you want 
+it in the superior vena cava within about two centimeters below the 
+sternoclavicular junction.  If it's too far in, if it's much below that, you'll 
+want to pull back on the catheter.  It also sometimes these catheters can 
+go up the neck.  If it's going up the neck you can sort of use it for fluid 
+administration... for drug administration, but it's not reliable for pressure 
+monitoring.  Ideally, it's going down and it almost always is, but once in a 
+while they go up the neck.  And then so you want to check for the position 
+of the tip of the catheter, that it's not too low, it's not in the wrong 
+direction.  And then you also want to check for evidence of problems like 
+apneumothorax or a hemothorax.  
+Q:	And the guidewire.
+Belzberg:	Well, that shouldn't even be a question.
+Q:	But here we are.
+Belzberg:	Yeah.
+Q:	So how do you know when you've successfully accomplished the task?  
+How do you know that you've achieved what you...
+Belzberg:	When I get an arousing round of applause from the nursing staff.  The job 
+is finished when I confirm the position and I know I've got good venous 
+tracing and a good fluid flow, and my x-ray has confirmed by position and 
+lack of complications.
+Q:	So I started a list of equipment and I just want to make sure I have 
+everything.  So you need a transducer, IV infusion bags, pressure bag, 
+central line kit, need to know what's in the kit, and you need a gown, hat, 
+mask, eye protective wear and gloves.  Anything else?
+Belzberg:	Yeah.  Usually the kits don't have a full sheet drape.  So you need drapes 
+to provide head to toe coverage.
+Q:	Is that all the equipment and materials?
+Belzberg:	And dressing material.
+Q:	Dressing material.  And they should bring that in the room with them.
+Belzberg:	Yeah.  Again, sometimes that's in the kit, and sometimes it's not.  Usually 
+it's not.
+Q:	Based on your experience putting in central lines, where do you see the 
+problems with the residents are?  I know you talked about finding the site 
+and we talked specifically about one step, but just overall.
+Belzberg:	Overall, it's inattention to sterile technique.  I'll make a little joke, if you 
+will.  There are certain procedures that I call high risk, low glory 
+procedures.  The best example of a high risk, low glory procedure is a 
+circumcision.  Nobody ever gives you an award for being the best 
+circumciser in the hospital.  But you mess one up and you'll hear about it 
+for the rest of your career.  Central lines are in that category.  Nobody 
+ever says, 'Oh, that was a great central line placement,' but if you drop 
+the lung, if you lacerate the artery, if you puncture the heart, if you have 
+any complication, you're going to hear about it for the rest of your... 
+certainly, the rest of your rotation.  And so these are high risk, low glory 
+procedures, which tends to lend themselves to being things that people 
+don't pay a lot of attention to.  They consider them mundane or routine.  
+And that's where, I think, you get into trouble is because it's mundane or 
+it's routine.  They don't pay attention to it.
+[END PART 3]
+[BEGIN PART 4]
+Q:	So do you rely on any sensory experiences?  You said you can kind of 
+feel when you're at the clavicle.  You get like a pop when you're in the 
+artery.  Is there any smell, feel...
+Belzberg:	The biggest feeling thing that I would say is, as I said, is that when you're 
+putting in your guidewire, that it's really floating in very easily, you're not 
+feeling any obstruction or having to pressure it.  As far as a pop, some 
+people say they feel a pop.  I don't reliably feel... I mean, you feel it 
+sometimes, but I don't rely on that, but I really rely on seeing the blood 
+return and the syringe.
+Q:	Now, of all the terms and things we've talked about today, is there 
+anything that would be new or novel to a resident that would need to be 
+explained to them?  I assume they know the anatomy when... are we 
+making assumptions that maybe they don't know?
+Belzberg:	Yes.  I don't think that they, you know, obviously it depends on the level of 
+the person, but the people coming out of, you know, from a variety of 
+different backgrounds may or may not have a (sic) appreciation of the 
+anatomy.  I am almost certain that the use of the ultrasound is something 
+new for many of them.  This would be the only or the first exposure that 
+most of them would have to use any ultrasound.  So that's, I think, an 
+area that requires significant focus.
+Q:	So that's good for the teaching of the GME students to make sure we... 
+because I think we just teach them subclavian.  We got to start doing the 
+IJ.
+Belzberg:	Yeah.
+Q:	Good.  Any questions for me?
+Belzberg:	No.  Did you get everything you needed?  That's the only question.
+Q:	Absolutely.  Probably more than I need.  I think I got it twice.
+[END FILE]

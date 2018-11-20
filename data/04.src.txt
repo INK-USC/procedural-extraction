@@ -1,0 +1,585 @@
+KY: 	Today is May 30th, 2009, and I’m with Dr. Jamie Sullivan.  We are conducting a Cognitive Task Analysis and our task at hand, to describe in depth is central venous catheter placement.  Correct?
+Sullivan:	Yes.
+KY:	I want to make sure we’re on the same path.  So we’re recording.  Is that okay with you?
+Sullivan:	Yes.
+ KY:	So we’re recording this because... well, let me tell you what’s going to happen, is that we’re going to have an interview, conduct an interview, and then we’re going to have the interview transcribed, and then it’s going to be coded according to the kind of statements that you make during the interview.  The reason why we record is that we can go back and verify things we don’t understand or if you use one of these medical terms, we have no idea what you’re talking about, at least we’ve heard you say it, and then we go back and find it what it is, etc.  So we code it, and then we actually take the coding and we create a protocol of the objectives and the purpose, the materials that you use in the task and the major steps that you are involved in the task, and then each one of those major steps has all the actions and decisions that you make during those steps.  So we’re going to record those into a protocol and other information  such as what terms and processes that residents need to know in order to perform this procedure that they may not know when they’re first performing it or being close to it.  So this gets put together all into a protocol report, and it all originates with the interview.  The report then can be converted into training where people can be shown exactly what the procedure is, given the knowledge they need in order to do the procedure, and then have a CTA based training product on that.  So what we’re trying to do is to get inside of your head.  We can observe you doing this procedure, but we can’t observe your mental processes and your judgments, the cognitive decisions that you’re making, and that’s one of the objectives today is to try to get down into those decisions that we can observe and get them down on paper during the interview.  So that’s why we call it a ‘cognitive task.’  So far so good?
+Sullivan:	Sounds good, yeah.
+KY:	So there may be times where I keep drilling down where I’m trying to get this decision that you’re making, if there is one, because I’m perceiving that there’s some sort of decision, you may get frustrated once in a while, and that’s perfectly okay.  Frustrated with me, that’s the problem.  So I think with that we can go ahead and begin.  So we’ve established our task that we’re going to discuss today is the central venous catheter placement.  So what is the actual purpose of this task?
+Sullivan:	IV access.  To gain... to have a secure or what we call stable venous access.
+KY:	Stable venous intravenous access.
+Sullivan:	Correct. 
+KY:	And who might perform this procedure?
+Sullivan:	Physicians, MDs, residents and medical students.
+KY:	You mean like first year, like medical students?
+Sullivan:	No.  Medical students who run the clinical services, third and fourth years could do this under, of course, supervision.
+KY:	I see.
+Sullivan:	Given the... if there’s enough lines available, there’s kind of a hierarchy at times who needs practice or whose turn or whose chance it is to do the procedure.
+KY:	So this is obviously a very important procedure that’s widely performed...
+Sullivan:	Yes.
+KY:	...and prone to errors by novices, in some cases.
+Sullivan:	And experts.
+KY:	So how many of these have you actually performed, these procedures?
+Sullivan:	At least hundreds.  I’ve been putting in central lines since probably 1988.
+KY:	So you’ve been a doctor for 20 years or so.
+Sullivan:	Probably, yes.
+KY:	So certainly then we would consider you an expert in doing this.
+Sullivan:	Yeah.  Yes.
+KY:	So the purpose is to gain stable IV access.
+Sullivan:	Correct.
+KY:	Let’s start with what would be the conditions under which you would perform this procedure?  In medical terms I guess would be the indications and contraindications.  So let’s start with the indications.  What would be the actual indications?
+Sullivan:	Well, let me just start with kind of stable venous access is a little bit of an umbrella term, and that’s you need to administer either drugs, fluids or bloods to a patient quickly and you need to ensure that what you’re giving gets in and gives effect.  That can be accomplished through an IV or a central venous catheter.  Indications for this are trauma, is the big one, where they immediate, quick resuscitation.   They’ve lost blood volume, they’ve lost fluids and you need to give it back quickly.  Other indications are if you’re anticipating blood loss like in the operating room, they’re doing a big tumor resection and you’re anticipating big blood loss or the need for a lot of fluids and medicines, and it would be placed in anticipation of need at that point in time, you would be putting it in.  Other times, there’s certain patients, cancer patients, IV drug abuse patients have very limited venous access, and so you place these lines, again, to be able to administer fluids, drugs, bloods.  So those are some of the indications.
+KY:	Under what conditions would you not perform this procedure, the contraindications?
+Sullivan:	These are a bit rare, but if they have bleeding problems you don’t want to put a catheter in a big vessel.  We see this in leukemia lymphoma patients, you know, sometimes we have to wait to give them platelets or other factors that make their blood clot more easy before you put this in.
+KY:	When you say ‘bleeding problems’ you’re speaking of internal bleeding or (overtalking)...?  
+Sullivan:	No, there’s the blood itself either because of the administration of drugs or there’s some disease process that doesn’t allow the blood to clot appropriately in cancer patients with leukemia lymphoma.  Another scenario is when we used to use thrombolytics, which are drugs that clot bust patients who have heart attacks.  We give thrombolytics to dissolve the clot.  And if you don’t want to be placing central venous access if there is thrombolytics on board already.  Either you reverse it... other patients who are heparin, which is a blood thinner medication, they may have a peripheral blood clot.  You’ll want to stop the heparin, stop the blood thinning medication before you place this.
+KY:	And why is that?  Because they all seem to have this common theme of...  
+Sullivan:	One of the complications of putting in a central venous catheter is you hit the artery, and if you put a hole in a high pressure system it’s very difficult to stop the bleeding.  So you want everything in your favor to be able to having blood clots form while doing this procedure.  Other contraindications are if you don’t know the anatomy or distorted anatomy, you don’t want to be poking needles where you’re not sure the needle is going.  
+KY:	Any other contraindications?
+Sullivan:	No, those are probably some of the big ones for now.
+KY:	Anymore that come along we’ll...
+Sullivan:	Back up.
+KY:	...back up.  No problem.  So what materials would you need to perform this procedure?
+Sullivan:	Fortunately, the central line kit is pretty self-contained.  In fact, almost everything you need is in the kit.
+KY:	Standard kit?
+Sullivan:	It’s a pretty standard kit.
+KY:	Well, the word ‘standard’ is...
+Sullivan:	Yeah.
+KY:	Give us an outline, briefly, of what’s in the kit.
+Sullivan:	Yeah, basically the kits have usually a cleaning solution to clean the area, a sterile drape to place over the area once it’s cleaned.  Then within the kit is usually all the tools, instruments, needles, catheters that you need.  There’s local anesthetics for numbing the area.  There’s needles and syringes for the local anesthetics to numb the area.  There is a finder needle, which is what you use to locate the vein.  You don’t put your big needle in first.  You use a very small finder needle to locate it, and then you follow that finder needle with your larger needle; go in when you have the larger needle in the vein, then there’s a wire in the kit, which you thread the wire through the needle into the vessel, then you remove the sharp objects, the needles.  So now you’ve got just the wire in there.  Then you either have dilators or a catheter.  You can dilate first, and then slide the catheter over or some kits have a dilator through the catheter and it comes as one unit.  There is some assembly that’s acquired once you open the kit.  I mean, you need to prepare your equipment also.
+KY:	So we’ll get to that stage of the procedure.  So this is a fairly standard kit then that comes...
+Sullivan:	Yes.  And there’s probably several different kits on the market, but they’re all pretty similar.
+KY:	What would distinguish how you would use the different kits?  What would be some of the criteria that you would use for different kits?  How would those kits differ, generally speaking?
+Sullivan:	Well, I should say that all kits you would use what’s called ‘the Seldinger Method’ to place the catheter, but there’s different size catheters and different types of catheters.  You can have a single-lumen catheter with a cordis, which has one large port.  You can have a double-lumen catheter, which has two ports; a triple-lumen catheter, which has three ports.  And then there’s some other fancy other catheters, double-lumen catheters with the large ports and some variations upon that.
+KY:	And what would be some of the criteria that would determine whether or not you use a single, double, triple-lumen?
+Sullivan:	Depending on what you want to accomplish.  If you need to place a Swan-Ganz catheter through this, you’ll want a single-lumen, large port.  If you want to administer multiple different medications over time, you’ll want like a triple-lumen where you have three different ports.  If you have a sick patient and you need to give TPM therapy, you need give antibiotic therapy, you need to give fluid therapy, sometimes these drugs can’t all run through the same line.  So you’ve got three different lines that you can hook up many IVs to.  For a general resuscitation, you can use a single-lumen or a double-lumen catheter.
+KY:	So it depends upon the needs of the patient that determine...
+Sullivan:	Correct.  Yeah.
+KY:	...and what type of access then you need intravenously.
+Sullivan:	Correct.
+KY:	Any other equipment and materials other than the kit?
+Sullivan:	That’s your basic.  You can, depending... have IV bag solutions ready to hook immediately on to the kit, and sometimes you may need some sterile gloves or some sterile prep outside of the kit.  You may need sterile gloves and prep also at times.
+KY:	How about other equipment to determine whether or not you’ve located the central line in the proper location?
+Sullivan:	We are moving... standard of care is now moving to using an ultrasound machine.  We’re in a transition period, I would say.  Some institutions it’s part of the culture.  Other institutions it’s not yet.  So that would be another thing.  And Medicare also is now paying for these ultrasound, which will motivate people to use it.
+KY:	Any other equipment?
+Sullivan:	That can get you started.
+KY:	So if I were to ask you... what I want to do is get a broad outline of this overall procedure from beginning to end, a structure or an outline, if you will, that we can then dive into individually and look at more detail in each of the steps.  So I were to ask you, then, to give me the broad steps.  There may be five, six, whatever.  And just make them very broad steps that takes you through this procedure from beginning to end.  Let’s assume that you and I are riding up the elevator and you had to do it very quickly, so that kind of puts the pressure on you to be short and sweet, if you will.  How would you describe that? 
+Sullivan:	We’ve got a 25-year-old healthy male coming in who sustained a gunshot wound and he’s very hypertensive.  So we...
+KY:	Well, them ask you... let me interrupt, if I can do that?
+Sullivan:	Sure.
+KY:	See, this is when you start getting frustrated.  Instead of giving me a situation or a case, just tell me––you have 30 seconds––tell me step 1, step 2, step 3.
+Sullivan:	I want the patient flat, head down.  I want you to sterilely clean the area.  I want you take this small needle, stab it right in...
+KY:	Hang on one second.  You want me to prepare the patient and prepare the area?
+Sullivan:	Correct.
+KY:	Second step.
+Sullivan:	Let me back up.  I also go positioning and preparation.  So the preparation step is get the patient where you need him, at the appropriate height and the appropriate position for you.  Get yourself where you’re at your advantage mechanically to do your thing.  You don’t want to be way down at one end of the bed, you want to be up at the head.  And then preparation is get your... open up your kit and lay it all out, so that you can, what I call ‘one-handed.’  You just go right down the line.  You lay it down, get all your instruments, what you need.  The next step is just the next tool on your tray.
+KY:	Good.  We’ll get it into it.  You’re at the second floor.  Go ahead.
+Sullivan:	Then, basically, take the... after your position prep, take the finder needle.  You need to have a general idea where you want to place your finder needle.  If we’re doing right here, I want you to put one hand on the carotid, feel it...
+KY:	We’ll get into detail later.
+Sullivan:	Put your needle in, locate the vessel.
+KY:	Locate vessel.  
+Sullivan:	Then you get your larger needle.
+KY:	This is the third step?
+Sullivan:	This is your introducer needle.  Correct.  Place your introducer needle into the vein based upon the position of the smaller needle.
+KY:	Have you inserted the smaller needle, by the way?
+Sullivan:	Yes, you have.
+KY:	So insert smaller needle, and then the third step is place the introducer needle. 
+Sullivan:	Correct.  You’re using the smaller needle as your guide.  Once you’ve placed the larger needle in the vein, you take your wire, you thread it through the larger needle.  It should go nice and smooth in.  It should just flow right in.  Remove all needles and don’t pull the wire out.
+KY:	Is that the fifth step, remove all needles?
+Sullivan:	Yes.  Now we’re left with a wire in the neck.  You take a sharp scalpel, you make a nick in the skin right where it enters the wire or I should say where the wire enters the skin, make a nick right there, so that your larger catheter can fit in.  Then you take your... if it’s a dilator through the catheter, it comes as one unit.  So you just place your dilator and catheter on the wire.  The wire’s now going direct your catheter and dilator through the skin into the vessel.  You slide it all the way down to the hub, and then pull out the wire, the introducer... or, I’m sorry, the dilator and you leave the catheter there, and you sew it in place.
+KY:	So I have nine steps.
+Sullivan:	All right. 
+Sullivan:	It’s about three seconds per step.
+KY:	Not bad.  We’re at the 11th floor up here, not bad.  My first step, tell me if this... if things can be combined into one step or if I’ve left out a step or I’ve sewn up the patient before we inserted something, things like that.  So step one, is that you’re preparing the patient, you’re preparing yourself and you’re preparing all your materials.
+Sullivan:	Correct.
+KY:	Step two, you’re locating the placement of where you’re going to put the guide wire in.
+Sullivan:	Correct.
+KY:	Step three, you’re placing the introducer needle into the vein.
+Sullivan:	Okay.  I guess under step two I would have to break it down.  And, first, you use landmarks and you pelvic raise...
+KY:	We’re going to get into detail.  But, generally, you had to locate where you’re going to put it in.
+Sullivan:	Yeah.
+KY:	And then you place the introducer needle at that location where you’ve decided.
+Sullivan:	Correct.
+KY:	Are you comfortable with...
+Sullivan:	Well, there’s a locator needle and the introducer needle.  So when you say ‘location’...
+KY:	Are we putting the locator needle in?
+Sullivan:	Correct.
+KY:	We’re locating it and placing the locator needle.
+Sullivan:	Correct.
+KY:	And then the third step is placing the...
+Sullivan:	Introducer needle.
+KY:	The fourth step I have as thread the wire through the needle?
+Sullivan:	Yes.  Correct.  Thread the wire through the needle.
+KY:	And the fifth step is remove all needles leaving the wire.
+Sullivan:	Correct.  That’s a very small step, but it’s important.
+KY:	Should we put a star next to that?  That was the fifth step.  The sixth step is we’re going to open the skin slightly to be able to insert the catheter.  
+Sullivan:	Correct.
+KY:	We have to widen the insertion point, right?
+Sullivan:	Yes.  Correct.
+KY:	The seventh step is we’re going to place the...
+Sullivan:	Dilator and the catheter.
+KY:	...dilator and the catheter over the wire.
+Sullivan:	Correct.
+KY:	The eighth step is that we’re going to pull out the dilator and the catheter?
+Sullivan:	The wire, dilator and the wire.
+KY:	Dilator and the wire, thank goodness.  We just did the opposite of what we wanted to.  So dilator and the wire leaving the catheter.
+Sullivan:	Correct.
+KY:	So that was the eighth step.  The ninth step was we’re going to sew the catheter...
+Sullivan:	Into place.
+KY:	...into place.
+Sullivan:	Correct.
+KY:	To keep it stable.
+Sullivan:	Yeah.
+KY:	Are you happy with those?
+Sullivan:	Yes.  These steps, the whole method was designed by a gentleman, Dr. Seldinger, and it’s called the ‘Seldinger Method,’ when you use a wire guided system.
+KY:	And that’s S-E-L...
+Sullivan:	Seldinger, I-N-G-E-R.
+KY:	Now, see, that was a test of your remembering the medical terms.  So, now what I want to do is to... if these are nine steps and you’re happy with them, what I want to do is to go through each one of these steps and go into a little bit more detail with them.  Is that okay?
+Sullivan:	Okay.
+KY:	So let’s talk about step number one as our major step, is the preparation of yourself, the patient and the equipment that you need.
+Sullivan:	Correct.
+KY:	So what would you do first?  You’re entering the room and you know you have to do this procedure.
+Sullivan:	I would say this is one of the most important steps, is to get everything in favor.  What that mean is the patient should be in a position that’s head down, so that gravity, of course, assists you and the blood vessels plump up.  A lot of times, you know, to be able to find something it’s easier to find something this big than if it was this big.  So you want the patient head down.  And you want to possibly turn the head a little bit to the side if you’re doing an internal jugular right here, so that you have room to work with.
+KY:	Are you always doing internal jugular?
+Sullivan:	You can do subclavians or you can do internal jugulars.
+KY:	How many different kinds of locations do we have in doing the central venous line placement?
+Sullivan:	I would say six.
+KY:	Six.
+Sullivan:	Basically... well, two, four, and then you can also do femorals.  Six.
+KY:	So you have left and right side.  Three kinds, left and right side.
+Sullivan:	Left and right side.  Correct.
+KY:	So you’ve walked into the room, how are you going to decide which one to do if you’ve got three?
+Sullivan:	By looking at the patient, and if they’re like me and have a nice long neck, I’d be very excited about doing an internal jugular.  If they’re an obese patient or have a body habitus where their chest starts right here and comes down, I would probably do a subclavian.  So it depends upon the patient’s anatomy.
+KY:	So, now we’re starting to get into what we call a ‘decision step.’  You walked in the room and you knew you were going to size this patient up.  So you’ve got some... for the rest of us we’re just walking in and you say, “Give me the kit, turn his head,” and you go to work, right?  But we don’t know what’s going on in your mind.  So what I’m going to ask you to do is to try to think of it and give it to me to make my job easier.  Make it like an if/then statement.  So if you walk into the room and say out loud to yourself and to me, “Well, if the patient is this, this and this and this, then I’m going to do a subclavian or internal jugular or femoral.”  So you’ve walked into the room and now you’re sizing up the patient.  Go ahead.
+Sullivan:	If it’s a non-emergent situation I have time to place a central line of my choice and the patient has a (sic) adequate size neck or I can distinguish several landmarks, I’m going to choose to do an internal jugular.  Another reason for choosing to do this is it has a lower, possibly a lower rate of complications in terms of hitting the lung and causing a pneumothorax.  You have a higher incidence of pneumothorax going subclavian than you do internal jugular.  So if I have the time...
+KY:	Good reason.  But you’ve made the observations here, which you’ve given us and that’s what you’d do, internal jugular.
+Sullivan:	Yeah.
+KY:	You’ve walked in the room and you’re still deciding here.  If, what then, if you’re going to do subclavian.
+Sullivan:	If it’s an emergency or a situation where there’s people around the head.  They’re trying to place an airway, let’s say, this base is not adequate or I can’t get to it as well as I’d like to, then I would choose subclavian.
+KY:	So you walk in and there’s people... you’ve ruled out... so how do you make a decision to do the femoral?
+Sullivan:	If the femoral, I would choose, let’s say, they... everybody’s up around the head and the chest, and they’re all working here and somebody’s managing the airway.  Let’s say, they cracked the chest open or they’re placing chest tubes in.  They need immediate IV access.  It’s life or death.  Then I would go to femorals.  I would also go to the femorals if there was contraindications to up here.  Let’s say, they were operating or there was injury to the great vessels up here, if I put a central line up here it would go in, and then out the injury.  So then I would use the lower extremities. 
+KY:	So in a non-emergency it appears that you’re going right for the jugular.
+KY:	Is that fair?
+Sullivan:	Yes, that’s fair.
+KY:	But in emergencies where people are working around the head, around the upper chest in emergency situations you’re going to probably most go to the femoral then.
+Sullivan:	Correct.  Yeah.  In emergency...
+KY:	Simply said.  I’m trying to distinguish between emergency and non-emergency.
+Sullivan:	Yeah.
+KY:	So just to pin a button on this, in a non-emergency is there any time that you would really go to the subclavian, that you would prefer subclavian or is it you always go to the internal jugular?
+Sullivan:	I could do either.  To be honest, I could do either.  They’re equally, I guess, they’re both efficacious, I should put it that way.  There are some little indications, contraindications again, but either one could be done.
+KY:	So is the patient, since you’ve... your first step in this first major step is positioning the patient.  Is the patient positioned differently whether you’re doing internal jugular, subclavian or femoral?
+Sullivan:	Yes, there is a... well, the patient will be supine on their back.  They’ll be in the head down position.  If we’re doing the internal jugular, again, the head will be turned a little bit away from the side that you’re working.  If you’re doing a subclavian, you may want to have somebody on standby to help hold the arm down or pull the arm so they’re not like this if you’re going to do a subclavian.  So there is a little bit you can position the patient to give you the best advantage.  It may not help you all the time, but like I said, you want somebody to bring the arm down or (overtalking)...
+KY:	For a subclavian.
+Sullivan:	Correct.
+KY:	And how about for the femoral?  Is there a particular position there or is it just...
+Sullivan:	You can have the patient supine or head down.  That one is not as much positioning.  The landmarks or the location of the femoral vein is much more stable than it is up here and less near important structures.  Meaning, the lung or the internal carotid artery.
+KY:	One other thing that you mentioned before we... this is kind of backing up a little bit, is you’ve mentioned that there is six positions, because you have a left and a right, left and a right and a left and a right.
+Sullivan:	Correct.
+KY:	So is there a decision you’re making of whether or not there’s single left or right on any one of these?
+Sullivan:	The two favorite positions when you’re placing a central line you want the catheter to sit in the superior vena cava or just above the atrium, right in the heart area.  Now, the curvature, this is a straight shot, so the catheter doesn’t have to do any looping like this to get over here.  So the right internal or the left subclavian are kind of the areas of choice, because of how the catheter easily would travel once it’s inside the body.  If you go right here it’s doable, but it makes a sharp turn.  Sometimes the catheter goes across, which isn’t bad, but you’d rather have everything infusing into the heart.  Again, this way with the catheter it can do this or just a straight shot down.
+KY:	Not to make things a little too confusing, but if your first choice is to do an internal jugular then I am understanding that your first choice then is to take the right side, internal jugular.
+Sullivan:	Correct.
+KY:	Under what condition would you go to... would you go to the left side, internal jugular, first or would you go to a subclavian before you would go to the left side?  What would be the next... 
+Sullivan:	Some things that decide where you’re going to go is if there’s already damage on one side, you can use that side because there’s already damage.  If one side, let’s say, it’s a gunshot would to the right side, you don’t want to drop the lung on the left.  So now you’ve got a damaged lung on the right and a damaged lung on the left.  So some indications would be preexisting damage.
+KY:	So you’re saying you want to use that damage by going into the damage?
+Sullivan:	Let’s say, there’s a collapsed lung, then you would probably prefer choosing that side to place your line in that one of the complications of placing a line is collapsing a lung.  So if the lung’s already collapsed that complication’s already there, so you can go ahead and choose that side.  The other reasons are if they’ve had prior line placement and there’s scar tissue, you may want to use a virgin site basically, a non-used site.  It makes it a little bit easier for placement.
+KY:	So our order of things is right side internal jugular.
+Sullivan:	Left subclavian.
+KY:	Left subclavian.
+Sullivan:	Correct.
+KY:	Before we go to the left side, internal jugular, right?
+Sullivan:	Okay, right...
+KY:	Right side internal jugular, left side internal jugular.
+Sullivan:	No, I would choose right side internal jugular or left subclavian, is my top two choices.  Then after that... so these would be both one, basically.  These would be two, and then femorals.
+KY:	Based upon damage or the situation of the body that you just went over, all those different conditions.
+Sullivan:	Yeah.
+KY:	So we have positioned the patient.  We’re still on step one here.
+KY:	You’re the one who came up with nine steps, not me.
+KY:	And we’ve decided where you’re going to place the central venous catheter.
+Sullivan:	Okay.
+KY:	But, I believe we have decided.  Is there any other steps here?  First you’re positioning the patient, then you’ve decided where you’re going to put that.  Well, what about prepping the patient?  You mentioned that earlier and prepping yourself, etc.  Does that happen before you position or after you position the patient?
+Sullivan:	After you position.  Then you want to sterilely prep the area, because once you’ve got him into position and once you’ve sterilely prepped him, you don’t really want to move him anymore.  And then also in, I guess, positioning and preparation, is you want to have all your instruments ready and available to you and ready to go, so that as soon as you start there’s no interruption in your flow.  There’s no waiting.  There’s no get this instrument or I need this.
+KY:	So our actions down in here are decide... first, a decision where we’re going to place the catheter.
+Sullivan:	Right.
+KY:	Second, is we’re going to position the patient.
+Sullivan:	Correct.
+KY:	And third is we’re going to prepare the site and the patient.
+Sullivan:	Correct.
+KY:	And actually it sounds as if you need to position your instruments, because you got to get your packet open in order to prepare the site.
+Sullivan:	Correct.
+KY:	Because that contains your...
+Sullivan:	Yes.
+KY:	So the last step in this is preparing the patient then?  With the materials and the kit is you’re preparing the patient.
+Sullivan:	Correct.  Yes.
+KY:	Is the patient awake or...
+Sullivan:	You can do this awake or asleep.
+KY:	If the patient is awake what do you have to do in order to prepare the patient?
+Sullivan:	You need to first explain to the patient what you’re going to do.  You want them involved or at least not moving on you, if you’re doing this, explain what you’re going to do, and then tell them they may be a bit uncomfortable, but you’re going to numb up the area and they shouldn’t feel any acute pain.
+KY:	And if the patient is not awake?
+Sullivan:	You’re in a much better place.
+KY:	You don’t necessarily have to talk to the patient.
+Sullivan:	Well, in that emotions affect your ability.  Anesthetized patients are a little bit easier to place lines for everybody, because they’re not worried about hurting the patient.
+KY:	So is there any more to step one?
+Sullivan:	We’ve positioned the patient.  We’ve got everything prepared to go.  All our trays laid out.  They’re sterile, prepped and draped.  We’re ready.  We’ve got our gloves on and we can proceed.
+KY:	Step two.
+Sullivan:	So if we’re going to do the internal jugular, you need to know the anatomy.  There’s many important structures run through the neck.  Of course, trachea, the airways midline, right next to it is the carotid, which you can feel.  It’s the pulse.  And just outside of that, or what we say lateral to that, should be the internal jugular vein, and then you’ve got the sternocleidomastoid muscle overlaying that, and then, of course, skin over that.  In people’s necks, that’s kind of the standard anatomic progression.  Though, of course, there’s many variations with that depending on people’s neck and width and other things.  But what you need to do is find the carotid artery, basically, and the best way to do that is kind of feel the thyroid, feel the prominent part of the thyroid and slide your hand off to the side into the little groove, and just gently press down until you can feel the carotid pulse.
+KY:	Are the medical students, the interns, residents, do they know all of this anatomy when you teach it to them?
+Sullivan:	Yes and no.  Everybody could name off this, but actually palpating it, finding it on each individual patient takes a little bit of practice and takes the ability... practice basically.  I mean, you need to be able to find it.  Sometime’s it’s very difficult to find the carotid artery on a gentleman or a lady.
+KY:	So you may have to, in a sense, stop and do some practice in that one area before you can move on to the rest of it.
+Sullivan:	Yes.
+KY:	If they don’t find the carotid artery you have problems.
+Sullivan:	You really need to use landmarks to locate the vein as best you can.  Sometimes you can’t feel it, and then you need to––I hate to say this here but––go by your gut instinct.
+KY:	So they need to know where it is and how to feel for it to know when they’re correct.
+Sullivan:	Yeah.  To the best of their abilities.
+KY:	Let’s say, we have found it.  Go ahead.
+Sullivan:	So you’ve now located the carotid artery.  So you take a very small, minor trauma needle and you basically... we’ll have the patient just a little bit a head down, and you want to pierce the skin around between about a 45- and 80-degree angle, right in line... all right.  Well, I will have the patient’s head here, feet this way.  I’ve got my hand on the carotid artery, right here.  So I’ve got this line.  My needle’s going to come in at about, like I said, about a 45- to 80-degree angle.  The part of the needle that’s towards me is going to face inwards, so that I’m directing my point of the needle a little bit outwards and I’m going to actually kind of try and have it in line with the right nipple, so that as I’m going in I’m angling, actually, away from the carotid, in a sense.  So I’m going in and I’m just gently going in.  You go in slowly with the needle and you actually pull back on the plunger of the syringe as you’re going in to create a little bit of aspiration, a little bit of negative pressure, so that when you get in you can suck the blood in.  Another important fact to know is many times when you’re going in with your needle, the vein is low pressure and when you press the needle with your vein it actually collapses down like this, and then you poke all the way through the vein.  So when you reach where you think you should stop and you have stopped going forward with your needle, you come back slowly and you actually aspirate on the needle and you do the same maneuver.  You can hit it coming back out as well as going in, because the collapses down, and so you’re pulling back out and what happens––I should do it this way––as the needle comes through the posterior wall into the lumen of the vessel, the vessel opens up, and so you don’t want to come back to fast and miss that step.  Come right out quickly.  So you’re going in, you’re aspirating back.  Hopefully, you get a blood flow into your syringe.  If not, you stop and then you backtrack or pull back slowly while aspirating on the needle.
+KY:	How do you know that you... I mean, it’s great I can visualize it.  You did a super job visually, but you can’t see it.  So how do you know when you’re going in that you have either gone through the vein or that you’re in the vein?
+Sullivan:	You don’t know you’ve gone through the vein until you’re coming backwards with the needle and you get a nice flash.  You haven’t changed your trajectory.  You’ve gone all the way in, you haven’t got a flash of blood in the syringe to tell you’re in the vessel, so as you come back out then you get your flash of blood.  The thought is, is you’ve compressed... the needle has compressed the vessel, and then punctured all the way through, in and out, as you’re going forward.  So when you come back you’re kind of...
+KY:	Now you’re in there.
+Sullivan:	You’re in there and you’re tugging one, you know, as it pops into the lumen you’re... actually as the needle pulls out it tugs the vessel open a little bit.
+KY:	And then you’re going to get a flash.
+Sullivan:	Then you’ll get a flash.
+KY:	Now, that’s if you’ve gone all the way through.
+Sullivan:	Correct.
+KY:	Now, what if you’ve actually done it correct the first time and you’re actually just (overtalking)...?
+Sullivan:	If you’re going in and you get your flash, you stop.
+KY:	The flash of blood coming in?
+Sullivan:	Correct.  And you can draw back a lot.  I mean, you can fill up the syringe if you want.  Most people aspirate about one or two cc’s.  The syringe can hold up... you can put a ten-cc or a five-cc syringe.  A lot of times it’s a five-cc and you can just draw back one or two-three-cc’s.  Then disconnect the syringe from the needle.  Leave the needle there.  It’ll trickle blood like drops of water coming out of a faucet.  That’s okay.  The patient’s not going to ensanguinate, but you know you’re in the correct spot. 
+KY:	So you know by the blood coming up.
+Sullivan:	Correct.
+KY:	If you’re not, if you’ve missed you’re not...
+Sullivan:	You do not get any blood.
+KY:	You don’t get any blood.
+Sullivan:	Yeah.
+KY:	If you’ve missed you don’t get any blood.  Now, how do you know whether or not you may be in an artery?
+Sullivan:	Well, I was going to say if you get air back, you’re in the wrong spot.
+KY:	And what would air be?
+Sullivan:	Trachea or possibly lung.
+KY:	Oh, so you’re nowhere near or (overtalking)...
+Sullivan:	Right.
+KY:	But you’ve missed.
+Sullivan:	You’re correct.  If you get an artery, sometimes you can tell by the color of the blood, venous blood is darker, more like a cabernet
+KY:	Thank you for ruining my dinner.
+Sullivan:	And arterial blood is much red.  It’s a brighter color.
+KY:	Because it’s oxygenated.
+Sullivan:	Correct.  Don’t hang your hat on that.
+KY:	I was going to say, so you said sometimes.
+Sullivan:	Correct.  Don’t hang your hat on that.
+KY:	Why is that?
+Sullivan:	A lot of times the bloods may look the same.  You can’t distinguish a big color difference.
+KY:	Because if someone’s been given the patient oxygen they’ll have well-oxygenated blood.
+Sullivan:	Or they may not be oxygenating well.  I mean, they may be a trauma patient or others.
+KY:	That’s not for certain then?
+Sullivan:	Correct.
+KY:	The blood’s not for certain?
+Sullivan:	No.
+KY:	So we still may be in an artery.
+Sullivan:	Correct.
+KY:	Not good.
+Sullivan:	Not good.
+KY:	What’s our next confirmation?
+Sullivan:	So if you’re not sure, you’ve only placed a tiny needle.  You haven’t done any bad damage yet.  Now, you take your bigger needle, your introducer needle.
+KY:	Even though we may be in the wrong place or we may be in an artery or whatever?
+Sullivan:	If you know you’re in the wrong place you can stop right there and come back out, and redirect.
+KY:	Right.  But if you’ve drawn blood back and the blood, it’s not cabernet nor is it a merlot, and...
+Sullivan:	Right.  If you have a good suspicion...
+KY:	So you’re not sure.  You’re going to keep moving?  Is that...
+Sullivan:	You’re going to keep moving forward.
+KY:	Go ahead.
+Sullivan:	You take your larger needle.  You follow the same tract as your finder needle.  You’ve left... once you’ve located with the finder needle, you remove the syringe, so you’ve got this small, little needle just sticking out of the skin.  Then you take your larger needle and you follow the exact same tract as the smaller needle right to that vessel.  Now, you’re again looking for a flash of blood or blood flow.  Same thing applies.  You can go through it, and then hit it coming back out or you can get it going back in.  Now, this is a longer needle with a larger lumen.  So once you get your flash of blood, you remove the syringe, if you get spurting coming out of your larger needle, you’re in an artery, because of the pressure.
+KY:	Because of the beating heart, right.
+Sullivan:	Correct.  And if you don’t get that spurting and you get a slower flow of blood, now you still are pretty sure you’re in the vein.  You now thread your wire.  You take your wire, put it through your larger needle.
+KY:	So you’ve just done step three, which is place the introducer needle in.
+Sullivan:	Correct.
+KY:	See how fast we’re going through these steps now?
+Sullivan:	Good.
+KY:	So you’ve placed the introducer needle in, and you begin to put a syringe at the end of it and you’re expecting blood to come back out of it, and by the way, you don’t get a pulsing in the introduction... the locater needle?
+Sullivan:	You can.  Sometimes you can.
+KY:	But this is your double check.
+Sullivan:	Correct.  Yeah.
+KY:	And you put the introducer needle, the larger needle in.
+Sullivan:	Yeah.  Let me back up.  There are indications with your small needle that you’re in the artery.  That would be, again, if you see bright red blood and if you see a pulsatile flow, even through the small needle.  It doesn’t happen all the time.  It helps you if it’s there, but if it’s not there that doesn’t mean you’re not in the artery.
+KY:	So there’s no surefire way at these points.
+Sullivan:	No.  And the last thing is you get a hematoma.  You can lacerate the artery and get blood, and then it can swell up on you just like a bruise.  Then you know you’ve hit the carotid also, but now you’ve hurt yourself and the patient.
+KY:	But so far there’s not a surefire hundred percent way of knowing.  We’ve got the indication of color.  We’ve got the indication of pulsing.
+Sullivan:	Correct.
+KY:	So now you’ve gone through step three of placing in the introducer needle then, right?
+Sullivan:	Correct.
+KY:	So now we’ve got the introducer needle in.  Let’s say, we’re in a vein.  Darker blood.  Steady flow.  We’re pretty sure of ourselves.  Then your step four is threading the wire.  You’re not finished with three.
+Sullivan:	We’ve placed the wire.  Now we need to get those needles, those sharps out of our way, basically.  You’re done with them.  So we move the locator needle and take the introducer needle, which has the wire through it.  You just pull them off and just set them aside.  You’re done with those.
+KY:	Oh, the introducer needle has the wire then.
+Sullivan:	Correct.
+KY:	What about your step four where you said thread the wire through the needle?
+Sullivan:	We’ve done the locator needle, and then our introducer needle, it’s called the introducer needle because you introduce the wire through it.
+KY:	Do you put the needle in, and then put the wire through it... 
+Sullivan:	Correct.
+KY:	...or is the wire in the needle when you put it through?
+Sullivan:	No.  You use the locator needle, then you use the introducer needle.  Once the introducer needle’s in place, you introduce the wire through that needle into the vessel.
+KY:	So thread the wire through the needle then.
+Sullivan:	Correct.
+KY:	Step four.
+Sullivan:	Good.
+KY:	You had it as a separate step.  So I just want to make sure that it’s not the needle and the thread, but the threading is another step, it’s another action.  Thread the needle through the wire.
+Sullivan:	And there should be a certain feel to the threading of the wire also.
+KY:	I was going to say, how far?
+Sullivan:	All right.   The easiest thing to do is take the wire and measure from about the... see how the length of the wire, it comes coiled up in a plastic coil.  You can take it out and it should have markings on it.  Marks, hash marks along the wire.  You can just measure it over the patient’s chest, but there’s no harm in putting the wire in... well, it’s better to put the wire in too deep than too shallow.  Meaning, if you have a question or you’re concerned, make sure to thread the wire deeper.  So you can measure...
+KY:	Why is that?
+Sullivan:	If you go too shallow the wire may exit or be in the soft tissue.  You may not have the wire in far enough in, so when you pull your needle out, the wire comes out of the vessel.
+KY:	I see.
+Sullivan:	So now as you thread the wire in, it should very easily go in.  I mean, you should almost be able to just one hand, you know, two fingers just slide the wire in.  Things that may prevent you, is if the wire changes course.  It may not go straight down.  It may go off this way or it may exit the needle, exit the vessel and be in the soft tissue or the wire may kink.  There may be some obstruction or something in the vessel itself, or you may have gone out into the lung with the wire.  So you should have a very nice, smooth, easy threading of the wire through the introducer into the vessel.
+KY:	And so if you feel some sort of... if it’s not smooth...
+Sullivan:	If it stops... right.
+KY:	...or it stops...
+Sullivan:	Right.  You’ve got to go back to step one and two.  If your wire isn’t behaving appropriately, you bring everything out.
+KY:	That’s real important.  So if you’re threading the wire and if it’s not going through smooth and easy and you get resistance, you have to go back to step one and two.  Well, step two actually is location or how far back are we going?
+Sullivan:	Most people go back to the introducer needle step, because you already have a general idea of where the vessel is.
+KY:	So you’re going to pull everything out?
+Sullivan:	You’re going to pull everything out.
+KY:	Get a new package or another introducer needle and start over at the introducer needle at the same location?
+Sullivan:	Yes.  Yeah.  Correct.  You always advise people never to pull the wire back through the needle.  Let’s say, you’re threading and it gets stuck, you don’t want to pull the wire back through the introducer needle, because the needle may shear the wire, and now you’ve got... you could possibly have a wire piece left inside.  So as you gain experience you can pull the wire back.
+KY:	For novices you should never pull the wire back.
+Sullivan:	For novices you should never pull the wire back.  So then you go back, you use your introducer needle, same steps.  You repeat locating, getting the introducer needle in a vessel, and then rethreading your wire.  A couple things you can do is make sure you get real good blood flow when you’re aspirating back.  Sometimes you may be up against a vessel wall.  For whatever reason, sometimes you want to aspirate if you’re concerned or the wire doesn’t thread and you’ve relocated the vessel, make sure to draw back a fair amount of blood, so that you get a nice even flow of blood.  So you can be pretty certain you’re in the big vessel, and then reinsert the wire again.
+KY:	Because the big vessel is easier to work with, with the wire.  You have a greater chance.
+Sullivan:	Yeah.  I guess another little detail, the introducer needle comes with syringes that you can feed the wire right through the center of the syringe now.  So you don’t have to... once you have located the vessel with your introducer, you want to stabilize it, you don’t want it to move and you can now feed the wire through the syringe and through the needle or take the syringe off and just feed it through the needle.  And that’s just preference.
+KY:	So, let’s say, now that we have successfully threaded the wire through the needle.  We’ve got no resistance, no bumps.  It’s gone through smooth, one-handed, all your criteria, and we’ve done it to length.
+Sullivan:	Correct.
+KY:	Can you do it too long?
+Sullivan:	The wire can cause problems.
+KY:	How do you know besides measuring here, should you leave a certain amount out, so that’s it hanging or what?
+Sullivan:	They give you plenty of room.
+KY:	So how do you know that you haven’t gone too far?
+Sullivan:	I was going to say the wire can tickle the heart.  You can turn a nice regular rhythm, heart rhythm into a very irregular heart rhythm.  As you feed the wire into the heart it can tickle the heart or disrupt the heart’s pacemaker system, and you can get arrhythmias.  That is both good and bad.  If you get arrhythmias you know you’re in the right place, you hope they don’t last long.
+KY:	The only way you know if you have arrhythmias is if you have heart monitors.
+Sullivan:	Correct.
+KY:	Which means another piece of equipment that you need standing by, is a heart monitor.  Right?
+Sullivan:	Correct.  These patients should be monitored.  We forgot that step.
+KY:	So but you do need equipment, a heart monitor.  No problem.  We’ll get that machine in here soon.  So if you tickle the heart...
+Sullivan:	You back out the wire a little bit.  You just pull it back several centimeters.
+KY:	So is that a goal to tickle the heart a little?  This phrase is just going to stay with me forever.  Go ahead.
+Sullivan:	It’s a double edged sword.
+KY:	As most relationships are; going to have a heart attack.
+Sullivan:	No, you don’t want to cause it, you don’t want a precipitate arrhythmia.  You don’t want to cause an arrhythmia.  But you can use that to your advantage to know you’re in the right place.  You’re in a vein, because you don’t really tickle the heart or cause arrhythmias if you’re in the carotid.  If you see it, many times it’s just one or two beats and it goes away, but you do need to be ready to be able to treat it and know how to treat it.  The first treatment is pulling the wire back a little bit, not pulling it out.  You can just bring it back.  The other thing I should say is you need to know or it’s helpful to know before you insert the wire if the patient has any preexisting arrhythmia problems.  One of them being left heart block.  The electrical part of the heart, the cord comes in two halves, the left side and the right side, the wire can block the right side.  If you’ve got a left heart block already, now you’ve got complete heart block.  It’s rare, but it does happen.
+KY:	So just so I can be clear for myself on this, is that I’m inserting this... I’ve done some basic measurement, but I’m uncoiling the wire and putting it in the chest.  And I’m now threading the wire it’s threading quite easily and smoothly just like I would hope it would.  Are you saying that the length of the wire of how far you put it in is determined by looking at the heart monitor or am I looking at something else and taking... what is the ultimate standard for...
+Sullivan:	A basic rule of thumb is if you can insert, I would say be comfortable with putting it about two-thirds of the total length of the wire in.
+KY:	Two-thirds of the total wire.
+Sullivan:	Right.  Half to two-thirds.
+KY:	Of the length of the wire.
+Sullivan:	Correct.
+KY:	No matter what the measurement is here?
+Sullivan:	That’ll keep you safe.  The reason is it’s difficult to measure, you can, but the wire comes preloaded in a coiled spring, so you don’t see the whole length of the wire.  So what you can do is slide the wire, and then once... a lot of times once the wire is passing easily you kind of remove the coiled sheet, the coiled kit, and then just advance until you’re pretty sure about two-thirds, the length of the wire is in.
+KY:	So your first standard then is two-thirds of the length of the wire.
+Sullivan:	As a rule of thumb, yes.
+KY:	Where’s the monitor coming in, the tickling of the heart?
+Sullivan:	As you’re passing the wire.
+KY:	So you’re monitoring it as you’re passing it in there.
+Sullivan:	Yes.
+KY:	But your real standard for the wire is about two-thirds.
+Sullivan:	Yeah.  If you’re comfortable, you can stop.
+KY:	No, I’m comfortable fine.  I don’t have the wire inside me.
+KY:	So we’ve threaded the wire through the needle and we’ve got two-thirds, and we’ve monitored our heart, etc.  So we’re at step 5?
+Sullivan:	Okay.
+KY:	Are we?
+Sullivan:	The wire’s in.
+KY:	So now we’re going to remove all the needles leaving the wire.
+Sullivan:	Right.  That’s a very small step, but very important.  You just want to... you just don’t want any sharp objects around you anymore.  So get everything out of the neck.  Leave the wire.
+KY:	The wire remains in there.
+Sullivan:	Yes.
+KY:	Nothing that... precautions or anything, but it’s just one... remove the wire.
+Sullivan:	Yeah.
+KY:	You do that by how?  By just pulling out...
+Sullivan:	No, not remove the wire.
+KY:	I mean the needle.
+Sullivan:	Yeah.  If your locator needle’s still there, remove that.  Take your wire, and then grab the introducer needle and slide it off, and then switch hands or switch locations.  So now once you grab the wire down below the needle and you slide it off, because you don’t want to pull the wire back or take the wire out as you’re sliding the needle off.
+KY:	Is that all we have of that step?
+Sullivan:	Mm-hmm.
+KY:	Small but important step.  Step six, then, we have is to open the... to widen the entrance point, if you will, through the skin, right?
+Sullivan:	Yeah.
+KY:	Go ahead.  Go with that step.
+Sullivan:	Once you got the wire in, you’re 85% done.  You’ve managed the hard part.  Now, the next thing to do is atraumatically or as easily as possible, get your large catheter into the vessel.  And it’s going to meet resistance.  The skin is pretty tough, so you’ll want to cut it.  There’s underlying muscle you may go through, and then you go through this, and then, of course, into the vessel itself.  So what you do is just make a nick in the skin, so that the catheter doesn’t get hung up on the skin.  It passes fairly easily through.  You don’t want it so big that you’ve got a hole here.  So what I recommend on this is the kits already come in with a pointed scalpel, and I just ask them to lay the blunt... the scalpel, if you consider it kind of like an arrowhead, one side sharp, one side dull and a point.  Lay the dull edge on the skin and have the dull edge on the wire, and just stab the length of the scalpel, come back out, rotate it 180 degrees, and then stab again.  And that’s it.  So now you’ve gone the length of the scalpel blade into the tissue, you’ve also made basically a hole or an opening in the skin, and you’ve got the underlying tissue.  It’s an easy step.  It’s just in, stab, out, flip, in and out.
+KY:	To the length of the scalpel.
+Sullivan:	The length of the scalpel blade.
+KY:	The length of the scalpel blade.
+Sullivan:	You need to know whether you have a dilator through catheter assembly or a dilator, and then the catheter assembly.  Some kits the dilator... and the function of the dilator is to open up the tract.  The dilator is a stiff walled tube, not that flexible and it’s used, again, for making a nice tract to get... the catheter’s (inaudible)... is larger and softer and more flexible.  So if you need to push on it it’s going to bend.  Now, the two kits, again, you can put your dilator through the catheter and the dilator sticks out maybe four, five, six centimeters distal to the end of the catheter or in some kits you dilate first, take the dilator out, and then slide the catheter over it.
+KY:	This depends upon which kit you have.
+Sullivan:	Right.
+KY:	And do you have a choice of kits or is this just whatever happens to be in there when it’s delivered to you?
+Sullivan:	Most single-lumen catheters use the dilators through the catheter.  Triple-lumen where you have three ports on your central line, it’s the dilator first and then the catheter after that.
+KY:	So you have a different procedure for the different kit depending upon the number of lumens that you have.
+Sullivan:	Right.
+KY:	So if it’s a triple-lumen then...
+Sullivan:	You dilate first, pull the dilator... and what you do is basically put the dilator over the wire and thread it all the way in through the skin, down into the body, and then you pull the dilator back out.  It’s important to maintain your wire.  Never let go of your wire.  If the wire comes out you’ve lost.  You got to go back to step one.  So dilator over the wire and back out.  If it’s a dilator through the catheter, it’s dilator and catheter over the wire until it’s all the way in.
+KY:	And that’s for the single-lumen.
+Sullivan:	Correct.
+KY:	And what about a double-lumen?
+Sullivan:	That can be either way.
+KY:	You mean depending upon what you have in the kit.
+Sullivan:	Right.
+KY:	The double-lumen kit.
+Sullivan:	Right.  Yeah.
+KY:	You can come one way or the other.
+Sullivan:	Right.  Now, the important thing also is once... you always have to maintain control of your wire.  Anything going in or out of the patient over the wire can dislodge the wire.  So you don’t want to lose control of the wire.  And basically that means always have a hand on the wire, and keep it stable, you know, you don’t want the wire to go in and out.  I take that back.  Once you’ve got the dilator and the catheter, you’ve got to thread the wire back up through the catheter until the wire comes out the end, so that you can control it.
+KY:	So you can control it, right.
+Sullivan:	Correct.  So that’s why I say you can put two-thirds of the wire back in, because you’re going to back the wire out.  So you want to thread the dilator and catheter over the wire, make sure that the wire comes out the back end of it, and then you can control it, and then, again, move the whole assembly forward.
+KY:	Are there proper, I mean, I’ve almost run out of hands here, but is there a proper hands that you do this with to control the wire (inaudible)... or it’s just personal preference?
+Sullivan:	Well, the best is to get used to both hands, because if you’re working on one side of the body, you know, this hand’s easier to control the wire and this can do the catheter.  If you’re working over here, you know, the wire’s going to come out this way, so it’s easier to use your left hand for wire control and right hand to do it.  So if you’re ambidextrous... though you can always use one hand on the wire for any side if you need to.
+KY:	So we’ve placed the dilator and the catheter into the vein... vessel.  Right?
+Sullivan:	Uh-huh.
+KY:	And we’re at step eight.  Pull out the dilator... no, pull out the...
+Sullivan:	Dilator and the wire.
+KY:	...dilator and the wire.
+Sullivan:	And it’s designed to come out as a unit.  Now, at this point in time you get control of the catheter.  You don’t want to remove the catheter.  So then you grab the wire and the dilator, and you just pull them back out all in one nice motion.
+KY:	Is there anything to look out for?  You want to come out smoothly and without any resistance.
+Sullivan:	Correct.
+KY:	If it does not, what happens?
+Sullivan:	Well, first off is you want to make sure all entry points to that catheter are closed, because you don’t want the patient to suck in air.  And where the dilator and wire go into the catheter, that’s designed to usually close on its own.  Once you pull it out it’ll self-seal.
+KY:	A step before pulling it out should be... step one should be confirm that the seals...
+Sullivan:	All ports are closed.
+KY:	All ports are closed.
+Sullivan:	Yes.
+KY:	Then step two is pull out.
+Sullivan:	Yeah.  And then once you sink your catheters in, you can put a syringe on your port and aspirate back, and make sure you get nice, good blood flow and make sure it looks dark, not arterial.
+KY:	And, again, if you’re not getting the right blood...
+Sullivan:	Then you got to leave it.  If at this point in time you now realize it’s an arterial stick, you leave it.
+KY:	What do you mean by ‘leave it?’
+Sullivan:	You don’t pull it out, because now you’ve made a large hole in the artery, and it’s not bleeding as long as the catheter is in.  If you remove the catheter that hole now has no plug to it, and it can bleed like stink.
+KY:	So you leave it.  You cap it off, so to speak.
+Sullivan:	You call vascular surgery.
+KY:	You call vascular surgery and you go back to step...
+Sullivan:	No.  You call somebody else to do a line.
+KY:	So that’s a serious mistake at this point.
+Sullivan:	Yes.
+KY:	So you’re checking the blood at that point again.
+Sullivan:	Correct.
+KY:	But when you’re pulling it out, if it doesn’t come out smoothly is there an indication of something is a problem?
+Sullivan:	Now the tip of the catheter may not be in the right spot anymore.  For some reason it may have gone out of the vessel, it may be in the soft tissue, it may be up against the wall of the vessel.
+KY:	And you’re going to wreck it.
+Sullivan:	Yeah.
+KY:	So if you feel resistance or it’s not coming out, then what do you do?
+Sullivan:	Well, at this point in time you need to decide whether to leave it, call in somebody with more experience or you can remove it and hold pressure as long as you’re pretty sure it’s not in the artery.  Then you remove the whole assembly and just hold pressure for about five minutes or so.
+KY:	And then start over at step one or call someone?
+Sullivan:	Right.  At this point in time you can use the other side.  You can go to your second...
+KY:	But basically you’re starting over.
+Sullivan:	Yes.
+KY:	So hopefully you have a smooth pull out of the dilator and the wire leaving the catheter there.
+Sullivan:	Correct.
+KY:	And then so you’ve got your catheter in, and it seems like we’re ready for the what next step.
+Sullivan:	Now that you are sure... your catheter’s in, you’ve got good blood flow, you want to secure it, so it doesn’t pop out and all your efforts would go to waste.
+KY:	How do you do that?
+Sullivan:	So now you suture it to the skin.  And the catheters are designed with suture points.  Basically, you know, you take a needle and thread, put it through the skin and bring it through these little hooks or loops on the catheter and just tie it down.  Like just secure it.
+KY:	Tie it to the skin.
+Sullivan:	Yes.  And then you put some... you can put some sterile like bacitracin, some sterile ointment, a little antibiotic ointment, and then a dressing over it.
+KY:	Are you done?  Complete, end of procedure?
+Sullivan:	I just realized I forgot my own personal step.  I don’t know if you want to go back to that or not, but yes, you’re done.
+KY:	So your personal step, is this... go back.  Is this merlot or cabernet?
+Sullivan:	This is just a small, little step that I do once the wire’s in.  Before I put the big dilator and introducer, I get a very small, little catheter, I slide that over the wire into the vessel.  I pull the wire out, I hook tubing up to this little catheter.  The tubing’s about 18 inches long, and I just hold it up.  If it’s arterial, the pressure’s going to force the blood up into this tubing and out the tubing.  If it’s in the venous, the pressure’s so slow that the blood will come up maybe two or three inches and just stop.  So that’s another check.  It’s not taught in the basic Seldinger Method, but it’s something I do for every patient.
+KY:	Interesting.  So you would include in that in the training, but it’s not...
+Sullivan:	I would show it to... yes, I could include it and tell them it’s an optional step.
+KY:	So beyond the optional step we’ve sewn the catheter in and we are complete.
+Sullivan:	Now, chest x-ray.  If you’re able to do a chest x-ray...
+KY:	Oh, we have a final step.  Step ten, make it even.  What are you using a chest x-ray for?
+Sullivan:	To confirm that there is no air or blood in the lung secondary to your needle sticks and if the catheter looks to be in good position.
+KY:	So you perform a chest x-ray.
+Sullivan:	Yeah.  If you don’t have the option of a chest x-ray and you need to use it, you go ahead and use it.
+KY:	So I’m looking at the chest x-ray, what am I seeing that’s going to confirm or...
+Sullivan:	Basically you want to see very clear lung fields.  If there’s blood it’s going to show up white in the chest cavity.  You also want to see lung markings all the way out to the periphery.  If there’s air the lung markings are going to move inward.  So you’re going to see ribs, and then an empty space, and then a line which signifies a lung goes to there.  You also are going to see the outline of the heart in the great vessels and the catheter should be sitting nice right above the heart in a straight line coming right down to the entrance of the heart.
+KY:	And if you see that it’s not in the right position or don’t see any of that or part of that, any portion of that?
+Sullivan:	If you see blood or air you need to notify the patient, of course, and let them know they may require a chest tube.  Depending on how severe it is or how unstable the patient is, you may require a chest tube or observation.
+KY:	And if you see that the catheter’s in the wrong place?
+Sullivan:	You need to start over.
+KY:	Step one.  So chest x-ray to confirm that it’s in the proper placement.
+Sullivan:	Correct.  Yeah.
+KY:	And that it’s not... there’s no air or blood.
+Sullivan:	Yeah.  Correct.
+KY:	Then are we...
+Sullivan:	I think we’re ready.
+KY:	How long should it take for a person to do this from the moment you position the patient to the end of the chest x-ray?  A complete procedure.  What’s the standard that people should be able to do this?
+Sullivan:	If I’ve got golden conditions, I’ve got an anesthetized patient in the operating room and I have everything available, it probably takes me about five to eight minutes.
+KY:	If not?
+Sullivan:	If not, you can work up to an hour and still be unsuccessful.
+KY:	And then what would be some of those other conditions that would take you much longer to do?  That’s quite a difference.
+Sullivan:	You just cannot locate the vessel or you cause a hematoma and you’ve lost landmarks, or the patient gets tired and refuses after a while or it’s a hypertensive or sick patient.  But basically you have difficulty locating the vessel.  That’s usually the big step.  Once you cross that critical inch these other ones you can kind of fumble your way through.
+KY:	So you have taken us through the, for the most part, the procedure of doing the internal jugular.
+Sullivan:	Correct.
+KY:	So if a person was doing a subclavian...
+Sullivan:	Many of the steps are similar.
+KY:	And which ones are different and which are similar?
+Sullivan:	Again, it’s locating the vessel.  Subclavian?
+KY:	Subclavian, right.
+Sullivan:	The subclavian, the locator needle usually doesn’t help you.  It’s not long enough.  So you omit the locator needle step.  You go right to the introducer needle.
+KY:	How do you know where to introduce or locate... you’re going to go subclavian, so how do you know where to locate it?
+Sullivan:	Traditional teaching is that you use the middle third of the clavicle.  You feel the proximal and you feel the distal end or the medial and the distal end of the clavicle.  You choose the middle third, and then aim for the sternal notch.  So your entrance point is middle third of the clavicle and you’re aiming for the sternal notch right here.  Many times it’s difficult getting your needle underneath the clavicle.  You need to actually almost point the needle upwards.  Again, as in here where we’re pointing away from the carotid artery, you want to almost point away from the lungs.  So you come in, you find the clavicle, you do what’s called ‘walking’ your needle underneath the clavicle, you angle downwards, and then advance the introducer needle forward, hopefully, in the direction of the sternal notch.
+KY:	Under the clavicle.
+Sullivan:	Under the clavicle, like this.  So see how far down my hand is.  I’m not like this.  The hand is way down and I’m inching it forward like this.  Most of the times on this one you’ll get your flash of blood going in instead of back out where this one you tend to collapse it a little bit more.  If you hit the subclavian artery on this one it’s much harder to compress, because it’s sitting behind bone.  If you hit carotid here you can direct pressure it.  The other thing is you can get into the lung also with this one.  But the steps are about the same.  Patient, head down and it’s a very similar position, but again your landmark to start is middle third of the clavicle.
+KY:	You’re skipping the locator needle, but you’re just placing the introducer needle.
+Sullivan:	Correct.
+KY:	And then all the other steps are all the same.
+Sullivan:	Yes.  Once you’ve located it, you thread the wire, you remove the introducer needle, you make the skin incision, you slide the dilator and catheter, pull everything out, re-verify, chest x-ray.  So it’s the same.
+KY:	And how about the femoral?
+Sullivan:	Femoral, again, very similar.  Almost exactly the same, but the... what you, again, can palpate for the femoral artery.  Once you find the femoral artery, you want to go medial to it.  It’s one of the few places in the body where the vein is on the other side of the artery.  Most times it’s artery and vein, but for this one the vein is inside the artery, so to speak.  So once you palpate the femoral artery, you go inwards and use your locator needle, and then your introducer needle.  Just like you would.
+KY:	So you do use the locator on that.
+Sullivan:	You can.
+KY:	Is there a particular angle or anything?
+Sullivan:	I’m sorry.  Yeah.  You want to get about anywhere between 45- to maybe 75-degree entrance angle with the femoral approach.
+KY:	So you can actually feel the femoral...
+Sullivan:	Artery.
+KY:	...artery, and then you go...
+Sullivan:	Inside.
+KY:	...inside of it.
+Sullivan:	Yeah.  Towards the groin.
+KY:	And then 45...
+Sullivan:	About a 45-degree angle.  And this one you can also, if you prefer, you can omit the locator needle, because there’s not as many vital structures to hit down in the leg.
+KY:	So is that optional?
+Sullivan:	Yeah.
+KY:	Do you use it or not?
+Sullivan:	I don’t use it.
+KY:	If you’re teaching novices would you have them use it?
+Sullivan:	No.  I would omit it.  I would say omit on this one, because a lot of times it’s much deeper to get to the femoral vein than it is up here, and sometimes your locator needle’s not long enough.
+KY:	So you would omit it and just use the introducer needle.
+Sullivan:	Yes.
+KY:	And other than that all the indications of success...
+Sullivan:	Yes.
+KY:	And then all the remaining steps are...
+Sullivan:	Yep, the same.
+KY:	...the same.  So we’ve gotten locations, the three major locations.  Now, is there major differences between left and right sides on all of this?
+Sullivan:	Fortunately, the anatomy mirrors itself.  Meaning, you know, what you do here is (mirrimenched?) over here.  Like I said, the changes, the route the catheter takes getting to the heart.  It’s a nice gentle curve this way.  It’s much more acute this way.  It’s kind of serpentine this way.  It’s much more straight this way.  But in terms of locating the vessel, it’s a (mirrimench?).  
+KY:	So what are some of the majors problems that can really go wrong here that you want to make novices aware of?
+Sullivan:	One of your most severe or worst complications is putting a very large catheter in the wrong spot.  Meaning, putting the catheter in an artery, because you made a big (inaudible)... or a big hole.  The second thing is, of course, puncturing a lung, introducing air or blood into the lung through your needle.  When I said experts can still have problems, one of our attendings out at our hospital lacerated the subclavian artery and the patient lost about two-thirds of his blood volume.  You can cause arrhythmias, you know, with the wire leading to heart block or cardiac arrest.  Those are kind of some of the ones off the top of my head.  Bleeding hematoma of the area, of course.
+KY:	And all of these caused by improper placement of...
+Sullivan:	Yes.  And every once in a while you just have bad luck.  You do everything right and you still have a bad outcome.
+KY:	One thing that a occurred to me is that you use chest x-ray for the subclavian and internal jugular.
+Sullivan:	You don’t need if for femoral.
+KY:	So how do you know you’re in the right spot for femoral?
+Sullivan:	Again, mostly by pressure.  If you have put it in the artery this big catheter is going to bleed like stink.  The arterial pressure is just going to force it out.
+KY:	Are there any other instruments that you use for locations?  Sonogram?
+Sullivan:	There are some tools now, like I said, it’s probably becoming standard of care or will be standard of care.
+KY:	And what will those be since we’re forward-thinking here?
+Sullivan:	The most important step is locating and getting the needle into the vessel.  To help you locate the vessel now they’ve got ultrasounds.
+KY:	Ultrasounds.
+Sullivan:	Or site rights they call them, and these are basically ultrasound... they use ultrasound to image the area.  How you know the difference is a) you can see it or b) if you see two vessels, you’re looking on a screen and see two little vessels, the vein will collapse.  It’s low pressured when you press on it.  The artery won’t collapse.  It’s a high pressured system.  So if you see two and you start pressing on the neck and one goes like this, you know this is the vein or venous.
+KY:	So you’re literally looking at the ultrasound and...
+Sullivan:	A picture, yeah.
+KY:	...threading the needle.
+Sullivan:	Yeah.  And that can take the place of the locator needle.  Before we had ultrasounds our best location were your fingers and this little needle.
+KY:	So you go right to the introducer needle...
+Sullivan:	Correct.  You can go right to the introducer needle.
+KY:	...with the ultrasound.
+Sullivan:	Yes.
+KY:	And you use ultrasound on the femoral artery as well, right?
+Sullivan:	You can, yes.
+KY:	And you can ultrasound to make sure you’re in the right place in the femoral artery, I guess.
+Sullivan:	Correct.  With the ultrasound you can actually watch the needle get into the vessel.  You’ll actually see the needle in the vessel.  They’re getting very good resolution.
+KY:	You can thank my brother for that.  His research for 30 years has been on growing the crystals to make ultrasound more high resolution.
+Sullivan:	Oh, really?
+KY:	Yeah.
+Sullivan:	Thank you.
+KY:	So I think we have covered... is there anything that in terms of processes that your interns are not going to know when they walk in... let’s take the lowest level who need to do this procedure.  Something that they’re not going to know, that you’re experienced, that they don’t know.
+Sullivan:	Well, in terms of terminology it’s nice for them know what an introducer needle is, what a locator needle is, what a dilator is, what a catheter is, and if it’s a dilator through the catheter assembly or separate assembly, and then in terms of the actual catheter whether it’s a single-lumen... a cordis, a single-lumen, double-lumen or triple-lumen.  And you can actually look at the catheter to determine that.  It kind of speaks for itself.
+KY:	Other than that they should know and they normally do know all the physiology?
+Sullivan:	They should, yes.
+KY:	Is there anything that you find that they don’t know when they’re... that you’ve discovered that they don’t know when you’re teaching the procedure or showing people?
+Sullivan:	Well, the one thing is it’s the feel component.  As you’re going through with time you learn how each tissue may feel or you can sometimes feel a pop or feel a little bit of the tactile feedback you get and that just, unfortunately, is with experience.
+KY:	I think, unless I’ve missed something, I’m not looking at the piece of paper I normally look at, I think we’ve reached the end.
+Sullivan:	Thank you.
+KY:	Thank you.  So what happens now is that we’ve recorded our discussion, and we’re going to have it transcribed.  Then we’re going to go through and code it, and then format it into a report that will show all these steps, and we’re going to try to catch all of your ‘if’ statements, your decisions and analysis that you’ve been making as ‘if’ statements and ‘then’ statements.  So if you do this, then you do that, as you’ve spoken so well for the last hour.  And then what I like to do is to then show that to you.  This is what we call protocol, Cognitive Task Analysis Protocol, and have you correct it.  You can just use Microsoft track changes and say, “You guys got this...,”... you can make a comment and say, “You got this all wrong, it should be this.  Call me and I’ll explain it to you again,” or “This is the wrong word,” and you can just change it right on track changes.  So you can actually have the opportunity, it would help us a great deal if you’re actually correcting it.
+Sullivan:	All right.
+KY:	So thank very much.  I really appreciate your time.
+Sullivan:	You’re welcome.

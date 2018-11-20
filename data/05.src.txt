@@ -1,0 +1,388 @@
+Ken:	Okay. All right. 
+Speaker 2:	Okay. Ready?
+Ken:	Great. Hit that red button.
+Speaker 2:	[inaudible 00:00:23]. 
+Ken:	I don't know. [inaudible 00:00:27] give it to me and see if it goes into red. 
+Speaker 2:	Is there something I can hit on the camera? 
+Ken:	[inaudible 00:00:33]. There you go.
+Speaker 2:	There you go. Okay.
+Ken:	Okay. This is Ken [Yates 00:00:39] and I'm with Dr. DJ Green. Today is Monday, May 18th 2009. And today we're conducting a cognitive task analysis report on a surgical procedure that's, I guess, performed often by, well, who would perform this procedure? Would residents perform this procedure?
+DJ Green:	Typically, residents perform this procedure-
+Ken:	Under the second or third year residents, or [crosstalk 00:01:12]-
+DJ Green:	They can start learning when they're interns. But yeah, second, third year, almost every year of residence would performance this procedure. 
+Ken:	And this is a common procedure?
+DJ Green:	Right. Common in the ICU, and emergency room, and the operating room.
+Ken:	Okay, terrific. And so what is the name of our procedure we're going to do a cognitive task analysis on?
+DJ Green:	It's central venous catheter placement. 
+Ken:	Okay. Now, just to tell you a little bit of background about what cognitive task analysis is is that, what we're attempting to capture from you as the expert, or your thought processes, your decisions. The judgments and analysis you make when you perform this procedure, and it differs from the observable tasks analysis that we do. We can sit there and certainly watch you as in, see one do one teach one.
+DJ Green:	Right.
+Ken:	But we don't know what's going on in your head. What we attempt to do is to capture it, not only the action steps that you take but also the decisions steps that you also take. What happens in this interview is that we record it, as you can see, and we'll transcribe it. And then we'll code it as to whether or not you have described an action step or a decision step, or what the alternatives are in those decisions. We'll also capture other kinds of information, such as the indications and contraindications during this procedure, what equipment you may need, and the overall, what's the reasons for doing the procedure.
+Ken:	Then finally, we might talk about if we have some time, what are the complications that could occur at the end that you would need to address during the procedure, or before the procedure even? But what we're trying to capture is basically, one way of doing this and also capture what the alternatives maybe if there's more complicated ways. And what happens is that we actually create a report. And then we'll ask you to go through the report and tell us where we've got it wrong, just to make corrections on this cognitive task analysis report. 
+Ken:	Again, I wanted to also let you know that sometimes this can be a frustrating process, because I'm keep asking you, well, what decision did you make? What are the alternatives that you have to make? So, sometimes you have to be a little patient about it when you get frustrated about what I'm asking, because I may not ask [inaudible 00:03:51]. 
+Ken:	Okay. Let's start then. The task is central venous catheter placement.
+DJ Green:	Catheter placement, yes.
+Ken:	What would be some indications that you would need to perform this procedure? Or to know when to perform it?
+DJ Green:	Well, the patient that needs long term IV access would be a candidate for central venous line. An ICU patient that needs multiple IV medications, needs IV medications in a continuous drip, may need large volume resuscitation. 
+Ken:	Mm-hmm (affirmative).
+DJ Green:	May need intravenous nutrition. That's most of the indications for central venous catheter placement.
+Ken:	Terrific.
+DJ Green:	It provides a lot of reliable access to a large vein.
+Ken:	Okay. Insured. What would be some of the contraindications? Under what conditions would you not perform this procedure?
+DJ Green:	In an emergency situation there's almost none. If the patient has no peripheral IV access and needs IV resuscitation, we would place a central venous catheter. In a more elective setting, patients that have coagulopathy, that don't clot normally, we try to avoid central venous catheterization. Known thrombosis of a vessel would be a contraindication. Infected skin overlying the site. Not a lot of other contraindications. 
+Ken:	Okay, terrific. So, the overall purpose then that you would perform this procedure then is to to provide access ... Go ahead.
+DJ Green:	Oh, right, central venous access. 
+Ken:	Central venous access for all these purposes [crosstalk 00:06:07] indicated in here.
+DJ Green:	Right.
+Ken:	All right. If I were to ask you then, if you were to just briefly describe the major steps, the big steps in doing this. Imagine yourself, you had to summarize it to someone in 30 seconds or less. What would be the big five, six or so or whatever, three, four or five major steps you would say?
+DJ Green:	The biggest steps are: cannulation of a large vein with an introducer needle. Passage of a guide wire through the needle. And passage of the central venous catheter over the wire, into the vein, removal of the wire. Verification of placement by aspiration of blood through the catheter and by chest X ray. Those are the biggest steps.
+Ken:	One two three four five. The first one was the cam ...
+DJ Green:	Cannulation. 
+Ken:	Cannulation.
+DJ Green:	Of the vein.
+Ken:	Okay. Which is a non medical term would mean locate the vein?
+DJ Green:	No, it's introduction of a needle into the vein.
+Ken:	Okay. All right. I basically, one two three four or five steps.
+DJ Green:	Let's say are the biggest steps.
+Ken:	Okay. Cannulation to the vein, passage of the guard wire, patches of the central venous over the wire?
+DJ Green:	Right.
+Ken:	The removal of the wire?
+DJ Green:	Yes.
+Ken:	And then the verification of the correct placement of the central venous line by chest X ray.
+DJ Green:	Yes.
+Ken:	Okay, five steps. So now, what I like to do is take each one of these steps and drill down into how you get started with making these steps. What's the condition that would or a cue in which you would actually start the step of what you would need to do it?
+DJ Green:	Okay.
+Ken:	And go into the details. So cannulation or the introduction of the needles.
+DJ Green:	Right. All the preparation takes place before that step. So that's dawning of personal protective gear and sterile precaution. So, wearing a cap, gown, gloves, mask. Prepping of the site with chlorhexidine. Selection of the anatomic site for the catheter. There's chiefly three sites: internal jugular vein, subclavian vein and femoral vein. Subclavian vein is preferred site.
+DJ Green:	Prepping in that area with chlorhexidine. Identification of the anatomic landmarks, in this case which are the clavicle and sternal notch. Positioning of the patient, which having the patient in Trendelenburg; head down, and with the arms straight at the side, tends to be helpful. Then opening the central line kit and identifying all the necessary components that will be used in placement of the central venous catheter. Placement of the introducer needle on to an empty syringe.
+Ken:	Okay. Is there a breaking point that I can stop you at? [crosstalk 00:10:00]?
+DJ Green:	Right there.
+Ken:	Right there? Okay. I thought so. There seemed to be at least two decisions that you were making as you were recalling the, I guess it's almost like step zero, which is before you introduce the needle as steps to come before that. So, preparing the patient and preparing yourself and the kit. But one of those was, you mentioned that there were three sites, three potential sites that you could introduce this central line.
+DJ Green:	Right.
+Ken:	How do you decide which site to introduce the line? And if you can think about it, in the terms of if-then statements.
+DJ Green:	Right.
+Ken:	If you want to do this, then you place it here. If you want to do this place it there, etc.
+DJ Green:	The subclavian site is the preferred site. It's shown to have the least incidents of central venous catheter bloodstream infections. Followed by the internal jugular site, and then the femoral site.
+Ken:	So, the subclavian is the preferred site. Is that the only reason? Because it has a good history to it, so to speak. That you would choose that as your first site. 
+DJ Green:	No. It's really personal preference. I am most experienced with the subclavian site. The anatomy is fairly reliable, the vein is large. It may be the most comfortable for the patient. Now, the internal jugular site has a risk of inadvertent carotid injury. And ultrasounds should be used when the internal jugular site is selected.
+Ken:	But there'll be a time where you would choose the inter jugular over the subclavial? Or in other words, is there a time that you would not use the subclavial and go to the other two alternatives?
+DJ Green:	I typically start with the subclavian. If it's impossible to cannulate the subclavian vein, then I would switch to a different site, preferably internal jugular. And third would be femoral. The femoral site does have some advantages since it's not in the chest, it's just below the groin. There's no risk of inadvertent pneumothorax, and it tends to be a large vein that's relatively easy to cannulate.
+Ken:	Okay. How would you decide that the subclavi ... Clav clava ...
+DJ Green:	Clavian.
+Ken:	Clavian. Subclavian is not an acceptable site for you to go to? And you have to go to either the internal jugular or femoral?
+DJ Green:	After an unsuccessful attempt.
+Ken:	Unsuccessful attempt, okay. So, go to it first. If you can't find the vein then you go to internal jugular.
+DJ Green:	Right. Can't find the vein, can't pass the wire. Those would be the reasons I would selected another site.
+Ken:	Okay. Would you then go to the internal jugular first over the femoral?
+DJ Green:	Internal jugular.
+Ken:	Internal jugular first, okay. And why would you choose that than over the femoral vein?
+DJ Green:	Femoral has a high risk of infectious complications, and tends to be pretty uncomfortable for the patient.
+Ken:	Okay. Patient comfort. So, first go to the jugular and then to the femoral? 
+DJ Green:	Yes. 
+Ken:	Okay. Any other decisions that are made there that choose you to go down through this order? 
+DJ Green:	Let's see. No, that's usually it. No. That's the order I would always go on. 
+Ken:	Okay. The other area that I saw that perhaps it made a difference was when you mentioned the position of the patient. What would be some of the different positions that patient would be in?
+DJ Green:	Well patients, they're typically prone. The head down position does help with subclavian or internal jugular venous cannulation, because it tends to use gravity to fill the veins of the upper body.
+Ken:	Do you have control over the position of the patient?
+DJ Green:	Yes.
+Ken:	So, in other words, when you say position of the patient is what you prefer to move the patient in that position, or to perform the procedure?
+DJ Green:	Right.
+Ken:	So one of the steps in the procedure and step zero up here is, position the patient to where you want the patient to be for the procedure.
+DJ Green:	Yes.
+Ken:	Okay. And since your first preference is this subclavial?
+DJ Green:	Clavian.
+Ken:	Clavian. Sorry, I guess I am cleared in. What position then would you move the patient into for that procedure, to subclavian?
+DJ Green:	Prone position, slight Trendelenburg or head down position and with their arm at their side.
+Ken:	Okay. And if you could not do the subclavian for all the reasons you stated and you had to go move on to the internal jugular, what position would you put the patient in then?
+DJ Green:	Same position with the head turned away from the side of cannulation.
+Ken:	To expose.
+DJ Green:	Right.
+Ken:	Yes, okay. Then if the femoral were chosen, what position would you put the patient in?
+DJ Green:	Prone position. 
+Ken:	Okay. So it doesn't matter?
+DJ Green:	No.
+Ken:	Okay. Those are the two that I picked up as a thought process that were going through your mind. Is there any other in this preparation stage? Were you preparing yourself and preparing the patient as selected in the site of decisions that you're making at that point?
+DJ Green:	No. The only other consideration is if the patient is awake and will need local anesthetic. 
+Ken:	Okay.
+DJ Green:	Often these patients are either obtunded in the emergency room under general anesthesia in the operating room, or sedated and intubated on mechanical ventilation in the ICU, in which case they're receiving some kind of IV analgesia already. And the local anesthetic infiltration can be skipped. But in an awake patient that is a necessary step.
+Ken:	Okay. So in an awake patient then, you would need to do what to prepare the patient?
+DJ Green:	Prior to any attempted cannulation of the vein, the area of skin over the site needs to be anesthetize with local anesthetic, which is typically one percent lidocaine, which is included with the central line kit. It's introduced or injected through a smaller needle, that's also included. And that's done by raising a skin wheal just under the skin, and then more widely infiltrating the skin and subcutaneous tissue over the central line site.
+Ken:	Okay. Is there a preference as to in placing the central line whether or not the patient is awake or not?
+DJ Green:	No.
+Ken:	Just whatever state the patient is in [crosstalk 00:18:59].
+DJ Green:	Right.
+Ken:	So if the patient is awake then you're going to do local anesthesia. 
+DJ Green:	Yes.
+Ken:	If not, skip the step and move on to the next one.
+DJ Green:	Right. 
+Ken:	Okay. So the big three decisions are made and there's the location and the position of the patient and whether or not the patient is awake or not.
+DJ Green:	Yes.
+Ken:	Okay. Anything else than that, or we're now at the point where we've either the patient does not need or the patient's locally anesthetized. We have decided where we're going to start, and we've positioned the patient to where we want them for the, based upon the location. 
+DJ Green:	Correct.
+Ken:	So our next step is the introduction of the needle, or what you referred to as a can ... 
+DJ Green:	Cannulation.
+Ken:	Cannulation.
+DJ Green:	Right.
+Ken:	Okay. So, what are the steps involved in cannulation?
+DJ Green:	The steps involved in cannulation, or identification of the anatomic landmarks. Which in this we'll say in subclavian position are: sternal notch and the clavicle.
+Ken:	Okay. Are these landmarks going to be different than in internal jugular and in the femoral?
+DJ Green:	They will. 
+Ken:	Okay. Why don't we stay then, what is easier for you just to-
+DJ Green:	Stay with subclavian.
+Ken:	Stay with subclavian. And then we go back and talk about the landmarks or the other two?
+DJ Green:	Right, yeah.
+Ken:	Okay. All right. In the subclavian you are looking for the sternal notch and the ... I forgot the name.
+DJ Green:	Clavicle. 
+Ken:	Clavicle. Okay.
+DJ Green:	Right.
+Ken:	Would a resident know how to identify the sternal notch and the clavicle?
+DJ Green:	Yes, they would.
+Ken:	Prerequisite knowledge that they should know. They need to leave the room and go study.
+DJ Green:	Right.
+Ken:	Okay, fine. Any other landmarks with subclavian?
+DJ Green:	Those are the big ones. 
+Ken:	Okay. So you look for the landmarks, identify these two landmarks. Then what do you do when you have identified them?
+DJ Green:	So once I've identified those landmarks I palpate the sternal notch, place the tip of my left finger among left index finger in the sternal notch. Palpate the clavicle, identify the point at the distal two-thirds of the clavicle, and place my thumb just inferior to the clavicle at that position, of my thumb on my left hand. That will be the position of my left hand during cannulation of the vein. 
+DJ Green:	So my right hand, I take the empty syringe with the introducer needle. Select the spot on the skin that is typically two centimeters inferior and approximately one centimeter lateral, that position on the clavicle. And introduce the needle into the skin there, with the needle in a plane parallel to the floor to avoid inadvertent puncture of the apex of the lung. The needle is advanced until it strikes the inferior surface of the clavicle. Then using downward pressure on the skin with my left thumb, I guide the introducer needle under the clavicle, by serially marching down the flap portion of the clavicle until I can feel it pass underneath. 
+DJ Green:	At that point, the syringe is aspirated and the needle is advanced towards my left index finger in the sternal notch. At this point during this advancement, there should be a return of venous blood in the syringe signifying cannulation of the subclavian vein. 
+Ken:	Okay. Let's stop there for one second. The position of your left hand of your different fingers and your thumb in your left hand-
+DJ Green:	Right.
+Ken:	Seem to serve a couple of purposes. One, the thumb is guiding you down the clavicle, and the fingers also appeared to be guiding.
+DJ Green:	Right. The left index finger in the sternal notch, that serves as a landmark to direct the tip of the needle towards the ... And then my thumb does guide the needle under the clavicle. 
+Ken:	So the position of your fingers and your thumb are important-
+DJ Green:	Yes.
+Ken:	In this case, okay. All right. Are there any alternative positions that you might put your fingers and thumb in this case? Or is that this is the position, the standard [crosstalk 00:24:37]-
+DJ Green:	This is standard position, 'cause it's exactly how I teach. 
+Ken:	All right. So we've gotten the needle down below the [inaudible 00:24:45] into a vein. Now, you've seen that you're in the blood vein by pulling out the syringe.
+DJ Green:	Right.
+Ken:	Okay. So what were you ... 
+Speaker 2:	How do you call [inaudible 00:25:02]? 
+Ken:	I don't know.
+DJ Green:	The clavicle thumb or the thumb or the fingers?
+Speaker 2:	[inaudible 00:25:10].
+DJ Green:	While the advancement of the needle should be fairly gentle. However, sometimes it requires the full length of the needle to reach the vein, in which case the skin may have to be indented with the hub of the needle. 
+DJ Green:	The downward pressure really depends on the thickness of the patient's subcutaneous tissue. Sometimes the clavicle is pretty deep and does require a lot of pressure to get underneath the clavicle. 
+Speaker 2:	[inaudible 00:25:42].
+DJ Green:	Right. That's the scenario where it can take significant pressure to get the needle under the clavicle and to identify the clavicle can be a challenge in a really obese patient. It requires pretty firm palpation. 
+Ken:	Okay. So, we've confirmed that our needle is in the vein by withdrawing blood from the vein.
+DJ Green:	Right.
+Ken:	And you determine that's in the vein by the color of the blood? Color-
+DJ Green:	Venous blood tends to be darker than arterial blood, but that's not always the case. The patients on the high concentration oxygen may have fairly red venous blood. The character of the return can also signify which vessel it's in. If it's frankly pulsatile and bright red, that may indicate that's an arterial cannulation. But just this continuous steady flow of blood from the needle is more likely of venous cannulation. 
+Ken:	So if you have a steady flow of blood, and the blood is darker in color, then most likely you are in-
+DJ Green:	The vein.
+Ken:	The vein. If the blood is pulsating and bright red, then you're most likely in an artery. 
+DJ Green:	Right.
+Ken:	And sometimes it could be in a vein when ... In an artery when you're supposed to do vein.
+DJ Green:	Right. That [crosstalk 00:27:23].
+Ken:	Well, how would you check to just see whether or not the patient is on oxygen and to try to rule out the vein? Or how could you rule-
+DJ Green:	Sometimes you can't, sometimes it's impossible. Sometimes the vein is, or the artery is inadvertently cannulated, the wires placed into the artery. The central venous catheter is placed into the artery and chest X ray confirm that that's malposition.
+Ken:	What's the danger that happens? Is there a danger?
+DJ Green:	There is a danger. Especially, in the subclavian position, because the subclavian artery is underneath the clavicle. Once there's a sizable hole in it, once it dilate into the catheters placed in it, there can definitely be continued bleeding from the hole in the artery, when the catheters is ... When it's recognized that's malposition, and then removed. It's very hard to apply direct pressure over that artery. 
+Ken:	Because of the clavial. 
+DJ Green:	Right. Because of the clot that's underneath the bone. So that is a risk. 
+Ken:	So you have to be pretty sure that you are actually in a vein and not an artery.
+DJ Green:	Correct. Just a needle stick of the artery isn't as much of a risk for hemorrhage or hematoma, compared to actually dilating that hole and placing a catheter through it. 
+Ken:	Is there any other ways that you can determine that you're, besides the lack of pulsing and the darker red that you're actually confirming that you're in a vein rather than artery? If it's questionable, not sure, what do you do? 
+DJ Green:	It's an apparently infrequent occurrence. Because the preparations you take prior to placing the needle predispose you to cannulating the vein. Knowing those anatomic landmarks and knowing that the vein is just directly under the clavicle, it's more superficial than the artery, and tends to be cannulated in a more distal on the clavicle than the artery. But to verify that you haven't stuck the artery can be difficult, especially in well oxygenated patients.
+Ken:	Okay. Sounds like we should move on then. 
+DJ Green:	Yeah.
+Ken:	Okay. Obviously this addresses the importance of the position of the fingers and the guidance and the palpitations, et cetera. 
+DJ Green:	Right.
+Ken:	So, we are at the point, I think, where we've drawn blood and have made that decision that we are in a vein rather than an artery. What's the next step?
+DJ Green:	Once the vein is cannulated, then it's very important to maintain the position of the needle. So, this is where I move my left hand and firmly hold the hub of the needle to keep it in exactly that position, while I remove the syringe from the needle. Continued venous bleeding from the needle is a good sign that it's still in position and still in the vein. However, some patients have low venous pressure, nearly negative venous pressure, and to avoid air embolus I placed my thumb over the hub of the needle to avoid any air being introduced into their vein. 
+DJ Green:	At this point, I take the guide wire from the tray and introduce the guide wire through the needle. And the guide wire should pass very easily, it should require really no force at all to advance it into the vein. If the patient is on a cardiac monitor, at this time, the guide wire may cause some ectopy that can be seen on the screen, which is an indicator that the wires is in the right place. It's gone through the vein and into the atrium and has caused some ectopic beats.
+DJ Green:	At this point, I remove the needle leaving only the guide wire in place.
+Ken:	How far you put the guide wire in?
+DJ Green:	The guide wire typically goes in to about 20 centimeters.
+Ken:	Is it marked or [crosstalk 00:32:38]. Oh, I'm sorry. Go ahead.
+DJ Green:	It does have marks at every 10 centimeters. 
+Ken:	I see, okay.
+DJ Green:	The guide wire has marks.
+Ken:	So, you should insert the guide wire 20 centimeters in.
+DJ Green:	Approximately, 20 centimeters.
+Ken:	Okay. We say approximately if you're at 18, does it do something? Are you at the end or ...
+Speaker 2:	How do you know when to start?
+Ken:	How do you know when to start?
+DJ Green:	Right. You want to have enough wire in position this so you know when you're in the vein, that you're not going to lose your wire's position. On the other end you don't want to introduce the entire wire and avoid losing the wire inside the patient. 
+Ken:	I see.
+DJ Green:	The vein or the wire is long enough to allow the entire central venous catheter to go over it and still leave plenty of length external to it, so you can control it proximal to the catheter.
+Speaker 2:	Is there any [inaudible 00:33:35] the wire too hard?
+DJ Green:	[inaudible 00:33:39] it can perforate the heart and it can, I mean that's very infrequent complication. But theoretically, it could perforate the heart. And if it's left in position in the heart it can cause an arrhythmia that could even require cardioversion. Usually, when I see the ectopy in the heart I know it went into the right place and I pull it back, so the ectopy goes away.
+Ken:	Okay.
+DJ Green:	Yeah. At that point, the needles are moved, the wire is in place. The scalpel is used to enlarge the skin incision to allow passage of the dilater over the wire. In the subclavian position this is an important step, because the connective tissue around the clavicle is substantial, it's pretty tough. And there's some periosteum around the clavicle that needs to be dilated to allow passage of the central venous catheter.
+DJ Green:	So, the skin incisions enlarge, the dilater is passed over the wire and then removed. Then the central venous catheter is again placed over the guide wire. The cap on the brown port of the central venous catheter is removed-
+Ken:	Can I ask one question? 
+DJ Green:	Yes.
+Ken:	With the scalpel, how wide? Can you make it too wide or how wide should you make it approximately?
+DJ Green:	It should be made just wide enough to allow passage of the catheter, which is really only additional three millimeters larger than the needle site. 
+Ken:	Okay. All right. So you are at the point of removing the cap?
+DJ Green:	Right. Cap's removed to allow a passage of the wire through the catheter, and the catheter is placed over the guide wire. It should slide easily over the guide wire. The guide wire and wire or the catheter and wire should not move together, but the catheter should slide easily over the wire until in .. In most adults, the catheter hub is at the skin. The wire should be controlled at the brown port the entire time that the catheter is advanced over the wire.
+DJ Green:	At this point, once the catheter is in place the wire is removed from the catheter. A syringe is placed on the brown port and aspirated to verify that the catheter is in position in a vein. The syringe is, yeah.
+Ken:	How would you know that this it is properly-
+DJ Green:	There should be good return of venous blood on any of the syringe. At this point, the syringe is removed and the brown port is replaced on the catheter. A syringe is then in sequence attached to all three ports. The air from each port is aspirated and each port is flushed with a small amount of sterile sailing, one to two cc's per port. The caps are replaced and the catheters then are fixed to the skin with two interrupted sutures through the skin to the tabs on the hub of the catheter. 
+DJ Green:	Sterile dressing is then placed over the catheter at the skin site and the procedures concluded. The drapes are removed and the chest X ray is ordered to verify proper placement of the catheter.
+Ken:	What would you expect to see on the chest X ray, to see if the catheter has been properly placed?
+DJ Green:	The chest X ray ideally shows a central venous catheter with the tip just at the superior vena cava right atrial junction. It should also not show a pneumothorax on the side of the central line. It should also not show any widening of the mediastinum or hematoma, indicating arterial injury or extravasation of blood into the right chest, or whichever side the catheter was placed on. Chiefly for position of the catheter.
+Ken:	Is it also right to assume that this would show if you were in a good ... Move forward in the procedure in an artery, which was also demonstrating [crosstalk 00:39:23].
+DJ Green:	Right, indefinitely. It can show arterial malposition. 
+Ken:	Thank you. 
+DJ Green:	Yeah. 
+Ken:	Okay. All right. What is the standard for this procedure in terms of its success? Obviously, one is the proper positioning of the central line verified by the chest X ray. Obviously, it's bigger in a vein and not an artery.
+DJ Green:	Right.
+Ken:	Again, to verify better chest X ray at the end. Definitively verify [inaudible 00:39:57], right? Is there any other visible or tactile or any other sensory indications that you're successful, other than what you see in the chest X ray?
+DJ Green:	If there's good return of what appears to be venous blood in all three ports of the catheter, that's fairly indicative that the line is in a good position, but not entirely reliable.
+Ken:	Because you have a well oxygenated patient.
+DJ Green:	And because the line could also go up the jugular vein instead of into the superior vena cava. So it's still may be malpositioned and there may be good return of blood in all the ports.
+Ken:	Chest X ray becomes very important for verification.
+DJ Green:	Right.
+Ken:	Okay. What's the time standard that this procedure should be done?
+DJ Green:	The preparation just really takes longer than the procedure itself. The actual procedure itself, from the time the patient is completely prepped and the kit is opened, typically takes five to 10, five minutes.
+Ken:	So from cannulation to ...
+DJ Green:	To suturing the ...
+Ken:	To suturing.
+DJ Green:	Hub of the catheter or the skin.
+Ken:	Right. Chest X ray may take longer obviously, but to the suturing should take five to no more than 10 minutes, or five minutes?
+DJ Green:	Yeah. Usually five to 10 minutes. 
+Ken:	Five to 10 minutes. 
+DJ Green:	Right. Just given an atomic variability, the wheal needle doesn't go into the vein on the first attempt, and it may take several attempts. 
+Ken:	Okay. Let's see. How much time do we have left? It's the only thing [inaudible 00:41:52]. I'm wondering why [inaudible 00:41:53]?
+Speaker 2:	You're at 57 minutes.
+Ken:	There you go. Okay. In describing this procedure, as you just did in the CTA, who would be first described to [inaudible 00:42:14] first train this to make a second year? [crosstalk 00:42:17]-
+DJ Green:	Probably an intern.
+Ken:	Maybe an intern, okay. Are there any new terms that you have introduced that the intern needs to know about? Or is this all, everything you've said, all the terms that you use should be already known by them?
+DJ Green:	They should know most of the terms. If it's absolutely the first time they've ever seen it, then a lot of it would be new. The whole concept of this technique, the placement of the catheter over a guide wire, maybe a new concept. But they've typically seen it by intern year, and understand the principles of this technique.
+Ken:	And all the medical terms, the locations and all the-
+DJ Green:	Right. The anatomy should all [crosstalk 00:43:02].
+Ken:	All the anatomy should be, okay.
+DJ Green:	Right.
+Ken:	All right. Well, I was gonna say maybe if we took a short break I can change tape, we can come back and talk about the inner jugular and the femoral.
+Speaker 2:	[inaudible 00:43:13].
+DJ Green:	Okay.
+Ken:	Okay. So, let's take a break. We'll stop the tape and change the tape.
+DJ Green:	Okay.
+Ken:	So we're gonna back to where, to determine the location.
+Speaker 2:	Just to talk about the differences. So the procedure is gonna be just a little bit different for each site. I can imagine that a lot of it is the same but-
+DJ Green:	Right, the procedure is ... yeah. It's really just landmarks.
+Speaker 2:	Getting it in. Getting the cannulation in-
+Ken:	And after the landmarks?
+Speaker 2:	Once it's cannulated, it's probably the same.
+DJ Green:	Yes.
+Speaker 2:	Okay.
+DJ Green:	Some subtle differences. 
+Ken:	So it's okay then if we talk about the location and then we're gonna, the position at the left hand is gonna be different, right? Okay.
+DJ Green:	Yes.
+Ken:	And then, when you go into, after we do introduce the, we have the cannulation, right? And then are the things different than here as well, and the steps, remaining steps?
+DJ Green:	No. The remaining steps are pretty much the same.
+Ken:	Okay, so maybe I'll just ask you if there are any differences, but then once you introduce the needle, what differences then occur afterwards and you can just give general statement unless there's something specific. Does that work alright with you?
+DJ Green:	Yes.
+Ken:	Okay. Sorry.
+DJ Green:	Great.
+Ken:	What's that?
+Speaker 2:	[inaudible 00:01:44].
+Ken:	I'll roll [inaudible 00:01:48] cut it out. Geez, all those nasty [inaudible 00:01:51]. 
+Speaker 2:	[crosstalk 00:01:52].
+Ken:	I'll make sure, believe me, I'll protect it. Okay, this is a take of two of the interview. The Central Venous Line Placement with Dr. DJ Green on May 18th.
+Ken:	So, you mentioned earlier that there were three locations that could be selected for the placement of the Central Line. We've gone through completely with the Subclavian location and now we wanna go back to the Internal Jugular placement and the Femoral placement. 
+Ken:	We've gone through already all the conditions under which you would go to the Internal Jugular versus your preferred Subclavian, so we won't cover that. But let's just say now that your Subclavian is not available to you for any one of the reasons that you've talked about, and you have decided then [inaudible 00:03:02] the location of the Internal Jugular. So where is that location and-
+DJ Green:	So, Internal Jugular Vein is on either side of the neck, it lives in the Carotid sheath with the Carotid artery and in the Vagus nerve, and the landmarks for the chief landmarks for the Internal Jugular vein are the two heads of the sternocleidomastoid muscle. 
+DJ Green:	Landmarks are best identified with the head turned away from the selected side, and then the sternocleidomastoid muscle is identified. It's two heads are the mandibular or clavicular head and the manubrial head. So one head of the muscle attaches to the manubrial, one head attaches the clavicle, and there's a gap between these two heads.
+DJ Green:	Distal from the clavicle or superior from the clavicle, with two heads join again making a crouch where the Internal Jugular vein can be cannulated. So once this site is identified, then this vein can be cannulated. 
+DJ Green:	Ultrasound has become the standard of care for identification of the Internal Jugular vein, and this is primarily to avoid inadvertent Carotid artery not injuring, which can result in bleeding and thrombosis of the Carotid artery. So ultrasound is typically used to identify the Internal Jugular vein.
+Ken:	In addition to the-
+DJ Green:	To the landmarks.
+Ken:	To the landmarks.
+DJ Green:	Right. Once the landmarks are identified, then the ultrasound probe is placed at the site, and the Internal Jugular vein can be distinguished from the Carotid artery by the size and the compressibility of the vessel. The artery typically appears completely round and with compression with the ultrasound probe, the artery will remain patent. The vein is more lateral and larger and oblong in shape and will change in size with the patient's respiration, and it's easily compressible with the ultrasound probe. 
+DJ Green:	An ultrasound can be sterilely, the ultrasound probe can be sterilely draped with a clear cover and prepped into the field and the Internal Jugular vein can be cannulated under direct ultrasound vision. The ultrasound can be used just to identify that the Internal Jugular vein is in its appropriate position and once it's visualized, it can typically be avoided even if the procedure is not performed under constant ultrasound vision.
+DJ Green:	The technique for cannulation of the Internal Jugular vein differs somewhat from the Subclavian vein technique, in that a finder needle can be used, which is a small needle, 25 gauge needle can be affixed to a syringe and used to cannulate the Internal Jugular vein.
+DJ Green:	The site of entrance is just is at the crouch on the sternocleidomastoid muscle heads, the angle of insertion is fairly steep directly in, almost a 90 degree angle into the patients neck at this site. With continuous aspiration on the syringe-
+Ken:	Can I stop, if the patient, let me ask you going back just slightly. If the patient is not awake, do you use local anesthetic, [crosstalk 00:07:41].
+DJ Green:	If the patient is awake I use local anesthesia, if they're asleep and can be positioned in, then that's not a necessary step. But the needle should be directed at a fairly steep angle and towards the ipsilateral nipple. So nipple on the same side.
+Ken:	Are you using your left hand as guide as you did in the Subclavian?
+DJ Green:	My left hand might be used-
+Ken:	You're positioning your left hand and in any particular way, that was very important in the Subclavian.
+DJ Green:	My left hand maybe used to efface the skin a little bit, but it's not as important in maintaining position or as important in guiding my needle.
+Ken:	Okay, you're not using it as a guide.
+DJ Green:	Right. Actually probably just used to stabilize the syringe.
+Ken:	Okay.
+DJ Green:	Once the-
+Ken:	Needle 90 [inaudible 00:08:37].
+DJ Green:	Once the needle, the small needle, the finder needle enters the vein and there is aspiration of venous blood into the syringe, then the large introducer needle, which has already been affixed to a syringe is introduced into the skin at the very same site and angle as the finder needle. It follows the course of the finder needle by really sliding it right along the finder needle, metal to metal into the same site. If this is done correctly, then it should return of venous blood into the second syringe. 
+DJ Green:	The first syringe, the needle can be removed, and the position of the introducer needle is again firmly maintained while the syringe is removed and the guide wire is introduced. The steps are then identical to the Subclavian site placement, however once the skin incision is enlarged, the introducer or the dilator doesn't need to be as vigorously introduced as in the Subclavian site, as there minimal connective tissue over the Internal Jugular vein, and this could result in tearing of the vein.
+DJ Green:	Then the steps are identical, the catheter is fixed to the skin and again the chest x-rays ordered to verify position of the catheter.
+Ken:	Okay. Nothing else is different then in the Internal Jugular then. So, the last one then if the Internal Jugular is not available we go to our third location alternative, which is the Femoral area. 
+DJ Green:	Right. So the Femoral site is third site of preference. Again, so the patient's leg is placed in a slightly frog leg position, that is externally rotated, slightly flexed and the site is again prepped and draped. The landmarks for the Femoral vein are easily remembered by the order of structures in the upper thigh, which are using the mnemonic NAVEL from lateral to medial or the structures are nerve, the artery, vein, an empty space and the lymphatics. So NAVEL.
+DJ Green:	By palpating the Femoral artery, just inferior to the Inguinal ligament, the location of the vein can be envisioned just medial to this palpable pulsation. This is a large vein, which lays again medial and slightly posterior to the artery, the equipment used is again identical, local anesthetic is used if the patient is awake, but the ... since there's minimal concern over inadvertent arterial puncture and the artery is easily palpable and compressible with local pressure if there is an inadvertent arterial stick.
+DJ Green:	The vein is cannulated with the introducer needle, again just medial to the artery, the needle is introduced at approximately a 45 degree angle, pointed in the [inaudible 00:12:50] direction, continuous aspiration on the syringe until there's the return of venous blood. The needle is advanced and then the steps are the same, enlargements, skin incisions, passage of the dilator, passage of the central venous catheter and removal of the wire and then the catheter is affixed to the skin and dressing is placed.
+DJ Green:	Chest x-ray is typically is not ordered in this case because there's no risk of pneumothorax or other complication identified by chest x-ray.
+Ken:	Any complications that, is the artery so obvious that it's not a complication in the artery?
+DJ Green:	If the patient has a palpable pulse, it's very distinguishable from the vein. However in an obese patient, the artery could inadvertently be cannulated and dilated.
+Ken:	So once again you're looking at the blood and you're looking at the pulsating as well on the syringe, [inaudible 00:14:15] the syringe.
+DJ Green:	Yes.
+Ken:	Okay alright. But you're not using ultrasonic to give you a picture-
+DJ Green:	It could be used but it's not typically necessary.
+Ken:	Okay, alright. Is there any placement in the Femoral area, any placement importance of the placement of fingers to go as a guide or anything, I know you mentioned 45 degrees-
+DJ Green:	I keep my finger on, my left hand is on the pulse of the artery to maintain that landmark and for stabilization and the effacement of the skin.
+Ken:	The thumb doing anything at that point?
+DJ Green:	No. Not typical.
+Ken:	Okay.
+Speaker 2:	[inaudible 00:15:05] here you went to put the catheter at one point-
+DJ Green:	No that was really just for the rubber model because the catheter wouldn't slide through rubber very well. I thought it might help.
+DJ Green:	... no, in a patient you really don't have to at all. Once the tract is dilated, the catheter should advance over the wire pretty easily.
+Speaker 2:	And then you had kink, how common is it? 
+DJ Green:	That's not very common. It is common of these models and it's common, probably more common in the Subclavian position than anywhere, because it does take a little more force to pass the dilator and it tends to be the place where there can be kink in the wire. But it's not a common occurrence.
+Speaker 4:	Okay, so that happens in patients [inaudible 00:15:56].
+DJ Green:	If that's happened, and you're right, if you've discovered that before the catheter is placed, you discovered it because you've already taken the wire out, so probably should get another wire.
+DJ Green:	Usually it's discovered after the catheter is in, the wire is withdrawn, the catheter is in position and the wire is kinked. Now it's hard to say it's mal-position that's caused that, the catheter may still be in good position, it may have just kinked underneath the catheter. So chest x-ray is still the best test to look for the catheter position.
+Speaker 4:	After you take out the wire, you said you withdraw, you aspirate to make sure that ... so I'm just completely confused as to how somebody can leave that in. I mean how would you even be able to withdraw?
+DJ Green:	If the wire is completely in the catheter, out of sight and the hub is placed back on. The hub can be cannulated with a syringe, with a needle on it, the air can be aspirated, saline can be flashed in, there maybe some blood return around the wire but it seems like the wire fills the, at least one channel of the catheter in a triple lumen catheter.
+Speaker 2:	Are there different types of catheters?
+DJ Green:	There is, there's a cordis central venous line, which is one large internal lumen that's introduced with a dilator inside of the cordis. It'd be more likely to leave a wire in with a cordis and there will still be a return of blood around the wire.
+Speaker 2:	So, I guess that's another decision that you make at the beginning, right. When did the triple lumen [inaudible 00:18:06].
+DJ Green:	Right. Typically a cordis since it's one large lumen is used really for situations where large volume fluid or blood administration is planned, like in an unstable patient. The cordis provides a reliable access for big volumes and often a cordis is switched out over a wire to a triple lumen catheter later when the patient doesn't need big volumes anymore, but they need multiple medications. Then they can be changed over to a triple lumen catheter.
+DJ Green:	Cordis is also used to allow placement of a small [inaudible 00:18:53] pulmonary artery catheter.
+Speaker 2:	So, is the placement of a cordis different than the placement of the triple lumen?
+DJ Green:	There's really not much difference. There's, the steps are really all the same, instead of introducing the dilator over the wire prior to placement of the triple lumen catheter, there's a dilator that's, there's still a dilator that dilates the skin is removed, and then there's an inner dilator that goes over the wire through the actual cordis. The lumen of the cordis is a lot bigger than the guide wire, so there will be a big mismatch if there wasn't this internal tapered dilator.
+Speaker 2:	So this is sort of an extra step.
+DJ Green:	It does have an extra step.
+Speaker 2:	Okay, there are probably more questions. And then do you wanna walk us through how you change them out or when you make a decision to change a cordis to a triple lumen?
+DJ Green:	Right. So, that decision is made ... Usually once the patient is hemodynamically stable, no longer needs large volume blood transfusion, plasma transfusion or IV fluids, once they're stabilized, this maybe after a day or so in the ICU, maybe 48 hours, then the cordis can be changed to triple lumen catheter.
+DJ Green:	So the site is again prepped and draped just as if it was a fresh line site. The port, the port for the distal lumen of the catheter, which there's only one in a cordis, it's just the one port. It's cannulated with a guide wire, the cordis is removed, the guide wire remains in place and then a triple lumen catheter is placed over the guide wire just as in an initial line placement. The guide wire is removed and the line is then affixed to the skin [inaudible 00:21:22].
+Speaker 2:	Okay.
+Ken:	Good?
+Speaker 4:	Yap, can I ask a couple of questions?
+Ken:	Sure. 
+Speaker 4:	So how about removal of, I think one thing we overlook all the time is the skills, is okay, now when you're gonna take it out, how do you take it out? Even though it's infected.
+DJ Green:	So the indications to remove a line are, if it's been placed under unsterile conditions and the patient no longer needs central venous access, that line should be removed. If the patient has adequate peripheral IV access and no longer needs central line for parenteral nutrition, for multiple intravenous medication, continuous infusions, no longer needs large volumes of resuscitation, then their central line can be removed. The steps for removing a central line are, or if the skin looks infected around the central line, or of it's proven if they have a positive blood culture and a line infection is suspected, and they've otherwise adequate IV access, then the line can be removed.
+DJ Green:	So the steps are, place the patient in Trendelenburg, and remove the sterile dressing, cut the [inaudible 00:22:57] that hold the line to the skin, remove the line with care to cover the line, the entrance site, and place a sterile dressing over the line site.
+DJ Green:	The Trendelenburg position and the covering of the site are to prevent the complication of air embolus, which can happen when the central line is removed, and especially when a patient is in upright position and there's a negative venous pressure, air can actually be introduced through the site into the vein resulting in an air embolus. So the putting the patient Trendelenburg tends to fill the veins with blood by gravity and prevent that egress of air into the vein.
+Speaker 2:	How many days can we leave a line in? Is there a rule about that?
+DJ Green:	There's not really a rule as far as how many days. There's ... patients are monitored for signs of infection, the skin site should be inspected, if the patient develops a fever, have an increase in the white count then investigative measures are taken to determine the site of source of that infection.
+DJ Green:	But central lines can last well over a week without becoming infected. As long as they're still providing adequate access, they can be left in place.
+Speaker 4:	Say you're in the emergency room, you [inaudible 00:24:44] is not a sterile technique, would you changed it out with [inaudible 00:24:49].
+DJ Green:	A patient shouldn't, that line no. Yeah it would be changed on arrival to the ICU, under sterile, using all sterile techniques.
+Speaker 2:	So would you then obviously, [inaudible 00:25:03] you can't put it in the same site, can you?
+DJ Green:	That line can be changed over a wire.
+Speaker 2:	Okay, so you could actually just change it over the same site if you want.
+DJ Green:	Right.
+Ken:	What are some of the issues that is prompted to take a look at this. Some of the problems have been occurring.
+Speaker 4:	Two times they left the guide wire in, so there's a couple of things, one is they didn't know they could [inaudible 00:25:39] step, but then too late, missed another step when they didn't check the chest x-ray, so there was two times that happened. Which are the other ones?
+DJ Green:	That's the main one, that was-
+Speaker 4:	That was so big that they, but there were a couple of other, there was the six complications in the past six months, in central line placement.
+Ken:	The chest x-ray was on the Subclavian.
+Speaker 4:	Well in two were with the supervisor positions right there.
+Ken:	So they performed the chest x-ray? Or they performed it and didn't read it?
+DJ Green:	I think one was a Femoral line, so there wouldn't have been a chest x-ray. It was noted later on an abdominal film, which is not routinely ordered because it really would not identify much if you, with no one anticipating that maybe a wire wasn't in it's-
+Speaker 2:	So now what they're doing is they're instituting a policy to check the [inaudible 00:26:44], make sure, kind of like [inaudible 00:26:49] after the procedure you actually will need to go through some sort of verification that everything is out of the patient. What are some of the other complications of central lines? Any kind of [inaudible 00:27:01].
+DJ Green:	Pneumothorax is a fairly frequently reported complication to either Subclavian or less often Internal Jugular vein cannulation, and that's from inadvertent puncture of the lung. So that happens typically on intubated patients who are on positive pressure ventilation. It takes just a small puncture in the lung and the small leak that under positive pressure that can result in a fairly large Pneumothorax, and so it can be a complication. 
+DJ Green:	It would also be bleeding in anticoagulated patients or patients with an inadvertent arterial puncture. There can be local hematoma at any one of these sites, there can be hemathorax, especially at the Subclavian site, where the bleeding from the Subclavian artery or vein or even internal mammary artery in rare cases can result in bleeding into one side of the chest. There can be mediastinal hematoma from Subclavian artery stick that can result in a contained bleed around the great vessels. There can be thrombosis of any one of these veins, typically with prolonged central venous catheterization. There can be mal-position of a line and infuscate of fluid or blood or even parenteral nutrition into the chest typically. 
+DJ Green:	It can be perforation of the heart with the guide wire. In Swan-Ganz catheters because they're very long, there's more complications, they can actually be nodded or looped on themselves, [Swan-Ganz catheter has a ballon on the end of it, which is inflated in the pulmonary artery, which can actually result in pulmonary artery rupture.
+Speaker 2:	[inaudible 00:29:36]. 
+Speaker 4:	All that can happen, wow. 
+Speaker 2:	Any other question?
+Ken:	No.
+Speaker 2:	No.
+Ken:	Thank you very much.
+Speaker 2:	Thank you doctor Green.
+DJ Green:	Sure.
+Ken:	Thank you.
+Speaker 2:	So-
+

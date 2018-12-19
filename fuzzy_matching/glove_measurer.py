@@ -1,11 +1,13 @@
 import pickle
 import os
-import logging as log
+import logging
 
 from tqdm import tqdm
 import numpy as np
 
-from .embed_measure import EmbeddingMeasurer
+from .embed_measurer import EmbeddingMeasurer
+
+log = logging.getLogger(__name__)
 
 class GloveMeasurer(EmbeddingMeasurer):
     def __init__(self, glove_path):

@@ -1,6 +1,5 @@
 pip install -r requirements.txt
 
-mkdir -p logs
 mkdir -p extracted
 mkdir -p embeddings
 mkdir -p dataset/seqlabel

@@ -13,6 +13,7 @@ if __name__ == '__main__':
     for sen in obj:
         toks = sen['tokens']
         refs = sen['annotations']
+        # negative samples?
         if refs is None:
             continue
 

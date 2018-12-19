@@ -1,12 +1,15 @@
+import logging
 
-"""
-A cheaper tokenizer than corenlp
-"""
 import spacy
 
+log = logging.getLogger(__name__)
+
 class Tokenizer(object):
+    """
+    A cheaper tokenizer than corenlp
+    """
     def __init__(self):
-        print("loading spacy tokenize model")
+        log.info("loading spacy tokenize model")
         self._tokenizer = spacy.load('en')
         self._memory = dict()
 

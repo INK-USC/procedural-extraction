@@ -9,17 +9,20 @@ import os.path
 from typing import List
 
 class EmbeddingMeasurer(object):
-    def __init__(self):
-        self._memory = {}
+    def __init__(self, preset_memory=None):
+        if preset_memory is None:
+            self.memory = {}
+        else:
+            self.memory = preset_memory
 
     def sen_emb(self, sen) -> np.array:
         """
         return average sentence embedding of given sentence
         """
         key = ' '.join(sen)
-        if key not in self._memory:
-            self._memory[key] = self.L2norm(self.vanilla_sen_emb(sen))
-        return self._memory[key]
+        if key not in self.memory:
+            self.memory[key] = self.L2norm(self.vanilla_sen_emb(sen))
+        return self.memory[key]
 
     def vanilla_sen_emb(self, sen) -> np.array:
         raise NotImplementedError("!")

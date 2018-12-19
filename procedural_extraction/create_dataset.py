@@ -1,5 +1,7 @@
 import pickle
-import logging as log
+import logging
+
+log = logging.getLogger(__name__)
 
 def create_seqlabel_dataset(samples, src, path):
     annotations = dict()
@@ -35,7 +37,28 @@ def create_seqlabel_dataset(samples, src, path):
         pickle.dump(dataset, f)
 
 def create_relation_dataset(samples, path):
-    with open(path) as f:
-        f.write('\t'.join(["Str1", "Str2", "Label"]) + '\n')
-        for sample in samples:
-            f.write()
+    dataset = {
+        'next': [],
+        'if': [],
+        'none': []
+    }
+    for (idx, sample) in enumerate(samples):
+        if sample['src_matched'] is None:
+            continue
+        text1 = ' '.join(sample['src_matched']['span'])
+        for (idx2, sample2) in enumerate(samples):
+            if sample2['src_matched'] is None or idx == idx2:
+                continue
+            text2 = ' '.join(sample2['src_matched']['span'])
+            if idx2 == sample['next_id']:
+                dataset['next'].append((text1, text2, 'next'))
+            elif sample['iftype'] == 'THEN' and idx2 in sample['ifobj']:
+                dataset['if'].append((text1, text2, 'if'))
+            else:
+                dataset['none'].append((text1, text2, 'none'))
+        
+    log.info('Saving relation dataset to {}'.format(path))
+    with open(path, 'w') as f:
+        for (k, v) in dataset.items():
+            for triplet in v:
+                f.write("%s\t%s\t%s\n" % triplet)

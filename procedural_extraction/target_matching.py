@@ -1,10 +1,12 @@
 import re
-import logging as log
+import logging
 
 import utils
 import fuzzy_matching
-from .target_processor import TargetProcessor
-from .create_dataset import create_relation_dataset, create_seqlabel_dataset
+from procedural_extraction.target_processor import TargetProcessor
+from procedural_extraction.create_dataset import create_relation_dataset, create_seqlabel_dataset
+
+log = logging.getLogger(__name__)
 
 def split(lines):
     """
@@ -174,6 +176,7 @@ def match(samples, src, parser):
     all_toked_ngrams = src.get_toked_ngrams()
     log.info('%d possible N-grams exists in source file' % len(all_toked_ngrams))
 
+    log.info("Creating matching queries")
     queries = list()
     metas = list()
     for sample in samples:
@@ -188,8 +191,9 @@ def match(samples, src, parser):
         toked_candidates = tuple(src_sen['span'] for src_sen in src_sens)
         queries.append((protocol,) + toked_candidates)
         metas.append(src_sens)
-    
+
     nearest = fuzzy_matching.getNearestMethod(args.method, parser)
+    log.info("Finding nearest candidates")
     nearest_idice = nearest(queries)
 
     for (sample, nearest_idx, meta) in zip(samples, nearest_idice, metas):

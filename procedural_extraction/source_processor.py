@@ -2,15 +2,21 @@ import os.path
 import pickle
 import re
 import time
+import logging
 
-import logging as log
+from tqdm import tqdm
+
 from pattern_extraction.corenlp import nlp_server
+
+log = logging.getLogger(__name__)
 
 class SourceProcessor:
     """
     Extract N-grams from source files
     """
-    def __init__(self, path, path_ref):
+    def __init__(self, path, path_ref, if_retokenize=False):
+        self.retokenize = if_retokenize
+
         with open(path, 'r') as f:
             self.lines = f.readlines()
         with open(path_ref, 'r') as f:
@@ -47,12 +53,13 @@ class SourceProcessor:
     def load_tokenize(self, lines, path):
         ret = []
         path_to_saving_path = path + '.tok.pkl'
-        if os.path.isfile(path_to_saving_path):
+        if os.path.isfile(path_to_saving_path) and not self.retokenize:
             log.info('Tokenized source file %s already exists, loading' % path_to_saving_path)
             with open(path_to_saving_path, 'rb') as f:
                 ret = pickle.load(f)
         else:
-            for idx, line in enumerate(lines):
+            log.info("Tokenizing from corenlp")
+            for line in tqdm(lines):
                 m = re.match("^\D*:\s*", line)
                 line = re.sub("^\D*:\s*", '', line)
                 toked = self.tokenize(line)
@@ -63,7 +70,7 @@ class SourceProcessor:
                     for sen in toked:
                         sen['speaker'] = '-:\t'
                 ret.append(toked)
-                print('\r processing line {}'.format(idx), end='')
+            log.info("Tokenization finished")
             with open(path_to_saving_path, 'wb') as f:
                 pickle.dump(ret, f)
 

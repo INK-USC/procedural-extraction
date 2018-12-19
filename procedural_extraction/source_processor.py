@@ -1,10 +1,15 @@
-from pattern_extraction.corenlp import nlp_server
 import os.path
 import pickle
 import re
 import time
 
-class SourceTranscriptProcessor:
+import logging as log
+from pattern_extraction.corenlp import nlp_server
+
+class SourceProcessor:
+    """
+    Extract N-grams from source files
+    """
     def __init__(self, path, path_ref):
         with open(path, 'r') as f:
             self.lines = f.readlines()
@@ -17,10 +22,9 @@ class SourceTranscriptProcessor:
         self.path = path
         self.src_tokenized = self.load_tokenize(self.lines, path)
         self.src_sens, self.src_sen_map, self.src_sens_speakers, self.sen2src = self.map_src_sentences()
-        self.annotations = {}
 
         self.ref2srcmap, self.ref2senmap = self.build_mapping()
-        print(len(self.ref2srcmap))
+        log.info("%d lines in source file" % len(self.ref2srcmap))
 
     def map_src_sentences(self):
         sen_idx = 0
@@ -44,7 +48,7 @@ class SourceTranscriptProcessor:
         ret = []
         path_to_saving_path = path + '.tok.pkl'
         if os.path.isfile(path_to_saving_path):
-            print('file {} already exists'.format(path_to_saving_path))
+            log.info('Tokenized source file %s already exists, loading' % path_to_saving_path)
             with open(path_to_saving_path, 'rb') as f:
                 ret = pickle.load(f)
         else:
@@ -60,7 +64,6 @@ class SourceTranscriptProcessor:
                         sen['speaker'] = '-:\t'
                 ret.append(toked)
                 print('\r processing line {}'.format(idx), end='')
-            print('')
             with open(path_to_saving_path, 'wb') as f:
                 pickle.dump(ret, f)
 
@@ -137,7 +140,7 @@ class SourceTranscriptProcessor:
              } for id in range(start, end + 1)
         ]
     
-    def get_ngrams(self, Nmin=2, Nmax=50):
+    def get_toked_ngrams(self, Nmin=2, Nmax=50):
         if self.src_sens is None:
             return []
         new_oris = []
@@ -155,9 +158,9 @@ class SourceTranscriptProcessor:
 
         return new_oris
 
-    def get_ngrams_line(self, ref_line_num, Nmin=2, Nmax=50):
+    def get_toked_ngrams_line(self, ref_line_num, Nmin=2, Nmax=50):
         sens = self.get_sens_line(ref_line_num)
-        new_oris = []
+        new_oris = list()
         for sa in sens:
             sen = sa['tokens']
             for K in range(Nmin, Nmax + 1):
@@ -171,39 +174,10 @@ class SourceTranscriptProcessor:
                         'K': K
                     })
         return new_oris
-
-    def add_matched_ngram(self, oris, protocol_text):
-        id = oris['src_sens_id']
-        oris['protocol'] = protocol_text
-        if id not in self.annotations:
-            self.annotations[id] = []
-        if oris['span'] not in [a['span'] for a in self.annotations[id]]:
-            self.annotations[id].append(oris)
-
-    def dump_dataset(self):
-        dataset = []
-        for (idx, sen) in enumerate(self.src_sens):
-            a = None
-            if idx in self.annotations:
-                a = self.annotations[idx]
-            dataset.append({
-                'id': idx,
-                'line': self.sen2src[idx],
-                'tokens': sen,
-                'annotations': a,
-                'speaker': self.src_sens_speakers[idx]
-            })
-
-        sav_p = self.path+'.dataset.pkl'
-        print('saving to {}'.format(sav_p))
-        with open(sav_p, 'wb') as f:
-            pickle.dump(dataset, f)
             
-
-if __name__ == '__main__':
-    test = SourceTranscriptProcessor('data/01.src.txt', 'data/01.src.ref.txt')
+def test():
+    test = SourceProcessor('data/01.src.txt', 'data/01.src.ref.txt')
     print(test.src_sens[2])
 
-
-    
-
+if __name__ == '__main__':
+    test()

@@ -1,14 +1,14 @@
 import pickle
-import calc_dist
+from fuzzy_matching import DistCalculator
 import argparse
-import source_transcript_processor
-from  corenlp import filter_sen, load_aps, save_aps
+import source_processor
+from pattern_extraction import filter_sen, load_aps, save_aps
 
 """
 Compare the filtered APs with the parsed TGTs
 """
 
-dist_calculator = calc_dist.CalcDistance()
+dist_calculator = DistCalculator()
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('datasetid', metavar='N', type=int,

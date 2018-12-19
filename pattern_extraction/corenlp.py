@@ -6,7 +6,7 @@ import os
 from tqdm import tqdm
 from pycorenlp import StanfordCoreNLP
 
-from . import nlp_server
+nlp_server = StanfordCoreNLP('http://ink-ron.usc.edu:9000')
 
 version = "1.0"
 
@@ -149,14 +149,16 @@ def main():
 memory = {}
 
 def filter_sen(line):
+    """
+    Get action phrases from sentence
+    """
     line = line.strip()
     line = line.replace('’','\'').replace('“','\'').replace('”','\'').replace('‘','\'').replace('—','-').replace('…','...').replace('––','-')
     if line in memory:
         return memory[line]
     outputs = []
     sens = split_s(line)
-    was = len(outputs)
-    for s_idx, sen in enumerate(sens):
+    for sen in sens:
         ann = get_ann(sen)
         reg = get_reg(sen)
         outputs += filter_verb(sen, ann, reg)

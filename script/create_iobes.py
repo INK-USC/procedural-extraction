@@ -6,7 +6,7 @@ if __name__ == '__main__':
     ds_idx = int(sys.argv[1])
     suffix = sys.argv[2]
 
-    with open('data/{:02d}.{}.dataset.pkl'.format(ds_idx, suffix), 'rb') as f:
+    with open('data/{:02d}.{}.seqlabel.pkl'.format(ds_idx, suffix), 'rb') as f:
         obj = pickle.load(f)
 
     output_io = list()

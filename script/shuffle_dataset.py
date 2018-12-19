@@ -6,6 +6,7 @@ chunk_n = 6
 sentences = []
 for i in range(1, chunk_n+1):
     if i == 5:
+        # skip dataset 5
         continue
     with open('data/{:02d}.src.txt.dataset.pkl'.format(i), 'rb') as f:
         obj = pickle.load(f)

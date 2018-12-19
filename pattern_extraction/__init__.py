@@ -1,3 +1,2 @@
 from pycorenlp import StanfordCoreNLP
-
-nlp_server = StanfordCoreNLP('http://ink-ron.usc.edu:9000')
+from .corenlp import nlp_server, filter_sen, load_aps, save_aps

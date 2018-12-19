@@ -1,1 +1,1 @@
-from .dist_calculator import DistCalculator
+from .dist_methods import getNearestMethod, getMethodNames

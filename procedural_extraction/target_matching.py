@@ -1,121 +1,15 @@
 import re
-import pickle
-import time
-import argparse
-import os.path
-
-import numpy as np
+import logging as log
 
 import utils
-from fuzzy_matching import DistCalculator
-from source_processor import SourceTranscriptProcessor
-
-dist_calculator = DistCalculator()
-
-class ProtocolExtractor(object):
-    """
-    Extract structured infos from natural text
-    Init class for one document
-    Invoke process for each line
-    """
-    def __init__(self):
-        """
-        Init for doc
-        """
-        self.patt_step = re.compile(r'^\s*(Task|Step)\s+([^:]+):\s+')
-        self.patt_branch = re.compile(r'^\s*(BRANCH)\s+([^:]+):\s+')
-        self.patt_goto = re.compile(r'(GOTO)\s+(Task|Step|BRANCH)\s+([^\s]+)')
-
-        self.cur_pos = ['S']
-        self.cur_type = None
-
-    def text(self, intext):
-        """
-        Init for each splited sentence
-        """
-        self.ori_text = intext
-        self.line_text = intext
-        self.next_type = None
-        self.next_pos = None
-        return self
-
-    def step(self):
-        """
-        Extract task & step infos
-        "Task A.3.1: blablabla" -> ['A', 3, 1]
-        """
-        text = self.line_text
-        patt = self.patt_step
-        m = patt.search(text)
-        if m is None:
-            # If nothing found, follow previous position
-            pass
-        else:
-            # else, use current position
-            self.cur_type = m.group(1)
-            self.cur_pos = utils.convert_int(m.group(2).split('.'))
-            self.line_text = patt.sub('', text)
-        return self
-
-    def branch(self):
-        """
-        Extract Branch infos
-        "BRANCH A: blablabla" -> ['A', 3, 1]
-        """
-        text = self.line_text
-        patt = self.patt_branch
-        m = patt.search(text)
-        if m is None:
-            # If nothing found, follow previous position
-            pass
-        else:
-            # else, use current position
-            self.cur_type = m.group(1)
-            self.cur_pos = m.group(2)
-            self.line_text = patt.sub('', text)
-        return self
-
-    def goto(self):
-        """
-        Extract goto infos
-        "GOTO BRANCH A"
-        """
-        text = self.line_text
-        patt = self.patt_goto
-        m = patt.search(text)
-        if m is None:
-            # If nothing found, do nothing
-            pass
-        else:
-            # else, update result
-            self.cur_type = m.group(1)
-            self.next_type = m.group(2)
-            self.next_pos = m.group(3)
-            self.line_text = patt.sub('', text)
-        return self
-
-    def getResult(self):
-        return {
-            'ori_text': self.ori_text,
-            'text': self.line_text,
-            'cur_pos': self.cur_pos,
-            'cur_type': self.cur_type,
-            'next_type': self.next_type,
-            'next_pos': self.next_pos
-        }
-
-    def process(self, text):
-        """
-        Process a sub sentence
-        """
-        res = self.text(text).step().branch().goto().getResult()
-        return res
+import fuzzy_matching
+from .target_processor import TargetProcessor
+from .create_dataset import create_relation_dataset, create_seqlabel_dataset
 
 def split(lines):
     """
     Split a sentence
     """
-
     def split_ifthen_cite(splited):
         # split by IF THEN and citation
         
@@ -264,81 +158,41 @@ def retrieve(lines):
     
 
     spliteds = split(lines)
-    extractor = ProtocolExtractor()
+    extractor = TargetProcessor()
     samples = add_labels(spliteds, extractor)
     update_next(samples)
     retrive_positions(samples)
     
     return samples
 
-def match(samples, src, args):
-    all_ngrams = src.get_ngrams()
-    if args.method == 'embbert':
-        bert.prehot(all_ngrams)
-        bert.prehot([sample['text'] for sample in samples])
-    for (idx, sample) in enumerate(samples):
-        text = sample['text']
+def match(samples, src, parser):
+    """
+    Do fuzzy matching
+    """
+    args, extra = parser.parse_known_args()
+
+    all_toked_ngrams = src.get_toked_ngrams()
+    log.info('%d possible N-grams exists in source file' % len(all_toked_ngrams))
+
+    queries = list()
+    metas = list()
+    for sample in samples:
         cites = sample['cite']
         if args.no_ref or not len(cites):
-            src_sens = all_ngrams
+            src_sens = all_toked_ngrams
         else:
-            sen_lines = set()
-            for cite in cites:
-                sen_lines.add(cite)
             src_sens = list()
-            for line in sen_lines:
-                src_sens.extend(src.get_ngrams_line(line))
+            for cite in set(cites):
+                src_sens.extend(src.get_toked_ngrams_line(cite))
+        protocol = sample['text']
+        toked_candidates = tuple(src_sen['span'] for src_sen in src_sens)
+        queries.append((protocol,) + toked_candidates)
+        metas.append(src_sens)
+    
+    nearest = fuzzy_matching.getNearestMethod(args.method, parser)
+    nearest_idice = nearest(queries)
 
-        best_src_sens_idx = dist_calculator.calc_dist_multi_one([src_sen['span'] for src_sen in src_sens], text, args.method)
-
-        if best_src_sens_idx is not None:
-            sample['src_matched'] = src_sens[best_src_sens_idx]
-        else:
-            sample['src_matched'] = None
+    for (sample, nearest_idx, meta) in zip(samples, nearest_idice, metas):
+        sample['src_matched'] = meta[nearest_idx] if nearest_idx is not None else None
 
     return samples
-
-def create_dataset(samples, src):
-    for sample in samples:
-        matched = sample['src_matched']
-        text = sample['text']
-        if matched is not None:
-            src.add_matched_ngram(matched, text)
-    src.dump_dataset()
-
-def process(lines, src, args):
-    print("Retrieveing samples from protocol file")
-    samples = retrieve(lines)
-    print("Matching samples to source file")
-    samples = match(samples, src, args)
-    print("Creating dataset")
-    create_dataset(samples, src)
-    return samples
-
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('datasetid', metavar='N', type=int,
-                        help='Datasets to process')
-    parser.add_argument('method', choices=['embavg', 'embbert'])
-    parser.add_argument('--no-ref', action='store_true', help='If not find closest among refer sentences')
-    args = parser.parse_args()
-    ds_idx = args.datasetid
-
-    path_to_saving_dir = 'pkls/{:02d}.tgt.extracted.pkl'.format(ds_idx)
-    with open('data/{:02d}.tgt.txt'.format(ds_idx), 'r') as f:
-        lst = f.readlines()
-
-    print('dataset {}'.format(ds_idx))
-    annotations = process(
-            lines=lst, 
-            src=SourceTranscriptProcessor(
-                'data/%02d.src.txt' % ds_idx, 
-                'data/%02d.src.ref.txt' % ds_idx),
-            args=args
-        )
-    for (idx, annotation) in enumerate(annotations):
-        print(idx, annotation)
-
-    with open(path_to_saving_dir, 'wb') as f:
-        pickle.dump(annotations, f)

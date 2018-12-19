@@ -1,8 +1,12 @@
-mkdir -p logs
-mkdir -p pkls
-mkdir -p embedding
+pip install -r requirements.txt
 
-cd embedding
+mkdir -p logs
+mkdir -p extracted
+mkdir -p embeddings
+mkdir -p dataset/seqlabel
+mkdir -p dataset/relation
+
+cd embeddings
 
 if [ ! -f glove.840B.300d.txt ]; then
     echo "downloading Glove 840B 300d"

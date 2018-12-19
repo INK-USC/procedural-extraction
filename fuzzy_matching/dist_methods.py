@@ -111,7 +111,6 @@ def bert_builder(parser):
         nearests = list()
         for query in tqdm(queries):
             protocol = query[0]
-            toked_candidates = query[1:]
             candidates = list(map(' '.join, query[1:]))
             min_dist = np.inf
             min_idx = None

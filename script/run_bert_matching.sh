@@ -1,0 +1,1 @@
+ CUDA_VISIBLE_DEVICES=0 python extract_samples.py 1 bert --bert_model bert-large-uncased --do_lower_case

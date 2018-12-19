@@ -29,12 +29,11 @@ from torch.utils.data import TensorDataset, DataLoader, SequentialSampler
 from torch.utils.data.distributed import DistributedSampler
 import numpy as np
 
+import models
+
 from pytorch_pretrained_bert.tokenization import BertTokenizer
 from pytorch_pretrained_bert.modeling import BertModel
 
-logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s', 
-                    datefmt = '%m/%d/%Y %H:%M:%S',
-                    level = logging.INFO)
 logger = logging.getLogger(__name__)
 
 
@@ -129,14 +128,14 @@ def convert_examples_to_features(examples, seq_length, tokenizer):
         assert len(input_mask) == seq_length
         assert len(input_type_ids) == seq_length
 
-        if ex_index < 5:
-            logger.info("*** Example ***")
-            logger.info("unique_id: %s" % (example.unique_id))
-            logger.info("tokens: %s" % " ".join([str(x) for x in tokens]))
-            logger.info("input_ids: %s" % " ".join([str(x) for x in input_ids]))
-            logger.info("input_mask: %s" % " ".join([str(x) for x in input_mask]))
-            logger.info(
-                "input_type_ids: %s" % " ".join([str(x) for x in input_type_ids]))
+        # if ex_index < 5:
+        #     logger.info("*** Example ***")
+        #     logger.info("unique_id: %s" % (example.unique_id))
+        #     logger.info("tokens: %s" % " ".join([str(x) for x in tokens]))
+        #     logger.info("input_ids: %s" % " ".join([str(x) for x in input_ids]))
+        #     logger.info("input_mask: %s" % " ".join([str(x) for x in input_mask]))
+        #     logger.info(
+        #         "input_type_ids: %s" % " ".join([str(x) for x in input_type_ids]))
 
         features.append(
             InputFeatures(
@@ -181,8 +180,6 @@ def read_examples(inputs):
 class BertExtractor(object):
     def __init__(self, parser):
         ## Required parameters
-        parser.add_argument("--input_file", default=None, type=str, required=True)
-        parser.add_argument("--output_file", default=None, type=str, required=True)
         parser.add_argument("--bert_model", default=None, type=str, required=True,
                             help="Bert pre-trained model selected in the list: bert-base-uncased, "
                                 "bert-large-uncased, bert-base-cased, bert-base-multilingual, bert-base-chinese.")
@@ -253,27 +250,26 @@ class BertExtractor(object):
             eval_sampler = DistributedSampler(eval_data)
         eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.batch_size)
 
+        logger.info('Running BERT evaluation')
         tok_embs = list()
+        past = 0
+        tot = len(examples)
         for input_ids, input_mask, example_indices in eval_dataloader:
             input_ids = input_ids.to(device)
             input_mask = input_mask.to(device)
 
             all_encoder_layers, _ = model(input_ids, token_type_ids=None, attention_mask=input_mask)
             all_encoder_layers = all_encoder_layers
+            layer_outputs = all_encoder_layers[-2].detach().cpu().numpy()
 
-            layer_index = -2
             for b, example_index in enumerate(example_indices):
-                feature = features[example_index.item()]
-                unique_id = int(feature.unique_id)
-                # feature = unique_id_to_feature[unique_id]
-                output_json = collections.OrderedDict()
-                output_json["linex_index"] = unique_id
                 tok_emb = list()
+                layer_output = layer_outputs[b]
                 for (i, token) in enumerate(feature.tokens):
-                    layer_output = all_encoder_layers[int(layer_index)].detach().cpu().numpy()
-                    layer_output = layer_output[b]
-                    tok_emb.append(np.array([x.item() for x in layer_output[i]]))
+                    tok_emb.append([x.item() for x in layer_output[i]])
                 tok_emb = np.array(tok_emb)
                 tok_emb = np.average(tok_emb, axis=0)
                 tok_embs.append(tok_emb)
+            past += len(example_indices)
+            #print('\rBERT extract progress %d / %d' % (past, tot), end='')
         return tok_embs

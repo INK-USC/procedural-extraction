@@ -14,4 +14,11 @@ if [ ! -f glove.840B.300d.txt ]; then
 fi
 
 cd ..
+
+git submodule init
+git submodule update
+
+cd models/pytorch-pretrained-BERT
+pip install --editable ./
+
 echo "install finished!"

@@ -24,6 +24,8 @@ import logging
 import json
 import re
 
+from tqdm import tqdm
+
 import torch
 from torch.utils.data import TensorDataset, DataLoader, SequentialSampler
 from torch.utils.data.distributed import DistributedSampler
@@ -225,6 +227,9 @@ class BertExtractor(object):
         self.model = model
 
     def extract(self, examples):
+        """
+        Extract all sentence embeddings using embavg
+        """
         args = self.args
         tokenizer = self.tokenizer
         device = self.device
@@ -251,9 +256,9 @@ class BertExtractor(object):
         eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.batch_size)
 
         logger.info('Running BERT evaluation')
-        tok_embs = list()
-        past = 0
-        tot = len(examples)
+        num_examples = len(examples)
+        tok_embs = list(range(num_examples))
+        bar = tqdm(total=num_examples)
         for input_ids, input_mask, example_indices in eval_dataloader:
             input_ids = input_ids.to(device)
             input_mask = input_mask.to(device)
@@ -269,7 +274,7 @@ class BertExtractor(object):
                     tok_emb.append([x.item() for x in layer_output[i]])
                 tok_emb = np.array(tok_emb)
                 tok_emb = np.average(tok_emb, axis=0)
-                tok_embs.append(tok_emb)
-            past += len(example_indices)
-            #print('\rBERT extract progress %d / %d' % (past, tot), end='')
+                tok_embs[example_index] = tok_emb
+            bar.update(len(example_indices))
+        bar.close()
         return tok_embs

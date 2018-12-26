@@ -9,17 +9,18 @@ import os.path
 from typing import List
 
 class EmbeddingMeasurer(object):
-    def __init__(self, preset_memory=None):
+    def __init__(self, preset_memory=None, need_join=True):
+        self.need_join = need_join
         if preset_memory is None:
             self.memory = {}
         else:
             self.memory = preset_memory
 
-    def sen_emb(self, sen) -> np.array:
+    def sen_emb(self, sen):
         """
         return average sentence embedding of given sentence
         """
-        key = ' '.join(sen)
+        key = ' '.join(sen) if self.need_join else sen
         if key not in self.memory:
             self.memory[key] = self.L2norm(self.vanilla_sen_emb(sen))
         return self.memory[key]
@@ -27,7 +28,7 @@ class EmbeddingMeasurer(object):
     def vanilla_sen_emb(self, sen) -> np.array:
         raise NotImplementedError("!")
         
-    def sim(self, sen1, sen2) -> float:
+    def sim(self, sen1, sen2):
         """
         return similarity between two sentences
         """

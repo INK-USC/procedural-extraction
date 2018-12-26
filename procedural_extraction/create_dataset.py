@@ -58,7 +58,5 @@ def create_relation_dataset(samples, path):
                 dataset['none'].append((text1, text2, 'none'))
         
     log.info('Saving relation dataset to {}'.format(path))
-    with open(path, 'w') as f:
-        for (k, v) in dataset.items():
-            for triplet in v:
-                f.write("%s\t%s\t%s\n" % triplet)
+    with open(path, 'wb') as f:
+        pickle.dump(dataset, f)

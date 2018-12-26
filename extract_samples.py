@@ -61,7 +61,7 @@ def main():
     log.info("Creating datasets")
     path_to_seqlabel = os.path.join(args.dir_seqlabel, "%02d.part.seqlabel.pkl" % ds_idx)
     create_seqlabel_dataset(samples, src, path_to_seqlabel)
-    path_to_relation = os.path.join(args.dir_relation, "%02d.part.relation.tsv" % ds_idx)
+    path_to_relation = os.path.join(args.dir_relation, "%02d.part.relation.pkl" % ds_idx)
     create_relation_dataset(samples, path_to_relation)
 
     path_to_saving = os.path.join(args.dir_extracted, '%02d.tgt.extracted.pkl' % ds_idx)

@@ -1,5 +1,3 @@
-from tqdm import tqdm
-
 _method_adaptors = dict()
 
 def register_dist_adaptor(method_name):
@@ -10,7 +8,7 @@ def register_dist_adaptor(method_name):
         return wrapper
     return decorator
 
-def getNearestMethod(method_name, parser):
+def get_nearest_method(method_name, parser):
     """
     all candidates toked
     all protocol untoked
@@ -31,6 +29,6 @@ def getNearestMethod(method_name, parser):
     """
     return _method_adaptors[method_name](parser)
 
-def getMethodNames():
+def get_method_names():
     return list(_method_adaptors.keys())
         

@@ -4,7 +4,6 @@ import logging
 import utils
 import fuzzy_matching
 from procedural_extraction.target_processor import TargetProcessor
-from procedural_extraction.create_dataset import create_relation_dataset, create_seqlabel_dataset
 
 log = logging.getLogger(__name__)
 

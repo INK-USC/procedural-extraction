@@ -1,8 +1,8 @@
 import numpy as np
 from tqdm import tqdm
 
-from .dist_methods import register_dist_adaptor
-from .embed_measurer import EmbeddingMeasurer
+from .dist import register_dist_adaptor
+from .measurer_embed import EmbeddingMeasurer
 from models.bert_classifier import BertClassifier
 
 @register_dist_adaptor('bert')
@@ -26,7 +26,7 @@ def bert_adaptor(parser):
 
         nearests = list()
         for (i, query) in enumerate(queries):
-            nearests.append(np.argmin(dists[belongs == i]))
+            nearests.append(np.argmin(dists[np.array(belongs) == i]))
 
         return nearests
 

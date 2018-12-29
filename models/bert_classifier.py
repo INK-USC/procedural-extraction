@@ -66,11 +66,10 @@ class InputExample(object):
 class InputFeatures(object):
     """A single set of features of data."""
 
-    def __init__(self, input_ids, input_mask, segment_ids, label_id):
+    def __init__(self, input_ids, input_mask, segment_ids):
         self.input_ids = input_ids
         self.input_mask = input_mask
         self.segment_ids = segment_ids
-        self.label_id = label_id
 
 def read_examples(inputs):
     """Read a list of `InputExample`s"""
@@ -83,13 +82,11 @@ def read_examples(inputs):
             InputExample(guid=guid, text_a=text_a, text_b=text_b))
     return examples
 
-def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer):
+def convert_examples_to_features(examples, max_seq_length, tokenizer):
     """Loads a data file into a list of `InputBatch`s."""
-
-    label_map = {label : i for i, label in enumerate(label_list)}
-
+    logger.info("converting %d examples to features" % len(examples))
     features = []
-    for (ex_index, example) in enumerate(examples):
+    for (ex_index, example) in tqdm(enumerate(examples), total=len(examples)):
         tokens_a = tokenizer.tokenize(example.text_a)
 
         tokens_b = None
@@ -145,23 +142,20 @@ def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer
         assert len(input_mask) == max_seq_length
         assert len(segment_ids) == max_seq_length
 
-        label_id = label_map[example.label]
-        if ex_index < 5:
-            logger.info("*** Example ***")
-            logger.info("guid: %s" % (example.guid))
-            logger.info("tokens: %s" % " ".join(
-                    [str(x) for x in tokens]))
-            logger.info("input_ids: %s" % " ".join([str(x) for x in input_ids]))
-            logger.info("input_mask: %s" % " ".join([str(x) for x in input_mask]))
-            logger.info(
-                    "segment_ids: %s" % " ".join([str(x) for x in segment_ids]))
-            logger.info("label: %s (id = %d)" % (example.label, label_id))
+        # if ex_index < 5:
+        #     logger.info("*** Example ***")
+        #     logger.info("guid: %s" % (example.guid))
+        #     logger.info("tokens: %s" % " ".join(
+        #             [str(x) for x in tokens]))
+        #     logger.info("input_ids: %s" % " ".join([str(x) for x in input_ids]))
+        #     logger.info("input_mask: %s" % " ".join([str(x) for x in input_mask]))
+        #     logger.info(
+        #             "segment_ids: %s" % " ".join([str(x) for x in segment_ids]))
 
         features.append(
                 InputFeatures(input_ids=input_ids,
                               input_mask=input_mask,
-                              segment_ids=segment_ids,
-                              label_id=label_id))
+                              segment_ids=segment_ids))
     return features
 
 
@@ -245,14 +239,12 @@ class BertClassifier(object):
         self.device = device
         self.n_gpu = n_gpu
         self.num_labels = 2
-        self.label_list = ['0', '1']
         self.tokenizer = tokenizer
         self.output_model_file = output_model_file
 
     def predict(self, samples):
         args = self.args
         device = self.device
-        label_list = self.label_list
         tokenizer = self.tokenizer
         output_model_file = self.output_model_file
 
@@ -267,7 +259,7 @@ class BertClassifier(object):
         samples = read_examples(samples)
         
         features = convert_examples_to_features(
-            samples, label_list, args.max_seq_length, tokenizer)
+            samples, args.max_seq_length, tokenizer)
         logger.info("***** Running evaluation *****")
         logger.info("  Num examples = %d", len(samples))
         logger.info("  Batch size = %d", args.eval_batch_size)

@@ -1,12 +1,12 @@
 import numpy as np
 from tqdm import tqdm
 
-from .dist_methods import register_dist_adaptor
-from .embed_measurer import EmbeddingMeasurer
+from .dist import register_dist_adaptor
+from .measurer_embed import EmbeddingMeasurer, L2norm
 from models.bert_extractor import BertExtractor
 
-@register_dist_adaptor('bert-cos')
-def bert_cos_builder(parser):
+@register_dist_adaptor('ex-bert')
+def extracted_bert_adaptor(parser):
     """
     Glove average embedding
     """
@@ -22,7 +22,7 @@ def bert_cos_builder(parser):
         sen_embs = bert.extract(sentences)
         sen2emb = dict()
         for (sen_emb, sentence) in zip(sen_embs, sentences):
-            sen2emb[sentence] = EmbeddingMeasurer.L2norm(sen_emb)
+            sen2emb[sentence] = L2norm(sen_emb)
         
         measurer = EmbeddingMeasurer(sen2emb, False)
         

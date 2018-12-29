@@ -1,8 +1,8 @@
 import numpy as np
 from tqdm import tqdm
 
-from .dist_methods import register_dist_adaptor
-from .glove_measurer import GloveMeasurer
+from .dist import register_dist_adaptor
+from .measurer_glove import GloveMeasurer
 from utils import Tokenizer
 
 @register_dist_adaptor('embavg')

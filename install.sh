@@ -4,6 +4,7 @@ mkdir -p extracted
 mkdir -p embeddings
 mkdir -p dataset/seqlabel
 mkdir -p dataset/relation
+mkdir -p checkpoints
 
 cd embeddings
 

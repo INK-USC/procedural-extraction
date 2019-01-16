@@ -256,9 +256,8 @@ class BertExtractor(object):
         eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.batch_size)
 
         logger.info('Running BERT evaluation')
-        num_examples = len(examples)
-        tok_embs = list(range(num_examples))
-        bar = tqdm(total=num_examples)
+        tok_embs = list(range(len(examples)))
+        bar = tqdm(total=len(examples))
         for input_ids, input_mask, example_indices in eval_dataloader:
             input_ids = input_ids.to(device)
             input_mask = input_mask.to(device)

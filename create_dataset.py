@@ -10,22 +10,23 @@ log = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description='process extracted infos to dataset in different shapes.')
-    parser.add_argument('method', help='method of fuzzy matching')
-    parser.add_argument('type', help='dataset type to build')
+    parser.add_argument('type', choices=procedural_extraction.get_builder_names(), help='dataset type to build')
     # saving
+    parser.add_argument('--dataset', default='1,2,3,4,6', help='specify id of dataset to use, or use all 5 available datasets by default')
+    parser.add_argument('--dir_data', default='data', help='specify dir holding source data')
     parser.add_argument('--dir_extracted', default='extracted', help='specify dir save extracted data')
-    parser.add_argument('--dir_seqlabel', default='dataset/seqlabel', help='specify dir save seq label dataset')
-    parser.add_argument('--dir_relation', default='dataset/relation', help='specify dir save phrase pair relation dataset')
+    # misc
+    parser.add_argument("--verbosity", help="logging verbosity", default="INFO")
 
     args, extra = parser.parse_known_args()
     logging.basicConfig(level=getattr(logging, args.verbosity), handlers=[logging.StreamHandler()])
 
     sample_sets = list()
-    for dsid in [1,2,3,4,6]:
+    for dsid in map(int, args.dataset.split(',')):
         path_to_sav = utils.path.extracted(args.dir_extracted, dsid)
         log.info("Loading infos from %s" % path_to_sav)
         with open(path_to_sav, 'rb') as f:
-            sample_sets.append(pickle.load(f))
+            sample_sets.append((dsid, pickle.load(f)))
 
     builder = procedural_extraction.get_builder(args.type, parser)
     log.info("Creating datasets")

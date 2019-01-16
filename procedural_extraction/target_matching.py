@@ -191,7 +191,7 @@ def match(samples, src, parser):
         queries.append((protocol,) + toked_candidates)
         metas.append(src_sens)
 
-    nearest = fuzzy_matching.getNearestMethod(args.method, parser)
+    nearest = fuzzy_matching.get_nearest_method(args.method, parser)
     log.info("Finding nearest candidates")
     nearest_idice = nearest(queries)
 

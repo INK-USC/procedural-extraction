@@ -17,10 +17,11 @@ log = logging.getLogger(__name__)
 def main():
     parser = argparse.ArgumentParser(description='process basic target file processing informations.')
     parser.add_argument('datasetid', metavar='N', type=int, help='dataset id to process(0-99)')
-    parser.add_argument('method', choices=fuzzy_matching.getMethodNames(),  help='method of fuzzy matching')
+    parser.add_argument('method', choices=fuzzy_matching.get_method_names(),  help='method of fuzzy matching')
     parser.add_argument('--no_ref', action='store_true', help='don\'t find closest among refer sentences, but globally')
     # data
     parser.add_argument('--dir_data', default='data', help='specify dir holding source data')
+    parser.add_argument('--dir_extracted', default='extracted', help='specify dir to save extracted data')
     # misc
     parser.add_argument("--verbosity", help="logging verbosity", default="INFO")
     parser.add_argument("--src_retok", action="store_true", help="re-tokenize source file, ignoring existing cache")

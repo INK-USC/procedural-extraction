@@ -5,7 +5,7 @@ import logging
 from tqdm import tqdm
 import numpy as np
 
-from .embed_measurer import EmbeddingMeasurer
+from .measurer_embed import EmbeddingMeasurer
 
 log = logging.getLogger(__name__)
 

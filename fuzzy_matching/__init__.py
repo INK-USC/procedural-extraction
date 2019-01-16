@@ -1,4 +1,4 @@
-from .dist import getNearestMethod, getMethodNames
+from .dist import get_nearest_method, get_method_names
 
 # import dist adaptors below
 from .dist_bert import bert_adaptor

@@ -24,7 +24,11 @@ import os
 import logging
 import argparse
 import random
+import pickle
+import itertools
 from tqdm import tqdm, trange
+
+import utils.input_context_sample
 
 import numpy as np
 import torch
@@ -33,46 +37,35 @@ from torch.utils.data.distributed import DistributedSampler
 
 import models
 from pytorch_pretrained_bert.tokenization import BertTokenizer
-from pytorch_pretrained_bert.modeling import BertForSequenceClassification
 from pytorch_pretrained_bert.optimization import BertAdam
 from pytorch_pretrained_bert.file_utils import PYTORCH_PRETRAINED_BERT_CACHE
+from models.bert_modeling_inputoffsetemb import BertOffsetForSequenceClassification
+from models.bert_modeling_posattention import BertPosattnForSequenceClassification
 
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt = '%m/%d/%Y %H:%M:%S',
                     level = logging.INFO)
 logger = logging.getLogger(__name__)
 
-
-class InputExample(object):
-    """A single training/test example for simple sequence classification."""
-
-    def __init__(self, guid, text_a, text_b=None, label=None):
-        """Constructs a InputExample.
-
-        Args:
-            guid: Unique id for the example.
-            text_a: string. The untokenized text of the first sequence. For single
-            sequence tasks, only this sequence must be specified.
-            text_b: (Optional) string. The untokenized text of the second sequence.
-            Only must be specified for sequence pair tasks.
-            label: (Optional) string. The label of the example. This should be
-            specified for train and dev examples, but not for test examples.
-        """
-        self.guid = guid
-        self.text_a = text_a
-        self.text_b = text_b
-        self.label = label
-
+def accuracy_label(out, labels, label_accuracy, nb_label_examples, nb_label_predicted):
+    outputs = np.argmax(out, axis=1)
+    for (idx, label) in enumerate(range(len(label_accuracy))):
+        label_accuracy[idx] += np.sum(np.logical_and(outputs == labels, labels==label))
+    for (idx, label) in enumerate(range(len(nb_label_examples))):
+        nb_label_examples[idx] += np.sum(labels==label)
+    for (idx, label) in enumerate(range(len(nb_label_predicted))):
+        nb_label_predicted[idx] += np.sum(outputs==label)
 
 class InputFeatures(object):
     """A single set of features of data."""
 
-    def __init__(self, input_ids, input_mask, segment_ids, label_id):
+    def __init__(self, input_ids, input_mask, segment_ids, label_id, offset1, offset2=None):
         self.input_ids = input_ids
         self.input_mask = input_mask
         self.segment_ids = segment_ids
         self.label_id = label_id
-
+        self.offset1 = offset1
+        self.offset2 = offset2
 
 class DataProcessor(object):
     """Base class for data converters for sequence classification data sets."""
@@ -99,122 +92,55 @@ class DataProcessor(object):
                 lines.append(line)
             return lines
 
-
-class MrpcProcessor(DataProcessor):
-    """Processor for the MRPC data set (GLUE version)."""
+class RelationProcessor(DataProcessor):
+    """Processor for the Relation Context pkl."""
 
     def get_train_examples(self, data_dir):
         """See base class."""
-        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "train.tsv")))
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "train.tsv")), "train")
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "train.pkl")))
+        with open(os.path.join(data_dir, "train.pkl"), 'rb') as f:
+            obj = pickle.load(f)
+        return self._create_examples(obj, "train")
 
     def get_dev_examples(self, data_dir):
         """See base class."""
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "dev.tsv")), "dev")
+        with open(os.path.join(data_dir, "dev.pkl"), 'rb') as f:
+            obj = pickle.load(f)
+        return self._create_examples(obj, "dev")
 
     def get_labels(self):
         """See base class."""
-        return ["0", "1"]
+        return ["none", "next", "if"]
 
-    def _create_examples(self, lines, set_type):
+    def _create_examples(self, samples, set_type):
         """Creates examples for the training and dev sets."""
-        examples = []
-        for (i, line) in enumerate(lines):
-            if i == 0:
-                continue
+        for (i, sample) in enumerate(samples):
             guid = "%s-%s" % (set_type, i)
-            text_a = line[3]
-            text_b = line[4]
-            label = line[0]
-            examples.append(
-                InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
-        return examples
+            sample.guid = guid
+        return samples
 
 
-class MnliProcessor(DataProcessor):
-    """Processor for the MultiNLI data set (GLUE version)."""
-
-    def get_train_examples(self, data_dir):
-        """See base class."""
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "train.tsv")), "train")
-
-    def get_dev_examples(self, data_dir):
-        """See base class."""
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "dev_matched.tsv")),
-            "dev_matched")
-
-    def get_labels(self):
-        """See base class."""
-        return ["contradiction", "entailment", "neutral"]
-
-    def _create_examples(self, lines, set_type):
-        """Creates examples for the training and dev sets."""
-        examples = []
-        for (i, line) in enumerate(lines):
-            if i == 0:
-                continue
-            guid = "%s-%s" % (set_type, line[0])
-            text_a = line[8]
-            text_b = line[9]
-            label = line[-1]
-            examples.append(
-                InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
-        return examples
-
-
-class ColaProcessor(DataProcessor):
-    """Processor for the CoLA data set (GLUE version)."""
-
-    def get_train_examples(self, data_dir):
-        """See base class."""
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "train.tsv")), "train")
-
-    def get_dev_examples(self, data_dir):
-        """See base class."""
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "dev.tsv")), "dev")
-
-    def get_labels(self):
-        """See base class."""
-        return ["0", "1"]
-
-    def _create_examples(self, lines, set_type):
-        """Creates examples for the training and dev sets."""
-        examples = []
-        for (i, line) in enumerate(lines):
-            guid = "%s-%s" % (set_type, i)
-            text_a = line[3]
-            label = line[1]
-            examples.append(
-                InputExample(guid=guid, text_a=text_a, text_b=None, label=label))
-        return examples
-
-
-def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer):
+def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer, max_offset):
     """Loads a data file into a list of `InputBatch`s."""
 
     label_map = {label : i for i, label in enumerate(label_list)}
 
     features = []
     for (ex_index, example) in enumerate(examples):
-        tokens_a = tokenizer.tokenize(example.text_a)
+        tmp_a = [tokenizer.tokenize(sen.text) for sen in example.left]
+        tokens_a = list(itertools.chain(*tmp_a))
+        offset1_a = list(itertools.chain(*[[sen.offset] * len(tmp_a[i]) for (i, sen) in enumerate(example.left)]))
+        offset2_a = list(itertools.chain(*[[sen.alter_offset] * len(tmp_a[i]) for (i, sen) in enumerate(example.left)]))
 
-        tokens_b = None
-        if example.text_b:
-            tokens_b = tokenizer.tokenize(example.text_b)
-            # Modifies `tokens_a` and `tokens_b` in place so that the total
-            # length is less than the specified length.
-            # Account for [CLS], [SEP], [SEP] with "- 3"
-            _truncate_seq_pair(tokens_a, tokens_b, max_seq_length - 3)
-        else:
-            # Account for [CLS] and [SEP] with "- 2"
-            if len(tokens_a) > max_seq_length - 2:
-                tokens_a = tokens_a[:(max_seq_length - 2)]
+        tmp_b = [tokenizer.tokenize(sen.text) for sen in example.right]
+        tokens_b = list(itertools.chain(*tmp_b))
+        offset1_b = list(itertools.chain(*[[sen.alter_offset] * len(tmp_b[i]) for (i, sen) in enumerate(example.right)]))
+        offset2_b = list(itertools.chain(*[[sen.offset] * len(tmp_b[i]) for (i, sen) in enumerate(example.right)]))
+
+        # Modifies `tokens_a` and `tokens_b` in place so that the total
+        # length is less than the specified length.
+        # Account for [CLS], [SEP], [SEP] with "- 3"
+        _truncate_seq_pair(tokens_a, tokens_b, max_seq_length - 3)
 
         # The convention in BERT is:
         # (a) For sequence pairs:
@@ -236,12 +162,24 @@ def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer
         # the entire model is fine-tuned.
         tokens = ["[CLS]"] + tokens_a + ["[SEP]"]
         segment_ids = [0] * len(tokens)
+        offset1 = [offset1_a[0]] + offset1_a[:len(tokens_a)] + [offset1_a[len(tokens_a)-1]]
+        offset2 = [offset2_a[0]] + offset2_a[:len(tokens_a)] + [offset2_a[len(tokens_a)-1]]
 
-        if tokens_b:
-            tokens += tokens_b + ["[SEP]"]
-            segment_ids += [1] * (len(tokens_b) + 1)
+        tokens += tokens_b + ["[SEP]"]
+        segment_ids += [1] * (len(tokens_b) + 1)
+        offset1 += offset1_b[:len(tokens_b)] + [offset1_b[len(tokens_b)-1]]
+        offset2 += offset2_b[:len(tokens_b)] + [offset2_b[len(tokens_b)-1]]
 
         input_ids = tokenizer.convert_tokens_to_ids(tokens)
+        def truncate_offset(offset):
+            offset = [max(-max_offset, ofs) for ofs in offset]
+            offset = [min(max_offset, ofs) for ofs in offset]
+            offset = [ofs + max_offset for ofs in offset]
+            assert min(offset) >= 0
+            assert max(offset) < 2*max_offset + 1
+            return offset
+        offset1 = truncate_offset(offset1)
+        offset2 = truncate_offset(offset2)
 
         # The mask has 1 for real tokens and 0 for padding tokens. Only real
         # tokens are attended to.
@@ -252,10 +190,14 @@ def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer
         input_ids += padding
         input_mask += padding
         segment_ids += padding
+        offset1 += padding
+        offset2 += padding
 
         assert len(input_ids) == max_seq_length
         assert len(input_mask) == max_seq_length
         assert len(segment_ids) == max_seq_length
+        assert len(offset1) == max_seq_length
+        assert len(offset2) == max_seq_length
 
         label_id = label_map[example.label]
         if ex_index < 5:
@@ -267,13 +209,19 @@ def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer
             logger.info("input_mask: %s" % " ".join([str(x) for x in input_mask]))
             logger.info(
                     "segment_ids: %s" % " ".join([str(x) for x in segment_ids]))
+            logger.info(
+                    "offset1: %s" % " ".join([str(x) for x in offset1]))
+            #logger.info(
+            #        "offset2: %s" % " ".join([str(x) for x in offset2]))
             logger.info("label: %s (id = %d)" % (example.label, label_id))
 
         features.append(
                 InputFeatures(input_ids=input_ids,
                               input_mask=input_mask,
                               segment_ids=segment_ids,
-                              label_id=label_id))
+                              label_id=label_id,
+                              offset1=offset1,
+                              offset2=offset2))
     return features
 
 
@@ -390,19 +338,19 @@ def main():
                         help="Loss scaling to improve fp16 numeric stability. Only used when fp16 set to True.\n"
                              "0 (default value): dynamic loss scaling.\n"
                              "Positive power of 2: static loss scaling value.\n")
+    parser.add_argument('--max_offset',
+                        type=int,
+                        default=10,
+                        help="Maximum offset size")
 
     args = parser.parse_args()
 
     processors = {
-        "cola": ColaProcessor,
-        "mnli": MnliProcessor,
-        "mrpc": MrpcProcessor,
+        "rel": RelationProcessor,
     }
 
     num_labels_task = {
-        "cola": 2,
-        "mnli": 3,
-        "mrpc": 2,
+        "rel": 3,
     }
 
     if args.local_rank == -1 or args.no_cuda:
@@ -455,9 +403,9 @@ def main():
             len(train_examples) / args.train_batch_size / args.gradient_accumulation_steps * args.num_train_epochs)
 
     # Prepare model
-    model = BertForSequenceClassification.from_pretrained(args.bert_model,
+    model = BertPosattnForSequenceClassification.from_pretrained(args.bert_model,
               cache_dir=PYTORCH_PRETRAINED_BERT_CACHE / 'distributed_{}'.format(args.local_rank),
-              num_labels = num_labels)
+              num_labels = num_labels, max_offset=args.max_offset)
     if args.fp16:
         model.half()
     model.to(device)
@@ -506,7 +454,7 @@ def main():
     global_step = 0
     if args.do_train:
         train_features = convert_examples_to_features(
-            train_examples, label_list, args.max_seq_length, tokenizer)
+            train_examples, label_list, args.max_seq_length, tokenizer, args.max_offset)
         logger.info("***** Running training *****")
         logger.info("  Num examples = %d", len(train_examples))
         logger.info("  Batch size = %d", args.train_batch_size)
@@ -515,7 +463,9 @@ def main():
         all_input_mask = torch.tensor([f.input_mask for f in train_features], dtype=torch.long)
         all_segment_ids = torch.tensor([f.segment_ids for f in train_features], dtype=torch.long)
         all_label_ids = torch.tensor([f.label_id for f in train_features], dtype=torch.long)
-        train_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids)
+        all_offset1s = torch.tensor([f.offset1 for f in train_features], dtype=torch.long)
+        all_offset2s = torch.tensor([f.offset2 for f in train_features], dtype=torch.long)
+        train_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids, all_offset1s, all_offset2s)
         if args.local_rank == -1:
             train_sampler = RandomSampler(train_data)
         else:
@@ -528,8 +478,8 @@ def main():
             nb_tr_examples, nb_tr_steps = 0, 0
             for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
                 batch = tuple(t.to(device) for t in batch)
-                input_ids, input_mask, segment_ids, label_ids = batch
-                loss = model(input_ids, segment_ids, input_mask, label_ids)
+                input_ids, input_mask, segment_ids, label_ids, offset1s, offset2s = batch
+                loss = model(input_ids, offset1s, offset2s, segment_ids, input_mask, label_ids)
                 if n_gpu > 1:
                     loss = loss.mean() # mean() to average on multi-gpu.
                 if args.gradient_accumulation_steps > 1:
@@ -559,13 +509,13 @@ def main():
 
     # Load a trained model that you have fine-tuned
     model_state_dict = torch.load(output_model_file)
-    model = BertForSequenceClassification.from_pretrained(args.bert_model, state_dict=model_state_dict)
+    model = BertOffsetForSequenceClassification.from_pretrained(args.bert_model, state_dict=model_state_dict, num_labels=num_labels, max_offset=args.max_offset)
     model.to(device)
 
     if args.do_eval and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
         eval_examples = processor.get_dev_examples(args.data_dir)
         eval_features = convert_examples_to_features(
-            eval_examples, label_list, args.max_seq_length, tokenizer)
+            eval_examples, label_list, args.max_seq_length, tokenizer, args.max_offset)
         logger.info("***** Running evaluation *****")
         logger.info("  Num examples = %d", len(eval_examples))
         logger.info("  Batch size = %d", args.eval_batch_size)
@@ -573,7 +523,9 @@ def main():
         all_input_mask = torch.tensor([f.input_mask for f in eval_features], dtype=torch.long)
         all_segment_ids = torch.tensor([f.segment_ids for f in eval_features], dtype=torch.long)
         all_label_ids = torch.tensor([f.label_id for f in eval_features], dtype=torch.long)
-        eval_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids)
+        all_offset1s = torch.tensor([f.offset1 for f in eval_features], dtype=torch.long)
+        all_offset2s = torch.tensor([f.offset2 for f in eval_features], dtype=torch.long)
+        eval_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids, all_offset1s, all_offset2s)
         # Run prediction for full data
         eval_sampler = SequentialSampler(eval_data)
         eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.eval_batch_size)
@@ -581,19 +533,23 @@ def main():
         model.eval()
         eval_loss, eval_accuracy = 0, 0
         nb_eval_steps, nb_eval_examples = 0, 0
-        for input_ids, input_mask, segment_ids, label_ids in eval_dataloader:
+        label_accuracy, nb_label_examples, nb_label_predicted = [0 for _ in label_list], [0 for _ in label_list], [0 for _ in label_list]
+        for input_ids, offset1s, offset2s, input_mask, segment_ids, label_ids in eval_dataloader:
             input_ids = input_ids.to(device)
             input_mask = input_mask.to(device)
             segment_ids = segment_ids.to(device)
             label_ids = label_ids.to(device)
+            offset1s = offset1s.to(device)
+            offset2s = offset2s.to(device)
 
             with torch.no_grad():
-                tmp_eval_loss = model(input_ids, segment_ids, input_mask, label_ids)
-                logits = model(input_ids, segment_ids, input_mask)
+                tmp_eval_loss = model(input_ids, segment_ids, input_mask, label_ids, offset1s, offset2s)
+                logits = model(input_ids, segment_ids, input_mask, offset1=offset1s, offset2=offset2s)
 
             logits = logits.detach().cpu().numpy()
             label_ids = label_ids.to('cpu').numpy()
             tmp_eval_accuracy = accuracy(logits, label_ids)
+            accuracy_label(logits, label_ids, label_accuracy, nb_label_examples, nb_label_predicted)
 
             eval_loss += tmp_eval_loss.mean().item()
             eval_accuracy += tmp_eval_accuracy
@@ -603,11 +559,16 @@ def main():
 
         eval_loss = eval_loss / nb_eval_steps
         eval_accuracy = eval_accuracy / nb_eval_examples
+        label_recall = [label_accu / nb_label_example for (label_accu, nb_label_example) in zip(label_accuracy, nb_label_examples)]
+        label_precision = [label_accu / nb_label_predict for (label_accu, nb_label_predict) in zip(label_accuracy, nb_label_predicted)]
 
         result = {'eval_loss': eval_loss,
                   'eval_accuracy': eval_accuracy,
                   'global_step': global_step,
-                  'loss': tr_loss/nb_tr_steps}
+                  'recall_by_label': label_recall,
+                  'precision_by_label': label_precision,
+                  'label_num': nb_label_examples,
+                  'label_name': label_list}
 
         output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
         with open(output_eval_file, "w") as writer:

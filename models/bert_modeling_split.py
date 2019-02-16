@@ -34,29 +34,8 @@ class BertPosattnForSequenceClassification(PreTrainedBertModel):
         self.apply(self.init_bert_weights)
 
     def forward(self, input_ids, offset1, offset2, token_type_ids=None, attention_mask=None, labels=None):
-        encoded_layers, pooled_output = self.bert(input_ids, token_type_ids, attention_mask, output_all_encoded_layers=False)
-
-        # Batch x Tok_pos x Hidden_dim
-        batch_n, tok_n, hid_n = encoded_layers.size()
-        # Batch x Hidden_dim ->  Batch x Tok_pos x Hidden_dim
-        global_vec = pooled_output.unsqueeze(1).repeat(1, tok_n, 1)
-        tensors_to_cat = [encoded_layers, global_vec]
-        if hasattr(self, 'offset1_emb') and hasattr(self, 'offset2_emb'):
-            tensors_to_cat += [self.offset1_emb(offset1), self.offset2_emb(offset2)]
-
-        # (Tok_pos*Batch) x (Hidden_dim*2+offset_emb*2)
-        attn_input = torch.cat(tensors_to_cat, 2).view(batch_n*tok_n, -1)
-        # (Tok_pos*Batch) x Hidden_dim
-        attn_1 = self.attn_layer_1(attn_input)
-        attn_1 = self.attn_tanh(attn_1)
-        # (Tok_pos*Batch) x 1 -> Batch x Tok
-        attn_2 = self.attn_layer_2(attn_1).view(batch_n, tok_n)
-        attn_weight = self.attn_softmax(attn_2)
-        # Batch x Tok_pos x Hidden_dim -> Batch x Hiddem_dim
-        weighted_layers = torch.sum(attn_weight.unsqueeze(2) * encoded_layers, dim=1, keepdim=True)
-        pooled_output = self.bert.pooler(weighted_layers)
+        _, pooled_output = self.bert(input_ids, token_type_ids, attention_mask, output_all_encoded_layers=False)
         pooled_output = self.dropout(pooled_output)
-        # Batch x label_num
         logits = self.classifier(pooled_output)
 
         if labels is not None:

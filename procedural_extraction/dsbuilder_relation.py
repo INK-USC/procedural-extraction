@@ -16,16 +16,19 @@ log = logging.getLogger(__name__)
 
 @register_dsbuilder('relation')
 def builder_relation_dataset(parser: argparse.ArgumentParser):
-    parser.add_argument('--ratio_none', default=30.0, metavar='30.0', type=float, help='label balancing portion for label None, negative number to disable balancing')
+    parser.add_argument('--ratio_none', default=6.0, metavar='6.0', type=float, help='label balancing portion for label None, negative number to disable balancing')
     parser.add_argument('--ratio_next', default=3.0, metavar='3.0', type=float, help='label balancing portion for label Next, negative number to disable balancing')
-    parser.add_argument('--part', default=8, metavar='N', type=int, help='dataset portion, divide dataset train: dev: test by N-2:1:1')
+    parser.add_argument('--part', default=8, metavar='N', type=int, help='dataset portion, divide dataset train: dev: test by N-2:1:1. don\'t part if < 1')
     parser.add_argument('--path', default='dataset/relation', metavar='path_to_dir', help='dir to save the dataset')
     parser.add_argument('--k_neighbour', default=1, metavar='K', type=int, help='range of context sentences')
     parser.add_argument('--output', action="store_true", help='shows example data')
+    parser.add_argument('--no_context', action="store_true", help='w/o context info')
+    parser.add_argument('--seed', default=42)
 
     args = parser.parse_args()
 
     assert args.part >= 3, '--part should >= 3'
+    np.random.seed(args.seed)
 
     def _method(sample_sets):
         dataset = {
@@ -34,37 +37,52 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
             'none': list()
         }
         k = args.k_neighbour
+        if args.no_context:
+            k = 0
+        print("Creating dataset with %d neighbour and no context is %s" % (k, str(args.no_context)))
         
+        def movone(x):
+            if x < 0:
+                return x - 1 
+            elif x > 0:
+                return x + 1
+            else:
+                return x
+
         def build_block(src, meta, alter_meta):
             id = meta['src_sens_id']
             alter_id = alter_meta['src_sens_id']
+            context_l = [ISen(
+                    text=' '.join(src[id][:meta['start']]),
+                    offset=-1, 
+                    alter_offset=movone(id - alter_id)
+                )] if not args.no_context else []
+            context_r = [ISen(
+                    text=' '.join(src[id][meta['start'] + meta['K']:]), 
+                    offset=1, 
+                    alter_offset=movone(id - alter_id)
+                )] if not args.no_context else []
+
             return [ISen(
                     text=' '.join(src[i]), 
-                    offset=i-id, 
-                    alter_offset=i-alter_id
+                    offset=movone(i-id), 
+                    alter_offset=movone(i-alter_id)
                 )  for i in range(max(0, id-k), id)] + \
-                [ISen(
-                    text=' '.join(src[id][:meta['start']]),
-                    offset=0, 
-                    alter_offset=id - alter_id
-                )] + \
+                context_l + \
                 [ISen(
                     text=' '.join(meta['span']), 
                     offset=0, 
-                    alter_offset=id - alter_id
+                    alter_offset=movone(id - alter_id)
                 )] + \
-                [ISen(
-                    text=' '.join(src[id][meta['start'] + meta['K']:]), 
-                    offset=0, 
-                    alter_offset=id - alter_id
-                )] + \
+                context_r + \
                 [ISen(
                     text=' '.join(src[i]), 
-                    offset=i-id, 
-                    alter_offset=i-alter_id
+                    offset=movone(i-id), 
+                    alter_offset=movone(i-alter_id)
                 ) for i in range(id+1, min(len(src), id+k+1))]
 
         for (dsid, samples) in sample_sets:
+            full = list()
             path_src = utils.path.src(args.dir_data, dsid)
             path_src_ref = utils.path.src_ref(args.dir_data, dsid)
             log.info("Loading source file %s" % path_src)
@@ -87,12 +105,19 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                 else:
                     dat.label = 'none'
                     dataset['none'].append(dat)
+                full.append(dat)
+
+            # full dataset without sampling
+            with open(os.path.join(args.path, 'predict.'+str(dsid)+'.pkl'), 'wb') as f:
+                pickle.dump(full, f)
 
         splited_set = {
             'train': list(),
             'dev': list(),
-            'test': list()
+            'test': list(),
+            'nonsplit': list()
         }
+
         fewest = len(dataset['if'])
         for (relation, triplets) in dataset.items():
             np.random.shuffle(triplets)
@@ -100,19 +125,18 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                 triplets = triplets[:int(fewest * args.ratio_none)]
             elif relation == 'next' and args.ratio_next >= 0:
                 triplets = triplets[:int(fewest * args.ratio_next)]
-            part_sz = int(len(triplets)/args.part)
-            
+            part_sz = int(len(triplets)/args.part)          
             splited_set['train'].extend(triplets[:-2 * part_sz])
             splited_set['dev'].extend(triplets[-2 * part_sz : - part_sz])
             splited_set['test'].extend(triplets[- part_sz : ])
+            splited_set['nonsplit'].extend(triplets)
 
         for (key, triplets) in splited_set.items():
             with open(os.path.join(args.path, key+'.pkl'), 'wb') as f:
                 pickle.dump(triplets, f)
-            if args.output:
-                for (idx, triplet) in enumerate(triplets[:5]):
-                    print('sample id:', idx)
-                    print(triplet)
+
+        
+        
                     
     return _method
         

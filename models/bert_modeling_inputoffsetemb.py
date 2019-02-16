@@ -9,7 +9,7 @@ class BertOffsetEmbeddings(BertEmbeddings):
     def __init__(self, config, max_offset):
         super(BertOffsetEmbeddings, self).__init__(config)
         # offset from text_a and text_b
-        self.offset1_embeddings = nn.Embeddixng(2*max_offset+1, config.hidden_size)
+        self.offset1_embeddings = nn.Embedding(2*max_offset+1, config.hidden_size)
         self.offset2_embeddings = nn.Embedding(2*max_offset+1, config.hidden_size)
 
     def forward(self, input_ids, offset1, offset2, token_type_ids=None):
@@ -74,13 +74,13 @@ class BertOffsetembModel(BertModel):
 
 
 class BertOffsetForSequenceClassification(BertForSequenceClassification):
-    def __init__(self, config, max_offset, num_labels=2):
+    def __init__(self, config, num_labels=2, max_offset=10):
         super(BertOffsetForSequenceClassification, self).__init__(config, num_labels)
         # replace model only
         self.bert = BertOffsetembModel(config, max_offset)
         self.apply(self.init_bert_weights)
 
-    def forward(self, input_ids, token_type_ids=None, attention_mask=None, labels=None, offset1=None, offset2=None):
+    def forward(self, input_ids, offset1, offset2, token_type_ids=None, attention_mask=None, labels=None):
         _, pooled_output = self.bert(input_ids, token_type_ids, attention_mask, output_all_encoded_layers=False, offset1=offset1, offset2=offset2)
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
@@ -88,6 +88,6 @@ class BertOffsetForSequenceClassification(BertForSequenceClassification):
         if labels is not None:
             loss_fct = CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
-            return loss
+            return loss, logits
         else:
             return logits

@@ -8,7 +8,7 @@ from models.bert_extractor import BertExtractor
 @register_dist_adaptor('ex-bert')
 def extracted_bert_adaptor(parser):
     """
-    Glove average embedding
+    Bert embedding
     """
     bert = BertExtractor(parser)
 
@@ -18,6 +18,9 @@ def extracted_bert_adaptor(parser):
             sentences.add(query[0])
             sentences.update(list(map(' '.join, query[1:])))
         sentences = list(sentences)
+        for sentence in sentences:
+            print(sentence)
+        print("sentence to BERT:", len(sentences))
 
         sen_embs = bert.extract(sentences)
         sen2emb = dict()

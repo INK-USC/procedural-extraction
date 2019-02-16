@@ -4,6 +4,7 @@ import pickle
 import pprint
 import argparse
 from itertools import product
+import json
 
 import numpy as np
 import os
@@ -82,7 +83,6 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                 ) for i in range(id+1, min(len(src), id+k+1))]
 
         for (dsid, samples) in sample_sets:
-            full = list()
             path_src = utils.path.src(args.dir_data, dsid)
             path_src_ref = utils.path.src_ref(args.dir_data, dsid)
             log.info("Loading source file %s" % path_src)
@@ -105,22 +105,19 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                 else:
                     dat.label = 'none'
                     dataset['none'].append(dat)
-                full.append(dat)
-
-            # full dataset without sampling
-            with open(os.path.join(args.path, 'predict.'+str(dsid)+'.pkl'), 'wb') as f:
-                pickle.dump(full, f)
 
         splited_set = {
-            'train': list(),
-            'dev': list(),
-            'test': list(),
-            'nonsplit': list()
+            'train': list(), # train set
+            'dev': list(), # dev set
+            'test': list(), # test set
+            'nonsplit': list(), # dataset without division
+            'full': list() # dataset without division or sampling
         }
 
         fewest = len(dataset['if'])
         for (relation, triplets) in dataset.items():
             np.random.shuffle(triplets)
+            splited_set['full'].extend(triplets)
             if relation == 'none' and args.ratio_none >= 0:
                 triplets = triplets[:int(fewest * args.ratio_none)]
             elif relation == 'next' and args.ratio_next >= 0:
@@ -131,13 +128,24 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
             splited_set['test'].extend(triplets[- part_sz : ])
             splited_set['nonsplit'].extend(triplets)
 
+        if not os.path.exists(args.path):
+            print("creating", args.path)
+            os.makedirs(args.path)
+
         for (key, triplets) in splited_set.items():
             with open(os.path.join(args.path, key+'.pkl'), 'wb') as f:
                 pickle.dump(triplets, f)
 
-        
-        
+        with open(os.path.join(args.path,'nonsplit.json'), 'w') as f:
+            json_lines = list()
+            mid = args.k_neighbour
+            for (idx, example) in enumerate(splited_set['nonsplit']):
+                json_lines.append({
+                    'text_a': example.left[mid].text,
+                    'text_b': example.right[mid].text,
+                    'label': example.label,
+                    'pair_id': idx
+                })
+            json.dump(json_lines, f)
                     
     return _method
-        
-    

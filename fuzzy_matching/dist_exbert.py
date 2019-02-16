@@ -18,9 +18,6 @@ def extracted_bert_adaptor(parser):
             sentences.add(query[0])
             sentences.update(list(map(' '.join, query[1:])))
         sentences = list(sentences)
-        for sentence in sentences:
-            print(sentence)
-        print("sentence to BERT:", len(sentences))
 
         sen_embs = bert.extract(sentences)
         sen2emb = dict()

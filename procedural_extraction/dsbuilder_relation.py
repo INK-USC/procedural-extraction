@@ -138,11 +138,16 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
 
         with open(os.path.join(args.path,'nonsplit.json'), 'w') as f:
             json_lines = list()
-            mid = args.k_neighbour
             for (idx, example) in enumerate(splited_set['nonsplit']):
+                for sen in example.left:
+                    if sen.offset == 0:
+                        text_left = sen.text
+                for sen in example.right:
+                    if sen.offset == 0:
+                        text_right = sen.text
                 json_lines.append({
-                    'text_a': example.left[mid].text,
-                    'text_b': example.right[mid].text,
+                    'text_a': text_left,
+                    'text_b': text_right,
                     'label': example.label,
                     'pair_id': idx
                 })

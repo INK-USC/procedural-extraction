@@ -37,9 +37,12 @@ def extracted_bert_adaptor(parser):
             min_idx = None
             for (idx, can) in enumerate(candidates):
                 dist = -measurer.sim(can, protocol)
-                if can[0] in [',','.']:
+                for idx in [0, 1, -2, -1]:
+                    if can[idx] in [',','.']:
+                        dist *= 0.5
+                if can[0] in ['and', 'or', ',']:
                     dist *= 0.5
-                if can[-1] in [',','.']:
+                if can[-1] in ['the', 'of', ':', 'to', 'and', 'in', 'this', 'that', 'or']:
                     dist *= 0.5
                 if dist < min_dist:
                     min_dist = dist

@@ -18,8 +18,12 @@ def dot(emb1, emb2):
     """
     return emb1 @ emb2
 
+def mle(emb1, emb2):
+    return -((emb1 - emb2) @ (emb1 - emb2))
+
 class EmbeddingMeasurer(object):
-    def __init__(self, preset_memory=None, need_join=True):
+    def __init__(self, preset_memory=None, need_join=True, measure='dot'):
+        self.func = {'dot': dot, 'mle': mle}[measure]
         self.need_join = need_join
         if preset_memory is None:
             self.memory = {}
@@ -42,6 +46,6 @@ class EmbeddingMeasurer(object):
         """
         return similarity between two sentences
         """
-        return dot(self.sen_emb(sen1), self.sen_emb(sen2))
+        return self.func(self.sen_emb(sen1), self.sen_emb(sen2))
 
     

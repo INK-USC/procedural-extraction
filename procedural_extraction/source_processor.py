@@ -6,7 +6,7 @@ import logging
 
 from tqdm import tqdm
 
-from pattern_extraction.corenlp import nlp_server
+from pytorch_pretrained_bert.tokenization import BertTokenizer
 
 log = logging.getLogger(__name__)
 
@@ -21,7 +21,7 @@ class SourceProcessor:
             self.lines = f.readlines()
         with open(path_ref, 'r') as f:
             self.lines_ref = f.readlines()
-
+        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True)
         """
         src_tokenized[line_number][sentence_number][tokens][token_number]
         """
@@ -80,25 +80,7 @@ class SourceProcessor:
         raise NotImplementedError('')
 
     def tokenize(self, line):
-        finish = False
-        while not finish:
-            try:
-                ann = nlp_server.annotate(line, properties={
-                    "timeout": "10000",
-                    'annotators': 'tokenize,ssplit',
-                    'outputFormat': 'json'
-                })
-                finish = True
-            except Exception:
-                print('waitting')
-                time.sleep(0.5)
-        return [
-            {
-                'tokens': [tok['word'] for tok in sen['tokens']],
-                'start': sen['tokens'][0]['characterOffsetBegin'],
-                'end': sen['tokens'][-1]['characterOffsetEnd']
-            } for sen in ann['sentences']
-        ]
+        return self.tokenizer.tokenize(line)
 
     def build_mapping(self):
         ref2srcmap = [-1]

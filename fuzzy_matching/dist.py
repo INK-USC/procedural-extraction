@@ -13,11 +13,11 @@ def get_nearest_method(method_name, parser):
     all candidates toked
     all protocol untoked
     input:
+    queries:
     [
-        (protocol, candidate1, candidate2, ...),
-        (protocol, candidate1, candidate2, ...),
-        (protocol, candidate1, candidate2, ...),
-        ...
+        (protocol, (candidate, sen_id, start, K), (candidate, sen_id, start, K), ...)
+        (protocol, (candidate, sen_id, start, K), (candidate, sen_id, start, K), ...)
+        (protocol, (candidate, sen_id, start, K), (candidate, sen_id, start, K), ...)
     ]
     output:
     [

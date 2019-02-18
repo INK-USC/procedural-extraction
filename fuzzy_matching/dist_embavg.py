@@ -4,6 +4,7 @@ from tqdm import tqdm
 from .dist import register_dist_adaptor
 from .measurer_glove import GloveMeasurer
 from utils import Tokenizer
+from fuzzy_matching.manual_rules import manual_rules
 
 @register_dist_adaptor('embavg')
 def embavg_adaptor(parser):
@@ -17,11 +18,12 @@ def embavg_adaptor(parser):
     glove = GloveMeasurer(args.dir_glove)
     tokenizer = Tokenizer()
 
-    def method(queries):
+    def method(_, queries):
         nearests = list()
         for query in tqdm(queries):
-            toked_protocol = tokenizer.tokenize(query[0])
-            toked_candidates = query[1:]
+            protocol = query[0]
+            toked_protocol = tokenizer.tokenize(protocol[0])
+            toked_candidates = [q[0] for q in query[1:]]
             if not len(toked_protocol):
                 nearests.append(None)
                 continue
@@ -32,18 +34,12 @@ def embavg_adaptor(parser):
                 if not len(toked_can):
                     continue
                 dist = -glove.sim(toked_can, toked_protocol)
-                if toked_can[0] in ['and', 'or', ',']:
-                    dist *= 0.5
-                if toked_can[1] in [',.']:
-                    dist *= 0.5
-                if toked_can[-1] in ['the', 'of', ',', '.', ':', 'to', 'and', 'in', 'this', 'that', 'or']:
-                    dist *= 0.5
-                if toked_can[-2] in [',.']:
-                    dist *= 0.5
+                dist = manual_rules(toked_can, dist)
                 if dist < min_dist:
                     min_dist = dist
                     min_idx = idx
-    
+            if min_dist > -0.5:
+                min_idx = None
             nearests.append(min_idx)
 
         return nearests

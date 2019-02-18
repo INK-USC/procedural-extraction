@@ -1,8 +1,8 @@
-COMMENT=none_newpipe
+COMMENT=mask
 rm -rdf ckpts/$COMMENT
 rm -rdf logs/$COMMENT
 
-CUDA_VISIBLE_DEVICES=1 \
+CUDA_VISIBLE_DEVICES=2 \
 python train_bert_context_classifier.py \
 --bert_model bert-base-uncased --do_lower_case \
 --max_seq_length 512 \
@@ -16,4 +16,4 @@ python train_bert_context_classifier.py \
 --offset_emb 30 \
 --learning_rate 1e-5 \
 --comment $COMMENT \
---offset_fusion none
+--offset_fusion mask

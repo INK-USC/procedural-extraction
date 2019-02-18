@@ -82,6 +82,7 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                     alter_offset=movone(i-alter_id)
                 ) for i in range(id+1, min(len(src), id+k+1))]
 
+        no_matched = set()
         for (dsid, samples) in sample_sets:
             path_src = utils.path.src(args.dir_data, dsid)
             path_src_ref = utils.path.src_ref(args.dir_data, dsid)
@@ -90,7 +91,10 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
 
             for ((idx, sample), (idx2, sample2)) in product(enumerate(samples), enumerate(samples)):
                 meta1, meta2 = sample['src_matched'], sample2['src_matched']
-                if meta1 is None or meta2 is None or idx == idx2:
+                if meta1 is None:
+                    no_matched.add(str(dsid) + '_' + str(idx))
+                    continue
+                if meta2 is None or idx == idx2:
                     continue
                 dat = IExample(
                     build_block(src.src_sens, meta1, meta2),
@@ -105,6 +109,10 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                 else:
                     dat.label = 'none'
                     dataset['none'].append(dat)
+
+        for k, v in dataset.items():
+            print(k, 'have', len(v), 'samples')
+        print('sample without src_matched:', no_matched)
 
         splited_set = {
             'train': list(), # train set
@@ -135,22 +143,21 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
         for (key, triplets) in splited_set.items():
             with open(os.path.join(args.path, key+'.pkl'), 'wb') as f:
                 pickle.dump(triplets, f)
-
-        with open(os.path.join(args.path,'nonsplit.json'), 'w') as f:
-            json_lines = list()
-            for (idx, example) in enumerate(splited_set['nonsplit']):
-                for sen in example.left:
-                    if sen.offset == 0:
-                        text_left = sen.text
-                for sen in example.right:
-                    if sen.offset == 0:
-                        text_right = sen.text
-                json_lines.append({
-                    'text_a': text_left,
-                    'text_b': text_right,
-                    'label': example.label,
-                    'pair_id': idx
-                })
-            json.dump(json_lines, f)
+            with open(os.path.join(args.path, key+'.json'), 'w') as f:
+                json_lines = list()
+                for (idx, example) in enumerate(triplets):
+                    text_left = ""
+                    text_right = ""
+                    for sen in example.left:
+                        text_left += sen.text
+                    for sen in example.right:
+                        text_right += sen.text
+                    json_lines.append(json.dumps({
+                        'text_a': text_left,
+                        'text_b': text_right,
+                        'label': example.label,
+                        'pair_id': idx
+                    }))
+                f.write('\n'.join(json_lines))
                     
     return _method

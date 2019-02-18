@@ -43,6 +43,7 @@ from pytorch_pretrained_bert.file_utils import PYTORCH_PRETRAINED_BERT_CACHE
 from pytorch_pretrained_bert.modeling import BertForSequenceClassification
 from models.bert_modeling_inputoffsetemb import BertOffsetForSequenceClassification
 from models.bert_modeling_posattention import BertPosattnForSequenceClassification
+from models.bert_modeling_mask import BertMaskForSequenceClassification
 
 from procedural_extraction.relation_preprocessor import RelationProcessor, inflate_examples
 
@@ -263,7 +264,7 @@ def main():
                         help='string to show in tensorboard name')
     parser.add_argument('--offset_fusion',
                         default='none',
-                        choices=['postattn', 'segemb', 'none'],
+                        choices=['postattn', 'segemb', 'none', 'mask'],
                         help="ways to infuse offset embedding")
 
     args = parser.parse_args()
@@ -339,6 +340,10 @@ def main():
         model = BertOffsetForSequenceClassification.from_pretrained(args.bert_model,
                 cache_dir=PYTORCH_PRETRAINED_BERT_CACHE,
                 num_labels = num_labels, max_offset=args.max_offset)
+    elif args.offset_fusion == 'mask':
+        model = BertMaskForSequenceClassification.from_pretrained(args.bert_model,
+                cache_dir=PYTORCH_PRETRAINED_BERT_CACHE,
+                num_labels = num_labels)
     else:
         model = BertForSequenceClassification.from_pretrained(args.bert_model, 
                 cache_dir=PYTORCH_PRETRAINED_BERT_CACHE,
@@ -409,7 +414,7 @@ def main():
         for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
             batch = tuple(t.to(device) for t in batch)
             input_ids, input_mask, segment_ids, label_ids, offset1s, offset2s = batch
-            if args.offset_fusion == 'postattn' or args.offset_fusion == 'segemb':
+            if args.offset_fusion != 'none':
                 loss, logits = model(input_ids, offset1s, offset2s, segment_ids, input_mask, label_ids)
             else:
                 loss = model(input_ids, segment_ids, input_mask, label_ids)
@@ -444,7 +449,7 @@ def main():
             batch = tuple(t.to(device) for t in batch)
             input_ids, input_mask, segment_ids, label_ids, offset1s, offset2s = batch
             with torch.no_grad():
-                if args.offset_fusion == 'postattn' or args.offset_fusion == 'segemb':
+                if args.offset_fusion != 'none':
                     eval_loss, logits = model(input_ids, offset1s, offset2s, segment_ids, input_mask, label_ids)
                 else:
                     logits = model(input_ids, segment_ids, input_mask)
@@ -511,6 +516,10 @@ def main():
             model = BertOffsetForSequenceClassification.from_pretrained(args.bert_model,
                     state_dict=model_state_dict,
                     num_labels = num_labels, max_offset=args.max_offset)
+        elif args.offset_fusion == 'mask':
+            model = BertMaskForSequenceClassification.from_pretrained(args.bert_model,
+                    state_dict=model_state_dict,
+                    num_labels = num_labels)
         else:
             model = BertForSequenceClassification.from_pretrained(args.bert_model, 
                     state_dict=model_state_dict,

@@ -108,11 +108,12 @@ def convert_examples_to_features(examples, seq_length, tokenizer):
         input_type_ids.append(0)
 
         if tokens_b:
-            for token in tokens_b:
-                tokens.append(token)
-                input_type_ids.append(1)
-            tokens.append("[SEP]")
-            input_type_ids.append(1)
+            raise ValueError("No tokens_b should exists")
+            # for token in tokens_b:
+            #     tokens.append(token)
+            #     input_type_ids.append(1)
+            # tokens.append("[SEP]")
+            # input_type_ids.append(1)
 
         input_ids = tokenizer.convert_tokens_to_ids(tokens)
 
@@ -267,13 +268,12 @@ class BertExtractor(object):
             layer_outputs = all_encoder_layers[-2].detach().cpu().numpy()
 
             for b, example_index in enumerate(example_indices):
+                feature = features[example_index.item()]
                 tok_emb = list()
                 layer_output = layer_outputs[b]
                 for (i, token) in enumerate(feature.tokens):
                     tok_emb.append([x.item() for x in layer_output[i]])
-                tok_emb = np.array(tok_emb)
-                tok_emb = np.average(tok_emb, axis=0)
-                tok_embs[example_index] = tok_emb
+                tok_embs[example_index] = np.array(tok_emb)
             bar.update(len(example_indices))
         bar.close()
         return tok_embs

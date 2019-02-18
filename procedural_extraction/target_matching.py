@@ -187,14 +187,15 @@ def match(samples, src, parser):
             for cite in set(cites):
                 src_sens.extend(src.get_toked_ngrams_line(cite))
         protocol = sample['text']
-        toked_candidates = tuple(src_sen['span'] for src_sen in src_sens)
-        queries.append((protocol,) + toked_candidates)
         metas.append(src_sens)
+        candidates = [(src_sen['span'], src_sen['src_sens_id'], src_sen['start'], src_sen['K']) for src_sen in src_sens]
+        queries.append([(protocol, )] + candidates)
 
     nearest = fuzzy_matching.get_nearest_method(args.method, parser)
     log.info("Finding nearest candidates")
-    nearest_idice = nearest(queries)
+    nearest_idice = nearest(src.src_sens, queries)
 
+    print(len(samples), len(metas))
     for (sample, nearest_idx, meta) in zip(samples, nearest_idice, metas):
         sample['src_matched'] = meta[nearest_idx] if nearest_idx is not None else None
 

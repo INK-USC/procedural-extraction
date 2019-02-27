@@ -4,6 +4,7 @@ import time
 import argparse
 import os.path
 import logging
+import json
 
 import numpy as np
 
@@ -26,6 +27,7 @@ def main():
     parser.add_argument("--verbosity", help="logging verbosity", default="INFO")
     parser.add_argument("--src_retok", action="store_true", help="re-tokenize source file, ignoring existing cache")
     parser.add_argument("--output", action="store_true", help="show extracted results to stdout")
+    parser.add_argument("--eval", action='store_true', help="evaluate base on manual annotation")
     args, extra = parser.parse_known_args()
     logging.basicConfig(level=getattr(logging, args.verbosity), handlers=[logging.StreamHandler()])
     log.info(args)
@@ -51,6 +53,25 @@ def main():
     if args.output:
         for (idx, annotation) in enumerate(samples):
             print(idx, annotation)
+
+    print("Final:", len(samples), 'action phrases extracted')
+
+    if args.eval:
+        obj = json.load(open('answer.json', 'r'))
+        totm = 0
+        tot = 0
+        for q, o in zip(samples, obj):
+            tot += 1
+            if not len(o['zcandidates']) and q['src_matched'] is None:
+                totm += 1
+                continue
+            if not len(o['zcandidates']):
+                continue
+            answer = o['zcandidates'][0]
+            if q['src_matched'] is not None and ' '.join(q['src_matched']['span']) == answer:
+                totm += 1
+                continue
+        print("eval result", totm, '/', tot, 'of samples matched')
 
     path_to_sav = utils.path.extracted(args.dir_extracted, args.datasetid)
     log.info("Saving extracted infos to %s" % path_to_sav)

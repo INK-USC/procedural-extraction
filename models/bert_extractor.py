@@ -201,6 +201,9 @@ class BertExtractor(object):
                             default=False,
                             action='store_true',
                             help="Whether not to use CUDA when available")
+        parser.add_argument("--sum_four",
+                            action='store_true',
+                            help="Whether not to use sum up last four layers")
 
         args = parser.parse_args()
         tokenizer = BertTokenizer.from_pretrained(args.bert_model, do_lower_case=args.do_lower_case)
@@ -265,7 +268,13 @@ class BertExtractor(object):
 
             all_encoder_layers, _ = model(input_ids, token_type_ids=None, attention_mask=input_mask)
             all_encoder_layers = all_encoder_layers
-            layer_outputs = all_encoder_layers[-2].detach().cpu().numpy()
+
+            if args.sum_four:
+                layer_outputs = np.zeros_like(all_encoder_layers[-1].detach().cpu().numpy())
+                for lid in (-4, -3, -2, -1):
+                    layer_outputs += all_encoder_layers[lid].detach().cpu().numpy()
+            else:
+                layer_outputs = all_encoder_layers[-2].detach().cpu().numpy()
 
             for b, example_index in enumerate(example_indices):
                 feature = features[example_index.item()]

@@ -198,7 +198,6 @@ def main():
                     default='logs',
                     type=str,
                     help="The log directory where the tensorboard log will be written.")
-
     ## Other parameters
     parser.add_argument("--max_seq_length",
                         default=128,
@@ -309,7 +308,7 @@ def main():
         return dir_path
 
     outputdir = dir_check(args.output_dir, args.comment, ontrain=args.do_train)
-    logdir = dir_check(args.log_dir, args.comment, ontrain=args.do_train)
+    logdir = dir_check(args.log_dir, args.comment, ontrain=True)
     with open(os.path.join(outputdir, 'hyperparas.txt'), 'w') as f:
         pprint.pprint(vars(args), f, width=1)
 
@@ -406,8 +405,9 @@ def main():
     writer = SummaryWriter(logdir)
     global_step = 0
     best_micro_f1 = -1
-    epoch_steps = int(len_train_examples / args.train_batch_size / args.gradient_accumulation_steps)
-    tr_loss = []
+    if args.do_train:
+        epoch_steps = int(len_train_examples / args.train_batch_size / args.gradient_accumulation_steps)
+        tr_loss = []
     def train_epoch():
         nonlocal global_step
         model.train()

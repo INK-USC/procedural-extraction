@@ -136,6 +136,8 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
             splited_set['test'].extend(triplets[- part_sz : ])
             splited_set['nonsplit'].extend(triplets)
 
+        print('total', len(splited_set['nonsplit']))
+
         if not os.path.exists(args.path):
             print("creating", args.path)
             os.makedirs(args.path)

@@ -2,6 +2,7 @@ import re
 import logging
 
 import utils
+import json
 import fuzzy_matching
 from procedural_extraction.target_processor import TargetProcessor
 
@@ -166,7 +167,7 @@ def retrieve(lines):
     
     return samples
 
-def match(samples, src, parser):
+def match(samples, src, parser, eval=False):
     """
     Do fuzzy matching
     """
@@ -178,10 +179,14 @@ def match(samples, src, parser):
     log.info("Creating matching queries")
     queries = list()
     metas = list()
+    newsamples = list()
+    candidates_list = list()
     for sample in samples:
         cites = sample['cite']
-        if args.no_ref or not len(cites):
+        if args.no_ref:
             src_sens = all_toked_ngrams
+        elif not len(cites):
+            continue
         else:
             src_sens = list()
             for cite in set(cites):
@@ -190,13 +195,75 @@ def match(samples, src, parser):
         metas.append(src_sens)
         candidates = [(src_sen['span'], src_sen['src_sens_id'], src_sen['start'], src_sen['K']) for src_sen in src_sens]
         queries.append([(protocol, )] + candidates)
+        newsamples.append(sample)
+        candidates_list.append(candidates)
 
     nearest = fuzzy_matching.get_nearest_method(args.method, parser)
     log.info("Finding nearest candidates")
     nearest_idice = nearest(src.src_sens, queries)
 
-    print(len(samples), len(metas))
-    for (sample, nearest_idx, meta) in zip(samples, nearest_idice, metas):
+    print('samples', len(newsamples), 'metas', len(metas))
+    for (sample, nearest_idx, meta) in zip(newsamples, nearest_idice, metas):
         sample['src_matched'] = meta[nearest_idx] if nearest_idx is not None else None
 
-    return samples
+    if args.eval:
+        obj = json.load(open('answer.json', 'r'))
+        totm, tot = 0, 0
+        BIN_LEN = 20
+        binm, bint = [0] * BIN_LEN, [0] * BIN_LEN
+        def addbin(length, m=False):
+            if length >= BIN_LEN:
+                length = BIN_LEN - 1
+            if m:
+                binm[length] += 1
+            else:
+                bint[length] += 1
+            
+
+        ttp, ttn, tfp, tfn = 0, 0, 0, 0
+        for q, o, candidates in zip(newsamples, obj, candidates_list):
+            if not len(o['zcandidates']):
+                continue
+            tot += 1
+            answer = o['zcandidates'][0]
+            alen = len(o['zcandidates'][0].split(' '))
+            addbin(alen)
+            if q['src_matched'] is not None and ' '.join(q['src_matched']['span']) == answer:
+                totm += 1
+                addbin(alen, True)
+            mid, mst, mk = None, None, None
+            for c in candidates:
+                if ' '.join(c[0]) == answer:
+                    mid, mst, mK, = c[1:]
+            if mid is None:
+                raise ValueError('unfound key found')
+            if q['src_matched'] is None or mid != q['src_matched']['src_sens_id']:
+                tfn += mK
+                ttn += len(src.src_sens[mid]) - mK
+                if q['src_matched'] is not None:
+                    tfp += q['src_matched']['K']
+                    ttn += len(src.src_sens[q['src_matched']['src_sens_id']])
+            else:
+                logits1 = [0] * len(src.src_sens[mid])
+                logits2 = [0] * len(src.src_sens[mid])
+                for i in range(mst, mst + mK):
+                    logits1[i] = 1
+                for i in range(q['src_matched']['start'], q['src_matched']['K']):
+                    logits2[i] = 1
+                for a, b in zip(logits1, logits2):
+                    if a == 0 and b == 0:
+                        ttn += 1
+                    elif a == 0 and b == 1:
+                        tfp += 1
+                    elif a == 1 and b == 0:
+                        tfn += 1
+                    elif a == 1 and b == 1:
+                        ttp += 1
+
+        print("Eval result, mention level:", totm, '/', tot, 'of samples matched')
+        precision = 1.0 * ttp / (ttp + tfp) 
+        recall = 1.0 * ttp / (ttp + tfn)
+        print("Eval result, token level: precision", precision, 'recall', recall, 'f1', precision * recall * 2.0 / (precision + recall))
+        print(binm, '/', bint)
+
+    return newsamples

@@ -36,10 +36,12 @@ class BertMaskForSequenceClassification(PreTrainedBertModel):
         masksep = torch.zeros_like(encode_layer)
         masksep[input_ids == self.tokenizer.vocab["[SEP]"]] = 1
         mask = mask1 + mask2 + maskcls + masksep
-        lengths = torch.sum(mask, dim=1)
-        avg_layer = torch.sum(encode_layer * mask * attention_mask.unsqueeze(dim=2).float(), dim=1) / lengths
-        avg_layer = avg_layer.unsqueeze(dim=1)
-        pooled_output= self.pooler(avg_layer)
+        # lengths = torch.sum(mask, dim=1)
+        # avg_layer = torch.sum(encode_layer * mask * attention_mask.unsqueeze(dim=2).float(), dim=1) / lengths
+        # avg_layer = avg_layer.unsqueeze(dim=1)
+        # pooled_output= self.pooler(avg_layer)
+        max_layer, _ = torch.max(encode_layer * mask * attention_mask.unsqueeze(dim=2).float(), dim=1, keepdim=True)
+        pooled_output= self.pooler(max_layer)
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
 

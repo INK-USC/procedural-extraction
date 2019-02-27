@@ -22,31 +22,15 @@ def extracted_bert_adaptor(parser):
         queries_meta: []
         """
         embed_mapping = dict()
-        if args.mask:
-            sen_embs = bert.extract([' '.join(sen) for sen in src_sens])
-            for (idx, query) in enumerate(queries):
-                for (candidate, sen_id, start, K) in query[1:]:
-                    phrase_embs = sen_embs[sen_id][start+1: start+K+1]
-                    if phrase_embs.shape[0] != K:
-                        print(sen_embs[sen_id].shape[0])
-                        print(sen_id, start, K, len(src_sens[sen_id]))
-                        raise ValueError("mismatch token dimension")
-                    query_emb = np.average(phrase_embs, axis=0)
-                    embed_mapping[' '.join(candidate)] = query_emb
-            protocol_embs = bert.extract([query[0][0] for query in queries])
-            for (idx, emb) in enumerate(protocol_embs):
-                embed_mapping[queries[idx][0][0]] = np.average(emb, axis=0)
-            embed_mapping = {k: L2norm(v) for k, v in embed_mapping.items()}
-        else:
-            sentences = set()
-            for query in queries:
-                sentences.add(query[0][0])
-                sentences.update(list([' '.join(q[0]) for q in query[1:]]))
-            sentences = list(sentences)
+        sentences = set()
+        for query in queries:
+            sentences.add(query[0][0])
+            sentences.update(list([' '.join(q[0]) for q in query[1:]]))
+        sentences = list(sentences)
 
-            sen_embs = bert.extract(sentences)
-            for (sen_emb, sentence) in zip(sen_embs, sentences):
-                embed_mapping[sentence] = L2norm(np.average(sen_emb, axis=0))
+        sen_embs = bert.extract(sentences)
+        for (sen_emb, sentence) in zip(sen_embs, sentences):
+            embed_mapping[sentence] = L2norm(np.average(sen_emb, axis=0))
             
         measurer = EmbeddingMeasurer(embed_mapping, False)
         

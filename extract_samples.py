@@ -48,30 +48,13 @@ def main():
     src = SourceProcessor(path_src, path_src_ref, args.src_retok)
 
     log.info("Matching samples to source file")
-    samples = match(samples, src, parser)
+    samples = match(samples, src, parser, args.eval)
 
     if args.output:
         for (idx, annotation) in enumerate(samples):
             print(idx, annotation)
 
     print("Final:", len(samples), 'action phrases extracted')
-
-    if args.eval:
-        obj = json.load(open('answer.json', 'r'))
-        totm = 0
-        tot = 0
-        for q, o in zip(samples, obj):
-            tot += 1
-            if not len(o['zcandidates']) and q['src_matched'] is None:
-                totm += 1
-                continue
-            if not len(o['zcandidates']):
-                continue
-            answer = o['zcandidates'][0]
-            if q['src_matched'] is not None and ' '.join(q['src_matched']['span']) == answer:
-                totm += 1
-                continue
-        print("eval result", totm, '/', tot, 'of samples matched')
 
     path_to_sav = utils.path.extracted(args.dir_extracted, args.datasetid)
     log.info("Saving extracted infos to %s" % path_to_sav)

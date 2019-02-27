@@ -171,7 +171,7 @@ def match(samples, src, parser, eval=False):
     """
     Do fuzzy matching
     """
-    args, extra = parser.parse_known_args()
+    args, _ = parser.parse_known_args()
 
     all_toked_ngrams = src.get_toked_ngrams()
     log.info('%d possible N-grams exists in source file' % len(all_toked_ngrams))
@@ -231,34 +231,34 @@ def match(samples, src, parser, eval=False):
             if q['src_matched'] is not None and ' '.join(q['src_matched']['span']) == answer:
                 totm += 1
                 addbin(alen, True)
-            mid, mst, mk = None, None, None
+            mid, mst, mK = None, None, None
             for c in candidates:
                 if ' '.join(c[0]) == answer:
                     mid, mst, mK, = c[1:]
             if mid is None:
                 raise ValueError('unfound key found')
             if q['src_matched'] is None or mid != q['src_matched']['src_sens_id']:
-                tfn += mK
-                ttn += len(src.src_sens[mid]) - mK
-                if q['src_matched'] is not None:
-                    tfp += q['src_matched']['K']
-                    ttn += len(src.src_sens[q['src_matched']['src_sens_id']])
+                ll = len(src.src_sens[mid])
+                tfn += mK / ll
+                ttn += (len(src.src_sens[mid]) - mK) / ll
+
             else:
-                logits1 = [0] * len(src.src_sens[mid])
-                logits2 = [0] * len(src.src_sens[mid])
+                ll = len(src.src_sens[mid])
+                logits1 = [0] * ll
+                logits2 = [0] * ll
                 for i in range(mst, mst + mK):
                     logits1[i] = 1
                 for i in range(q['src_matched']['start'], q['src_matched']['K']):
                     logits2[i] = 1
                 for a, b in zip(logits1, logits2):
                     if a == 0 and b == 0:
-                        ttn += 1
+                        ttn += 1.0/ll
                     elif a == 0 and b == 1:
-                        tfp += 1
+                        tfp += 1.0/ll
                     elif a == 1 and b == 0:
-                        tfn += 1
+                        tfn += 1.0/ll
                     elif a == 1 and b == 1:
-                        ttp += 1
+                        ttp += 1.0/ll
 
         print("Eval result, mention level:", totm, '/', tot, 'of samples matched')
         precision = 1.0 * ttp / (ttp + tfp) 

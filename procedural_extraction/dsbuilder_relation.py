@@ -150,16 +150,24 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                 for (idx, example) in enumerate(triplets):
                     text_left = ""
                     text_right = ""
+                    ori_left = ""
+                    ori_right = ""
                     for sen in example.left:
                         text_left += sen.text
+                        if sen.offset == 0:
+                            ori_left = sen.text
                     for sen in example.right:
                         text_right += sen.text
+                        if sen.offset == 0:
+                            ori_right = sen.text
                     json_lines.append(json.dumps({
                         'text_a': text_left,
                         'text_b': text_right,
                         'label': example.label,
-                        'pair_id': idx
-                    }))
+                        'pair_id': idx,
+                        'ori_a': ori_left,
+                        "ori_b": ori_right
+                    }, indent=4, sort_keys=True))
                 f.write('\n'.join(json_lines))
                     
     return _method

@@ -127,6 +127,7 @@ def retrieve(lines):
         Modify input "samples"
         """
         for idx in range(len(samples) - 1):
+            print(samples[idx])
             cur = samples[idx]
             nxt = samples[idx+1]
             if cur['next_pos'] is None and cur['cur_pos'][0] == nxt['cur_pos'][0]:
@@ -181,11 +182,14 @@ def match(samples, src, parser, eval=False):
     metas = list()
     newsamples = list()
     candidates_list = list()
-    for sample in samples:
+    ori2new = dict()
+    n_i = 0
+    for (i, sample) in enumerate(samples):
         cites = sample['cite']
         if args.no_ref:
             src_sens = all_toked_ngrams
         elif not len(cites):
+            ori2new[i] = None
             continue
         else:
             src_sens = list()
@@ -197,6 +201,8 @@ def match(samples, src, parser, eval=False):
         queries.append([(protocol, )] + candidates)
         newsamples.append(sample)
         candidates_list.append(candidates)
+        ori2new[i] = n_i
+        n_i += 1
 
     nearest = fuzzy_matching.get_nearest_method(args.method, parser)
     log.info("Finding nearest candidates")
@@ -266,4 +272,4 @@ def match(samples, src, parser, eval=False):
         print("Eval result, token level: precision", precision, 'recall', recall, 'f1', precision * recall * 2.0 / (precision + recall))
         print(binm, '/', bint)
 
-    return newsamples
+    return newsamples, ori2new

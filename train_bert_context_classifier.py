@@ -478,8 +478,8 @@ def main():
         writer.add_scalar(prefix+'/accuracy', eval_accuracy, global_step)
         for (idx, label_accu) in enumerate(label_accuracy):
             recall = label_accu / nb_label_examples[idx]
-            precision = label_accu / nb_label_predicted[idx]
-            f1 = (2 * precision * recall) / (precision + recall)
+            precision = label_accu / nb_label_predicted[idx] if nb_label_predicted[idx] != 0 else 0
+            f1 = (2 * precision * recall) / (precision + recall) if precision + recall != 0 else 0
 
             writer.add_scalar(prefix+'/recall_label_' + str(idx), recall, global_step)
             writer.add_scalar(prefix+'/precision_label' + str(idx), precision, global_step)

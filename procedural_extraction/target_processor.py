@@ -19,8 +19,8 @@ class TargetProcessor(object):
         self.patt_branch = re.compile(r'^\s*(BRANCH)\s+([^:]+):\s+')
         self.patt_goto = re.compile(r'(GOTO)\s+(Task|Step|BRANCH)\s+([^\s]+)')
 
-        self.cur_pos = ['S']
-        self.cur_type = None
+        self.cur_norm_pos = ['S']
+        self.cur_norm_type = None
 
     def text(self, intext):
         """
@@ -28,6 +28,8 @@ class TargetProcessor(object):
         """
         self.ori_text = intext
         self.line_text = intext
+        self.cur_pos = self.cur_norm_pos
+        self.cur_type = self.cur_norm_type
         self.next_type = None
         self.next_pos = None
         return self
@@ -47,6 +49,8 @@ class TargetProcessor(object):
             # else, use current position
             self.cur_type = m.group(1)
             self.cur_pos = utils.convert_int(m.group(2).split('.'))
+            self.cur_norm_type = self.cur_type
+            self.cur_norm_pos = self.cur_pos
             self.line_text = patt.sub('', text)
         return self
 
@@ -65,6 +69,8 @@ class TargetProcessor(object):
             # else, use current position
             self.cur_type = m.group(1)
             self.cur_pos = m.group(2)
+            self.cur_norm_type = self.cur_type
+            self.cur_norm_pos = self.cur_pos
             self.line_text = patt.sub('', text)
         return self
 

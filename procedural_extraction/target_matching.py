@@ -4,6 +4,7 @@ import logging
 import utils
 import json
 import fuzzy_matching
+import copy
 from procedural_extraction.target_processor import TargetProcessor
 
 log = logging.getLogger(__name__)
@@ -121,22 +122,41 @@ def retrieve(lines):
             new_samples.append(new_sample)
         return new_samples
 
+    def shrink_next(idx):
+        node = samples[idx]
+        nid = None
+        if node['next_id'] is not None:
+            nid = node['next_id']
+        elif idx < len(samples)-1 and node['cur_pos'][0] == samples[idx + 1]['cur_pos']:
+            nid = idx + 1
+        if nid is not None and samples[nid]['cur_type'] not in ['IF', 'Task', "Step"]:
+            nid = shrink_next(nid)
+        node['next_id'] = nid
+        return nid
+
+    def shrink_this(idx):
+        if samples[idx]['cur_type'] not in ['IF', 'Task', "Step"]:
+            return shrink_next(idx)
+        return idx
+
     def update_next(samples):
         """
         Update next_pos, next_type and next_id to next action if no existing next action by GOTO branch in extractor
         Modify input "samples"
         """
-        for idx in range(len(samples) - 1):
-            print(samples[idx])
+        for idx in range(len(samples)):
             cur = samples[idx]
-            nxt = samples[idx+1]
-            if cur['next_pos'] is None and cur['cur_pos'][0] == nxt['cur_pos'][0]:
-                cur['next_pos'] = nxt['cur_pos']
-                cur['next_type'] = nxt['cur_type']
-                cur['next_id'] = idx+1
+            nid = idx + 1
+            while nid < len(samples) and cur['ifobj'] is not None and nid in cur['ifobj']:
+                nid += 1
+            if nid >= len(samples):
+                nid = None
+            if nid is not None and cur['next_pos'] is None and cur['cur_pos'][0] == samples[nid]['cur_pos'][0]:
+                cur['next_pos'] = samples[nid]['cur_pos']
+                cur['next_type'] = samples[nid]['cur_type']
+                cur['next_id'] = nid
             else:
                 cur['next_id'] = None
-        samples[-1]['next_id'] = None
 
     def retrive_positions(samples):
         """
@@ -165,7 +185,25 @@ def retrieve(lines):
     samples = add_labels(spliteds, extractor)
     update_next(samples)
     retrive_positions(samples)
-    
+    for (idx, sample) in enumerate(samples):
+        previous_sample = copy.copy(samples[idx])
+        # print(samples[idx])
+        shrink_next(idx)
+        if samples[idx]['ifobj'] is not None:
+            samples[idx]['ifobj'] = [shrink_this(cite) for cite in samples[idx]['ifobj'] if shrink_this(cite) is not None]
+        # for (k, v) in previous_sample.items():
+        #         if v != sample[k]:
+        #             print("%d [%s] : %s -> %s" % (idx, k, v, sample[k]))
+
+    for (idx, sample) in enumerate(samples):
+        if not len(sample['cite']) and sample['iftype'] == 'IF' and sample['ifobj'] is not None:
+            cites = set()
+            for io in sample['ifobj']:
+                if samples[io]['cite'] is not None:
+                    cites.update(samples[io]['cite'])
+            sample['cite'] = list(cites)
+            print(idx, '->', sample['cite'])
+
     return samples
 
 def match(samples, src, parser, eval=False):
@@ -227,7 +265,12 @@ def match(samples, src, parser, eval=False):
             
 
         ttp, ttn, tfp, tfn = 0, 0, 0, 0
-        for q, o, candidates in zip(newsamples, obj, candidates_list):
+        oidx = 0
+        for (idx, (q, candidates)) in enumerate(zip(newsamples, candidates_list)):
+            if obj[oidx]['protocol'] != q['text']:
+                continue
+            o = obj[oidx]
+            oidx += 1
             if not len(o['zcandidates']):
                 continue
             tot += 1

@@ -103,7 +103,7 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                 if idx2 == sample['next_id']:
                     dat.label = 'next'
                     dataset['next'].append(dat)
-                elif sample['iftype'] == 'THEN' and idx2 in sample['ifobj']:
+                elif sample['iftype'] == 'IF' and idx2 in sample['ifobj']:
                     dat.label = 'if'
                     dataset['if'].append(dat)
                 else:

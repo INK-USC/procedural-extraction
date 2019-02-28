@@ -30,7 +30,13 @@ def manual_adaptor(parser):
         else:
             obj = json.load(open('answer.json', 'r'))
             nearest = []
-            for q, o in zip(queries, obj):
+            oidx = 0
+            for q in queries:
+                if obj[oidx]['protocol'] != q[0][0]:
+                    nearest.append(None)
+                    continue
+                o = obj[oidx]
+                oidx += 1
                 if not len(o['zcandidates']):
                     nearest.append(None)
                     continue

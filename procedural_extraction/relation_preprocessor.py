@@ -50,10 +50,11 @@ class RelationProcessor(DataProcessor):
             obj = pickle.load(f)
         return self._create_examples(obj, "test")
 
-    def get_predict_examples(self, data_dir, id):
-        with open(os.path.join(data_dir, "predict"+str(id)+".pkl"), 'rb') as f:
+    def get_manual_examples(self, data_dir):
+        """See base class."""
+        with open(os.path.join(data_dir, "manual.pkl"), 'rb') as f:
             obj = pickle.load(f)
-        return self._create_examples(obj, "predict")
+        return self._create_examples(obj, "manual")
 
     def get_labels(self):
         """See base class."""

@@ -1,7 +1,7 @@
-COMMENT=avg_mask_manual
+COMMENT=new_mask_max_1
 rm -rdf logs/$COMMENT
 
-CUDA_VISIBLE_DEVICES=5 \
+CUDA_VISIBLE_DEVICES=6 \
 python train_bert_context_classifier.py \
 --bert_model bert-base-uncased --do_lower_case \
 --max_seq_length 512 \

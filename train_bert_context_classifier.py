@@ -28,6 +28,7 @@ import pickle
 import itertools
 import time
 import pprint
+import json
 from tqdm import tqdm, trange
 
 import numpy as np
@@ -216,7 +217,11 @@ def main():
     parser.add_argument("--do_eval",
                         default=False,
                         action='store_true',
-                        help="Whether to run eval on the dev set.")
+                        help="Whether to run eval on the test set.")
+    parser.add_argument("--do_manual",
+                        default=False,
+                        action='store_true',
+                        help="Whether to run eval on the manual set.")
     parser.add_argument("--do_lower_case",
                         default=False,
                         action='store_true',
@@ -309,9 +314,6 @@ def main():
 
     outputdir = dir_check(args.output_dir, args.comment, ontrain=args.do_train)
     logdir = dir_check(args.log_dir, args.comment, ontrain=True)
-    with open(os.path.join(outputdir, 'hyperparas.txt'), 'w') as f:
-        pprint.pprint(vars(args), f, width=1)
-
     task_name = args.task_name.lower()
 
     if task_name not in processors:
@@ -373,6 +375,8 @@ def main():
             eval_examples = processor.get_dev_examples(args.data_dir)
         elif prefix == 'test':
             eval_examples = processor.get_test_examples(args.data_dir)
+        elif prefix == 'manual':
+            eval_examples = processor.get_manual_examples(args.data_dir)
         eval_features = convert_examples_to_features(
             eval_examples, label_list, args.max_seq_length, tokenizer, args.max_offset)
         logger.info("***** %s dataset *****" % prefix)
@@ -400,11 +404,20 @@ def main():
         eval_dataloader = get_dataloader('eval')
     if args.do_eval:
         test_dataloader = get_dataloader('test')
+    if args.do_manual:
+        manual_dataloader = get_dataloader('manual')
 
     # Execution
     writer = SummaryWriter(logdir)
     global_step = 0
-    best_micro_f1 = -1
+    best_micro_f1 = {
+        'eval': -1,
+        'test': -1,
+        'manual': -1
+    }
+    best_metrics = {
+        'hyperparas': vars(args)
+    }
     if args.do_train:
         epoch_steps = int(len_train_examples / args.train_batch_size / args.gradient_accumulation_steps)
         tr_loss = []
@@ -440,7 +453,7 @@ def main():
 
 
     def eval(prefix, eval_dataloader):
-        nonlocal best_micro_f1
+        nonlocal best_micro_f1, best_metrics
         model.eval()
         eval_loss, eval_accuracy = 0, 0
         nb_eval_steps, nb_eval_examples = 0, 0
@@ -477,7 +490,7 @@ def main():
         writer.add_scalar(prefix+'/dev_loss', eval_loss, global_step)
         writer.add_scalar(prefix+'/accuracy', eval_accuracy, global_step)
         for (idx, label_accu) in enumerate(label_accuracy):
-            recall = label_accu / nb_label_examples[idx]
+            recall = label_accu / nb_label_examples[idx] if nb_label_examples[idx] != 0 else 0
             precision = label_accu / nb_label_predicted[idx] if nb_label_predicted[idx] != 0 else 0
             f1 = (2 * precision * recall) / (precision + recall) if precision + recall != 0 else 0
 
@@ -487,16 +500,23 @@ def main():
         micro_precision = sum(label_accuracy[1:]) / sum(nb_label_predicted[1:])
         micro_recall = sum(label_accuracy[1:]) / sum(nb_label_examples[1:])
         micro_f1 = (2 * micro_precision * micro_recall) / (micro_precision + micro_recall)
-        if micro_f1 > best_micro_f1:
-            best_micro_f1 = micro_f1
+        if micro_f1 > best_micro_f1[prefix]:
+            best_micro_f1[prefix] = micro_f1
             # Save a trained model
             model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-sel
             torch.save(model_to_save.state_dict(), output_model_file)
+            best_metrics[prefix] = {
+                'f1_micro': micro_f1,
+                'accuracy': eval_accuracy,
+                'label1_precision': label_accuracy[1] / nb_label_predicted[1] if nb_label_predicted[1] != 0 else 0,
+                'label1_recall': label_accuracy[1] / nb_label_examples[1] if nb_label_examples[1] != 0 else 0,
+                'label2_precision': label_accuracy[2] / nb_label_predicted[2] if nb_label_predicted[2] != 0 else 0,
+                'label2_recall': label_accuracy[2] / nb_label_examples[2] if nb_label_examples[2] != 0 else 0,
+            }
 
         writer.add_scalar(prefix+'/precision_micro_avg', micro_precision, global_step)
         writer.add_scalar(prefix+'/recall_micro_avg', micro_recall, global_step)
         writer.add_scalar(prefix+'/F1_micro_avg', micro_f1, global_step)
-        writer.add_scalar(prefix+'/best_F1_micro_avg', best_micro_f1, global_step)
 
     output_model_file = os.path.join(outputdir, "best_model.bin")
     if args.do_train:
@@ -528,9 +548,10 @@ def main():
 
         eval('test', test_dataloader)
 
-    writer.export_scalars_to_json(logdir + '.json')
+        if args.do_manual:
+            eval('manual', manual_dataloader)
     writer.close()
-
+    json.dump(best_metrics, open(os.path.join(logdir, 'metrics.json'), 'w'), sort_keys=True, indent=4)
 
 if __name__ == "__main__":
     main()

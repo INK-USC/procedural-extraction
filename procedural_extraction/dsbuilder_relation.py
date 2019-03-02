@@ -167,7 +167,7 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                         'pair_id': idx,
                         'ori_a': ori_left,
                         "ori_b": ori_right
-                    }, indent=4, sort_keys=True))
+                    }))
                 f.write('\n'.join(json_lines))
                     
     return _method

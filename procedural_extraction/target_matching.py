@@ -312,7 +312,8 @@ def match(samples, src, parser, eval=False):
         print("Eval result, mention level:", totm, '/', tot, 'of samples matched')
         precision = 1.0 * ttp / (ttp + tfp) 
         recall = 1.0 * ttp / (ttp + tfn)
-        print("Eval result, token level: precision", precision, 'recall', recall, 'f1', precision * recall * 2.0 / (precision + recall))
+        acc = (ttp + ttn)/(ttp+ttn+tfp+tfn) 
+        print("Eval result, token level: accu", acc, "precision", precision, 'recall', recall, 'f1', precision * recall * 2.0 / (precision + recall))
         print(binm, '/', bint)
 
     return newsamples, ori2new

@@ -5,11 +5,11 @@ import copy
 from statistics import pstdev
 sets = ['test', 'manual']
 sname = ['Test', 'Manual Matching']
-firsthead = 'Model'
+firsthead = 'Setting'
 head = ['Accuracy', 'Micro F\\textsubscript{1}', '$<$next$>$ F\\textsubscript{1}', '$<$if$>$ F\\textsubscript{1}']
 keys = ['accuracy', 'f1_micro', 'label1_f1', 'label2_f1']
 devs = ['accuracy_std', 'f1_micro_std', 'label1_f1_std', 'label2_f1_std']
-showname = ['BERT \\textsubscript{K=%d}' % i for i in range(3, -1, -1)] + ['Mask \\textsubscript{K=%d}' % i for i in range(3, -1, -1)]
+showname = ['BERT \\textsubscript{K=%d}' % i for i in range(3, -1, -1)] + ['C. Attn. \\textsubscript{K=%d}' % i for i in range(3, -1, -1)] + ['C. Emb. \\textsubscript{K=%d}' % i for i in range(3, -1, -1)] + ['Mask \\textsubscript{AVG} \\textsubscript{K=%d}' % i for i in range(3, -1, -1)] + ['Mask \\textsubscript{MAX} \\textsubscript{K=%d}' % i for i in range(3, -1, -1)]
 idx = 0
 
 def retrieve_head():
@@ -38,10 +38,25 @@ rows = '\\\\\n'.join([*retrieve_head()] + ['']) + '\\midrule\n' + '\\\\\n'.join(
 "none421_n1",
 "none421_n0",
 "none421_nc",
-    ]]+['']) + '\\midrule\n' + '\\midrule\n' + '\\\\\n'.join([retrieve_result(name) for name in [
+    ]]+['']) + '\\midrule\n'+ '\\\\\n'.join([retrieve_result(name) for name in [
+"postattn421",
+"postattn421_n1",
+"postattn421_n0",
+"postattn421_nc",
+    ]]+['']) + '\\midrule\n'+ '\\\\\n'.join([retrieve_result(name) for name in [
+"segemb421",
+"segemb421_n1",
+"segemb421_n0",
+"segemb421_nc",
+    ]]+['']) + '\\midrule\n' + '\\\\\n'.join([retrieve_result(name) for name in [
 "maskavg421",
 "maskavg421_n1",
 "maskavg421_n0",
 "maskavg421_nc",
+    ]]+['']) + '\\midrule\n'+ '\\\\\n'.join([retrieve_result(name) for name in [
+"maskmax421",
+"maskmax421_n1",
+"maskmax421_n0",
+"maskmax421_nc",
     ]] + [''])
 print(rows)

@@ -9,7 +9,7 @@ firsthead = 'Model'
 head = ['Accuracy', 'Micro F\\textsubscript{1}', '$<$next$>$ F\\textsubscript{1}', '$<$if$>$ F\\textsubscript{1}']
 keys = ['accuracy', 'f1_micro', 'label1_f1', 'label2_f1']
 devs = ['accuracy_std', 'f1_micro_std', 'label1_f1_std', 'label2_f1_std']
-names = ["Pos. Attn.", "Seg. Emb.", "BERT", 'Mask'] 
+names = ["Pos. Attn.", "Seg. Emb.", "BERT", 'Mask\\textsubscript{AVG}', "Mask\\textsubscript{MAX}"] 
 showname = names * 2 + names[2:]
 idx = 0
 
@@ -39,14 +39,17 @@ rows = '\\\\\n'.join([*retrieve_head()] + ['']) + '\\midrule\n\\multicolumn{9}{c
     "postattn631",
     "segemb631",
     "none631",
-    "maskavg631"
+    "maskavg631",
+    "maskmax631"
     ]]+['']) + '\\midrule\n' + '\\multicolumn{9}{c}{%s4 : 2 : 1}\\\\\n\\midrule\n' % sts + '\\\\\n'.join([retrieve_result(name) for name in [
     "postattn421",
     "segemb421",
     "none421",
-    "maskavg421"
+    "maskavg421",
+    "maskmax421"
     ]]+['']) + '\\midrule\n' + '\\multicolumn{9}{c}{%s1 : 1 : 1}\\\\\n\\midrule\n' % sts + '\\\\\n'.join([retrieve_result(name) for name in [
     'none111',
-    'maskavg111'
+    'maskavg111',
+    "maskmax111"
     ]] + [''])
 print(rows)

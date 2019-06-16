@@ -10,8 +10,8 @@ import numpy as np
 
 import utils
 import fuzzy_matching
-from procedural_extraction.source_processor import SourceProcessor
-from procedural_extraction.target_matching import split, retrieve, match
+from pipeline.source_processor import SourceProcessor
+from pipeline.target_matching import split, retrieve, match
 
 log = logging.getLogger(__name__)
 
@@ -58,7 +58,8 @@ def main():
 
     if args.output:
         for (idx, annotation) in enumerate(samples):
-            print(idx, annotation)
+            print(str(idx) + ' & ' + annotation['text'])
+            print(' & ' + ' '.join(annotation['src_matched']['span']) if annotation['src_matched'] is not None else ' - ' + ' \\\\')
 
     print("Final:", len(samples), 'action phrases extracted')
 

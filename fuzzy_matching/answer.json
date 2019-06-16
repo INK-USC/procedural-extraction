@@ -1,0 +1,854 @@
+[
+    {
+        "protocol": "Decide on location",
+        "zcandidates": [
+            "deciding on location"
+        ]
+    },
+    {
+        "protocol": "c-spine injury",
+        "zcandidates": [
+            "C-spine precautions"
+        ]
+    },
+    {
+        "protocol": "bleeding in belly",
+        "zcandidates": [
+            "bleeding in your belly"
+        ]
+    },
+    {
+        "protocol": "patient is hypotensive and no suspicion of intraabdominal bleeding",
+        "zcandidates": [
+            "patient 's hypotensive"
+        ]
+    },
+    {
+        "protocol": "trauma to the area (i.e. fractures, burns)",
+        "zcandidates": [
+            "trauma to the area"
+        ]
+    },
+    {
+        "protocol": "skin infection on the site",
+        "zcandidates": [
+            "infection in that site"
+        ]
+    },
+    {
+        "protocol": "select opposite or alternate side",
+        "zcandidates": [
+            "Opposite or alternate"
+        ]
+    },
+    {
+        "protocol": "select left side",
+        "zcandidates": [
+            "put that in through the left side"
+        ]
+    },
+    {
+        "protocol": "Decide on catheter type: cordis, triple-lumen or double-lumen catheter",
+        "zcandidates": [
+            "decide to put in a cordis versus a triple-lumen or double-lumen catheter ,"
+        ]
+    },
+    {
+        "protocol": "IF Swan Ganz is required",
+        "zcandidates": [
+            "If they require a Swan Ganz"
+        ]
+    },
+    {
+        "protocol": "patient is unstable",
+        "zcandidates": [
+            "patient 's just unstable"
+        ]
+    },
+    {
+        "protocol": "patient requires large volumes of blood/saline",
+        "zcandidates": [
+            "patient 's going to require higher amounts of volume like blood or lots of saline"
+        ]
+    },
+    {
+        "protocol": "use triple or double lumen",
+        "zcandidates": [
+            "put a triple or double-lumen"
+        ]
+    },
+    {
+        "protocol": "Prepare patient",
+        "zcandidates": [
+            "prep the patient"
+        ]
+    },
+    {
+        "protocol": "self",
+        "zcandidates": [
+            "I 'm wearing my sterile gown , gloves , etc."
+        ]
+    },
+    {
+        "protocol": "Obtain consent",
+        "zcandidates": [
+            "take consent"
+        ]
+    },
+    {
+        "protocol": "Identify and locate equipment",
+        "zcandidates": [
+            "identify equipment , locating it"
+        ]
+    },
+    {
+        "protocol": "Get equipment ready. Select the largest-bore needle in set",
+        "zcandidates": [
+            "find the fattest needle in the set"
+        ]
+    },
+    {
+        "protocol": "place on syringe",
+        "zcandidates": [
+            "put that on my syringe"
+        ]
+    },
+    {
+        "protocol": "prepare wire",
+        "zcandidates": [
+            "curve it"
+        ]
+    },
+    {
+        "protocol": "get scalpel",
+        "zcandidates": [
+            "have my scalpel out"
+        ]
+    },
+    {
+        "protocol": "pre-flushed catheter",
+        "zcandidates": [
+            "have my catheter out and I 'll have that pre-flushed"
+        ]
+    },
+    {
+        "protocol": "place on patient or table",
+        "zcandidates": [
+            "lay this either on my table or on the patient"
+        ]
+    },
+    {
+        "protocol": "Lay patient flat in supine position",
+        "zcandidates": [
+            "lay the patient flat"
+        ]
+    },
+    {
+        "protocol": "Make sure wires are out of the way",
+        "zcandidates": [
+            "make sure all the wires are out of the way"
+        ]
+    },
+    {
+        "protocol": "Remove patient\u2019s gown in area of procedure",
+        "zcandidates": [
+            "taking their gown and everything else off"
+        ]
+    },
+    {
+        "protocol": "Prep area widely around selected location with chlorhexidine",
+        "zcandidates": [
+            "prep out this area"
+        ]
+    },
+    {
+        "protocol": "Drape bed with large sheet",
+        "zcandidates": [
+            "drape out the whole bed with a big sheet"
+        ]
+    },
+    {
+        "protocol": "Put on gown and gloves",
+        "zcandidates": [
+            "wearing my sterile gown , gloves , etc."
+        ]
+    },
+    {
+        "protocol": "Insert needle",
+        "zcandidates": [
+            "insert needle"
+        ]
+    },
+    {
+        "protocol": "Locate insertion point. Place index finger in the sternal notch and thumb out laterally on the clavicle.  Drop index finger and where the knuckle goes under clavicle is the location to insert needle into vein",
+        "zcandidates": [
+            "put my index in the sternal notch , put my thumb out as lateral as I can on the clavicle , I drop my index"
+        ]
+    },
+    {
+        "protocol": "Optional: Inject some Lidocaine at the skin where going to insert the needle and maybe on the track where you are going to insert the needle",
+        "zcandidates": [
+            "insert some Lidocaine at the skin where you 're going to insert , and maybe on the track where you 're going to go"
+        ]
+    },
+    {
+        "protocol": "Insert needle at 45 degrees",
+        "zcandidates": [
+            "putting the needle in 45 degrees"
+        ]
+    },
+    {
+        "protocol": "1-2cm lateral",
+        "zcandidates": [
+            "one centimeter or two centimeters lateral"
+        ]
+    },
+    {
+        "protocol": "flatten it out so it is perpendicular to the floor",
+        "zcandidates": [
+            "flattening it out , so that you 're perpendicular to the floor"
+        ]
+    },
+    {
+        "protocol": "Aspirate as needle moves toward the sternal notch",
+        "zcandidates": [
+            "aspirate as you move towards the sternal notch"
+        ]
+    },
+    {
+        "protocol": "Take off syringe when venous blood appears",
+        "zcandidates": [
+            "you get blood ... or you get venous blood , dark blood , then take off your syringe"
+        ]
+    },
+    {
+        "protocol": "indicating the needle has entered the vein",
+        "zcandidates": [
+            "at that point you 've entered the vein"
+        ]
+    },
+    {
+        "protocol": "Hold needle in place",
+        "zcandidates": [
+            "hold needle in place"
+        ]
+    },
+    {
+        "protocol": "with your non-dominant hand",
+        "zcandidates": [
+            "with your non-dominant hand"
+        ]
+    },
+    {
+        "protocol": "Pass wire",
+        "zcandidates": [
+            "pass wire"
+        ]
+    },
+    {
+        "protocol": "remove the wire by bringing it back into the housing",
+        "zcandidates": [
+            "remove the wire , bring it back into the little housing"
+        ]
+    },
+    {
+        "protocol": "Put syringe back on and confirm that there is still blood flow",
+        "zcandidates": [
+            "put your syringe back on and make sure you still have good flow"
+        ]
+    },
+    {
+        "protocol": "Remove needle",
+        "zcandidates": [
+            "take out needle"
+        ]
+    },
+    {
+        "protocol": "leave wire in place",
+        "zcandidates": [
+            "Leave the wire in place"
+        ]
+    },
+    {
+        "protocol": "Make a nick in the skin that is wide enough for the catheter",
+        "zcandidates": [
+            "make a nick in the skin wide enough for whatever catheter"
+        ]
+    },
+    {
+        "protocol": "Pass dilator",
+        "zcandidates": [
+            "pass dilator"
+        ]
+    },
+    {
+        "protocol": "Remove dilator",
+        "zcandidates": [
+            "take out dilator"
+        ]
+    },
+    {
+        "protocol": "while holding the wire in place",
+        "zcandidates": [
+            "leaving the wire in place"
+        ]
+    },
+    {
+        "protocol": "Put catheter through the wire",
+        "zcandidates": [
+            "putting the catheter through the wire"
+        ]
+    },
+    {
+        "protocol": "Remove wire",
+        "zcandidates": [
+            "take out wire"
+        ]
+    },
+    {
+        "protocol": "Check and irrigate all ports",
+        "zcandidates": []
+    },
+    {
+        "protocol": "Lock the catheter",
+        "zcandidates": [
+            "lock the catheter"
+        ]
+    },
+    {
+        "protocol": "attach with Luer-lock",
+        "zcandidates": [
+            "put the Luer-lock or whatever the nurses give me to attach it"
+        ]
+    },
+    {
+        "protocol": "Suture in place",
+        "zcandidates": []
+    },
+    {
+        "protocol": "Verify placement with x-ray",
+        "zcandidates": [
+            "Verify placement with x-ray"
+        ]
+    },
+    {
+        "protocol": "Prepare patient",
+        "zcandidates": [
+            "prep the patient"
+        ]
+    },
+    {
+        "protocol": "self",
+        "zcandidates": [
+            "I 'm wearing my sterile gown , gloves , etc."
+        ]
+    },
+    {
+        "protocol": "Obtain consent",
+        "zcandidates": [
+            "take consent"
+        ]
+    },
+    {
+        "protocol": "Identify and locate equipment",
+        "zcandidates": [
+            "identify equipment , locating it"
+        ]
+    },
+    {
+        "protocol": "Get equipment ready. Select the largest-bore needle in set",
+        "zcandidates": [
+            "find the fattest needle in the set"
+        ]
+    },
+    {
+        "protocol": "place on syringe",
+        "zcandidates": [
+            "put that on my syringe"
+        ]
+    },
+    {
+        "protocol": "prepare wire",
+        "zcandidates": [
+            "curve it"
+        ]
+    },
+    {
+        "protocol": "get scalpel",
+        "zcandidates": [
+            "have my scalpel out"
+        ]
+    },
+    {
+        "protocol": "pre-flushed catheter",
+        "zcandidates": [
+            "have my catheter out and I 'll have that pre-flushed"
+        ]
+    },
+    {
+        "protocol": "place on patient or table",
+        "zcandidates": [
+            "lay this either on my table or on the patient"
+        ]
+    },
+    {
+        "protocol": "Lay patient flat in supine position",
+        "zcandidates": [
+            "lay the patient flat"
+        ]
+    },
+    {
+        "protocol": "turn patient\u2019s neck away from the side you are operating on",
+        "zcandidates": [
+            "have the patient 's neck turned away from the side you 're operating on"
+        ]
+    },
+    {
+        "protocol": "Make sure wires are out of the way",
+        "zcandidates": [
+            "make sure all the wires are out of the way"
+        ]
+    },
+    {
+        "protocol": "Remove patient\u2019s gown",
+        "zcandidates": [
+            "taking their gown and everything else off"
+        ]
+    },
+    {
+        "protocol": "Prep area widely around selected location with chlorhexidine",
+        "zcandidates": [
+            "prep out this area"
+        ]
+    },
+    {
+        "protocol": "Drape bed with large sheet",
+        "zcandidates": [
+            "drape out the whole bed with a big sheet"
+        ]
+    },
+    {
+        "protocol": "Put on gown and gloves",
+        "zcandidates": [
+            "wearing my sterile gown , gloves , etc."
+        ]
+    },
+    {
+        "protocol": "Insert needle",
+        "zcandidates": [
+            "insert needle"
+        ]
+    },
+    {
+        "protocol": "Locate insertion point. Identify the sternal heads",
+        "zcandidates": [
+            "identify the sternal heads"
+        ]
+    },
+    {
+        "protocol": "sternocleidomastoid head",
+        "zcandidates": [
+            "sternocleidomastoid heads"
+        ]
+    },
+    {
+        "protocol": "where they divert",
+        "zcandidates": [
+            "where they divert"
+        ]
+    },
+    {
+        "protocol": "Identify the apex of that triangle",
+        "zcandidates": [
+            "Identify the apex of that triangle"
+        ]
+    },
+    {
+        "protocol": "This is where to start looking with ultrasound",
+        "zcandidates": [
+            "that 's where I 'll start looking with my ultrasound"
+        ]
+    },
+    {
+        "protocol": "Optional: Inject some Lidocaine at the skin where going to insert the needle and maybe on the track where you are going to go",
+        "zcandidates": [
+            "insert some Lidocaine at the skin where you 're going to insert , and maybe on the track where you 're going to go"
+        ]
+    },
+    {
+        "protocol": "Insert needle at 45 degree angle aiming towards the ipsilateral needle, using ultrasound to guide direction",
+        "zcandidates": [
+            "insert needle"
+        ]
+    },
+    {
+        "protocol": "Aspirate until you get venous blood",
+        "zcandidates": [
+            "aspirate until you get blood"
+        ]
+    },
+    {
+        "protocol": "which indicates you have entered the vein",
+        "zcandidates": [
+            "at that point you 've entered the vein"
+        ]
+    },
+    {
+        "protocol": "Take off syringe",
+        "zcandidates": [
+            "take off your syringe"
+        ]
+    },
+    {
+        "protocol": "Hold needle in place",
+        "zcandidates": [
+            "hold needle in place"
+        ]
+    },
+    {
+        "protocol": "with your non-dominant hand",
+        "zcandidates": [
+            "with your non-dominant hand"
+        ]
+    },
+    {
+        "protocol": "Pass wire",
+        "zcandidates": [
+            "pass wire"
+        ]
+    },
+    {
+        "protocol": "remove the wire by bringing it back into the housing",
+        "zcandidates": [
+            "remove the wire , bring it back into the little housing"
+        ]
+    },
+    {
+        "protocol": "Put syringe back on and confirm that there is still blood flow",
+        "zcandidates": [
+            "put your syringe back on and make sure you still have good flow"
+        ]
+    },
+    {
+        "protocol": "Remove needle",
+        "zcandidates": [
+            "take out needle"
+        ]
+    },
+    {
+        "protocol": "leave wire in place",
+        "zcandidates": [
+            "Leave the wire in place"
+        ]
+    },
+    {
+        "protocol": "Make a nick in the skin that is wide enough for the catheter",
+        "zcandidates": [
+            "make a nick in the skin wide enough for whatever catheter"
+        ]
+    },
+    {
+        "protocol": "Pass dilator",
+        "zcandidates": [
+            "pass dilator"
+        ]
+    },
+    {
+        "protocol": "Remove dilator",
+        "zcandidates": [
+            "take out dilator"
+        ]
+    },
+    {
+        "protocol": "while holding the wire in place",
+        "zcandidates": [
+            "leaving the wire in place"
+        ]
+    },
+    {
+        "protocol": "Put catheter through the wire",
+        "zcandidates": [
+            "putting the catheter through the wire"
+        ]
+    },
+    {
+        "protocol": "Remove wire",
+        "zcandidates": [
+            "take out wire"
+        ]
+    },
+    {
+        "protocol": "Check and irrigate all ports",
+        "zcandidates": []
+    },
+    {
+        "protocol": "Lock the catheter",
+        "zcandidates": [
+            "lock the catheter"
+        ]
+    },
+    {
+        "protocol": "attach with Luer-lock",
+        "zcandidates": [
+            "put the Luer-lock or whatever the nurses give me to attach it"
+        ]
+    },
+    {
+        "protocol": "Suture in place",
+        "zcandidates": []
+    },
+    {
+        "protocol": "Verify placement with x-ray",
+        "zcandidates": [
+            "Verify placement with x-ray ."
+        ]
+    },
+    {
+        "protocol": "Prepare patient",
+        "zcandidates": [
+            "prep the patient"
+        ]
+    },
+    {
+        "protocol": "self",
+        "zcandidates": [
+            "I 'm wearing my sterile gown , gloves , etc."
+        ]
+    },
+    {
+        "protocol": "Obtain consent",
+        "zcandidates": [
+            "take consent"
+        ]
+    },
+    {
+        "protocol": "Identify and locate equipment",
+        "zcandidates": [
+            "identify equipment , locating it"
+        ]
+    },
+    {
+        "protocol": "Get equipment ready. Select the largest-bore needle in set",
+        "zcandidates": [
+            "find the fattest needle in the set"
+        ]
+    },
+    {
+        "protocol": "place on syringe",
+        "zcandidates": [
+            "put that on my syringe"
+        ]
+    },
+    {
+        "protocol": "prepare wire",
+        "zcandidates": [
+            "curve it"
+        ]
+    },
+    {
+        "protocol": "get scalpel",
+        "zcandidates": [
+            "have my scalpel out"
+        ]
+    },
+    {
+        "protocol": "pre-flushed catheter",
+        "zcandidates": [
+            "have my catheter out and I 'll have that pre-flushed"
+        ]
+    },
+    {
+        "protocol": "place on patient or table",
+        "zcandidates": [
+            "lay this either on my table or on the patient"
+        ]
+    },
+    {
+        "protocol": "Lay patient flat in supine position",
+        "zcandidates": [
+            "lay the patient flat"
+        ]
+    },
+    {
+        "protocol": "extend legs or rotate out to open up that space",
+        "zcandidates": [
+            "have their leg extended or rotated out"
+        ]
+    },
+    {
+        "protocol": "Make sure wires are out of the way",
+        "zcandidates": [
+            "make sure all the wires are out of the way"
+        ]
+    },
+    {
+        "protocol": "Remove patient\u2019s gown",
+        "zcandidates": [
+            "taking their gown and everything else off"
+        ]
+    },
+    {
+        "protocol": "Prep area widely around selected location with chlorhexidine",
+        "zcandidates": [
+            "prep out this area"
+        ]
+    },
+    {
+        "protocol": "Drape bed with large sheet",
+        "zcandidates": [
+            "drape out the whole bed with a big sheet"
+        ]
+    },
+    {
+        "protocol": "Put on gown and gloves",
+        "zcandidates": [
+            "wearing my sterile gown , gloves , etc."
+        ]
+    },
+    {
+        "protocol": "Insert needle",
+        "zcandidates": [
+            "insert needle"
+        ]
+    },
+    {
+        "protocol": "Locate insertion point. First, identify the location of the artery which is half the distance from the anterior superior iliac spine to ther pubic tubercle",
+        "zcandidates": [
+            "identify where your artery is , which is 50 percent from your anterior superior spine to your pubic tubercle"
+        ]
+    },
+    {
+        "protocol": "Then go one finger breadth medial to that to identify the location of  the femoral vein",
+        "zcandidates": [
+            "Identify those with those fingers , then draw an imaginary line , 50 percent of that distance is your artery , and then you go one finger breadth medially to that , and that 's where your vein is"
+        ]
+    },
+    {
+        "protocol": "Optional: Inject some Lidocaine at the skin where going to insert the needle and maybe on the track where you are going to go",
+        "zcandidates": [
+            "insert some Lidocaine at the skin where you 're going to insert , and maybe on the track where you 're going to go"
+        ]
+    },
+    {
+        "protocol": "Insert needle at 45 degree angle, making certain to be inferior to the inguinal ligament",
+        "zcandidates": [
+            "insert needle"
+        ]
+    },
+    {
+        "protocol": "Aspirate until you get venous blood",
+        "zcandidates": [
+            "aspirate until you get blood"
+        ]
+    },
+    {
+        "protocol": "which indicates you have entered the vein",
+        "zcandidates": [
+            "at that point you 've entered the vein"
+        ]
+    },
+    {
+        "protocol": "Hold needle in place",
+        "zcandidates": [
+            "hold needle in place"
+        ]
+    },
+    {
+        "protocol": "with your non-dominant hand",
+        "zcandidates": [
+            "with your non-dominant hand"
+        ]
+    },
+    {
+        "protocol": "Pass wire",
+        "zcandidates": [
+            "pass wire"
+        ]
+    },
+    {
+        "protocol": "remove the wire by bringing it back into the housing",
+        "zcandidates": [
+            "remove the wire , bring it back into the little housing"
+        ]
+    },
+    {
+        "protocol": "Put syringe back on and confirm that there is still blood flow",
+        "zcandidates": [
+            "put your syringe back on and make sure you still have good flow"
+        ]
+    },
+    {
+        "protocol": "Remove needle",
+        "zcandidates": [
+            "take out needle"
+        ]
+    },
+    {
+        "protocol": "leave wire in place",
+        "zcandidates": [
+            "Leave the wire in place"
+        ]
+    },
+    {
+        "protocol": "Make a nick in the skin that is wide enough for the catheter",
+        "zcandidates": [
+            "make a nick in the skin wide enough for whatever catheter"
+        ]
+    },
+    {
+        "protocol": "Pass dilator",
+        "zcandidates": [
+            "pass dilator"
+        ]
+    },
+    {
+        "protocol": "Remove dilator",
+        "zcandidates": [
+            "take out dilator"
+        ]
+    },
+    {
+        "protocol": "while holding the wire in place",
+        "zcandidates": [
+            "leaving the wire in place"
+        ]
+    },
+    {
+        "protocol": "Put catheter through the wire",
+        "zcandidates": [
+            "putting the catheter through the wire"
+        ]
+    },
+    {
+        "protocol": "Remove wire",
+        "zcandidates": [
+            "take out wire"
+        ]
+    },
+    {
+        "protocol": "Check and irrigate all ports",
+        "zcandidates": []
+    },
+    {
+        "protocol": "Lock the catheter",
+        "zcandidates": [
+            "lock the catheter"
+        ]
+    },
+    {
+        "protocol": "attach with Luer-lock",
+        "zcandidates": [
+            "put the Luer-lock or whatever the nurses give me to attach it"
+        ]
+    },
+    {
+        "protocol": "Suture in place",
+        "zcandidates": []
+    },
+    {
+        "protocol": "Verify placement by observing dark blood that is not pulsatile",
+        "zcandidates": [
+            "it 's not pulsatile"
+        ]
+    }
+]

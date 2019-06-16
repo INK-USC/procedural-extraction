@@ -153,11 +153,11 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
                     ori_left = ""
                     ori_right = ""
                     for sen in example.left:
-                        text_left += sen.text
+                        text_left += sen.text + ' '
                         if sen.offset == 0:
                             ori_left = sen.text
                     for sen in example.right:
-                        text_right += sen.text
+                        text_right += sen.text + ' '
                         if sen.offset == 0:
                             ori_right = sen.text
                     json_lines.append(json.dumps({

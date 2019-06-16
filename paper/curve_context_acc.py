@@ -8,11 +8,11 @@ cy = (0.7, 0.4, 0.12)
 ci = (0.1, 0.3, 0.5)
 ct = (0.7, 0.2, 0.1)
 
-ax = plt.figure(figsize=(5,5)).gca()
+ax = plt.figure(figsize=(5,4)).gca()
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 ax.yaxis.grid(True)
-ax.set_ylim([35,85])
-plt.yticks(list(range(40,90,10)),[str(i) for i in range(40,90,10)])
+ax.set_ylim([40,75])
+plt.yticks(list(range(40,80,10)),[str(i) for i in range(40,80,10)])
 
 ax.set_title('Test')
 
@@ -39,8 +39,8 @@ y=[62.0,64.0,72.6,71.1]
 x=[0,1,2,3]
 mmt, = ax.plot(x,y, '-', label='Mask$_{MAX}$ Test', marker='o')
 
-y=[49.2, 58.3]
-x=[0,3]
+y=[49.2, 55.4, 67.4, 58.3]
+x=[0,1, 2, 3]
 ht, = ax.plot(x,y, ':', label='HBMP Test', marker='s')
 
 plt.legend(handles=[bt, cat, cet, mat, mmt, ht])

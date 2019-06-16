@@ -4,13 +4,13 @@ import argparse
 import os
 import utils
 
-import procedural_extraction
+import pipeline
 
 log = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description='process extracted infos to dataset in different shapes.')
-    parser.add_argument('type', choices=procedural_extraction.get_builder_names(), help='dataset type to build')
+    parser.add_argument('type', choices=pipeline.get_builder_names(), help='dataset type to build')
     # saving
     parser.add_argument('--dataset', default='1,2,3,4,6', help='specify id of dataset to use, or use all 5 available datasets by default')
     parser.add_argument('--dir_data', default='data', help='specify dir holding source data')
@@ -28,7 +28,7 @@ def main():
         with open(path_to_sav, 'rb') as f:
             sample_sets.append((dsid, pickle.load(f)))
 
-    builder = procedural_extraction.get_builder(args.type, parser)
+    builder = pipeline.get_builder(args.type, parser)
     log.info("Creating datasets")
     builder(sample_sets)
 

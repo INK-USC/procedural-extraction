@@ -1,5 +1,5 @@
- ds='1 2 3 4 5'
- for d in $ds
+ seed='1 2 3 4 5'
+ for d in $seed
  do
     COMMENT=maskmax421
     rm -rdf ckpts/$COMMENT-$d

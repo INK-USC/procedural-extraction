@@ -14,21 +14,21 @@ def manual_adaptor(parser):
     """
     group = parser.add_argument_group('manuals')
     group.add_argument('--dir_glove', help='Directory of glove embedding', default='embeddings/glove.840B.300d.txt')
-    group.add_argument('--sheet', action='store_true', help='Output manual input sheet or input manual annotations')
+    group.add_argument('--dump', action='store_true', help='Output manual input sheet or input manual annotations')
     args, extra = parser.parse_known_args()
 
     def method(_, queries):
-        if args.sheet == True:
+        if args.dump == True:
             jsobj = []
             for q in queries:
                 o = {}
                 o['protocol'] = q[0][0]
                 o['zcandidates'] = [' '.join(i[0]) for i in q[1:]]
                 jsobj.append(o)
-            json.dump(jsobj, open('inputsheet.json', 'w'), indent=4, sort_keys=True)
-            raise ValueError("Queries dumped. please create nearest pkl")
+            json.dump(jsobj, open('fuzzy_matching/inputsheet.json', 'w'), indent=4, sort_keys=True)
+            raise ValueError("fuzzy_matching/inputsheet.json dumped. Please choose nearest sentences and rename to answer.json")
         else:
-            obj = json.load(open('answer.json', 'r'))
+            obj = json.load(open('fuzzy_matching/answer.json', 'r'))
             nearest = []
             oidx = 0
             for q in queries:

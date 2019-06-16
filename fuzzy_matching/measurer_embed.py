@@ -1,8 +1,3 @@
-"""
-Author: Junyi Du
-oct. 8 2018
-"""
-
 import numpy as np
 from tqdm import tqdm
 import os.path

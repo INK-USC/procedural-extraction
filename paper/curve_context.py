@@ -8,7 +8,7 @@ cy = (0.7, 0.4, 0.12)
 ci = (0.1, 0.3, 0.5)
 ct = (0.7, 0.2, 0.1)
 
-ax = plt.figure(figsize=(5,5)).gca()
+ax = plt.figure(figsize=(5,4)).gca()
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 ax.yaxis.grid(True)
 ax.set_ylim([35,85])
@@ -39,9 +39,13 @@ y=[52.7,53.9,81.4,78.6]
 x=[0,1,2,3]
 mmm, = ax.plot(x,y, '-', label='Mask$_{MAX}$ MM', marker='o')
 
-y=[39.6, 64.8]
-x=[0,3]
+y=[39.6, 54.5, 63.3, 64.8]
+x=[0,1,2,3]
 hm, = ax.plot(x,y, ':', label='HBMP MM', marker='s')
+
+y=[2, 54.5, 63.3, 64.8]
+x=[0,1,2,3]
+pm, = ax.plot(x,y, ':', label='PCNN MM', marker='s')
 
 plt.legend(handles=[bm, cam, cem, mam, mmm, hm])
 

@@ -25,7 +25,7 @@ def ln_func(text, x, y, color, mode=None):
 
 ty = 1
 tx = 0.8
-ln_func("Flowchart", tx-0.03, ty, cz, 'i')
+ln_func("Flowchart", tx-0.03, ty, ct, 'i')
 ty -= 0.03
 ln_func('<if', tx+0.0, ty, cz)
 ln_func('$\\it{textspan\_a}$', tx+0.03, ty, cy)
@@ -43,11 +43,11 @@ ty = 1
 tx = 0.0
 ln_func("TRANSCRIPT", tx-0.03, ty, cz, 'i')
 ty -= 0.05
-ln_func("transcript_a", tx+0.00, ty, ci)
+ln_func("sentence_a", tx+0.00, ty, ci)
 ty -= 0.05
-ln_func("transcript_b", tx+0.00, ty, ct)
+ln_func("sentence_b", tx+0.00, ty, ct)
 ty -= 0.05
-ln_func("transcript_c", tx+0.00, ty, ct)
+ln_func("sentence_c", tx+0.00, ty, ct)
 
 plt.text(0.16, 0.9, "Extract", color='w', ha="center", va="center", rotation=0, size=10, bbox={'boxstyle':"rarrow", 'fc':'dodgerblue', 'ec':'dodgerblue'})
 plt.text(0.38, 0.9, "Classify", color='w', ha="center", va="center", rotation=0, size=10, bbox={'boxstyle':"rarrow", 'fc':'dodgerblue', 'ec':'dodgerblue'})
@@ -55,7 +55,7 @@ plt.text(0.665, 0.9, "Assemble", color='w', ha="center", va="center", rotation=0
 
 ty = 1.0
 tx = 0.22
-ln_func("Text Spans", tx-0.03, ty, cz, 'i')
+ln_func("Text Spans", tx-0.03, ty, ci, 'i')
 ty -= 0.05
 ln_func("$\\it{textspan\_a}$", tx+0, ty, cy)
 ty -= 0.05
@@ -65,7 +65,7 @@ ln_func("$\\it{textspan\_c}$", tx+0, ty, ct)
 
 ty = 1
 tx = 0.45
-ln_func("Relations", tx-0.03, ty, cz, 'i')
+ln_func("Relations", tx-0.03, ty, ci, 'i')
 ty -= 0.03
 ln_func("$\\it{textspan\_a}$", tx+0.00, ty, cy)
 ln_func("$\\it{textspan\_b}$", tx+0.0, ty-0.02, ci)

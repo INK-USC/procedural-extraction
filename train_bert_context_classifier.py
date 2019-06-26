@@ -46,7 +46,7 @@ from models.bert_modeling_inputoffsetemb import BertOffsetForSequenceClassificat
 from models.bert_modeling_posattention import BertPosattnForSequenceClassification
 from models.bert_modeling_mask import BertMaskForSequenceClassification
 
-from procedural_extraction.relation_preprocessor import RelationProcessor, inflate_examples
+from pipeline.relation_preprocessor import RelationProcessor, inflate_examples
 
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt = '%m/%d/%Y %H:%M:%S',
@@ -503,7 +503,7 @@ def main():
         if micro_f1 > best_micro_f1[prefix]:
             best_micro_f1[prefix] = micro_f1
             # Save a trained model
-            model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-sel
+            model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-self
             torch.save(model_to_save.state_dict(), output_model_file)
             best_metrics[prefix] = {
                 'f1_micro': micro_f1,

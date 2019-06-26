@@ -3,7 +3,7 @@ import argparse
 import logging
 import numpy as np
 
-from procedural_extraction.source_processor import SourceProcessor
+from .source_processor import SourceProcessor
 from .dsbuilder import register_dsbuilder
 
 log = logging.getLogger(__name__)

@@ -17,13 +17,14 @@ log = logging.getLogger(__name__)
 
 @register_dsbuilder('relation')
 def builder_relation_dataset(parser: argparse.ArgumentParser):
-    parser.add_argument('--ratio_none', default=6.0, metavar='6.0', type=float, help='label balancing portion for label None, negative number to disable balancing')
-    parser.add_argument('--ratio_next', default=3.0, metavar='3.0', type=float, help='label balancing portion for label Next, negative number to disable balancing')
+    parser.add_argument('--ratio_none', default=4.0, metavar='4.0', type=float, help='label balancing portion for label None, negative number to disable balancing')
+    parser.add_argument('--ratio_next', default=2.0, metavar='2.0', type=float, help='label balancing portion for label Next, negative number to disable balancing')
     parser.add_argument('--part', default=8, metavar='N', type=int, help='dataset portion, divide dataset train: dev: test by N-2:1:1. don\'t part if < 1')
     parser.add_argument('--path', default='dataset/relation', metavar='path_to_dir', help='dir to save the dataset')
-    parser.add_argument('--k_neighbour', default=1, metavar='K', type=int, help='range of context sentences')
+    parser.add_argument('--k_neighbour', default=2, metavar='K', type=int, help='range of context sentences, default: 2 sentences')
     parser.add_argument('--output', action="store_true", help='shows example data')
-    parser.add_argument('--no_context', action="store_true", help='w/o context info')
+    parser.add_argument('--no_context', action="store_true", help='w/o context info (including the sentence surrounding the phrase)')
+    parser.add_argument('--json', action="store_true", help='also store .json version of dataset')
     parser.add_argument('--seed', default=42)
 
     args = parser.parse_args()
@@ -143,31 +144,34 @@ def builder_relation_dataset(parser: argparse.ArgumentParser):
             os.makedirs(args.path)
 
         for (key, triplets) in splited_set.items():
+            print("subset %s with samples %d" % (key, len(triplets)))
             with open(os.path.join(args.path, key+'.pkl'), 'wb') as f:
                 pickle.dump(triplets, f)
-            with open(os.path.join(args.path, key+'.json'), 'w') as f:
-                json_lines = list()
-                for (idx, example) in enumerate(triplets):
-                    text_left = ""
-                    text_right = ""
-                    ori_left = ""
-                    ori_right = ""
-                    for sen in example.left:
-                        text_left += sen.text + ' '
-                        if sen.offset == 0:
-                            ori_left = sen.text
-                    for sen in example.right:
-                        text_right += sen.text + ' '
-                        if sen.offset == 0:
-                            ori_right = sen.text
-                    json_lines.append(json.dumps({
-                        'text_a': text_left,
-                        'text_b': text_right,
-                        'label': example.label,
-                        'pair_id': idx,
-                        'ori_a': ori_left,
-                        "ori_b": ori_right
-                    }))
-                f.write('\n'.join(json_lines))
+
+            if args.json:
+                with open(os.path.join(args.path, key+'.json'), 'w') as f:
+                    json_lines = list()
+                    for (idx, example) in enumerate(triplets):
+                        text_left = ""
+                        text_right = ""
+                        ori_left = ""
+                        ori_right = ""
+                        for sen in example.left:
+                            text_left += sen.text + ' '
+                            if sen.offset == 0:
+                                ori_left = sen.text
+                        for sen in example.right:
+                            text_right += sen.text + ' '
+                            if sen.offset == 0:
+                                ori_right = sen.text
+                        json_lines.append(json.dumps({
+                            'text_a': text_left,
+                            'text_b': text_right,
+                            'label': example.label,
+                            'pair_id': idx,
+                            'ori_a': ori_left,
+                            "ori_b": ori_right
+                        }))
+                    f.write('\n'.join(json_lines))
                     
     return _method

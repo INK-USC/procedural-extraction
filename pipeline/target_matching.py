@@ -5,7 +5,7 @@ import utils
 import json
 import fuzzy_matching
 import copy
-from procedural_extraction.target_processor import TargetProcessor
+from .target_processor import TargetProcessor
 
 log = logging.getLogger(__name__)
 

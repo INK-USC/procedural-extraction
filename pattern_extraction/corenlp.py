@@ -6,7 +6,7 @@ import os
 from tqdm import tqdm
 from pycorenlp import StanfordCoreNLP
 
-nlp_server = StanfordCoreNLP('http://ink-ron.usc.edu:9000')
+nlp_server = StanfordCoreNLP('http://ink-molly.usc.edu:9000')
 
 version = "1.0"
 

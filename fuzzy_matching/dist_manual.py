@@ -3,7 +3,6 @@ from tqdm import tqdm
 import json
 
 from .dist import register_dist_adaptor
-from .measurer_glove import GloveMeasurer
 from utils import Tokenizer
 from fuzzy_matching.manual_rules import manual_rules
 
@@ -13,7 +12,6 @@ def manual_adaptor(parser):
     manual matching
     """
     group = parser.add_argument_group('manuals')
-    group.add_argument('--dir_glove', help='Directory of glove embedding', default='embeddings/glove.840B.300d.txt')
     group.add_argument('--dump', action='store_true', help='Output manual input sheet or input manual annotations')
     args, extra = parser.parse_known_args()
 

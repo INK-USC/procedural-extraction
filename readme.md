@@ -14,26 +14,25 @@ This code provides a framwork for extracting procedural information from documen
 # Install
 
 1. Run install script to download word embeddings, install pre-trained models
-   ```
+   ```bash
     bash install.sh
    ```
 2. Start StandfordCoreNLP Server (please refer to [here](https://stanfordnlp.github.io/CoreNLP/) if your are not familiar with StandfordCoreNLP). This server is required for tokenization in preprocessing and pattern-based extraction.
-    ```
+    ```bash
     java -mx20g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer --port 9000
     ```
     You should customize the StandfordCoreNLP Server URL in `pattern_extraction/corenlp.py` by modifying 
-    ```
+    ```python
     nlp_server = StanfordCoreNLP('http://YOUR_SERVER:YOUR_PORT')
     ```
 
 # Run Relation Classfication
 Step-by-step commands for running experiment on Relation Classification with setting:
-```
-Model = Mask_max
-Fuzzy-matching Method = Glove 300d
-Context-level K = 2
-Sampling Portion = 4:2:1
-```
+* Model = Mask_max
+* Fuzzy-matching Method = Glove 300d
+* Context-level K = 2
+* Sampling Portion = 4:2:1
+
 Please refer to the ArgumentParser in code for more details. 
 
 ## Preprocessed Dataset
@@ -47,15 +46,15 @@ Then you can run the [Model](#model) of Relation Classfication.
 ...or you can do preprocessing on your own by running following commands...
 
 1. Run preprocessing script. The example script is parsing data from protocol files and doing fuzzy matching with Glove 300d embedding.
-   ```
+   ```bash
    bash script/run_matching.sh
    ```
 2. Create Relation Classification Dataset with the extracted data.
-   ```
+   ```bash
    python create_dataset.py relation --path dataset/relation/embavg-2 --dir_extracted extracted/embavg
    ```
 3. Build Manual Matching Testset, from manual matching annotation `fuzzy_matching/answer.json` on `document 01`
-   ```
+   ```bash
    # Manual Matching
    python extract_samples.py 1 manual --dir_extracted extracted/manual
    # Create Relation Classification Dataset for context level K=2
@@ -65,11 +64,11 @@ Then you can run the [Model](#model) of Relation Classfication.
    ``` 
 ## Model
 1. Train Matching Model for 5 times
-   ```
+   ```bash
    bash run_relation.sh
    ```
 2. Get Averaged Result
-   ```
+   ```bash
    python script/reduce.py maskmax-k2
    cat logs/maskmax-k2-avg/metrics.json
    ```
@@ -77,7 +76,7 @@ Then you can run the [Model](#model) of Relation Classfication.
 # Run Sequence Labeling
 ## Preprocessing
 You can also create sequence labeling dataset with the fuzzy-matching result:
-```
+```bash
 mkdir -p dataset/seqlab/embavg
 python create_dataset.py seqlabel --dir_extracted extracted/embavg --path dataset/seqlab/embavg
 ```
@@ -95,11 +94,10 @@ Please refer to [Standford-NER](https://nlp.stanford.edu/software/CRF-NER.html) 
 | Context position as Input Embedding | **82.8 ± 1.4**     | 72.7 ± 1.9   | 78.8 ± 8.5  | 67.4 ± 8.1 |
 | Hidden States Masking_avg pooling   | 80.5 ± 2.7     | 69.0 ± 5.7   | 80.4 ± 7.1  | 73.4 ± 7.9 |
 | Hidden States Masking_max pooling   | 82.3 ± 1.4     | 72.6 ± 3.0   | **87.6 ± 1.5**  | **81.4 ± 2.4** |
-```
-Fuzzy-matching Method = Glove 300d
-Context-level K = 2
-Sampling Portion = 4:2:1
-```
+
+* Fuzzy-matching Method = Glove 300d
+* Context-level K = 2
+* Sampling Portion = 4:2:1
 
 # Data
 6 documents in folder `data` for creating dataset

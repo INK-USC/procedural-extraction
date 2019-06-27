@@ -1,5 +1,7 @@
 # Procedural Extraction
-Code for paper *Eliciting Knowledge from Experts: Automatic Transcript Parsing for Cognitive Task Analysis*, in proceedings of ACL 2019
+Code for paper *Eliciting Knowledge from Experts: Automatic Transcript Parsing for Cognitive Task Analysis*, in proceedings of ACL 2019 
+
+This code provides a framwork for extracting procedural information from documents. Please refer to our ACL paper (uploading to arXiv) for further descriptions.
 
 # Quick Links
 * [Install](#install)
@@ -7,6 +9,7 @@ Code for paper *Eliciting Knowledge from Experts: Automatic Transcript Parsing f
 * [Run Sequence Labeling](#run-sequence-labeling)
 * [Reported Numbers](#reported-numbers)
 * [Data](#data)
+* [Cite](#cite)
 
 # Install
 
@@ -108,3 +111,12 @@ Sampling Portion = 4:2:1
 
 Manual-matching testset is created on `document 01`, so a small portion of samples in the manual-matching testset would be overlapping with samples in fuzzy-matching trainset (though they are extracted by different methods and are resampled). This is a flaw of the manual testset setting.
 
+# Cite
+```
+@inproceedings{du2019acl,
+  title={Eliciting Knowledge from Experts: Automatic Transcript Parsing for Cognitive Task Analysis},
+  author={Junyi, Du and He, Jiang and Jiaming, Shen and Xiang, Ren},
+  booktitle={Proceedings of ACL 2019},
+  year={2019}
+}
+```

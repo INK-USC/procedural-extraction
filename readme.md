@@ -87,13 +87,14 @@ Please refer to [Standford-NER](https://nlp.stanford.edu/software/CRF-NER.html) 
 
 # Reported Numbers
 ## Relation Classfication
-| Setting                             | Generated Acc. | Generated F1 | Manual Acc. | Manual F1  |
-|-------------------------------------|----------------|--------------|-------------|------------|
-| BERT                                | 81.6 ± 1.0     | 70.1 ± 1.7   | 77.2 ± 2.7  | 62.2 ± 6.1 |
-| Context position as Attention       | 82.5 ± 1.5     | **72.2 ± 2.6**   | 81.2 ± 4.7  | 72.7 ± 7.5 |
-| Context position as Input Embedding | **82.8 ± 1.4**     | 72.7 ± 1.9   | 78.8 ± 8.5  | 67.4 ± 8.1 |
-| Hidden States Masking_avg pooling   | 80.5 ± 2.7     | 69.0 ± 5.7   | 80.4 ± 7.1  | 73.4 ± 7.9 |
-| Hidden States Masking_max pooling   | 82.3 ± 1.4     | 72.6 ± 3.0   | **87.6 ± 1.5**  | **81.4 ± 2.4** |
+| Setting                             | Argument | Gen. Acc. | Gen. F1 | Manual Acc. | Manual F1  |
+|-------------------------------------|------------|----------------|--------------|-------------|------------|
+| BERT                                | none | 81.6 ± 1.0     | 70.1 ± 1.7   | 77.2 ± 2.7  | 62.2 ± 6.1 |
+| Context Pos. as Attention       | posattn | 82.5 ± 1.5     | **72.2 ± 2.6**   | 81.2 ± 4.7  | 72.7 ± 7.5 |
+| Context Pos. as Input Emb. | segemb | **82.8 ± 1.4**     | 72.7 ± 1.9   | 78.8 ± 8.5  | 67.4 ± 8.1 |
+| Hidden States Masking (Avg)   | mask* | 80.5 ± 2.7     | 69.0 ± 5.7   | 80.4 ± 7.1  | 73.4 ± 7.9 |
+| Hidden States Masking (Max)   | mask | 82.3 ± 1.4     | 72.6 ± 3.0   | **87.6 ± 1.5**  | **81.4 ± 2.4** |
+*Enable Hidden States Masking with Average pooling with the commented code in `models/bert_modeling_mask.py`
 
 * Fuzzy-matching Method = Glove 300d
 * Context-level K = 2

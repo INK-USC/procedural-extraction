@@ -1,6 +1,13 @@
 # Procedural Extraction
 Code for paper *Eliciting Knowledge from Experts: Automatic Transcript Parsing for Cognitive Task Analysis*, in proceedings of ACL 2019
 
+# Quick Links
+* [Install](#install)
+* [Run Relation Classification](#run-relation-classfication)
+* [Run Sequence Labeling](#run-sequence-labeling)
+* [Reported Numbers](#reported-numbers)
+* [Data](#data)
+
 # Install
 
 1. Run install script to download word embeddings, install pre-trained models

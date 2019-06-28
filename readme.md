@@ -1,7 +1,7 @@
 # Procedural Extraction
 Code for paper *Eliciting Knowledge from Experts: Automatic Transcript Parsing for Cognitive Task Analysis*, in proceedings of ACL 2019 
 
-This code provides a framwork for extracting procedural information from documents. Please refer to our ACL paper (uploading to arXiv) for further descriptions.
+This code provides a framwork for extracting procedural information from documents. Please refer to our ACL paper ([arXiv](https://arxiv.org/abs/1906.11384)) for further descriptions.
 
 # Quick Links
 * [Install](#install)
@@ -63,7 +63,7 @@ Then you can run the [Model](#model) of Relation Classfication.
    cp dataset/relation/manual-2/nonsplit.pkl dataset/relation/embavg-2/manual.pkl
    ``` 
 ## Model
-1. Train Matching Model for 5 times
+1. Train Classification Model for 5 times
    ```bash
    bash run_relation.sh
    ```
@@ -113,6 +113,7 @@ Please refer to [Standford-NER](https://nlp.stanford.edu/software/CRF-NER.html) 
 Manual-matching testset is created on `document 01`, so a small portion of samples in the manual-matching testset would be overlapping with samples in fuzzy-matching trainset (though they are extracted by different methods and are resampled). This is a flaw of the manual testset setting.
 
 # Cite
+If you find our work useful in your research, please consider citing:
 ```
 @inproceedings{du2019acl,
   title={Eliciting Knowledge from Experts: Automatic Transcript Parsing for Cognitive Task Analysis},
